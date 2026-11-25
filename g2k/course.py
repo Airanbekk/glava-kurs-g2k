@@ -255,14 +255,24 @@ function notes(m){m.append(E('div',{class:'card'},E('h1',{},'Конспект г
   ...(c.essence||[]).map(s=>E('p',{},s)),(c.numbers||[]).length?E('ul',{},(c.numbers||[]).map(p=>E('li',{},p.text+' (стр. '+pages(p.claims).join(', ')+')'))):null,
   ...(c.formulas||[]).map(f=>E('div',{html:tex(f.tex,1)})),n.misconception?E('p',{class:'mist'},'Частая ошибка: '+n.misconception.text):null))})}
 
-function map(m){const depth={};nodes.forEach(n=>{const pre=(n.links||[]).filter(l=>l.type==='prerequisite'&&byId[l.target]&&nodes.indexOf(byId[l.target])<nodes.indexOf(n)).map(l=>depth[l.target]??0);depth[n.id]=pre.length?Math.max(...pre)+1:0});
- const cols={};nodes.forEach(n=>(cols[depth[n.id]]=cols[depth[n.id]]||[]).push(n));const nc=Object.keys(cols).length;const W=Math.max(360,nc*230),rows=Math.max(...Object.values(cols).map(c=>c.length));const H=rows*92+40;
- const pos={};Object.entries(cols).forEach(([d,arr])=>arr.forEach((n,k)=>pos[n.id]=[20+d*230,20+k*92]));
- let s=`<svg viewBox="0 0 ${W} ${H}" width="${W}" style="max-width:none" role="img" aria-label="Карта связей шагов"><defs><marker id="m" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0L10,5L0,10z" fill="currentColor"/></marker></defs>`;
- nodes.forEach(n=>(n.links||[]).forEach(l=>{if(!pos[l.target]||!['prerequisite','example_of'].includes(l.type))return;const[a,b]=pos[l.target],[c,d]=pos[n.id];s+=`<path d="M${a+200},${b+34} C${a+215},${b+34} ${c-15},${d+34} ${c},${d+34}" fill="none" stroke="currentColor" stroke-opacity=".45" stroke-width="2" ${l.type==='example_of'?'stroke-dasharray="5 4"':''} marker-end="url(#m)"/>`}));
- nodes.forEach((n,i)=>{const[x,y]=pos[n.id];const t=esc(((n.course||{}).novice_title||n.title));s+=`<g tabindex="0" role="link" data-id="${n.id}" style="cursor:pointer"><rect x="${x}" y="${y}" width="200" height="68" rx="12" fill="var(--panel)" stroke="${S.done[n.id]?'var(--ok)':'var(--line)'}" stroke-width="2"/><foreignObject x="${x+8}" y="${y+4}" width="186" height="62"><div xmlns="http://www.w3.org/1999/xhtml" style="font-size:13px;line-height:1.25">${i+1}. ${t}</div></foreignObject></g>`});
- s+='</svg>';const w=E('div',{class:'mapwrap',html:s});w.querySelectorAll('g[data-id]').forEach(g=>{g.onclick=()=>setView('step',g.dataset.id);g.onkeydown=e=>{if(e.key==='Enter')setView('step',g.dataset.id)}});
- m.append(E('div',{class:'card'},E('h1',{},'Карта связей шагов'),E('p',{class:'meta'},'Стрелка — предпосылка; пунктир — пример. Нажмите на шаг, чтобы открыть его.'),w))}
+function map(m){const PC=['#e0a526','#3fa9f5','#4cd08a','#d973c6','#ff8a5c','#9fa8ff'];
+ const part={},pos={};const BW=170,BH=74,GX=22,GY=46,LX=96;let maxk=0;
+ D.parts.forEach((p,r)=>{p.steps.forEach((id,k)=>{part[id]=r;pos[id]=[LX+k*(BW+GX),20+r*(BH+GY)];maxk=Math.max(maxk,k+1)})});
+ const W=LX+maxk*(BW+GX),H=20+D.parts.length*(BH+GY);
+ let s=`<svg viewBox="0 0 ${W} ${H}" width="100%" role="img" aria-label="Карта связей шагов" style="font-family:inherit"><defs><marker id="m" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0L10,5L0,10z" fill="currentColor"/></marker></defs>`;
+ D.parts.forEach((p,r)=>{s+=`<text x="6" y="${20+r*(BH+GY)+BH/2+5}" fill="${PC[r%PC.length]}" font-size="15" font-weight="700">${esc(p.title)}</text>`});
+ nodes.forEach(n=>(n.links||[]).forEach(l=>{if(!pos[l.target]||!['prerequisite','example_of'].includes(l.type))return;const[a,b]=pos[l.target],[c,d]=pos[n.id];let path;
+  if(b===d&&a<c)path=`M${a+BW},${b+BH/2} L${c},${d+BH/2}`;
+  else if(b<d)path=`M${a+BW/2},${b+BH} C${a+BW/2},${b+BH+30} ${c+BW/2},${d-30} ${c+BW/2},${d}`;
+  else path=`M${a+BW/2},${b} C${a+BW/2},${b-30} ${c+BW/2},${d+BH+30} ${c+BW/2},${d+BH}`;
+  s+=`<path class="edge" data-a="${l.target}" data-b="${n.id}" d="${path}" fill="none" stroke="currentColor" stroke-opacity=".28" stroke-width="2" ${l.type==='example_of'?'stroke-dasharray="5 4"':''} marker-end="url(#m)"/>`}));
+ nodes.forEach((n,i)=>{const[x,y]=pos[n.id];const c=PC[part[n.id]%PC.length];const t=esc(((n.course||{}).novice_title||n.title));
+  s+=`<g tabindex="0" role="link" data-id="${n.id}" style="cursor:pointer"><rect x="${x}" y="${y}" width="${BW}" height="${BH}" rx="12" fill="var(--panel)" stroke="${S.done[n.id]?'var(--ok)':c}" stroke-width="${S.done[n.id]?3:2}"/><rect x="${x}" y="${y+10}" width="5" height="${BH-20}" rx="2" fill="${c}"/><foreignObject x="${x+12}" y="${y+5}" width="${BW-18}" height="${BH-8}"><div xmlns="http://www.w3.org/1999/xhtml" style="font-size:13px;line-height:1.25;color:var(--text)"><b>${i+1}.</b> ${t}${S.done[n.id]?' ✓':''}</div></foreignObject></g>`});
+ s+='</svg>';const w=E('div',{class:'mapwrap',html:s});
+ w.querySelectorAll('g[data-id]').forEach(g=>{const id=g.dataset.id;const hl=on=>w.querySelectorAll('.edge').forEach(e=>{const hit=e.dataset.a===id||e.dataset.b===id;e.setAttribute('stroke-opacity',on?(hit?'.95':'.08'):'.28');e.setAttribute('stroke-width',on&&hit?'3':'2')});
+  g.onmouseenter=()=>hl(true);g.onmouseleave=()=>hl(false);g.onfocus=()=>hl(true);g.onblur=()=>hl(false);
+  g.onclick=()=>setView('step',id);g.onkeydown=e=>{if(e.key==='Enter')setView('step',id)}});
+ m.append(E('div',{class:'card'},E('h1',{},'Карта связей шагов'),E('p',{class:'meta'},'Строка — часть курса, цвет рамки — часть, зелёная рамка и ✓ — шаг пройден. Стрелка — «сначала это, потом то» (предпосылка), пунктир — пример. Наведите на шаг, чтобы выделить его связи; нажмите, чтобы открыть.'),w))}
 
 setView(S.view&&S.view!=='step'?S.view:(S.step?'step':'path'),S.view==='step'?S.step:undefined);
 </script>
