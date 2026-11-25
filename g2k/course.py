@@ -90,7 +90,7 @@ TEMPLATE = r"""<!doctype html>
 :root{--bg:#f7f8fa;--panel:#fff;--text:#14181d;--muted:#5b6672;--line:#dde2e8;--acc:#b7791f;--accbg:#fff6e0;--ok:#1e7f4f;--okbg:#e4f5ec;--bad:#b42318;--badbg:#fdecea;--model:#6b46c1;--modelbg:#f1ecfb;--link:#0b62c4;color-scheme:light}
 :root[data-theme=dark]{--bg:#0f1419;--panel:#1a2129;--text:#eceff4;--muted:#a3adb8;--line:#2c3640;--acc:#f1c40f;--accbg:#2a2614;--ok:#4cd08a;--okbg:#12291e;--bad:#ff7b72;--badbg:#2d1414;--model:#b39dfa;--modelbg:#221a35;--link:#79b8ff;color-scheme:dark}
 @media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#0f1419;--panel:#1a2129;--text:#eceff4;--muted:#a3adb8;--line:#2c3640;--acc:#f1c40f;--accbg:#2a2614;--ok:#4cd08a;--okbg:#12291e;--bad:#ff7b72;--badbg:#2d1414;--model:#b39dfa;--modelbg:#221a35;--link:#79b8ff;color-scheme:dark}}
-*{box-sizing:border-box}html,body{margin:0;background:var(--bg);color:var(--text);font:17px/1.6 "Segoe UI",system-ui,-apple-system,Roboto,Arial,sans-serif;overflow-x:hidden}
+[hidden]{display:none!important}*{box-sizing:border-box}html,body{margin:0;background:var(--bg);color:var(--text);font:17px/1.6 "Segoe UI",system-ui,-apple-system,Roboto,Arial,sans-serif;overflow-x:hidden}
 a{color:var(--link)}button,input,select{font:inherit;color:inherit}
 :focus-visible{outline:3px solid var(--acc);outline-offset:2px;border-radius:6px}
 header{position:sticky;top:0;z-index:5;background:var(--panel);border-bottom:1px solid var(--line)}
@@ -245,7 +245,7 @@ function check(t,v){if(t.type==='single')return v===t.answer;if(t.type==='multip
 function answerText(t){const o=Object.fromEntries((t.options||[]).map(x=>[x.id,x.text]));if(t.type==='single')return o[t.answer]||t.answer;if(t.type==='multiple')return t.answer.map(a=>o[a]).join('; ');if(t.type==='order')return t.answer.map((a,k)=>(k+1)+') '+o[a]).join(' ');if(t.type==='gap')return t.answer.join(', ');return t.answer+(t.unit?' '+t.unit:'')}
 
 function cards(m){m.append(E('div',{class:'card'},E('h1',{},'Карточки'),E('p',{class:'meta'},'Карточки по всем узлам. Отмечайте «знаю» или «повторить»: отметки сохраняются в браузере.'),
- E('div',{class:'noprint'},E('button',{class:'btn',onclick:()=>{const g=$('.flash');[...g.children].forEach(x=>x.hidden=S.cards[x.dataset.id]==='k');}},'Показать только «повторить»'),' ',E('button',{class:'btn',onclick:()=>setView('cards')},'Все'))));
+ E('div',{class:'noprint'},E('button',{class:'btn',onclick:()=>{const g=$('.flash');[...g.children].forEach(x=>x.hidden=S.cards[x.dataset.id]==='k');}},'Скрыть изученные («знаю»)'),' ',E('button',{class:'btn',onclick:()=>setView('cards')},'Все'))));
  const g=E('div',{class:'flash'});nodes.forEach(n=>{const c=n.course||{};const st=S.cards[n.id];const back=E('div',{class:'back',hidden:''},(c.essence||[]).join(' '));
   const el=E('div',{class:'fc'+(st==='k'?' known':st==='r'?' again':''),'data-id':n.id},E('div',{class:'front'},c.novice_title||n.title),E('div',{class:'meta'},'Вспомните суть, затем откройте'),back,
    E('div',{class:'row'},E('button',{class:'btn',onclick:()=>back.hidden=!back.hidden},'Открыть'),E('button',{class:'btn',onclick:()=>{S.cards[n.id]='k';save();el.className='fc known'}},'Знаю'),E('button',{class:'btn',onclick:()=>{S.cards[n.id]='r';save();el.className='fc again'}},'Повторить')));g.append(el)});m.append(g)}
