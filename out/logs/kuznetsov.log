@@ -1,0 +1,15 @@
+[модель] claude-code: gen=claude-sonnet-5-5, review=claude-opus-5-5; параллельных запросов: 3
+[слой] план узлов: kuznetsov (229 единиц)
+[слой] узлов: 24; генерирую узлы параллельно (3)
+[слой] цитаты: {'exact': 305, 'moved': 0, 'repaired': 2, 'dropped': 0, 'number_flags': 2}; покрытие: {'units': 229, 'in_nodes': 215, 'skipped_with_reason': 13, 'unassigned': 1}
+[задания] 48 заданий, типов 5: ['calc', 'gap', 'multiple', 'order', 'single']
+[курс] C:\Users\Admin\AppData\Local\Claude-Data\anthropicpbc.claude_fnn82j28hfe8t\scratch-workspaces\c3e3d005-bb3a-4d4c-a92d-9a79121a5bb2\6f6f7c5f-da51-4a7b-bfcd-72bdad274f80\scratch-2026-11-25-22df85\g2k\out\kuznetsov\course\index.html  (1.43 МБ)
+  layer.json: OK
+  coverage.json: OK
+  routing.json: OK
+  tasks.json: OK
+  illustrations.json: OK
+  узлов 24, утверждений 307, цитат не по правилу жюри: 0
+  заданий 48, типов 5; единиц главы 229, без узла и без причины: 1
+ИТОГ: OK
+EXIT 0

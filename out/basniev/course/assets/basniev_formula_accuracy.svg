@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" font-family="Segoe UI, Arial, sans-serif">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8A96A3"/></marker></defs>
+<rect width="960" height="540" fill="#0F1419"/>
+<text x="32" y="46" fill="#ECEFF4" font-size="26" font-weight="700">Когда бесконечный пласт — хорошее приближение</text>
+<rect x="788" y="20" width="150" height="36" rx="18" fill="#8E44AD"/>
+<text x="863" y="44" fill="#fff" font-size="17" font-weight="700" text-anchor="middle">схема</text>
+<rect x="32" y="100" width="280" height="340" rx="14" fill="#1A2129" stroke="#3498DB" stroke-width="3"/>
+<text x="48" y="130" fill="#3498DB" font-size="18" font-weight="700">Признаки</text>
+<text x="48" y="158" fill="#ECEFF4" font-size="17">Fo = κt/Rк²; f0 = κt/rc²;</text>
+<text x="48" y="182" fill="#ECEFF4" font-size="17">Rк/rc; положение точки r/Rк;</text>
+<text x="48" y="206" fill="#ECEFF4" font-size="17">тип границы: открытая или</text>
+<text x="48" y="230" fill="#ECEFF4" font-size="17">закрытая</text>
+<line x1="316" y1="270" x2="346" y2="270" stroke="#8A96A3" stroke-width="4" marker-end="url(#ah)"/>
+<rect x="350" y="100" width="280" height="340" rx="14" fill="#1A2129" stroke="#F1C40F" stroke-width="3"/>
+<text x="366" y="130" fill="#F1C40F" font-size="18" font-weight="700">Правило</text>
+<text x="366" y="158" fill="#ECEFF4" font-size="17">Для забойного давления: при f0</text>
+<text x="366" y="182" fill="#ECEFF4" font-size="17">≥ 100 погрешность ≈ 0,6%. При</text>
+<text x="366" y="206" fill="#ECEFF4" font-size="17">Fo ≤ 0,2 погрешность до 0,08%.</text>
+<text x="366" y="230" fill="#ECEFF4" font-size="17">При Fo ≤ 0,35 — до 1%. При Fo ≤</text>
+<text x="366" y="254" fill="#ECEFF4" font-size="17">0,5 — до 1,9%.</text>
+<line x1="634" y1="270" x2="664" y2="270" stroke="#8A96A3" stroke-width="4" marker-end="url(#ah)"/>
+<rect x="668" y="100" width="260" height="200" rx="14" fill="#1A2129" stroke="#2E8B57" stroke-width="3"/>
+<text x="684" y="130" fill="#2E8B57" font-size="18" font-weight="700">Вывод</text>
+<text x="684" y="158" fill="#ECEFF4" font-size="17">Если Fo и f0 попадают в эти</text>
+<text x="684" y="182" fill="#ECEFF4" font-size="17">диапазоны, давление на</text>
+<text x="684" y="206" fill="#ECEFF4" font-size="17">скважине можно считать по</text>
+<text x="684" y="230" fill="#ECEFF4" font-size="17">формуле (23.52) для</text>
+<text x="684" y="254" fill="#ECEFF4" font-size="17">бесконечного пласта.</text>
+<rect x="668" y="312" width="260" height="128" rx="14" fill="#1A2129" stroke="#E74C3C" stroke-width="3"/>
+<text x="684" y="342" fill="#E74C3C" font-size="18" font-weight="700">Контрпример</text>
+<text x="684" y="370" fill="#ECEFF4" font-size="17">При f0 = 5 погрешность</text>
+<text x="684" y="394" fill="#ECEFF4" font-size="17">составляет 9,4% (порядок слов</text>
+<text x="684" y="418" fill="#ECEFF4" font-size="17">в тексте нарушен). При Fo</text>
+<text x="32" y="524" fill="#8A96A3" font-size="14">по главе, стр. 492, 493</text>
+</svg>

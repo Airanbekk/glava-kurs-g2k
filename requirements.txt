@@ -1,0 +1,4 @@
+anthropic>=2.14
+jsonschema>=4.20
+rapidfuzz>=3.0
+pymupdf>=1.24

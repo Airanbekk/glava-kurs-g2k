@@ -1,0 +1,365 @@
+{
+ "chapter": "kuznetsov_gl10",
+ "routes": [
+  {
+   "node_id": "kuznetsov.reef_importance",
+   "format": "интерактив",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 1,
+    "scale": 2,
+    "counterintuitive": 1,
+    "cause_effect": 1
+   },
+   "hook_short": false,
+   "template": "tpl_decision_range",
+   "why": "Тип трудности Н; видеоёмкость 5/10 (время 0, невидимое 1, масштаб 2, контринтуитивность 1, причина→следствие 1) → интерактив."
+  },
+  {
+   "node_id": "kuznetsov.buildups_and_reef_types",
+   "format": "практикум на данных",
+   "secondary_format": "шортс",
+   "video_scores": {
+    "time": 1,
+    "invisible": 1,
+    "scale": 2,
+    "counterintuitive": 0,
+    "cause_effect": 2
+   },
+   "hook_short": false,
+   "template": "tpl_feature_cards",
+   "why": "Тип трудности Р/П; видеоёмкость 6/10 (время 1, невидимое 1, масштаб 2, контринтуитивность 0, причина→следствие 2); есть решение на данных → практикум на данных."
+  },
+  {
+   "node_id": "kuznetsov.reef_rock_types",
+   "format": "карточки",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 1,
+    "invisible": 1,
+    "scale": 1,
+    "counterintuitive": 2,
+    "cause_effect": 1
+   },
+   "hook_short": false,
+   "template": "tpl_feature_cards",
+   "why": "Тип трудности Р; видеоёмкость 6/10 (время 1, невидимое 1, масштаб 1, контринтуитивность 2, причина→следствие 1) → карточки."
+  },
+  {
+   "node_id": "kuznetsov.zonation_dome_reef",
+   "format": "интерактив",
+   "secondary_format": "шортс",
+   "video_scores": {
+    "time": 0,
+    "invisible": 2,
+    "scale": 1,
+    "counterintuitive": 1,
+    "cause_effect": 2
+   },
+   "hook_short": false,
+   "template": "tpl_section_views",
+   "why": "Тип трудности П/М; видеоёмкость 6/10 (время 0, невидимое 2, масштаб 1, контринтуитивность 1, причина→следствие 2) → интерактив."
+  },
+  {
+   "node_id": "kuznetsov.zonation_atoll_and_system",
+   "format": "интерактив",
+   "secondary_format": "шортс",
+   "video_scores": {
+    "time": 1,
+    "invisible": 2,
+    "scale": 2,
+    "counterintuitive": 1,
+    "cause_effect": 2
+   },
+   "hook_short": false,
+   "template": "tpl_section_views",
+   "why": "Тип трудности П; видеоёмкость 8/10 (время 1, невидимое 2, масштаб 2, контринтуитивность 1, причина→следствие 2) → интерактив."
+  },
+  {
+   "node_id": "kuznetsov.primary_porosity",
+   "format": "шортс",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 1,
+    "invisible": 2,
+    "scale": 2,
+    "counterintuitive": 1,
+    "cause_effect": 1
+   },
+   "hook_short": false,
+   "template": "tpl_mechanism_chain",
+   "why": "Тип трудности М/Р; видеоёмкость 7/10 (время 1, невидимое 2, масштаб 2, контринтуитивность 1, причина→следствие 1) → шортс."
+  },
+  {
+   "node_id": "kuznetsov.secondary_porosity_karst",
+   "format": "длинное видео",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 1,
+    "invisible": 2,
+    "scale": 2,
+    "counterintuitive": 1,
+    "cause_effect": 2
+   },
+   "hook_short": false,
+   "template": "tpl_mechanism_chain",
+   "why": "Тип трудности М/Н; видеоёмкость 8/10 (время 1, невидимое 2, масштаб 2, контринтуитивность 1, причина→следствие 2) → длинное видео."
+  },
+  {
+   "node_id": "kuznetsov.dome_core_best",
+   "format": "интерактив",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 1,
+    "scale": 2,
+    "counterintuitive": 0,
+    "cause_effect": 1
+   },
+   "hook_short": false,
+   "template": "tpl_section_views",
+   "why": "Тип трудности П/Р; видеоёмкость 4/10 (время 0, невидимое 1, масштаб 2, контринтуитивность 0, причина→следствие 1) → интерактив."
+  },
+  {
+   "node_id": "kuznetsov.rainbow_a",
+   "format": "практикум на данных",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 1,
+    "scale": 1,
+    "counterintuitive": 1,
+    "cause_effect": 1
+   },
+   "hook_short": false,
+   "template": "tpl_feature_cards",
+   "why": "Тип трудности Р/П; видеоёмкость 4/10 (время 0, невидимое 1, масштаб 1, контринтуитивность 1, причина→следствие 1); есть решение на данных → практикум на данных."
+  },
+  {
+   "node_id": "kuznetsov.atoll_periphery_best",
+   "format": "практикум на данных",
+   "secondary_format": "шортс",
+   "video_scores": {
+    "time": 1,
+    "invisible": 1,
+    "scale": 2,
+    "counterintuitive": 2,
+    "cause_effect": 2
+   },
+   "hook_short": false,
+   "template": "tpl_section_views",
+   "why": "Тип трудности П/М; видеоёмкость 8/10 (время 1, невидимое 1, масштаб 2, контринтуитивность 2, причина→следствие 2); есть решение на данных → практикум на данных."
+  },
+  {
+   "node_id": "kuznetsov.karachaganak_cases",
+   "format": "практикум на данных",
+   "secondary_format": "шортс",
+   "video_scores": {
+    "time": 2,
+    "invisible": 1,
+    "scale": 2,
+    "counterintuitive": 1,
+    "cause_effect": 1
+   },
+   "hook_short": false,
+   "template": "tpl_timeline",
+   "why": "Тип трудности В/Н; видеоёмкость 7/10 (время 2, невидимое 1, масштаб 2, контринтуитивность 1, причина→следствие 1); есть решение на данных → практикум на данных."
+  },
+  {
+   "node_id": "kuznetsov.asym_system_collectors",
+   "format": "длинное видео",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 2,
+    "invisible": 1,
+    "scale": 2,
+    "counterintuitive": 1,
+    "cause_effect": 2
+   },
+   "hook_short": false,
+   "template": "tpl_timeline",
+   "why": "Тип трудности В/П; видеоёмкость 8/10 (время 2, невидимое 1, масштаб 2, контринтуитивность 1, причина→следствие 2) → длинное видео."
+  },
+  {
+   "node_id": "kuznetsov.massive_small_reefs",
+   "format": "практикум на данных",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 1,
+    "scale": 1,
+    "counterintuitive": 1,
+    "cause_effect": 0
+   },
+   "hook_short": false,
+   "template": "tpl_decision_range",
+   "why": "Тип трудности Н/Р; видеоёмкость 3/10 (время 0, невидимое 1, масштаб 1, контринтуитивность 1, причина→следствие 0); есть решение на данных → практикум на данных."
+  },
+  {
+   "node_id": "kuznetsov.layering_causes",
+   "format": "длинное видео",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 2,
+    "invisible": 2,
+    "scale": 2,
+    "counterintuitive": 1,
+    "cause_effect": 2
+   },
+   "hook_short": false,
+   "template": "tpl_timeline",
+   "why": "Тип трудности В/М; видеоёмкость 9/10 (время 2, невидимое 2, масштаб 2, контринтуитивность 1, причина→следствие 2) → длинное видео."
+  },
+  {
+   "node_id": "kuznetsov.karachaganak_dense_packs",
+   "format": "практикум на данных",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 2,
+    "scale": 1,
+    "counterintuitive": 1,
+    "cause_effect": 1
+   },
+   "hook_short": false,
+   "template": "tpl_decision_range",
+   "why": "Тип трудности Н/П; видеоёмкость 5/10 (время 0, невидимое 2, масштаб 1, контринтуитивность 1, причина→следствие 1); есть решение на данных → практикум на данных."
+  },
+  {
+   "node_id": "kuznetsov.fluid_flow_by_type",
+   "format": "шортс",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 2,
+    "scale": 1,
+    "counterintuitive": 1,
+    "cause_effect": 2
+   },
+   "hook_short": false,
+   "template": "tpl_mechanism_chain",
+   "why": "Тип трудности М/П; видеоёмкость 6/10 (время 0, невидимое 2, масштаб 1, контринтуитивность 1, причина→следствие 2) → шортс."
+  },
+  {
+   "node_id": "kuznetsov.seals_and_regression",
+   "format": "длинное видео",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 2,
+    "invisible": 1,
+    "scale": 2,
+    "counterintuitive": 1,
+    "cause_effect": 2
+   },
+   "hook_short": false,
+   "template": "tpl_timeline",
+   "why": "Тип трудности В/М; видеоёмкость 8/10 (время 2, невидимое 1, масштаб 2, контринтуитивность 1, причина→следствие 2) → длинное видео."
+  },
+  {
+   "node_id": "kuznetsov.trap_types_paleogeo",
+   "format": "практикум на данных",
+   "secondary_format": "шортс",
+   "video_scores": {
+    "time": 1,
+    "invisible": 2,
+    "scale": 2,
+    "counterintuitive": 1,
+    "cause_effect": 2
+   },
+   "hook_short": false,
+   "template": "tpl_section_views",
+   "why": "Тип трудности П/Н; видеоёмкость 8/10 (время 1, невидимое 2, масштаб 2, контринтуитивность 1, причина→следствие 2); есть решение на данных → практикум на данных."
+  },
+  {
+   "node_id": "kuznetsov.structural_overprint",
+   "format": "шортс",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 1,
+    "invisible": 1,
+    "scale": 2,
+    "counterintuitive": 1,
+    "cause_effect": 2
+   },
+   "hook_short": false,
+   "template": "tpl_timeline",
+   "why": "Тип трудности В/П; видеоёмкость 7/10 (время 1, невидимое 1, масштаб 2, контринтуитивность 1, причина→следствие 2) → шортс."
+  },
+  {
+   "node_id": "kuznetsov.deposit_types_height",
+   "format": "практикум на данных",
+   "secondary_format": "шортс",
+   "video_scores": {
+    "time": 0,
+    "invisible": 2,
+    "scale": 1,
+    "counterintuitive": 1,
+    "cause_effect": 2
+   },
+   "hook_short": false,
+   "template": "tpl_decision_range",
+   "why": "Тип трудности Н/П; видеоёмкость 6/10 (время 0, невидимое 2, масштаб 1, контринтуитивность 1, причина→следствие 2); есть решение на данных → практикум на данных."
+  },
+  {
+   "node_id": "kuznetsov.explore_group1",
+   "format": "практикум на данных",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 2,
+    "scale": 1,
+    "counterintuitive": 0,
+    "cause_effect": 2
+   },
+   "hook_short": false,
+   "template": "tpl_procedure_flow",
+   "why": "Тип трудности Пр/Н; видеоёмкость 5/10 (время 0, невидимое 2, масштаб 1, контринтуитивность 0, причина→следствие 2); есть решение на данных → практикум на данных."
+  },
+  {
+   "node_id": "kuznetsov.explore_group2",
+   "format": "практикум на данных",
+   "secondary_format": "шортс",
+   "video_scores": {
+    "time": 0,
+    "invisible": 1,
+    "scale": 1,
+    "counterintuitive": 2,
+    "cause_effect": 2
+   },
+   "hook_short": false,
+   "template": "tpl_procedure_flow",
+   "why": "Тип трудности Пр/Н; видеоёмкость 6/10 (время 0, невидимое 1, масштаб 1, контринтуитивность 2, причина→следствие 2); есть решение на данных → практикум на данных."
+  },
+  {
+   "node_id": "kuznetsov.explore_group3",
+   "format": "практикум на данных",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 1,
+    "scale": 1,
+    "counterintuitive": 1,
+    "cause_effect": 2
+   },
+   "hook_short": false,
+   "template": "tpl_decision_range",
+   "why": "Тип трудности Н/Пр; видеоёмкость 5/10 (время 0, невидимое 1, масштаб 1, контринтуитивность 1, причина→следствие 2); есть решение на данных → практикум на данных."
+  },
+  {
+   "node_id": "kuznetsov.explore_grid_wells",
+   "format": "практикум на данных",
+   "secondary_format": "шортс",
+   "video_scores": {
+    "time": 0,
+    "invisible": 2,
+    "scale": 2,
+    "counterintuitive": 1,
+    "cause_effect": 2
+   },
+   "hook_short": false,
+   "template": "tpl_procedure_flow",
+   "why": "Тип трудности Пр/Н; видеоёмкость 7/10 (время 0, невидимое 2, масштаб 2, контринтуитивность 1, причина→следствие 2); есть решение на данных → практикум на данных."
+  }
+ ]
+}

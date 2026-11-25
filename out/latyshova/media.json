@@ -1,0 +1,12 @@
+{
+ "latyshova.mud_properties": {
+  "src": "media/latyshova_mud_properties_9x16/latyshova_mud_properties_9x16.mp4",
+  "vtt": "media/latyshova_mud_properties_9x16/latyshova_mud_properties_9x16.vtt",
+  "title": "Как раствор искажает каротаж · шортс 9:16"
+ },
+ "latyshova.saturation_parameter_pn": {
+  "src": "media/latyshova_saturation_parameter_pn_16x9/latyshova_saturation_parameter_pn_16x9.mp4",
+  "vtt": "media/latyshova_saturation_parameter_pn_16x9/latyshova_saturation_parameter_pn_16x9.vtt",
+  "title": "Pн: нефть или просто плотная порода · разбор 16:9"
+ }
+}

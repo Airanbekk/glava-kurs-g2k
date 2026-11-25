@@ -1,0 +1,682 @@
+{
+ "nodes": [
+  {
+   "slug": "reef_importance",
+   "title": "Значение рифов и риск неоправданного расширения понятия",
+   "novice_title": "Почему рифы так важны нефтяникам",
+   "units": [
+    "p200.01",
+    "p200.02",
+    "p200.03"
+   ],
+   "difficulty": {
+    "primary": "Н",
+    "secondary": null
+   },
+   "threshold": false,
+   "prerequisites": [],
+   "id": "kuznetsov.reef_importance"
+  },
+  {
+   "slug": "buildups_and_reef_types",
+   "title": "Органогенные постройки: биостромы, биогермы, рифы; типы рифов",
+   "novice_title": "Биостром, биогерм, риф: чем отличаются",
+   "units": [
+    "p200.04",
+    "p200.05",
+    "p201.01",
+    "p201.02",
+    "p201.03",
+    "p201.04",
+    "p201.05",
+    "p201.06",
+    "p201.07",
+    "p201.08",
+    "p201.09",
+    "p201.10",
+    "p201.11",
+    "p202.02",
+    "p202.03"
+   ],
+   "difficulty": {
+    "primary": "Р",
+    "secondary": "П"
+   },
+   "threshold": true,
+   "prerequisites": [
+    "reef_importance"
+   ],
+   "id": "kuznetsov.buildups_and_reef_types"
+  },
+  {
+   "slug": "reef_rock_types",
+   "title": "Литология рифовых пород",
+   "novice_title": "Из каких пород сложен риф",
+   "units": [
+    "p202.04",
+    "p202.05",
+    "p202.06",
+    "p202.07",
+    "p202.08",
+    "p203.01",
+    "p203.02"
+   ],
+   "difficulty": {
+    "primary": "Р",
+    "secondary": null
+   },
+   "threshold": false,
+   "prerequisites": [
+    "buildups_and_reef_types"
+   ],
+   "id": "kuznetsov.reef_rock_types"
+  },
+  {
+   "slug": "zonation_dome_reef",
+   "title": "Причина фациальной зональности и зональность куполовидных рифов",
+   "novice_title": "Зоны одиночного куполовидного рифа",
+   "units": [
+    "p203.03",
+    "p203.04",
+    "p203.05",
+    "p203.06"
+   ],
+   "difficulty": {
+    "primary": "П",
+    "secondary": "М"
+   },
+   "threshold": true,
+   "prerequisites": [
+    "reef_rock_types"
+   ],
+   "id": "kuznetsov.zonation_dome_reef"
+  },
+  {
+   "slug": "zonation_atoll_and_system",
+   "title": "Зональность атоллов и асимметричных рифовых систем",
+   "novice_title": "Кольцо атолла и линейная система",
+   "units": [
+    "p203.07",
+    "p203.08",
+    "p204.01",
+    "p204.02",
+    "p204.03"
+   ],
+   "difficulty": {
+    "primary": "П",
+    "secondary": null
+   },
+   "threshold": false,
+   "prerequisites": [
+    "zonation_dome_reef"
+   ],
+   "id": "kuznetsov.zonation_atoll_and_system"
+  },
+  {
+   "slug": "primary_porosity",
+   "title": "Первичная пористость рифов",
+   "novice_title": "Какие пустоты есть в риффе изначально",
+   "units": [
+    "p204.04",
+    "p204.05",
+    "p204.06",
+    "p205.01",
+    "p205.02"
+   ],
+   "difficulty": {
+    "primary": "М",
+    "secondary": "Р"
+   },
+   "threshold": true,
+   "prerequisites": [
+    "reef_rock_types"
+   ],
+   "id": "kuznetsov.primary_porosity"
+  },
+  {
+   "slug": "secondary_porosity_karst",
+   "title": "Вторичная пористость: каверны, карст, межкристаллическая",
+   "novice_title": "Каверны и карст в рифе",
+   "units": [
+    "p205.03",
+    "p205.04"
+   ],
+   "difficulty": {
+    "primary": "М",
+    "secondary": "Н"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "primary_porosity"
+   ],
+   "id": "kuznetsov.secondary_porosity_karst"
+  },
+  {
+   "slug": "dome_core_best",
+   "title": "Лучшие коллекторы в ядре куполовидных рифов",
+   "novice_title": "Простой риф: лучшие свойства в центре",
+   "units": [
+    "p205.05",
+    "p205.06",
+    "p207.03",
+    "p208.01",
+    "p208.02",
+    "p208.03",
+    "p208.04",
+    "p208.05",
+    "p208.06",
+    "p208.07",
+    "p208.08",
+    "p208.09"
+   ],
+   "difficulty": {
+    "primary": "П",
+    "secondary": "Р"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "zonation_dome_reef",
+    "secondary_porosity_karst"
+   ],
+   "id": "kuznetsov.dome_core_best"
+  },
+  {
+   "slug": "rainbow_a",
+   "title": "Пример: риф Рейнбоу А (Канада)",
+   "novice_title": "Разбор рифа Рейнбоу А",
+   "units": [
+    "p205.07",
+    "p206.01",
+    "p206.02",
+    "p206.03",
+    "p206.04",
+    "p206.05",
+    "p206.06",
+    "p206.07",
+    "p206.08",
+    "p206.09",
+    "p206.10",
+    "p206.11",
+    "p206.12",
+    "p206.13",
+    "p206.14",
+    "p206.15",
+    "p206.16",
+    "p206.17",
+    "p207.01",
+    "p207.02"
+   ],
+   "difficulty": {
+    "primary": "Р",
+    "secondary": "П"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "dome_core_best"
+   ],
+   "id": "kuznetsov.rainbow_a"
+  },
+  {
+   "slug": "atoll_periphery_best",
+   "title": "Смещение улучшенных коллекторов к периферии плосковершинных и атолловидных рифов; Тенгиз",
+   "novice_title": "В атолле лучший коллектор на краю",
+   "units": [
+    "p207.04",
+    "p207.05",
+    "p207.06",
+    "p209.01",
+    "p210.01",
+    "p210.02",
+    "p210.03",
+    "p210.04",
+    "p210.05",
+    "p210.06",
+    "p210.07",
+    "p210.08",
+    "p210.09",
+    "p210.10",
+    "p210.11",
+    "p210.12",
+    "p210.13",
+    "p210.14",
+    "p210.15",
+    "p210.16",
+    "p210.17"
+   ],
+   "difficulty": {
+    "primary": "П",
+    "secondary": "М"
+   },
+   "threshold": true,
+   "prerequisites": [
+    "zonation_atoll_and_system",
+    "dome_core_best"
+   ],
+   "id": "kuznetsov.atoll_periphery_best"
+  },
+  {
+   "slug": "karachaganak_cases",
+   "title": "Карачаганак: коллекторы в пермской и каменноугольной частях",
+   "novice_title": "Карачаганак: купол и атолл в одном рифе",
+   "units": [
+    "p209.02"
+   ],
+   "difficulty": {
+    "primary": "В",
+    "secondary": "Н"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "atoll_periphery_best"
+   ],
+   "id": "kuznetsov.karachaganak_cases"
+  },
+  {
+   "slug": "asym_system_collectors",
+   "title": "Коллекторы асимметричных рифовых систем; Шуртан",
+   "novice_title": "Коллекторы линейной рифовой системы",
+   "units": [
+    "p209.03",
+    "p209.04",
+    "p211.01",
+    "p211.02",
+    "p211.03",
+    "p211.04",
+    "p211.05",
+    "p211.06",
+    "p211.07",
+    "p211.08",
+    "p211.09",
+    "p211.10",
+    "p211.11",
+    "p211.12",
+    "p211.13",
+    "p211.14",
+    "p211.15"
+   ],
+   "difficulty": {
+    "primary": "В",
+    "secondary": "П"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "zonation_atoll_and_system"
+   ],
+   "id": "kuznetsov.asym_system_collectors"
+  },
+  {
+   "slug": "massive_small_reefs",
+   "title": "Массивный резервуар небольших рифов; Большетирская площадь",
+   "novice_title": "Когда риф можно считать однородным",
+   "units": [
+    "p209.05",
+    "p212.01",
+    "p212.02",
+    "p212.03",
+    "p212.04",
+    "p212.05",
+    "p212.06",
+    "p212.07",
+    "p212.08",
+    "p212.09",
+    "p212.10",
+    "p212.11",
+    "p212.12",
+    "p212.13",
+    "p212.14",
+    "p212.15",
+    "p212.16",
+    "p212.17",
+    "p212.18",
+    "p212.19",
+    "p212.20",
+    "p212.21"
+   ],
+   "difficulty": {
+    "primary": "Н",
+    "secondary": "Р"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "dome_core_best"
+   ],
+   "id": "kuznetsov.massive_small_reefs"
+  },
+  {
+   "slug": "layering_causes",
+   "title": "Вертикальная неоднородность мощных рифов и её причины",
+   "novice_title": "Почему большой риф слоист по вертикали",
+   "units": [
+    "p209.06",
+    "p209.07",
+    "p212.22",
+    "p212.23",
+    "p212.24",
+    "p213.01",
+    "p213.02",
+    "p213.03",
+    "p213.04",
+    "p213.05",
+    "p213.06",
+    "p213.07",
+    "p213.08",
+    "p213.09",
+    "p213.10",
+    "p213.11",
+    "p213.12",
+    "p213.13",
+    "p213.14",
+    "p213.15",
+    "p213.16",
+    "p213.17",
+    "p213.18",
+    "p213.19",
+    "p213.20",
+    "p213.21",
+    "p213.22",
+    "p213.23",
+    "p213.24",
+    "p214.01",
+    "p214.02",
+    "p214.03"
+   ],
+   "difficulty": {
+    "primary": "В",
+    "secondary": "М"
+   },
+   "threshold": true,
+   "prerequisites": [
+    "secondary_porosity_karst",
+    "massive_small_reefs"
+   ],
+   "id": "kuznetsov.layering_causes"
+  },
+  {
+   "slug": "karachaganak_dense_packs",
+   "title": "Плотные пачки Карачаганака и эффективная мощность",
+   "novice_title": "Плотные пачки между коллекторами",
+   "units": [
+    "p214.04",
+    "p214.05"
+   ],
+   "difficulty": {
+    "primary": "Н",
+    "secondary": "П"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "layering_causes"
+   ],
+   "id": "kuznetsov.karachaganak_dense_packs"
+  },
+  {
+   "slug": "fluid_flow_by_type",
+   "title": "Размещение и фильтрация флюидов в резервуарах разных рифов",
+   "novice_title": "Как флюид движется в рифе разного типа",
+   "units": [
+    "p214.06",
+    "p214.07",
+    "p216.01",
+    "p216.02",
+    "p216.03"
+   ],
+   "difficulty": {
+    "primary": "М",
+    "secondary": "П"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "layering_causes",
+    "atoll_periphery_best",
+    "asym_system_collectors"
+   ],
+   "id": "kuznetsov.fluid_flow_by_type"
+  },
+  {
+   "slug": "seals_and_regression",
+   "title": "Покрышки рифов: регрессия, климат, ложные покрышки",
+   "novice_title": "Чем перекрывается риф и почему",
+   "units": [
+    "p216.04",
+    "p216.05",
+    "p216.06",
+    "p216.07"
+   ],
+   "difficulty": {
+    "primary": "В",
+    "secondary": "М"
+   },
+   "threshold": true,
+   "prerequisites": [
+    "buildups_and_reef_types"
+   ],
+   "id": "kuznetsov.seals_and_regression"
+  },
+  {
+   "slug": "trap_types_paleogeo",
+   "title": "Типы рифовых ловушек: палеогеоморфологические и литолого-палеогеоморфологические; морфология",
+   "novice_title": "Ловушка из рельефа и экрана",
+   "units": [
+    "p216.08",
+    "p217.01",
+    "p217.02",
+    "p218.01",
+    "p218.02",
+    "p218.03",
+    "p218.04",
+    "p218.05",
+    "p218.06",
+    "p218.07"
+   ],
+   "difficulty": {
+    "primary": "П",
+    "secondary": "Н"
+   },
+   "threshold": true,
+   "prerequisites": [
+    "seals_and_regression",
+    "zonation_atoll_and_system"
+   ],
+   "id": "kuznetsov.trap_types_paleogeo"
+  },
+  {
+   "slug": "structural_overprint",
+   "title": "Структурные движения и рифовые ловушки",
+   "novice_title": "Как тектоника меняет рифовую ловушку",
+   "units": [
+    "p218.08",
+    "p219.01",
+    "p219.02",
+    "p219.03"
+   ],
+   "difficulty": {
+    "primary": "В",
+    "secondary": "П"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "trap_types_paleogeo"
+   ],
+   "id": "kuznetsov.structural_overprint"
+  },
+  {
+   "slug": "deposit_types_height",
+   "title": "Типы залежей и максимальная высота залежи",
+   "novice_title": "Какие бывают залежи и их высота",
+   "units": [
+    "p219.04",
+    "p219.05",
+    "p219.06",
+    "p220.01"
+   ],
+   "difficulty": {
+    "primary": "Н",
+    "secondary": "П"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "trap_types_paleogeo",
+    "structural_overprint"
+   ],
+   "id": "kuznetsov.deposit_types_height"
+  },
+  {
+   "slug": "explore_group1",
+   "title": "Основы разведки: три группы залежей; одиночные куполовидные рифы",
+   "novice_title": "Разведка небольшого куполовидного рифа",
+   "units": [
+    "p220.02",
+    "p220.03",
+    "p220.04",
+    "p220.05",
+    "p220.06",
+    "p214.08",
+    "p214.09",
+    "p215.01"
+   ],
+   "difficulty": {
+    "primary": "Пр",
+    "secondary": "Н"
+   },
+   "threshold": true,
+   "prerequisites": [
+    "deposit_types_height",
+    "dome_core_best"
+   ],
+   "id": "kuznetsov.explore_group1"
+  },
+  {
+   "slug": "explore_group2",
+   "title": "Разведка залежей плосковершинных рифов и атоллов",
+   "novice_title": "Разведка атолла: начинать с периферии",
+   "units": [
+    "p220.07",
+    "p220.08",
+    "p220.09",
+    "p221.01"
+   ],
+   "difficulty": {
+    "primary": "Пр",
+    "secondary": "Н"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "explore_group1",
+    "atoll_periphery_best"
+   ],
+   "id": "kuznetsov.explore_group2"
+  },
+  {
+   "slug": "explore_group3",
+   "title": "Разведка залежей асимметричных рифовых систем и «критическое направление»",
+   "novice_title": "Разведка рифовой системы и тыловая зона",
+   "units": [
+    "p221.02",
+    "p221.03",
+    "p221.04"
+   ],
+   "difficulty": {
+    "primary": "Н",
+    "secondary": "Пр"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "explore_group1",
+    "asym_system_collectors"
+   ],
+   "id": "kuznetsov.explore_group3"
+  },
+  {
+   "slug": "explore_grid_wells",
+   "title": "Сетка скважин для массивных залежей и системы размещения",
+   "novice_title": "Где ставить скважины на массивной залежи",
+   "units": [
+    "p221.05",
+    "p222.01",
+    "p222.02",
+    "p222.03",
+    "p222.04"
+   ],
+   "difficulty": {
+    "primary": "Пр",
+    "secondary": "Н"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "explore_group2",
+    "explore_group3"
+   ],
+   "id": "kuznetsov.explore_grid_wells"
+  }
+ ],
+ "skipped": [
+  {
+   "unit_id": "p200.06",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p201.12",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p202.01",
+   "reason": "библиография (продолжение списка ссылок)"
+  },
+  {
+   "unit_id": "p202.08",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p203.08",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p204.06",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p205.08",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p207.07",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p209.08",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p212.25",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p214.10",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p215.02",
+   "reason": "обрывок OCR: номера колонок рисунка без содержания"
+  },
+  {
+   "unit_id": "p216.09",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p218.09",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p219.07",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p220.09",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p221.06",
+   "reason": "номер страницы"
+  }
+ ]
+}

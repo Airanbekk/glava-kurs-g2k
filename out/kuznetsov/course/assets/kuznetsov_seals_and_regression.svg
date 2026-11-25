@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" font-family="Segoe UI, Arial, sans-serif">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8A96A3"/></marker></defs>
+<rect width="960" height="540" fill="#0F1419"/>
+<text x="32" y="46" fill="#ECEFF4" font-size="26" font-weight="700">Чем перекрывается риф и почему</text>
+<rect x="788" y="20" width="150" height="36" rx="18" fill="#8E44AD"/>
+<text x="863" y="44" fill="#fff" font-size="17" font-weight="700" text-anchor="middle">схема</text>
+<line x1="40" y1="470" x2="920" y2="470" stroke="#8A96A3" stroke-width="3" marker-end="url(#ah)"/>
+<text x="800" y="500" fill="#8A96A3" font-size="16">время →</text>
+<rect x="40.0" y="100" width="205.0" height="340" rx="14" fill="#1A2129" stroke="#F1C40F" stroke-width="3"/>
+<text x="56.0" y="130" fill="#F1C40F" font-size="18" font-weight="700">Этап 1</text>
+<text x="56.0" y="158" fill="#ECEFF4" font-size="17">Нефть и газ в рифе</text>
+<text x="56.0" y="182" fill="#ECEFF4" font-size="17">нужно удержать сверху.</text>
+<text x="56.0" y="206" fill="#ECEFF4" font-size="17">Для этого над рифом</text>
+<text x="56.0" y="230" fill="#ECEFF4" font-size="17">нужна непроницаемая</text>
+<text x="56.0" y="254" fill="#ECEFF4" font-size="17">толща, флюидоупор.</text>
+<text x="56.0" y="278" fill="#ECEFF4" font-size="17">Автор говорит, что</text>
+<rect x="265.0" y="100" width="205.0" height="340" rx="14" fill="#1A2129" stroke="#3498DB" stroke-width="3"/>
+<text x="281.0" y="130" fill="#3498DB" font-size="18" font-weight="700">Этап 2</text>
+<text x="281.0" y="158" fill="#ECEFF4" font-size="17">Сначала уровень моря</text>
+<text x="281.0" y="182" fill="#ECEFF4" font-size="17">растёт. Это эпоха</text>
+<text x="281.0" y="206" fill="#ECEFF4" font-size="17">трансгрессии, но автор</text>
+<text x="281.0" y="230" fill="#ECEFF4" font-size="17">говорит шире: важен</text>
+<text x="281.0" y="254" fill="#ECEFF4" font-size="17">именно подъём уровня</text>
+<text x="281.0" y="278" fill="#ECEFF4" font-size="17">моря. В это время</text>
+<rect x="490.0" y="100" width="205.0" height="340" rx="14" fill="#1A2129" stroke="#3498DB" stroke-width="3"/>
+<text x="506.0" y="130" fill="#3498DB" font-size="18" font-weight="700">Этап 3</text>
+<text x="506.0" y="158" fill="#ECEFF4" font-size="17">Потом уровень моря</text>
+<text x="506.0" y="182" fill="#ECEFF4" font-size="17">падает. Это регрессия.</text>
+<text x="506.0" y="206" fill="#ECEFF4" font-size="17">Рост рифов</text>
+<text x="506.0" y="230" fill="#ECEFF4" font-size="17">прекращается. Отложения</text>
+<text x="506.0" y="254" fill="#ECEFF4" font-size="17">регрессии обычно</text>
+<text x="506.0" y="278" fill="#ECEFF4" font-size="17">непроницаемы, поэтому</text>
+<rect x="715.0" y="100" width="205.0" height="340" rx="14" fill="#1A2129" stroke="#3498DB" stroke-width="3"/>
+<text x="731.0" y="130" fill="#3498DB" font-size="18" font-weight="700">Этап 4</text>
+<text x="731.0" y="158" fill="#ECEFF4" font-size="17">Состав покрышки зависит</text>
+<text x="731.0" y="182" fill="#ECEFF4" font-size="17">от климата. Гумидный</text>
+<text x="731.0" y="206" fill="#ECEFF4" font-size="17">климат — влажный:</text>
+<text x="731.0" y="230" fill="#ECEFF4" font-size="17">образуются глинистые</text>
+<text x="731.0" y="254" fill="#ECEFF4" font-size="17">или песчано-глинистые</text>
+<text x="731.0" y="278" fill="#ECEFF4" font-size="17">толщи, а в основании</text>
+<text x="32" y="524" fill="#8A96A3" font-size="14">по главе, стр. 216</text>
+</svg>

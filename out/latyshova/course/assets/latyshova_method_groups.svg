@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" font-family="Segoe UI, Arial, sans-serif">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8A96A3"/></marker></defs>
+<rect width="960" height="540" fill="#0F1419"/>
+<text x="32" y="46" fill="#ECEFF4" font-size="26" font-weight="700">Четыре группы методов ГИС</text>
+<rect x="788" y="20" width="150" height="36" rx="18" fill="#8E44AD"/>
+<text x="863" y="44" fill="#fff" font-size="17" font-weight="700" text-anchor="middle">схема</text>
+<rect x="32" y="100" width="280" height="300" rx="14" fill="#1A2129" stroke="#F1C40F" stroke-width="3"/>
+<text x="48" y="130" fill="#F1C40F" font-size="18" font-weight="700">Что измеряем</text>
+<text x="48" y="158" fill="#ECEFF4" font-size="17">Стандартный комплекс методов</text>
+<text x="48" y="182" fill="#ECEFF4" font-size="17">ГИС делят по задачам на четыре</text>
+<text x="48" y="206" fill="#ECEFF4" font-size="17">группы: выделение коллекторов,</text>
+<text x="48" y="230" fill="#ECEFF4" font-size="17">пористость, глинистость, оценка</text>
+<text x="48" y="254" fill="#ECEFF4" font-size="17">продуктивности.</text>
+<line x1="316" y1="250" x2="346" y2="250" stroke="#8A96A3" stroke-width="4" marker-end="url(#ah)"/>
+<rect x="350" y="100" width="280" height="300" rx="14" fill="#1A2129" stroke="#2E8B57" stroke-width="3"/>
+<text x="366" y="130" fill="#2E8B57" font-size="18" font-weight="700">Что выводим</text>
+<text x="366" y="158" fill="#ECEFF4" font-size="17">Продуктивность можно оценить</text>
+<text x="366" y="182" fill="#ECEFF4" font-size="17">почти по всем методам</text>
+<text x="366" y="206" fill="#ECEFF4" font-size="17">комплекса. Причина — параметр</text>
+<text x="366" y="230" fill="#ECEFF4" font-size="17">Pн, который связывает</text>
+<text x="366" y="254" fill="#ECEFF4" font-size="17">геофизические свойства с</text>
+<text x="366" y="278" fill="#ECEFF4" font-size="17">нефтегазонасыщением порового</text>
+<line x1="634" y1="250" x2="664" y2="250" stroke="#8A96A3" stroke-width="4" marker-end="url(#ah)"/>
+<rect x="668" y="100" width="260" height="300" rx="14" fill="#1A2129" stroke="#95A5A6" stroke-width="3"/>
+<text x="684" y="130" fill="#95A5A6" font-size="18" font-weight="700">При условии</text>
+<text x="684" y="158" fill="#ECEFF4" font-size="17">Границы групп условны: методы</text>
+<text x="684" y="182" fill="#ECEFF4" font-size="17">шире своей группы. ЯМР, СП и</text>
+<text x="684" y="206" fill="#ECEFF4" font-size="17">ГМ несут сведения о</text>
+<text x="684" y="230" fill="#ECEFF4" font-size="17">пористости, методы пористости</text>
+<text x="684" y="254" fill="#ECEFF4" font-size="17">несут сведения о глинистости.</text>
+<text x="684" y="278" fill="#ECEFF4" font-size="17">Формулы Pн в тексте главы</text>
+<text x="32" y="440" fill="#8A96A3" font-size="17">Измерение косвенное: один и тот же отклик могут дать разные пласты.</text>
+<text x="32" y="524" fill="#8A96A3" font-size="14">по главе, стр. 91, 92</text>
+</svg>

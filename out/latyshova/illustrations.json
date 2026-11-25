@@ -1,0 +1,365 @@
+{
+ "chapter": "latyshova_gl5_par17-20",
+ "illustrations": [
+  {
+   "id": "ill.latyshova.chapter_goals",
+   "step_id": "step.latyshova.chapter_goals",
+   "node_id": "latyshova.chapter_goals",
+   "file": "assets/latyshova_chapter_goals.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Порядок действий по главе. Собрано кодом из утверждений узла.",
+   "alt": "Схема: порядок действий по главе — Что решают ГИС в скважине",
+   "source": "по главе, стр. 90",
+   "claim_ids": [
+    "latyshova.chapter_goals#c1",
+    "latyshova.chapter_goals#c2",
+    "latyshova.chapter_goals#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.latyshova.mud_properties",
+   "step_id": "step.latyshova.mud_properties",
+   "node_id": "latyshova.mud_properties",
+   "file": "assets/latyshova_mud_properties.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Причина → следствие → практика. Собрано кодом из утверждений узла.",
+   "alt": "Схема: причина → следствие → практика — Как буровой раствор искажает измерения",
+   "source": "по главе, стр. 90, 91",
+   "claim_ids": [
+    "latyshova.mud_properties#c1",
+    "latyshova.mud_properties#c2",
+    "latyshova.mud_properties#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.latyshova.mud_mineralization_water",
+   "step_id": "step.latyshova.mud_mineralization_water",
+   "node_id": "latyshova.mud_mineralization_water",
+   "file": "assets/latyshova_mud_mineralization_water.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Причина → следствие → практика. Собрано кодом из утверждений узла.",
+   "alt": "Схема: причина → следствие → практика — Соль, вода и нефильтрующийся раствор",
+   "source": "по главе, стр. 91",
+   "claim_ids": [
+    "latyshova.mud_mineralization_water#c1",
+    "latyshova.mud_mineralization_water#c2",
+    "latyshova.mud_mineralization_water#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.latyshova.section_collector_types",
+   "step_id": "step.latyshova.section_collector_types",
+   "node_id": "latyshova.section_collector_types",
+   "file": "assets/latyshova_section_collector_types.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Причина → следствие → практика. Собрано кодом из утверждений узла.",
+   "alt": "Схема: причина → следствие → практика — Типы разрезов и коллекторов",
+   "source": "по главе, стр. 91",
+   "claim_ids": [
+    "latyshova.section_collector_types#c1",
+    "latyshova.section_collector_types#c2",
+    "latyshova.section_collector_types#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.latyshova.method_groups",
+   "step_id": "step.latyshova.method_groups",
+   "node_id": "latyshova.method_groups",
+   "file": "assets/latyshova_method_groups.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Цепочка косвенного измерения: сигнал → вывод → условия. Собрано кодом из утверждений узла.",
+   "alt": "Схема: цепочка косвенного измерения: сигнал → вывод → условия — Четыре группы методов ГИС",
+   "source": "по главе, стр. 91, 92",
+   "claim_ids": [
+    "latyshova.method_groups#c1",
+    "latyshova.method_groups#c2",
+    "latyshova.method_groups#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.latyshova.lithology_table21",
+   "step_id": "step.latyshova.lithology_table21",
+   "node_id": "latyshova.lithology_table21",
+   "file": "assets/latyshova_lithology_table21.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Причина → следствие → практика. Собрано кодом из утверждений узла.",
+   "alt": "Схема: причина → следствие → практика — Как собрать литологическую колонку",
+   "source": "по главе, стр. 92, 93, 94, 95",
+   "claim_ids": [
+    "latyshova.lithology_table21#c1",
+    "latyshova.lithology_table21#c2",
+    "latyshova.lithology_table21#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.latyshova.fig68_complex_section",
+   "step_id": "step.latyshova.fig68_complex_section",
+   "node_id": "latyshova.fig68_complex_section",
+   "file": "assets/latyshova_fig68_complex_section.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Причина → следствие → практика. Собрано кодом из утверждений узла.",
+   "alt": "Схема: причина → следствие → практика — Когда нужна количественная интерпретация",
+   "source": "по главе, стр. 95",
+   "claim_ids": [
+    "latyshova.fig68_complex_section#c1",
+    "latyshova.fig68_complex_section#c2",
+    "latyshova.fig68_complex_section#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.latyshova.collector_direct_signs",
+   "step_id": "step.latyshova.collector_direct_signs",
+   "node_id": "latyshova.collector_direct_signs",
+   "file": "assets/latyshova_collector_direct_signs.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Причина → следствие → практика. Собрано кодом из утверждений узла.",
+   "alt": "Схема: причина → следствие → практика — Прямые признаки коллектора на кривых",
+   "source": "по главе, стр. 96",
+   "claim_ids": [
+    "latyshova.collector_direct_signs#c1",
+    "latyshova.collector_direct_signs#c2",
+    "latyshova.collector_direct_signs#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.latyshova.cutoff_permeability_to_h_eff",
+   "step_id": "step.latyshova.cutoff_permeability_to_h_eff",
+   "node_id": "latyshova.cutoff_permeability_to_h_eff",
+   "file": "assets/latyshova_cutoff_permeability_to_h_eff.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Смысл формулы и обозначения. Собрано кодом из утверждений узла.",
+   "alt": "Схема: смысл формулы и обозначения — Граница коллектор/неколлектор по проницаемости",
+   "source": "по главе, стр. 90, 96, 97",
+   "claim_ids": [
+    "latyshova.cutoff_permeability_to_h_eff#c1",
+    "latyshova.cutoff_permeability_to_h_eff#c2",
+    "latyshova.cutoff_permeability_to_h_eff#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.latyshova.saturation_parameter_pn",
+   "step_id": "step.latyshova.saturation_parameter_pn",
+   "node_id": "latyshova.saturation_parameter_pn",
+   "file": "assets/latyshova_saturation_parameter_pn.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Смысл формулы и обозначения. Собрано кодом из утверждений узла.",
+   "alt": "Схема: смысл формулы и обозначения — Параметр насыщения Pн: нефть или вода",
+   "source": "по главе, стр. 97",
+   "claim_ids": [
+    "latyshova.saturation_parameter_pn#c1",
+    "latyshova.saturation_parameter_pn#c2",
+    "latyshova.saturation_parameter_pn#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.latyshova.palette_rho_kp",
+   "step_id": "step.latyshova.palette_rho_kp",
+   "node_id": "latyshova.palette_rho_kp",
+   "file": "assets/latyshova_palette_rho_kp.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Смысл формулы и обозначения. Собрано кодом из утверждений узла.",
+   "alt": "Схема: смысл формулы и обозначения — Палетка сопротивление–пористость",
+   "source": "по главе, стр. 97, 98",
+   "claim_ids": [
+    "latyshova.palette_rho_kp#c1",
+    "latyshova.palette_rho_kp#c2",
+    "latyshova.palette_rho_kp#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.latyshova.critical_values_pn_kv",
+   "step_id": "step.latyshova.critical_values_pn_kv",
+   "node_id": "latyshova.critical_values_pn_kv",
+   "file": "assets/latyshova_critical_values_pn_kv.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Решение на данных: признаки → правило → вывод и где оно ломается. Собрано кодом из утверждений узла.",
+   "alt": "Схема: решение на данных: признаки → правило → вывод и где оно ломается — Критические Pн и kв: порог притока",
+   "source": "по главе, стр. 98, 99, 100",
+   "claim_ids": [
+    "latyshova.critical_values_pn_kv#c1",
+    "latyshova.critical_values_pn_kv#c2",
+    "latyshova.critical_values_pn_kv#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.latyshova.clay_collectors_classes",
+   "step_id": "step.latyshova.clay_collectors_classes",
+   "node_id": "latyshova.clay_collectors_classes",
+   "file": "assets/latyshova_clay_collectors_classes.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Смысл формулы и обозначения. Собрано кодом из утверждений узла.",
+   "alt": "Схема: смысл формулы и обозначения — Поправка на глинистость коллектора",
+   "source": "по главе, стр. 100",
+   "claim_ids": [
+    "latyshova.clay_collectors_classes#c1",
+    "latyshova.clay_collectors_classes#c2",
+    "latyshova.clay_collectors_classes#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.latyshova.contacts_h_eff",
+   "step_id": "step.latyshova.contacts_h_eff",
+   "node_id": "latyshova.contacts_h_eff",
+   "file": "assets/latyshova_contacts_h_eff.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Порядок действий по главе. Собрано кодом из утверждений узла.",
+   "alt": "Схема: порядок действий по главе — Толщина пласта и положение контактов",
+   "source": "по главе, стр. 100, 101",
+   "claim_ids": [
+    "latyshova.contacts_h_eff#c1",
+    "latyshova.contacts_h_eff#c2",
+    "latyshova.contacts_h_eff#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.latyshova.interlayers_thin_layered",
+   "step_id": "step.latyshova.interlayers_thin_layered",
+   "node_id": "latyshova.interlayers_thin_layered",
+   "file": "assets/latyshova_interlayers_thin_layered.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Смысл формулы и обозначения. Собрано кодом из утверждений узла.",
+   "alt": "Схема: смысл формулы и обозначения — Тонкие прослои: считаем толщину",
+   "source": "по главе, стр. 101, 102",
+   "claim_ids": [
+    "latyshova.interlayers_thin_layered#c1",
+    "latyshova.interlayers_thin_layered#c2",
+    "latyshova.interlayers_thin_layered#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.latyshova.thickness_tasks_figs",
+   "step_id": "step.latyshova.thickness_tasks_figs",
+   "node_id": "latyshova.thickness_tasks_figs",
+   "file": "assets/latyshova_thickness_tasks_figs.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Порядок действий по главе. Собрано кодом из утверждений узла.",
+   "alt": "Схема: порядок действий по главе — Практика: толщина и газоносность",
+   "source": "по главе, стр. 102, 103, 104, 105",
+   "claim_ids": [
+    "latyshova.thickness_tasks_figs#c1",
+    "latyshova.thickness_tasks_figs#c2",
+    "latyshova.thickness_tasks_figs#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.latyshova.carbonate_features_normalization",
+   "step_id": "step.latyshova.carbonate_features_normalization",
+   "node_id": "latyshova.carbonate_features_normalization",
+   "file": "assets/latyshova_carbonate_features_normalization.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Причина → следствие → практика. Собрано кодом из утверждений узла.",
+   "alt": "Схема: причина → следствие → практика — Карбонаты и наложение диаграмм",
+   "source": "по главе, стр. 105, 107",
+   "claim_ids": [
+    "latyshova.carbonate_features_normalization#c1",
+    "latyshova.carbonate_features_normalization#c2",
+    "latyshova.carbonate_features_normalization#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.latyshova.example54_carbonate_vnk",
+   "step_id": "step.latyshova.example54_carbonate_vnk",
+   "node_id": "latyshova.example54_carbonate_vnk",
+   "file": "assets/latyshova_example54_carbonate_vnk.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Порядок действий по главе. Собрано кодом из утверждений узла.",
+   "alt": "Схема: порядок действий по главе — Пример: ВНК в карбонатах",
+   "source": "по главе, стр. 105, 106, 107",
+   "claim_ids": [
+    "latyshova.example54_carbonate_vnk#c1",
+    "latyshova.example54_carbonate_vnk#c2",
+    "latyshova.example54_carbonate_vnk#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.latyshova.kp_star_carbonate",
+   "step_id": "step.latyshova.kp_star_carbonate",
+   "node_id": "latyshova.kp_star_carbonate",
+   "file": "assets/latyshova_kp_star_carbonate.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Решение на данных: признаки → правило → вывод и где оно ломается. Собрано кодом из утверждений узла.",
+   "alt": "Схема: решение на данных: признаки → правило → вывод и где оно ломается — Порог пористости в карбонатах",
+   "source": "по главе, стр. 107, 108",
+   "claim_ids": [
+    "latyshova.kp_star_carbonate#c1",
+    "latyshova.kp_star_carbonate#c2",
+    "latyshova.kp_star_carbonate#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.latyshova.fracture_collectors",
+   "step_id": "step.latyshova.fracture_collectors",
+   "node_id": "latyshova.fracture_collectors",
+   "file": "assets/latyshova_fracture_collectors.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Причина → следствие → практика. Собрано кодом из утверждений узла.",
+   "alt": "Схема: причина → следствие → практика — Трещинный коллектор: почти невидим",
+   "source": "по главе, стр. 108",
+   "claim_ids": [
+    "latyshova.fracture_collectors#c1",
+    "latyshova.fracture_collectors#c2",
+    "latyshova.fracture_collectors#c3"
+   ],
+   "prompt": null
+  }
+ ]
+}

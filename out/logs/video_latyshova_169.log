@@ -1,0 +1,13 @@
+[модель] claude-code: gen=claude-sonnet-5-5, review=claude-opus-5-5; параллельных запросов: 3
+[ролик] узел latyshova.saturation_parameter_pn, формат 16:9
+[ролик] C:\Users\Admin\AppData\Local\Claude-Data\anthropicpbc.claude_fnn82j28hfe8t\scratch-workspaces\c3e3d005-bb3a-4d4c-a92d-9a79121a5bb2\6f6f7c5f-da51-4a7b-bfcd-72bdad274f80\scratch-2026-11-25-22df85\g2k\out\latyshova\course\media\latyshova_saturation_parameter_pn_16x9\latyshova_saturation_parameter_pn_16x9.mp4 (72 с, 121 слов/мин, -16.07 LUFS)
+[курс] C:\Users\Admin\AppData\Local\Claude-Data\anthropicpbc.claude_fnn82j28hfe8t\scratch-workspaces\c3e3d005-bb3a-4d4c-a92d-9a79121a5bb2\6f6f7c5f-da51-4a7b-bfcd-72bdad274f80\scratch-2026-11-25-22df85\g2k\out\latyshova\course\index.html  (1.51 МБ)
+  layer.json: OK
+  coverage.json: OK
+  routing.json: OK
+  tasks.json: OK
+  illustrations.json: OK
+  узлов 20, утверждений 391, цитат не по правилу жюри: 0
+  заданий 40, типов 5; единиц главы 272, без узла и без причины: 0
+ИТОГ: OK
+EXIT 0

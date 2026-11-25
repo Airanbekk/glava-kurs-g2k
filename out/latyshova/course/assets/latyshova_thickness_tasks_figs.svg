@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" font-family="Segoe UI, Arial, sans-serif">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8A96A3"/></marker></defs>
+<rect width="960" height="540" fill="#0F1419"/>
+<text x="32" y="46" fill="#ECEFF4" font-size="26" font-weight="700">Практика: толщина и газоносность</text>
+<rect x="788" y="20" width="150" height="36" rx="18" fill="#8E44AD"/>
+<text x="863" y="44" fill="#fff" font-size="17" font-weight="700" text-anchor="middle">схема</text>
+<rect x="32.0" y="110" width="206.0" height="330" rx="14" fill="#1A2129" stroke="#F1C40F" stroke-width="3"/>
+<text x="48.0" y="140" fill="#F1C40F" font-size="18" font-weight="700">Шаг 1</text>
+<text x="48.0" y="168" fill="#ECEFF4" font-size="17">1. Найти на диаграммах</text>
+<text x="48.0" y="192" fill="#ECEFF4" font-size="17">прослои неколлектора:</text>
+<text x="48.0" y="216" fill="#ECEFF4" font-size="17">глины и плотные породы</text>
+<text x="48.0" y="240" fill="#ECEFF4" font-size="17">(по СП, ρ, методам</text>
+<text x="48.0" y="264" fill="#ECEFF4" font-size="17">пористости, керну).</text>
+<line x1="240.0" y1="275" x2="260.0" y2="275" stroke="#8A96A3" stroke-width="4" marker-end="url(#ah)"/>
+<rect x="262.0" y="110" width="206.0" height="330" rx="14" fill="#1A2129" stroke="#3498DB" stroke-width="3"/>
+<text x="278.0" y="140" fill="#3498DB" font-size="18" font-weight="700">Шаг 2</text>
+<text x="278.0" y="168" fill="#ECEFF4" font-size="17">2. Выбрать опорные</text>
+<text x="278.0" y="192" fill="#ECEFF4" font-size="17">интервалы: глины,</text>
+<text x="278.0" y="216" fill="#ECEFF4" font-size="17">чистый коллектор,</text>
+<text x="278.0" y="240" fill="#ECEFF4" font-size="17">максимум СП (задача</text>
+<text x="278.0" y="264" fill="#ECEFF4" font-size="17">98).</text>
+<line x1="470.0" y1="275" x2="490.0" y2="275" stroke="#8A96A3" stroke-width="4" marker-end="url(#ah)"/>
+<rect x="492.0" y="110" width="206.0" height="330" rx="14" fill="#1A2129" stroke="#3498DB" stroke-width="3"/>
+<text x="508.0" y="140" fill="#3498DB" font-size="18" font-weight="700">Шаг 3</text>
+<text x="508.0" y="168" fill="#ECEFF4" font-size="17">3. Оценить доли глин и</text>
+<text x="508.0" y="192" fill="#ECEFF4" font-size="17">плотных прослоев и</text>
+<text x="508.0" y="216" fill="#ECEFF4" font-size="17">вычесть их толщину из</text>
+<text x="508.0" y="240" fill="#ECEFF4" font-size="17">общей (задачи 99, 100).</text>
+<line x1="700.0" y1="275" x2="720.0" y2="275" stroke="#8A96A3" stroke-width="4" marker-end="url(#ah)"/>
+<rect x="722.0" y="110" width="206.0" height="330" rx="14" fill="#1A2129" stroke="#3498DB" stroke-width="3"/>
+<text x="738.0" y="140" fill="#3498DB" font-size="18" font-weight="700">Шаг 4</text>
+<text x="738.0" y="168" fill="#ECEFF4" font-size="17">4. По ГГМ и АК</text>
+<text x="738.0" y="192" fill="#ECEFF4" font-size="17">перевести кривые в</text>
+<text x="738.0" y="216" fill="#ECEFF4" font-size="17">пористость, сравнить с</text>
+<text x="738.0" y="240" fill="#ECEFF4" font-size="17">граничным значением 9%</text>
+<text x="738.0" y="264" fill="#ECEFF4" font-size="17">и выделить коллекторы</text>
+<text x="738.0" y="288" fill="#ECEFF4" font-size="17">(задача 103).</text>
+<text x="32" y="524" fill="#8A96A3" font-size="14">по главе, стр. 102, 103, 104, 105</text>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" font-family="Segoe UI, Arial, sans-serif">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8A96A3"/></marker></defs>
+<rect width="960" height="540" fill="#0F1419"/>
+<text x="32" y="46" fill="#ECEFF4" font-size="26" font-weight="700">Где ПССС точен, а где груб</text>
+<rect x="788" y="20" width="150" height="36" rx="18" fill="#8E44AD"/>
+<text x="863" y="44" fill="#fff" font-size="17" font-weight="700" text-anchor="middle">схема</text>
+<rect x="32" y="100" width="280" height="340" rx="14" fill="#1A2129" stroke="#3498DB" stroke-width="3"/>
+<text x="48" y="130" fill="#3498DB" font-size="18" font-weight="700">Признаки</text>
+<text x="48" y="158" fill="#ECEFF4" font-size="17">Что нужно получить:</text>
+<text x="48" y="182" fill="#ECEFF4" font-size="17">дебит/депрессию или поле</text>
+<text x="48" y="206" fill="#ECEFF4" font-size="17">давления; Режим на скважине:</text>
+<text x="48" y="230" fill="#ECEFF4" font-size="17">p_c = const; Геометрия потока:</text>
+<text x="48" y="254" fill="#ECEFF4" font-size="17">плоскорадиальная; Допустимая</text>
+<text x="48" y="278" fill="#ECEFF4" font-size="17">погрешность</text>
+<line x1="316" y1="270" x2="346" y2="270" stroke="#8A96A3" stroke-width="4" marker-end="url(#ah)"/>
+<rect x="350" y="100" width="280" height="340" rx="14" fill="#1A2129" stroke="#F1C40F" stroke-width="3"/>
+<text x="366" y="130" fill="#F1C40F" font-size="18" font-weight="700">Правило</text>
+<text x="366" y="158" fill="#ECEFF4" font-size="17">Для связи дебита и депрессии</text>
+<text x="366" y="182" fill="#ECEFF4" font-size="17">(особенно при радиальном</text>
+<text x="366" y="206" fill="#ECEFF4" font-size="17">потоке) брать ПССС и формулу</text>
+<text x="366" y="230" fill="#ECEFF4" font-size="17">Дюпюи; погрешность дебита по</text>
+<text x="366" y="254" fill="#ECEFF4" font-size="17">автору около 5%. Для</text>
+<text x="366" y="278" fill="#ECEFF4" font-size="17">распределения давления ПССС —</text>
+<line x1="634" y1="270" x2="664" y2="270" stroke="#8A96A3" stroke-width="4" marker-end="url(#ah)"/>
+<rect x="668" y="100" width="260" height="200" rx="14" fill="#1A2129" stroke="#2E8B57" stroke-width="3"/>
+<text x="684" y="130" fill="#2E8B57" font-size="18" font-weight="700">Вывод</text>
+<text x="684" y="158" fill="#ECEFF4" font-size="17">Метод пригоден для быстрых</text>
+<text x="684" y="182" fill="#ECEFF4" font-size="17">оценок дебита и непригоден</text>
+<text x="684" y="206" fill="#ECEFF4" font-size="17">для детального профиля</text>
+<text x="684" y="230" fill="#ECEFF4" font-size="17">давления; для профиля нужен</text>
+<text x="684" y="254" fill="#ECEFF4" font-size="17">более точный метод (например,</text>
+<text x="684" y="278" fill="#ECEFF4" font-size="17">Пирвердяна).</text>
+<rect x="668" y="312" width="260" height="128" rx="14" fill="#1A2129" stroke="#E74C3C" stroke-width="3"/>
+<text x="684" y="342" fill="#E74C3C" font-size="18" font-weight="700">Контрпример</text>
+<text x="684" y="370" fill="#ECEFF4" font-size="17">Если нужна точная форма</text>
+<text x="684" y="394" fill="#ECEFF4" font-size="17">пьезометрической кривой у</text>
+<text x="684" y="418" fill="#ECEFF4" font-size="17">границы возмущённой области,</text>
+<text x="32" y="524" fill="#8A96A3" font-size="14">по главе, стр. 499, 500</text>
+</svg>

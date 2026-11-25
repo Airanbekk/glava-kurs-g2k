@@ -1,0 +1,610 @@
+{
+ "nodes": [
+  {
+   "slug": "chapter_goals",
+   "title": "Глава V. Построение разрезов скважин, выделение коллекторов и оценка продуктивности по ГИС",
+   "novice_title": "Что решают ГИС в скважине",
+   "units": [
+    "p090.04",
+    "p090.05",
+    "p090.06",
+    "p090.07",
+    "p090.08"
+   ],
+   "difficulty": {
+    "primary": "Пр",
+    "secondary": null
+   },
+   "threshold": true,
+   "prerequisites": [],
+   "id": "latyshova.chapter_goals"
+  },
+  {
+   "slug": "mud_properties",
+   "title": "§17. Условия вскрытия разрезов: тип и параметры промывочной жидкости, глинистый раствор",
+   "novice_title": "Как буровой раствор искажает измерения",
+   "units": [
+    "p090.09",
+    "p090.10",
+    "p090.11",
+    "p090.12",
+    "p090.13",
+    "p090.14",
+    "p090.15",
+    "p091.01"
+   ],
+   "difficulty": {
+    "primary": "М",
+    "secondary": "И"
+   },
+   "threshold": true,
+   "prerequisites": [
+    "chapter_goals"
+   ],
+   "id": "latyshova.mud_properties"
+  },
+  {
+   "slug": "mud_mineralization_water",
+   "title": "§17. Минерализация фильтрата, техническая вода и нефильтрующиеся растворы",
+   "novice_title": "Соль, вода и нефильтрующийся раствор",
+   "units": [
+    "p091.02",
+    "p091.03",
+    "p091.04",
+    "p091.05"
+   ],
+   "difficulty": {
+    "primary": "М",
+    "secondary": "Н"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "mud_properties"
+   ],
+   "id": "latyshova.mud_mineralization_water"
+  },
+  {
+   "slug": "section_collector_types",
+   "title": "§18. Типы изучаемых разрезов и коллекторов",
+   "novice_title": "Типы разрезов и коллекторов",
+   "units": [
+    "p091.06",
+    "p091.07",
+    "p091.08",
+    "p091.09"
+   ],
+   "difficulty": {
+    "primary": "Р",
+    "secondary": null
+   },
+   "threshold": true,
+   "prerequisites": [
+    "chapter_goals"
+   ],
+   "id": "latyshova.section_collector_types"
+  },
+  {
+   "slug": "method_groups",
+   "title": "§18. Группы методов комплекса ГИС и оценка продуктивности через параметр Pн",
+   "novice_title": "Четыре группы методов ГИС",
+   "units": [
+    "p091.10",
+    "p092.01",
+    "p092.02",
+    "p092.03",
+    "p092.04",
+    "p092.05",
+    "p092.06",
+    "p092.07"
+   ],
+   "difficulty": {
+    "primary": "И",
+    "secondary": "Пр"
+   },
+   "threshold": true,
+   "prerequisites": [
+    "section_collector_types",
+    "mud_properties"
+   ],
+   "id": "latyshova.method_groups"
+  },
+  {
+   "slug": "lithology_table21",
+   "title": "§19. Составление литологического разреза по комплексу методов; табл. 21",
+   "novice_title": "Как собрать литологическую колонку",
+   "units": [
+    "p092.08",
+    "p092.09",
+    "p092.10",
+    "p092.11",
+    "p092.12",
+    "p093.01",
+    "p093.02",
+    "p093.03",
+    "p094.01",
+    "p095.01",
+    "p095.02"
+   ],
+   "difficulty": {
+    "primary": "Р",
+    "secondary": "И"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "method_groups"
+   ],
+   "id": "latyshova.lithology_table21"
+  },
+  {
+   "slug": "fig68_complex_section",
+   "title": "§19. Смешанные разрезы, рис. 68 и задачи 90–91",
+   "novice_title": "Когда нужна количественная интерпретация",
+   "units": [
+    "p095.03",
+    "p095.04",
+    "p095.05",
+    "p095.06",
+    "p095.07",
+    "p095.08",
+    "p095.09",
+    "p095.10",
+    "p095.11",
+    "p095.12",
+    "p095.13"
+   ],
+   "difficulty": {
+    "primary": "Р",
+    "secondary": "Н"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "lithology_table21"
+   ],
+   "id": "latyshova.fig68_complex_section"
+  },
+  {
+   "slug": "collector_direct_signs",
+   "title": "§20. Выделение коллектора в терригенном разрезе: прямые качественные признаки",
+   "novice_title": "Прямые признаки коллектора на диаграммах",
+   "units": [
+    "p096.01",
+    "p096.02",
+    "p096.03",
+    "p096.04",
+    "p096.05",
+    "p096.06",
+    "p096.07",
+    "p096.08",
+    "p096.09",
+    "p096.10"
+   ],
+   "difficulty": {
+    "primary": "Р",
+    "secondary": "М"
+   },
+   "threshold": true,
+   "prerequisites": [
+    "mud_properties",
+    "method_groups",
+    "lithology_table21"
+   ],
+   "id": "latyshova.collector_direct_signs"
+  },
+  {
+   "slug": "cutoff_permeability_to_h_eff",
+   "title": "§20. Косвенные признаки: критическая проницаемость, рентабельный дебит, эффективная толщина; ЯМР",
+   "novice_title": "Граница коллектор/неколлектор по проницаемости",
+   "units": [
+    "p090.01",
+    "p090.02",
+    "p090.03",
+    "p096.11",
+    "p096.12",
+    "p096.13",
+    "p096.14",
+    "p096.15",
+    "p096.16",
+    "p096.17",
+    "p097.01",
+    "p097.02",
+    "p097.03",
+    "p097.04",
+    "p097.05",
+    "p097.06",
+    "p097.07",
+    "p097.08",
+    "p097.14"
+   ],
+   "difficulty": {
+    "primary": "Ф",
+    "secondary": "Пр"
+   },
+   "threshold": true,
+   "prerequisites": [
+    "collector_direct_signs"
+   ],
+   "id": "latyshova.cutoff_permeability_to_h_eff"
+  },
+  {
+   "slug": "saturation_parameter_pn",
+   "title": "§20. Определение характера насыщения: параметр насыщения Pн",
+   "novice_title": "Параметр насыщения Pн: нефть или вода",
+   "units": [
+    "p097.09",
+    "p097.10",
+    "p097.11",
+    "p097.12"
+   ],
+   "difficulty": {
+    "primary": "Ф",
+    "secondary": "И"
+   },
+   "threshold": true,
+   "prerequisites": [
+    "method_groups"
+   ],
+   "id": "latyshova.saturation_parameter_pn"
+  },
+  {
+   "slug": "palette_rho_kp",
+   "title": "§20. Палетка ρп = f(kп), рис. 69, примеры 46–47",
+   "novice_title": "Палетка сопротивление–пористость",
+   "units": [
+    "p097.13",
+    "p098.01",
+    "p098.02",
+    "p098.03",
+    "p098.04",
+    "p098.05",
+    "p098.06",
+    "p098.07",
+    "p098.08",
+    "p098.09",
+    "p098.10",
+    "p098.11",
+    "p098.12",
+    "p098.13",
+    "p098.14",
+    "p098.15",
+    "p098.16",
+    "p098.17"
+   ],
+   "difficulty": {
+    "primary": "Ф",
+    "secondary": "Н"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "saturation_parameter_pn",
+    "cutoff_permeability_to_h_eff"
+   ],
+   "id": "latyshova.palette_rho_kp"
+  },
+  {
+   "slug": "critical_values_pn_kv",
+   "title": "§20. Критические значения Pн и kв: способы установления, рис. 70, примеры 48–50",
+   "novice_title": "Критические Pн и kв: порог притока",
+   "units": [
+    "p098.18",
+    "p099.01",
+    "p099.02",
+    "p099.03",
+    "p099.04",
+    "p099.05",
+    "p099.06",
+    "p099.07",
+    "p099.08",
+    "p099.09",
+    "p099.10",
+    "p099.11",
+    "p099.12",
+    "p099.13",
+    "p099.14",
+    "p099.15",
+    "p100.01"
+   ],
+   "difficulty": {
+    "primary": "Н",
+    "secondary": "Ф"
+   },
+   "threshold": true,
+   "prerequisites": [
+    "palette_rho_kp"
+   ],
+   "id": "latyshova.critical_values_pn_kv"
+  },
+  {
+   "slug": "clay_collectors_classes",
+   "title": "§20. Критерии насыщения для коллекторов разной глинистости, примеры 51–53, табл. 22, задачи 92–95",
+   "novice_title": "Поправка на глинистость коллектора",
+   "units": [
+    "p100.02",
+    "p100.03",
+    "p100.04",
+    "p100.05",
+    "p100.06",
+    "p100.07",
+    "p100.08",
+    "p100.09",
+    "p100.10",
+    "p100.11",
+    "p100.12",
+    "p100.13",
+    "p100.14",
+    "p100.15",
+    "p100.16"
+   ],
+   "difficulty": {
+    "primary": "Ф",
+    "secondary": "Н"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "critical_values_pn_kv"
+   ],
+   "id": "latyshova.clay_collectors_classes"
+  },
+  {
+   "slug": "contacts_h_eff",
+   "title": "§20. Эффективная толщина продуктивного коллектора: ВНК, переходная зона, ГНК, рис. 71",
+   "novice_title": "Толщина пласта и положение контактов",
+   "units": [
+    "p100.17",
+    "p100.18",
+    "p100.19",
+    "p101.01",
+    "p101.02",
+    "p101.03",
+    "p101.04",
+    "p101.05",
+    "p101.06",
+    "p101.07",
+    "p101.08",
+    "p101.09",
+    "p101.10",
+    "p101.11",
+    "p101.12",
+    "p101.13"
+   ],
+   "difficulty": {
+    "primary": "Пр",
+    "secondary": "П"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "critical_values_pn_kv",
+    "saturation_parameter_pn"
+   ],
+   "id": "latyshova.contacts_h_eff"
+  },
+  {
+   "slug": "interlayers_thin_layered",
+   "title": "§20. Прослои неколлекторов и тонкослоистые пачки, формулы (63)–(65), рис. 72",
+   "novice_title": "Тонкие прослои: считаем толщину",
+   "units": [
+    "p101.14",
+    "p102.01",
+    "p102.02",
+    "p102.03",
+    "p102.04",
+    "p102.05",
+    "p102.06",
+    "p102.07",
+    "p102.08",
+    "p102.09",
+    "p102.10",
+    "p102.11",
+    "p102.12",
+    "p102.13",
+    "p102.14",
+    "p102.15",
+    "p102.16",
+    "p102.17",
+    "p102.18"
+   ],
+   "difficulty": {
+    "primary": "Ф",
+    "secondary": "П"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "contacts_h_eff"
+   ],
+   "id": "latyshova.interlayers_thin_layered"
+  },
+  {
+   "slug": "thickness_tasks_figs",
+   "title": "§20. Задачи 96–103 и рис. 73–75 (слоистые и газоносные коллекторы)",
+   "novice_title": "Практика: толщина и газоносность",
+   "units": [
+    "p102.19",
+    "p102.20",
+    "p103.01",
+    "p104.01",
+    "p104.02",
+    "p104.03",
+    "p104.04",
+    "p104.05",
+    "p104.06",
+    "p104.07",
+    "p104.08",
+    "p104.09",
+    "p104.10",
+    "p104.11",
+    "p104.12",
+    "p104.13",
+    "p104.14",
+    "p104.15",
+    "p104.16",
+    "p104.17",
+    "p104.18",
+    "p104.19",
+    "p104.20",
+    "p104.21",
+    "p104.22",
+    "p104.23",
+    "p104.24",
+    "p104.25",
+    "p105.01",
+    "p105.02",
+    "p105.03",
+    "p105.04",
+    "p105.05",
+    "p105.06",
+    "p105.07",
+    "p105.08",
+    "p105.09",
+    "p105.10",
+    "p105.11",
+    "p105.12",
+    "p105.13"
+   ],
+   "difficulty": {
+    "primary": "Пр",
+    "secondary": "Н"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "interlayers_thin_layered",
+    "clay_collectors_classes",
+    "cutoff_permeability_to_h_eff"
+   ],
+   "id": "latyshova.thickness_tasks_figs"
+  },
+  {
+   "slug": "carbonate_features_normalization",
+   "title": "§20. Карбонатный разрез: особенности коллекторов и способ нормализации диаграмм",
+   "novice_title": "Карбонаты и наложение диаграмм",
+   "units": [
+    "p105.14",
+    "p105.15",
+    "p105.16",
+    "p107.01",
+    "p107.02",
+    "p107.03",
+    "p107.04"
+   ],
+   "difficulty": {
+    "primary": "М",
+    "secondary": "Н"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "saturation_parameter_pn",
+    "mud_properties"
+   ],
+   "id": "latyshova.carbonate_features_normalization"
+  },
+  {
+   "slug": "example54_carbonate_vnk",
+   "title": "§20. Пример 54: нормализация, ВНК и эффективная толщина по рис. 76",
+   "novice_title": "Пример: ВНК в карбонатах",
+   "units": [
+    "p105.17",
+    "p105.18",
+    "p105.19",
+    "p105.20",
+    "p105.21",
+    "p105.22",
+    "p105.23",
+    "p105.24",
+    "p105.25",
+    "p105.26",
+    "p105.27",
+    "p105.28",
+    "p105.29",
+    "p105.30",
+    "p105.31",
+    "p105.32",
+    "p105.33",
+    "p105.34",
+    "p106.01",
+    "p107.05",
+    "p107.06",
+    "p107.16"
+   ],
+   "difficulty": {
+    "primary": "Пр",
+    "secondary": "Н"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "carbonate_features_normalization",
+    "contacts_h_eff"
+   ],
+   "id": "latyshova.example54_carbonate_vnk"
+  },
+  {
+   "slug": "kp_star_carbonate",
+   "title": "§20. Нижний предел пористости kп* карбонатных коллекторов, рис. 77, табл. 23, задачи 104–108",
+   "novice_title": "Нижний предел пористости в карбонатах",
+   "units": [
+    "p107.07",
+    "p107.08",
+    "p107.09",
+    "p107.10",
+    "p107.11",
+    "p107.12",
+    "p107.13",
+    "p107.14",
+    "p107.15",
+    "p107.17",
+    "p107.18",
+    "p107.19",
+    "p107.20",
+    "p108.01",
+    "p108.02",
+    "p108.03",
+    "p108.04",
+    "p108.05",
+    "p108.06",
+    "p108.07",
+    "p108.08",
+    "p108.09",
+    "p108.10",
+    "p108.11"
+   ],
+   "difficulty": {
+    "primary": "Н",
+    "secondary": "Ф"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "critical_values_pn_kv",
+    "cutoff_permeability_to_h_eff"
+   ],
+   "id": "latyshova.kp_star_carbonate"
+  },
+  {
+   "slug": "fracture_collectors",
+   "title": "§21. Сложные коллекторы: трещинный коллектор и его признаки",
+   "novice_title": "Трещинный коллектор: почти невидим",
+   "units": [
+    "p108.12",
+    "p108.13",
+    "p108.14",
+    "p108.15",
+    "p108.16",
+    "p108.17",
+    "p108.18",
+    "p108.19"
+   ],
+   "difficulty": {
+    "primary": "М",
+    "secondary": "Р"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "method_groups",
+    "collector_direct_signs"
+   ],
+   "id": "latyshova.fracture_collectors"
+  }
+ ],
+ "skipped": [
+  {
+   "unit_id": "p104.26",
+   "reason": "мусор OCR: текст задач 101–102 закодирован нечитаемыми латинскими символами, дословная цитата невозможна"
+  }
+ ]
+}

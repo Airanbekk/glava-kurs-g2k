@@ -1,0 +1,1358 @@
+{
+ "chapter": "latyshova_gl5_par17-20",
+ "tasks": [
+  {
+   "id": "latyshova.chapter_goals.t1",
+   "type": "single",
+   "kind": "understanding",
+   "prompt": "Интерпретатор получил каротажную диаграмму скважины. Как правильно понимать соотношение диаграммы и разреза?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Диаграмма — это и есть разрез породы, её просто читают по глубине",
+     "misconception": "misc.log_is_rock"
+    },
+    {
+     "id": "b",
+     "text": "Разрез, коллекторы и насыщение выводят из диаграмм по признакам и расчётам",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Диаграмма сразу даёт один готовый ответ: нефть или вода",
+     "misconception": "misc.high_res_oil"
+    },
+    {
+     "id": "d",
+     "text": "Диаграмма нужна только для определения глубины скважины",
+     "misconception": null
+    }
+   ],
+   "answer": "b",
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Каротажная диаграмма — косвенное измерение, а разрез, коллекторы и насыщение выводят из неё по признакам и расчётам.",
+   "claim_ids": [
+    "latyshova.chapter_goals#c1",
+    "latyshova.chapter_goals#c2"
+   ],
+   "step_id": "step.latyshova.chapter_goals"
+  },
+  {
+   "id": "latyshova.chapter_goals.t2",
+   "type": "order",
+   "kind": "understanding",
+   "prompt": "Расставьте этапы работы с данными ГИС в скважине в логичном порядке: от первого результата к использованию чисел.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Использовать пористость, нефтегазонасыщение и проницаемость для подсчёта запасов и проекта разработки",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Выделить коллекторы и оценить характер их насыщения",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Построить литологический разрез по признакам основных типов пород",
+     "misconception": null
+    },
+    {
+     "id": "d",
+     "text": "Определить эффективную толщину и получить пористость, нефтегазонасыщение, проницаемость",
+     "misconception": null
+    }
+   ],
+   "answer": [
+    "c",
+    "b",
+    "d",
+    "a"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Сначала строят литологический разрез, затем ищут коллекторы и считают параметры, которые идут в подсчёт запасов и проектирование разработки.",
+   "claim_ids": [
+    "latyshova.chapter_goals#c1",
+    "latyshova.chapter_goals#c2",
+    "latyshova.chapter_goals#c7"
+   ],
+   "step_id": "step.latyshova.chapter_goals"
+  },
+  {
+   "id": "latyshova.mud_properties.t1",
+   "type": "single",
+   "kind": "understanding",
+   "prompt": "Скважину бурят глинистым раствором, и в проницаемом пласте у стенки образовалась корка, а диаметр скважины dc стал меньше номинального da. Что покажет каверномер в глинистом пласте этого же разреза?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Диаметр больше номинального, так как частицы глины разбухают и их вымывает струя раствора",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Диаметр меньше номинального, так как и в глинах нарастает корка",
+     "misconception": "misc.log_is_rock"
+    },
+    {
+     "id": "c",
+     "text": "Диаметр равен номинальному, как в плотных породах",
+     "misconception": "misc.reservoir_void"
+    },
+    {
+     "id": "d",
+     "text": "Диаметр не измеряется, потому что глины не проницаемы",
+     "misconception": "misc.porosity_eq_perm"
+    }
+   ],
+   "answer": "a",
+   "tolerance": null,
+   "unit": null,
+   "explanation": "В глинах, сланцах и аргиллитах диаметр растёт: частицы разбухают, и струя их вымывает.",
+   "claim_ids": [
+    "latyshova.mud_properties#c6",
+    "latyshova.mud_properties#c8"
+   ],
+   "step_id": "step.latyshova.mud_properties"
+  },
+  {
+   "id": "latyshova.mud_properties.t2",
+   "type": "multiple",
+   "kind": "understanding",
+   "prompt": "Какие последствия даёт высокая водоотдача раствора (20 см³/ч) для изучения коллекторов?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Фильтрат проникает глубоко, и самые глубинные методы электрометрии не оценивают продуктивность",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Толстая корка делает коллектор недоступным для ГГМ, МБК и ЯМР",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Условия изучения коллекторов становятся наиболее благоприятными",
+     "misconception": "misc.log_is_rock"
+    },
+    {
+     "id": "d",
+     "text": "Методы малой глубинности лучше видят неизменённую часть пласта",
+     "misconception": "misc.high_res_oil"
+    },
+    {
+     "id": "e",
+     "text": "Диаметр скважины в коллекторе становится больше номинального",
+     "misconception": "misc.reservoir_void"
+    }
+   ],
+   "answer": [
+    "a",
+    "b"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "При высокой водоотдаче глубокое проникновение мешает глубинным методам, а толстая корка — методам малой глубинности.",
+   "claim_ids": [
+    "latyshova.mud_properties#c14",
+    "latyshova.mud_properties#c15",
+    "latyshova.mud_properties#c16"
+   ],
+   "step_id": "step.latyshova.mud_properties"
+  },
+  {
+   "id": "latyshova.mud_mineralization_water.t1",
+   "type": "gap",
+   "kind": "recall",
+   "prompt": "При бурении на пресном растворе (ρф {{1}} ρп) коллекторы выделяются {{2}} аномалиями на диаграмме СП. Если раствор нефильтрующийся, из электрометрии остаётся только {{3}} зонд.",
+   "options": [],
+   "answer": [
+    ">",
+    "отрицательными",
+    "индукционный"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "При пресном растворе ρф больше ρп и коллектор даёт отрицательные аномалии СП, а при нефильтрующемся растворе из электрометрии остаётся только индукционный зонд.",
+   "claim_ids": [
+    "latyshova.mud_mineralization_water#c2",
+    "latyshova.mud_mineralization_water#c16"
+   ],
+   "step_id": "step.latyshova.mud_mineralization_water"
+  },
+  {
+   "id": "latyshova.mud_mineralization_water.t2",
+   "type": "single",
+   "kind": "understanding",
+   "prompt": "В скважине раствор настолько солёный, что ρф ≈ ρп. СП и микрозонды почти не выделяют коллектор. Почему при этом можно оценить продуктивность по разноглубинным зондам?",
+   "options": [
+    {
+     "id": "a",
+     "text": "В продуктивном коллекторе возникает только понижающее проникновение (ρп < ρпп), а в водоносном ρп ≈ ρпп, поэтому показания зондов расходятся только в продуктивном пласте.",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Высокое сопротивление всегда означает нефть, поэтому любой пласт с большим сопротивлением продуктивен.",
+     "misconception": "misc.high_res_oil"
+    },
+    {
+     "id": "c",
+     "text": "Солёный раствор не проникает в пласт, поэтому все зонды измеряют одно и то же сопротивление пласта.",
+     "misconception": null
+    },
+    {
+     "id": "d",
+     "text": "Разноглубинные зонды напрямую «видят» нефть, а соль только усиливает их сигнал.",
+     "misconception": "misc.log_is_rock"
+    }
+   ],
+   "answer": "a",
+   "tolerance": null,
+   "unit": null,
+   "explanation": "При ρф = ρп в продуктивном пласте расхождение показаний разных зондов появляется из-за понижающего проникновения, а в водоносном его нет.",
+   "claim_ids": [
+    "latyshova.mud_mineralization_water#c6",
+    "latyshova.mud_mineralization_water#c7"
+   ],
+   "step_id": "step.latyshova.mud_mineralization_water"
+  },
+  {
+   "id": "latyshova.section_collector_types.t1",
+   "type": "single",
+   "kind": "understanding",
+   "prompt": "Геофизик получил описание коллектора: флюид находится в порах между зёрнами песчаника. Как правильно понимать такой «пласт»?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Это пустота в земле, заполненная нефтью или водой",
+     "misconception": "misc.reservoir_void"
+    },
+    {
+     "id": "b",
+     "text": "Это порода с порами, где флюид находится между зёрнами (межзерновой коллектор)",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Это подземное озеро, залегающее между слоями породы",
+     "misconception": "misc.oil_lake"
+    },
+    {
+     "id": "d",
+     "text": "Это карстовая полость выщелачивания",
+     "misconception": "misc.oil_lake"
+    }
+   ],
+   "answer": "b",
+   "tolerance": null,
+   "unit": null,
+   "explanation": "В большинстве коллекторов, особенно межзерновых, флюид находится в порах породы, а не в пустоте; крупные пустоты и карсты — особая группа.",
+   "claim_ids": [
+    "latyshova.section_collector_types#c6",
+    "latyshova.section_collector_types#c12"
+   ],
+   "step_id": "step.latyshova.section_collector_types"
+  },
+  {
+   "id": "latyshova.section_collector_types.t2",
+   "type": "multiple",
+   "kind": "recall",
+   "prompt": "Выберите верные утверждения о типах разрезов и коллекторов по тексту шага.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Основные типы разреза: терригенный, карбонатный и гидрохимический",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Вулканогенные разрезы по составу близки к карбонатным, а по порам к терригенным",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Глинистые коллекторы делят по распределению глины: рассеянная, слоистая, гнездовидная",
+     "misconception": null
+    },
+    {
+     "id": "d",
+     "text": "Трещинные коллекторы встречаются только в карбонатных породах",
+     "misconception": null
+    }
+   ],
+   "answer": [
+    "a",
+    "c"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Три основных типа разреза и три характера глинистости названы в шаге; вулканогенные по составу близки к терригенным, а трещинные коллекторы есть также в терригенных и вулканогенных породах.",
+   "claim_ids": [
+    "latyshova.section_collector_types#c1",
+    "latyshova.section_collector_types#c3",
+    "latyshova.section_collector_types#c8",
+    "latyshova.section_collector_types#c13"
+   ],
+   "step_id": "step.latyshova.section_collector_types"
+  },
+  {
+   "id": "latyshova.method_groups.t1",
+   "type": "gap",
+   "kind": "recall",
+   "prompt": "Заполните пропуски: Микрозонды и каверномер находят интервалы, где на стенке скважины осела {{1}} корка, а значит, фильтрат уходит в пласт. Метод ГМ работает {{2}}, в том числе в обсаженных скважинах.",
+   "options": [],
+   "answer": [
+    "глинистая",
+    "везде"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Первая группа методов ищет коллектор по глинистой корке, а ГМ применим везде, включая обсаженные скважины.",
+   "claim_ids": [
+    "latyshova.method_groups#c2",
+    "latyshova.method_groups#c7"
+   ],
+   "step_id": "step.latyshova.method_groups"
+  },
+  {
+   "id": "latyshova.method_groups.t2",
+   "type": "calc",
+   "kind": "data",
+   "prompt": "Pн — отношение сопротивления пласта к сопротивлению того же пласта при водонасыщении. Сопротивление неизменённой части пласта по зондам равно 20 Ом·м, а по пористости и сопротивлению воды сопротивление этого пласта при полном водонасыщении получилось 4 Ом·м. Чему равен Pн? (Pн > 1 означает нефть или газ.)",
+   "options": [],
+   "answer": 5,
+   "tolerance": 0.01,
+   "unit": "безразмерная величина",
+   "explanation": "Pн = 20 / 4 = 5, то есть больше 1, и пласт указывает на нефть или газ: числитель даёт метод сопротивления, знаменатель — пористость и сопротивление воды.",
+   "claim_ids": [
+    "latyshova.method_groups#c9",
+    "latyshova.method_groups#c10"
+   ],
+   "step_id": "step.latyshova.method_groups"
+  },
+  {
+   "id": "latyshova.lithology_table21.t1",
+   "type": "single",
+   "kind": "understanding",
+   "prompt": "Почему по одной кривой каротажа нельзя уверенно назвать породу в интервале?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Физические признаки пород часто общие для разных отложений, поэтому один признак неоднозначен",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Кривая — это и есть сама порода, и её нельзя читать отдельно от других кривых",
+     "misconception": "misc.log_is_rock"
+    },
+    {
+     "id": "c",
+     "text": "Одна кривая измеряет только глинистость, а остальные свойства не показывает",
+     "misconception": "misc.gr_measures_clay"
+    },
+    {
+     "id": "d",
+     "text": "Высокое сопротивление на кривой всегда означает нефть, а это нужно проверять по другим методам",
+     "misconception": "misc.high_res_oil"
+    }
+   ],
+   "answer": "a",
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Признаки пород часто общие для разных отложений, поэтому один признак не определяет породу однозначно, а точность растёт с числом признаков.",
+   "claim_ids": [
+    "latyshova.lithology_table21#c4",
+    "latyshova.lithology_table21#c3"
+   ],
+   "step_id": "step.latyshova.lithology_table21"
+  },
+  {
+   "id": "latyshova.lithology_table21.t2",
+   "type": "order",
+   "kind": "recall",
+   "prompt": "Расставьте шаги построения литологической колонки в порядке выполнения, когда порода в интервале неизвестна.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Уточнить условную колонку по образцам (керн или боковой грунтонос)",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Определить границы и толщины пластов по диаграммам отдельных методов",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Построить условную колонку по физическим признакам",
+     "misconception": null
+    },
+    {
+     "id": "d",
+     "text": "Собрать для каждого однородного интервала признаки со всех методов и сравнить с табл. 21",
+     "misconception": null
+    }
+   ],
+   "answer": [
+    "b",
+    "d",
+    "c",
+    "a"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Сначала находят границы и толщины пластов, затем оценивают литологию по сумме признаков, а при неизвестной породе строят условную колонку и уточняют её по образцам.",
+   "claim_ids": [
+    "latyshova.lithology_table21#c1",
+    "latyshova.lithology_table21#c3",
+    "latyshova.lithology_table21#c5"
+   ],
+   "step_id": "step.latyshova.lithology_table21"
+  },
+  {
+   "id": "latyshova.fig68_complex_section.t1",
+   "type": "order",
+   "kind": "transfer",
+   "prompt": "Расставьте шаги решения задачи 91 (рис. 68) в порядке выполнения.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Отметить интервалы, где вывод остаётся неоднозначным",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Собрать комплекс кривых по рис. 68 и найти границы по резким изменениям СП и микрозондов",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Сопоставить кривые с константами пород и типом разреза, по табл. 21 и геологии",
+     "misconception": null
+    }
+   ],
+   "answer": [
+    "b",
+    "c",
+    "a"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Шаг предлагает сначала собрать кривые и найти границы, затем сопоставить с константами и геологией, и в конце пометить неоднозначные интервалы.",
+   "claim_ids": [
+    "latyshova.fig68_complex_section#c7",
+    "latyshova.fig68_complex_section#c12"
+   ],
+   "step_id": "step.latyshova.fig68_complex_section"
+  },
+  {
+   "id": "latyshova.fig68_complex_section.t2",
+   "type": "single",
+   "kind": "understanding",
+   "prompt": "Почему в смешанном разрезе литологическую колонку нельзя просто «прочитать» с одной кривой?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Потому что кривая — это и есть сама порода, а в смешанном разрезе пород слишком много",
+     "misconception": "misc.log_is_rock"
+    },
+    {
+     "id": "b",
+     "text": "Потому что кривая — лишь косвенный отклик, а одинаковые отклики могут иметь разные причины (порода, поры, вода, флюид)",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Потому что высокое сопротивление всегда означает нефть, и это путает литологию",
+     "misconception": "misc.high_res_oil"
+    },
+    {
+     "id": "d",
+     "text": "Потому что гамма-каротаж напрямую измеряет глинистость, а в карбонатах этого нет",
+     "misconception": "misc.gr_measures_clay"
+    }
+   ],
+   "answer": "b",
+   "tolerance": null,
+   "unit": null,
+   "explanation": "В смешанном разрезе кривая — косвенный отклик, а сочетание пород, пор, воды и флюида даёт неоднозначность, поэтому нужна количественная интерпретация с геологией.",
+   "claim_ids": [
+    "latyshova.fig68_complex_section#c1",
+    "latyshova.fig68_complex_section#c2"
+   ],
+   "step_id": "step.latyshova.fig68_complex_section"
+  },
+  {
+   "id": "latyshova.collector_direct_signs.t1",
+   "type": "single",
+   "kind": "understanding",
+   "prompt": "На диаграммах пласта нет радиального градиента сопротивления: сопротивления зон проникновения и неизменной части почти равны. Что можно заключить о пласте?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Коллектора нет, потому что зоны проникновения не видно",
+     "misconception": "misc.log_is_rock"
+    },
+    {
+     "id": "b",
+     "text": "Коллектор не исключается: при определённом сочетании насыщений и отношения ρф/ρₙ градиента может не быть",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Пласт точно плотный, так как фильтрат не проникает",
+     "misconception": "misc.porosity_eq_perm"
+    },
+    {
+     "id": "d",
+     "text": "Пласт точно нефтеносный, так как сопротивление высокое",
+     "misconception": "misc.high_res_oil"
+    }
+   ],
+   "answer": "b",
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Отсутствие заметного градиента сопротивления не отрицает коллектор, так как равенство сопротивлений зон возможно при определённом сочетании насыщений и ρф/ρₙ.",
+   "claim_ids": [
+    "latyshova.collector_direct_signs#c16",
+    "latyshova.collector_direct_signs#c17"
+   ],
+   "step_id": "step.latyshova.collector_direct_signs"
+  },
+  {
+   "id": "latyshova.collector_direct_signs.t2",
+   "type": "multiple",
+   "kind": "transfer",
+   "prompt": "Какие признаки на качественном глинистом растворе указывают на коллектор (по табл. 21)?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Диаметр ствола dᵢ меньше номинального dₙ из-за глинистой корки",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Положительные приращения микрозондов: ГМЗ меньше ПМЗ при невысоких показаниях",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Каверна: диаметр ствола заметно больше номинального",
+     "misconception": "misc.reservoir_void"
+    },
+    {
+     "id": "d",
+     "text": "Любое высокое сопротивление пласта",
+     "misconception": "misc.high_res_oil"
+    },
+    {
+     "id": "e",
+     "text": "Кривая ГК «отражается» от проницаемой породы",
+     "misconception": "misc.gr_reflects"
+    }
+   ],
+   "answer": [
+    "a",
+    "b"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Первые два признака: сужение ствола из-за глинистой корки и положительные приращения микрозондов при невысоких показаниях.",
+   "claim_ids": [
+    "latyshova.collector_direct_signs#c5",
+    "latyshova.collector_direct_signs#c4"
+   ],
+   "step_id": "step.latyshova.collector_direct_signs"
+  },
+  {
+   "id": "latyshova.cutoff_permeability_to_h_eff.t1",
+   "type": "multiple",
+   "kind": "understanding",
+   "prompt": "Какие утверждения о границе «коллектор / неколлектор» верны по тексту шага?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Главный критерий — критическая проницаемость k*пр: порода с kпр выше порога — коллектор.",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Если kпр равна k*пр, порода относится к неколлектору.",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Коллектором считается любая порода с ненулевой пористостью, так как пористость и проницаемость — одно и то же.",
+     "misconception": "misc.porosity_eq_perm"
+    },
+    {
+     "id": "d",
+     "text": "Порог k*пр одинаков для всех районов и флюидов.",
+     "misconception": null
+    },
+    {
+     "id": "e",
+     "text": "Пласт — это пустота, поэтому порог проницаемости не нужен.",
+     "misconception": "misc.reservoir_void"
+    }
+   ],
+   "answer": [
+    "a",
+    "b"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Главный критерий — k*пр, и равенство относят к неколлектору (kпр > k*пр — коллектор, kпр ≤ k*пр — нет).",
+   "claim_ids": [
+    "latyshova.cutoff_permeability_to_h_eff#c6",
+    "latyshova.cutoff_permeability_to_h_eff#c7"
+   ],
+   "step_id": "step.latyshova.cutoff_permeability_to_h_eff"
+  },
+  {
+   "id": "latyshova.cutoff_permeability_to_h_eff.t2",
+   "type": "gap",
+   "kind": "recall",
+   "prompt": "По ЯМР показание I_сф,в близко к {{1}} пористости. Коллекторами считают пласты, у которых k_п,эф больше {{2}} %, а меньшие значения могут быть помехой аппаратуры.",
+   "options": [],
+   "answer": [
+    "эффективной",
+    "1"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "ЯМР показывает эффективную пористость, и порог коллектора — k_п,эф > 1 %.",
+   "claim_ids": [
+    "latyshova.cutoff_permeability_to_h_eff#c1",
+    "latyshova.cutoff_permeability_to_h_eff#c2"
+   ],
+   "step_id": "step.latyshova.cutoff_permeability_to_h_eff"
+  },
+  {
+   "id": "latyshova.saturation_parameter_pn.t1",
+   "type": "gap",
+   "kind": "recall",
+   "prompt": "Pн — это отношение сопротивления неизмененной части пласта к сопротивлению того же пласта при полном {{1}}. Если Pн > 1, в порах есть {{2}} или газ.",
+   "options": [],
+   "answer": [
+    "водонасыщении",
+    "нефть"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Pн сравнивает измеренное сопротивление с тем, каким оно было бы при полном водонасыщении, а Pн > 1 означает нефть или газ в порах.",
+   "claim_ids": [
+    "latyshova.saturation_parameter_pn#c2",
+    "latyshova.saturation_parameter_pn#c16"
+   ],
+   "step_id": "step.latyshova.saturation_parameter_pn"
+  },
+  {
+   "id": "latyshova.saturation_parameter_pn.t2",
+   "type": "calc",
+   "kind": "data",
+   "prompt": "Сопротивление неизмененной части пласта ρн = 12 Ом·м. По пористости получен параметр пористости 6, сопротивление пластовой воды ρв = 0,5 Ом·м. Водонасыщенное сопротивление ρвн равно параметру пористости, умноженному на ρв. Чему равен параметр насыщения Pн = ρн/ρвн?",
+   "options": [],
+   "answer": 4,
+   "tolerance": 0.01,
+   "unit": "раз (безразмерная величина)",
+   "explanation": "ρвн = 6 × 0,5 = 3 Ом·м, затем Pн = 12/3 = 4, то есть Pн > 1 и в порах есть нефть или газ.",
+   "claim_ids": [
+    "latyshova.saturation_parameter_pn#c2",
+    "latyshova.saturation_parameter_pn#c3",
+    "latyshova.saturation_parameter_pn#c16"
+   ],
+   "step_id": "step.latyshova.saturation_parameter_pn"
+  },
+  {
+   "id": "latyshova.palette_rho_kp.t1",
+   "type": "calc",
+   "kind": "data",
+   "prompt": "В примере 47 порода имеет ρп = 10 Ом·м и пористость kп = 25 %. Граница между неколлекторами и коллекторами на палетке рис. 69 проходит при kп* = 17 %. На сколько процентных пунктов пористость этой породы выше граничной?",
+   "options": [],
+   "answer": 8,
+   "tolerance": 0,
+   "unit": "процентных пунктов",
+   "explanation": "Граница коллектора на палетке — 17 %, поэтому 25 % − 17 % = 8 пунктов, и точка лежит в области коллекторов (нефть с водой).",
+   "claim_ids": [
+    "latyshova.palette_rho_kp#c1",
+    "latyshova.palette_rho_kp#c15"
+   ],
+   "step_id": "step.latyshova.palette_rho_kp"
+  },
+  {
+   "id": "latyshova.palette_rho_kp.t2",
+   "type": "order",
+   "kind": "understanding",
+   "prompt": "Расставьте шаги определения характера насыщения пласта по палетке ρп = f(kп) в правильном порядке.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Определить область, в которую попала точка",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Взять пару значений ρп и kп одного пласта с одной глубины",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Принять область точки как ответ для пласта (например, безводная нефть)",
+     "misconception": null
+    },
+    {
+     "id": "d",
+     "text": "Нанести точку (ρп, kп) на палетку рис. 69",
+     "misconception": null
+    }
+   ],
+   "answer": [
+    "b",
+    "d",
+    "a",
+    "c"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Сначала берут пару ρп и kп, наносят точку на палетку, находят область, и эта область и есть ответ для пласта.",
+   "claim_ids": [
+    "latyshova.palette_rho_kp#c13",
+    "latyshova.palette_rho_kp#c14"
+   ],
+   "step_id": "step.latyshova.palette_rho_kp"
+  },
+  {
+   "id": "latyshova.critical_values_pn_kv.t1",
+   "type": "order",
+   "kind": "data",
+   "prompt": "Расставьте шаги примера 49 по порядку: от получения кривых до вывода о притоке.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Перевести kв в Pн по зависимости Pн = f(kв)",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Получить кривые фазовых проницаемостей и Pн = f(kв) для класса коллекторов",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Сравнить Pн пласта с порогами и назвать ожидаемый приток",
+     "misconception": null
+    },
+    {
+     "id": "d",
+     "text": "Найти по кривым kв*, kв,кр, kв**",
+     "misconception": null
+    }
+   ],
+   "answer": [
+    "b",
+    "d",
+    "a",
+    "c"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Пороги сначала находят по kв из лабораторных кривых, затем переводят в Pн и только потом сравнивают с Pн пласта (примеры 49–50).",
+   "claim_ids": [
+    "latyshova.critical_values_pn_kv#c20",
+    "latyshova.critical_values_pn_kv#c21",
+    "latyshova.critical_values_pn_kv#c22"
+   ],
+   "step_id": "step.latyshova.critical_values_pn_kv"
+  },
+  {
+   "id": "latyshova.critical_values_pn_kv.t2",
+   "type": "single",
+   "kind": "transfer",
+   "prompt": "Чистый коллектор (αПС = 1) имеет Pн = 2, пороги из примера 49: Pн* = 10, Pн,кр = 3, Pн** = 1,5. Какой приток ожидается?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Чистая нефть, потому что сопротивление пласта повышено",
+     "misconception": "misc.high_res_oil"
+    },
+    {
+     "id": "b",
+     "text": "Вода с признаками нефти: Pн между Pн,кр и Pн**, ниже критического",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Чистая вода, потому что Pн меньше Pн*",
+     "misconception": null
+    },
+    {
+     "id": "d",
+     "text": "Предсказать нельзя: пороги не вычисляются, а подбираются произвольно",
+     "misconception": null
+    }
+   ],
+   "answer": "b",
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Pн = 2 лежит в зоне смеси ниже Pн,кр = 3 и выше Pн** = 1,5, что даёт воду с признаками нефти (пример 50).",
+   "claim_ids": [
+    "latyshova.critical_values_pn_kv#c22",
+    "latyshova.critical_values_pn_kv#c2"
+   ],
+   "step_id": "step.latyshova.critical_values_pn_kv"
+  },
+  {
+   "id": "latyshova.clay_collectors_classes.t1",
+   "type": "single",
+   "kind": "understanding",
+   "prompt": "Почему для глинистого коллектора одного порога параметра насыщения Pн недостаточно, чтобы решить, даст ли пласт нефть?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Критические значения Pн зависят от глинистости (α_СП), поэтому решение принимают по паре (Pн, α_СП).",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Высокое сопротивление всегда означает нефть, поэтому порог нужен только для чистых коллекторов.",
+     "misconception": "misc.high_res_oil"
+    },
+    {
+     "id": "c",
+     "text": "Кривая ПС напрямую показывает, сколько нефти содержит пласт, и заменяет Pн.",
+     "misconception": "misc.log_is_rock"
+    },
+    {
+     "id": "d",
+     "text": "Пористость и проницаемость — одно и то же, поэтому их нужно учитывать отдельно от Pн.",
+     "misconception": "misc.porosity_eq_perm"
+    }
+   ],
+   "answer": "a",
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Критические Pн зависят от α_СП (при α_СП = 1 Pн* = 10, при 0,7 — 2,1), поэтому признак — пара (Pн, α_СП).",
+   "claim_ids": [
+    "latyshova.clay_collectors_classes#c7",
+    "latyshova.clay_collectors_classes#c10",
+    "latyshova.clay_collectors_classes#c12"
+   ],
+   "step_id": "step.latyshova.clay_collectors_classes"
+  },
+  {
+   "id": "latyshova.clay_collectors_classes.t2",
+   "type": "multiple",
+   "kind": "data",
+   "prompt": "Какие утверждения о табл. 22 верны?",
+   "options": [
+    {
+     "id": "a",
+     "text": "При α_СП = 1,0 kв* = 30 %, а Pн* = 10.",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "При α_СП = 0,7 kв* = 50 %, а Pн* = 2,1.",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "При уменьшении α_СП от 1,0 до 0,7 значение Pн* растёт.",
+     "misconception": "misc.high_res_oil"
+    },
+    {
+     "id": "d",
+     "text": "При α_СП = 0,9 kв,кр = 37 %.",
+     "misconception": null
+    },
+    {
+     "id": "e",
+     "text": "Для α_СП = 0,8 значение kв** равно 80 %.",
+     "misconception": null
+    }
+   ],
+   "answer": [
+    "a",
+    "b"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Табл. 22: α_СП = 1,0 даёт 30 % и Pн* = 10, α_СП = 0,7 даёт 50 % и Pн* = 2,1; при снижении α_СП Pн* падает.",
+   "claim_ids": [
+    "latyshova.clay_collectors_classes#c10",
+    "latyshova.clay_collectors_classes#c11",
+    "latyshova.clay_collectors_classes#c12"
+   ],
+   "step_id": "step.latyshova.clay_collectors_classes"
+  },
+  {
+   "id": "latyshova.contacts_h_eff.t1",
+   "type": "multiple",
+   "kind": "understanding",
+   "prompt": "Как определяют эффективную толщину коллектора в зоне контакта нефти и воды? Выберите верные утверждения.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Её считают от кровли коллектора до уровня контакта (ВНК или ГВК).",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Если граница резкая, контактом считают подошву верхней высокоомной продуктивной части.",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Водонефтяной контакт всегда резкая плоская граница, поэтому переходную зону не учитывают.",
+     "misconception": "misc.owc_sharp"
+    },
+    {
+     "id": "d",
+     "text": "Любой высокоомный интервал коллектора считают продуктивным, даже если он ниже контакта.",
+     "misconception": "misc.high_res_oil"
+    },
+    {
+     "id": "e",
+     "text": "Толщину берут для всего коллектора, включая водоносную часть ниже контакта.",
+     "misconception": "misc.reservoir_void"
+    }
+   ],
+   "answer": [
+    "a",
+    "b"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Продуктивна только часть выше контакта, поэтому толщину считают от кровли до контакта, а при резкой границе контакт — подошва высокоомной части.",
+   "claim_ids": [
+    "latyshova.contacts_h_eff#c5",
+    "latyshova.contacts_h_eff#c6",
+    "latyshova.contacts_h_eff#c4"
+   ],
+   "step_id": "step.latyshova.contacts_h_eff"
+  },
+  {
+   "id": "latyshova.contacts_h_eff.t2",
+   "type": "gap",
+   "kind": "recall",
+   "prompt": "ГНК устанавливают по {{1}} методам при повторных замерах в обсаженной скважине. Замеры повторяют до стабилизации повышенных показаний НМ — это признак того, что {{2}} зоны проникновения завершилось.",
+   "options": [],
+   "answer": [
+    "нейтронным",
+    "расформирование"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Стабилизация показаний НМ означает, что зона проникновения расформировалась, и тогда ГНК определяется по нейтронным методам надёжно.",
+   "claim_ids": [
+    "latyshova.contacts_h_eff#c14",
+    "latyshova.contacts_h_eff#c16"
+   ],
+   "step_id": "step.latyshova.contacts_h_eff"
+  },
+  {
+   "id": "latyshova.interlayers_thin_layered.t1",
+   "type": "gap",
+   "kind": "recall",
+   "prompt": "Заполните пропуски. Глины и породы с глинистым цементом отмечаются повышенными показаниями {{1}}. Плотные породы с {{2}} цементом (карбонатным или силикатным) на СП и ГМ почти не видны.",
+   "options": [],
+   "answer": [
+    "микрозондов",
+    "неактивным"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Глинистые прослои выделяются по микрозондам, а плотные породы с неактивным цементом не дают аномалии на СП и ГМ.",
+   "claim_ids": [
+    "latyshova.interlayers_thin_layered#c3",
+    "latyshova.interlayers_thin_layered#c4"
+   ],
+   "step_id": "step.latyshova.interlayers_thin_layered"
+  },
+  {
+   "id": "latyshova.interlayers_thin_layered.t2",
+   "type": "calc",
+   "kind": "data",
+   "prompt": "Слоистая пачка имеет общую толщину 28 м. По уравнению (63) найдена доля глины χсп = 0,3. По формуле (64) эффективная толщина равна общей толщине, умноженной на (1 − χсп). Чему равна эффективная толщина пачки?",
+   "options": [],
+   "answer": 19.6,
+   "tolerance": 0.1,
+   "unit": "м",
+   "explanation": "По (64) эффективная толщина = общая толщина × (1 − χсп) = 28 × 0,7 = 19,6 м.",
+   "claim_ids": [
+    "latyshova.interlayers_thin_layered#c10"
+   ],
+   "step_id": "step.latyshova.interlayers_thin_layered"
+  },
+  {
+   "id": "latyshova.thickness_tasks_figs.t1",
+   "type": "single",
+   "kind": "understanding",
+   "prompt": "В задаче 100 в 18-метровой толще есть глины (2,2 Ом·м), плотные породы с неактивным цементом (38 Ом·м) и продуктивный коллектор (25 Ом·м). Почему нельзя выделить коллектор только по высокому сопротивлению?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Плотный прослой имеет сопротивление выше, чем коллектор, но притока не даёт, поэтому по одному сопротивлению их не отличить.",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Высокое сопротивление всегда означает нефть или газ, поэтому плотный прослой тоже считается коллектором.",
+     "misconception": "misc.high_res_oil"
+    },
+    {
+     "id": "c",
+     "text": "Сопротивление коллектора всегда ниже, чем у глин, поэтому 25 Ом·м не может быть коллектором.",
+     "misconception": null
+    },
+    {
+     "id": "d",
+     "text": "Сопротивление измеряют только в глинах, в других породах оно не определяется.",
+     "misconception": "misc.log_is_rock"
+    }
+   ],
+   "answer": "a",
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Плотная порода с неактивным цементом даёт 38 Ом·м против 25 у коллектора и не даёт притока, поэтому нужны СП, методы пористости или керн.",
+   "claim_ids": [
+    "latyshova.thickness_tasks_figs#c8"
+   ],
+   "step_id": "step.latyshova.thickness_tasks_figs"
+  },
+  {
+   "id": "latyshova.thickness_tasks_figs.t2",
+   "type": "order",
+   "kind": "transfer",
+   "prompt": "Расставьте шаги определения эффективной толщины пачки в порядке, описанном в шаге курса.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Выбрать опорные интервалы: глины, чистый коллектор, максимум СП",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Найти на диаграммах прослои неколлектора: глины и плотные породы",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Вычесть толщину неколлекторов из общей и получить эффективную толщину",
+     "misconception": null
+    },
+    {
+     "id": "d",
+     "text": "Оценить доли глин и плотных прослоев",
+     "misconception": null
+    }
+   ],
+   "answer": [
+    "b",
+    "a",
+    "d",
+    "c"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Шаг курса: сначала найти неколлектор, затем выбрать опорные интервалы, оценить доли и вычесть их толщину из общей.",
+   "claim_ids": [
+    "latyshova.thickness_tasks_figs#c4",
+    "latyshova.thickness_tasks_figs#c7"
+   ],
+   "step_id": "step.latyshova.thickness_tasks_figs"
+  },
+  {
+   "id": "latyshova.carbonate_features_normalization.t1",
+   "type": "order",
+   "prompt": "Расставьте шаги способа нормализации (наложения) диаграмм в карбонатном разрезе по порядку.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Найти расхождения кривых: это продуктивные коллекторы (при пресном фильтрате — просто коллекторы)",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Взять кривую ρп фокусированного метода большой глубинности и кривую одного из методов пористости",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Добиться совпадения кривых в неколлекторах и водоносных коллекторах",
+     "misconception": null
+    },
+    {
+     "id": "d",
+     "text": "Преобразовать шкалу одной из кривых (например, линейную в логарифмическую с подходящим модулем)",
+     "misconception": null
+    }
+   ],
+   "answer": [
+    "b",
+    "d",
+    "c",
+    "a"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Сначала берут две кривые, затем преобразуют шкалу, совмещают в неколлекторах и водоносных коллекторах и только после этого ищут расхождения.",
+   "claim_ids": [
+    "latyshova.carbonate_features_normalization#c10",
+    "latyshova.carbonate_features_normalization#c12",
+    "latyshova.carbonate_features_normalization#c11",
+    "latyshova.carbonate_features_normalization#c14"
+   ],
+   "step_id": "step.latyshova.carbonate_features_normalization"
+  },
+  {
+   "id": "latyshova.carbonate_features_normalization.t2",
+   "type": "single",
+   "kind": "understanding",
+   "prompt": "В карбонатном разрезе на диаграмме ρп видны интервалы с высоким сопротивлением. Почему по одному высокому ρп нельзя считать их нефтеносными и зачем нужно сравнение с кривой пористости?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Высокое сопротивление всегда означает нефть, а сравнение нужно лишь для уточнения толщины пласта",
+     "misconception": "misc.high_res_oil"
+    },
+    {
+     "id": "b",
+     "text": "Из-за низкой пористости фильтрат проникает глубоко, и ρп коллектора и плотной породы соизмеримы, поэтому сравнивают с пористостью",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Кривая ρп в карбонатах отражает только глинистость, поэтому её нужно заменить кривой СП",
+     "misconception": "misc.gr_measures_clay"
+    },
+    {
+     "id": "d",
+     "text": "Кривая пористости напрямую показывает нефть, а ρп нужна только для масштаба",
+     "misconception": "misc.log_is_rock"
+    }
+   ],
+   "answer": "b",
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Глубокое проникновение фильтрата делает ρп продуктивного коллектора и неколлектора соизмеримыми, поэтому нужно сравнение с пористостью.",
+   "claim_ids": [
+    "latyshova.carbonate_features_normalization#c4",
+    "latyshova.carbonate_features_normalization#c6",
+    "latyshova.carbonate_features_normalization#c10"
+   ],
+   "step_id": "step.latyshova.carbonate_features_normalization"
+  },
+  {
+   "id": "latyshova.example54_carbonate_vnk.t1",
+   "type": "single",
+   "kind": "understanding",
+   "prompt": "Как в примере 54 определена граница нефти и воды (ВНК) в карбонатном разрезе?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Её проводят на 1083 м там, где параметр насыщения Pн достигает критического значения около 2,5, при допущении ρпНМ ≈ ρп",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Это резкая плоская линия, которую напрямую измеряет прибор на диаграмме",
+     "misconception": "misc.owc_sharp"
+    },
+    {
+     "id": "c",
+     "text": "Она там, где сопротивление просто высокое: высокое сопротивление всегда означает нефть",
+     "misconception": "misc.high_res_oil"
+    },
+    {
+     "id": "d",
+     "text": "Её проводят по глубине, где заканчивается интервал неколлекторов 4,5 м",
+     "misconception": null
+    }
+   ],
+   "answer": "a",
+   "tolerance": null,
+   "unit": null,
+   "explanation": "В шаге ВНК проведён на 1083 м по порогу Pн.кр ≈ 2,5 при условии ρпНМ ≈ ρп, то есть это решение интерпретатора, а не измеренная линия.",
+   "claim_ids": [
+    "latyshova.example54_carbonate_vnk#c4"
+   ],
+   "step_id": "step.latyshova.example54_carbonate_vnk"
+  },
+  {
+   "id": "latyshova.example54_carbonate_vnk.t2",
+   "type": "multiple",
+   "kind": "understanding",
+   "prompt": "Какие утверждения о нахождении эффективной толщины в примере 54 верны?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Из общей толщины продуктивных отложений 13,5 м вычитают суммарную толщину неколлекторов",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Неколлекторы выделяют по микрозондам, а иногда по сближению нормализованных кривых НГМ и БК-3",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Эффективная толщина равна общей толщине 13,5 м, так как пласт — пустота, а не порода",
+     "misconception": "misc.reservoir_void"
+    },
+    {
+     "id": "d",
+     "text": "Эффективная толщина получается 9 м",
+     "misconception": null
+    },
+    {
+     "id": "e",
+     "text": "Неколлекторы определяют только по гамма-каротажу, который измеряет глинистость напрямую",
+     "misconception": "misc.gr_measures_clay"
+    }
+   ],
+   "answer": [
+    "a",
+    "b",
+    "d"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Согласно шагу, h_φ = 13,5 − 4,5 = 9 м, а неколлекторы находят по микрозондам и в отдельных случаях по сближению кривых НГМ и БК-3.",
+   "claim_ids": [
+    "latyshova.example54_carbonate_vnk#c6",
+    "latyshova.example54_carbonate_vnk#c7"
+   ],
+   "step_id": "step.latyshova.example54_carbonate_vnk"
+  },
+  {
+   "id": "latyshova.kp_star_carbonate.t1",
+   "type": "multiple",
+   "kind": "understanding",
+   "prompt": "Какие утверждения о пороге пористости kп* в карбонатных коллекторах верны согласно тексту шага?",
+   "options": [
+    {
+     "id": "a",
+     "text": "kп* сильно меняется в зависимости от структуры порового пространства.",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Порог растёт при переходе от крупных пор к мелким.",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Для всех карбонатов можно взять один универсальный порог, например 6–8 %, для всей скважины.",
+     "misconception": "misc.reserves_exact"
+    },
+    {
+     "id": "d",
+     "text": "Ошибка в kп* почти не влияет на эффективную толщину hэф.",
+     "misconception": "misc.model_knows"
+    },
+    {
+     "id": "e",
+     "text": "Пласт считают коллектором, если его пористость ниже kп*.",
+     "misconception": "misc.reservoir_void"
+    }
+   ],
+   "answer": [
+    "a",
+    "b"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Автор подчёркивает, что kп* зависит от структуры пор и растёт от крупных пор к мелким.",
+   "claim_ids": [
+    "latyshova.kp_star_carbonate#c1",
+    "latyshova.kp_star_carbonate#c5"
+   ],
+   "step_id": "step.latyshova.kp_star_carbonate"
+  },
+  {
+   "id": "latyshova.kp_star_carbonate.t2",
+   "type": "gap",
+   "kind": "recall",
+   "prompt": "В примере 55 за kп* принимают значение kп, при котором кривая k_{п,св} = f(kп) достигает {{1}} %. Для большинства межзерновых карбонатных коллекторов крупнейших месторождений СССР типичное kп* лежит в пределах {{2}} %.",
+   "options": [],
+   "answer": [
+    "70",
+    "6–8"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Критерий примера 55 — 70 %, а типичный диапазон для крупнейших месторождений СССР — 6–8 %.",
+   "claim_ids": [
+    "latyshova.kp_star_carbonate#c4",
+    "latyshova.kp_star_carbonate#c6"
+   ],
+   "step_id": "step.latyshova.kp_star_carbonate"
+  },
+  {
+   "id": "latyshova.fracture_collectors.t1",
+   "type": "gap",
+   "kind": "recall",
+   "prompt": "Трещины в таком коллекторе мало {{1}}, но очень хорошо {{2}} флюид. Коэффициент трещиноватости обычно меньше {{3}} %.",
+   "options": [],
+   "answer": [
+    "вмещают",
+    "пропускают",
+    "0,5"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Ёмкость трещин мала (kп,т обычно < 0,5 %), но они идеальные пути фильтрации и дают высокую проницаемость.",
+   "claim_ids": [
+    "latyshova.fracture_collectors#c7",
+    "latyshova.fracture_collectors#c8"
+   ],
+   "step_id": "step.latyshova.fracture_collectors"
+  },
+  {
+   "id": "latyshova.fracture_collectors.t2",
+   "type": "single",
+   "kind": "understanding",
+   "prompt": "В карбонатном разрезе стандартный комплекс ГИС показывает низкий kп, номинальный диаметр скважины, высокое сопротивление без радиального градиента, низкие СП и ГМ. Что можно сказать об этой зоне только по этим кривым?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Это точно плотный неколлектор, трещин там нет.",
+     "misconception": "misc.log_is_rock"
+    },
+    {
+     "id": "b",
+     "text": "Это нефтяной пласт, потому что сопротивление высокое.",
+     "misconception": "misc.high_res_oil"
+    },
+    {
+     "id": "c",
+     "text": "Это может быть трещинный коллектор: по таким кривым его не отличить от плотной породы, нужны данные ГТИ и других методов.",
+     "misconception": null
+    },
+    {
+     "id": "d",
+     "text": "Это пласт-пустота, поэтому пористость низкая, а проницаемость нулевая.",
+     "misconception": "misc.reservoir_void"
+    }
+   ],
+   "answer": "c",
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Стандартный ГИС не обнаруживает трещинный коллектор, его признаки рассчитаны на межзерновой коллектор, поэтому картина похожа на плотную породу.",
+   "claim_ids": [
+    "latyshova.fracture_collectors#c13",
+    "latyshova.fracture_collectors#c14",
+    "latyshova.fracture_collectors#c15"
+   ],
+   "step_id": "step.latyshova.fracture_collectors"
+  }
+ ]
+}

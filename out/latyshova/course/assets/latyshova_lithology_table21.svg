@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" font-family="Segoe UI, Arial, sans-serif">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8A96A3"/></marker></defs>
+<rect width="960" height="540" fill="#0F1419"/>
+<text x="32" y="46" fill="#ECEFF4" font-size="26" font-weight="700">Как собрать литологическую колонку</text>
+<rect x="788" y="20" width="150" height="36" rx="18" fill="#8E44AD"/>
+<text x="863" y="44" fill="#fff" font-size="17" font-weight="700" text-anchor="middle">схема</text>
+<rect x="32" y="100" width="280" height="330" rx="14" fill="#1A2129" stroke="#F1C40F" stroke-width="3"/>
+<text x="48" y="130" fill="#F1C40F" font-size="18" font-weight="700">Причина / механизм</text>
+<text x="48" y="158" fill="#ECEFF4" font-size="17">Каждый метод измеряет своё</text>
+<text x="48" y="182" fill="#ECEFF4" font-size="17">физическое свойство:</text>
+<text x="48" y="206" fill="#ECEFF4" font-size="17">сопротивление, самопроизвольную</text>
+<text x="48" y="230" fill="#ECEFF4" font-size="17">поляризацию (СП), диаметр</text>
+<text x="48" y="254" fill="#ECEFF4" font-size="17">скважины, естественную гамма-</text>
+<text x="48" y="278" fill="#ECEFF4" font-size="17">активность, отклик на нейтроны.</text>
+<line x1="316" y1="265" x2="346" y2="265" stroke="#8A96A3" stroke-width="4" marker-end="url(#ah)"/>
+<rect x="350" y="100" width="280" height="330" rx="14" fill="#1A2129" stroke="#2E8B57" stroke-width="3"/>
+<text x="366" y="130" fill="#2E8B57" font-size="18" font-weight="700">Следствие</text>
+<text x="366" y="158" fill="#ECEFF4" font-size="17">Разрез строят в два шага:</text>
+<text x="366" y="182" fill="#ECEFF4" font-size="17">находят границы и толщины</text>
+<text x="366" y="206" fill="#ECEFF4" font-size="17">пластов, затем по сумме</text>
+<text x="366" y="230" fill="#ECEFF4" font-size="17">признаков разных методов</text>
+<text x="366" y="254" fill="#ECEFF4" font-size="17">определяют породу. Чем больше</text>
+<text x="366" y="278" fill="#ECEFF4" font-size="17">признаков, тем точнее вывод.</text>
+<line x1="634" y1="265" x2="664" y2="265" stroke="#8A96A3" stroke-width="4" marker-end="url(#ah)"/>
+<rect x="668" y="100" width="260" height="330" rx="14" fill="#1A2129" stroke="#3498DB" stroke-width="3"/>
+<text x="684" y="130" fill="#3498DB" font-size="18" font-weight="700">Как используют</text>
+<text x="684" y="158" fill="#ECEFF4" font-size="17">Если порода неизвестна,</text>
+<text x="684" y="182" fill="#ECEFF4" font-size="17">строят условную колонку по</text>
+<text x="684" y="206" fill="#ECEFF4" font-size="17">физическим признакам и</text>
+<text x="684" y="230" fill="#ECEFF4" font-size="17">уточняют её по образцам:</text>
+<text x="684" y="254" fill="#ECEFF4" font-size="17">керну или пробам боковым</text>
+<text x="684" y="278" fill="#ECEFF4" font-size="17">грунтоносом. Табл. 21 даёт</text>
+<text x="32" y="524" fill="#8A96A3" font-size="14">по главе, стр. 92, 93, 94, 95</text>
+</svg>

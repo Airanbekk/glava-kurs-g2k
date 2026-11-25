@@ -1,0 +1,491 @@
+{
+ "chapter": "basniev_gl23-24",
+ "illustrations": [
+  {
+   "id": "ill.basniev.elastic_energy_source",
+   "step_id": "step.basniev.elastic_energy_source",
+   "node_id": "basniev.elastic_energy_source",
+   "file": "assets/basniev_elastic_energy_source.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Причина → следствие → практика. Собрано кодом из утверждений узла.",
+   "alt": "Схема: причина → следствие → практика — Откуда берётся упругая энергия пласта",
+   "source": "по главе, стр. 474",
+   "claim_ids": [
+    "basniev.elastic_energy_source#c1",
+    "basniev.elastic_energy_source#c2",
+    "basniev.elastic_energy_source#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.basniev.elastic_regime_kinds_speed",
+   "step_id": "step.basniev.elastic_regime_kinds_speed",
+   "node_id": "basniev.elastic_regime_kinds_speed",
+   "file": "assets/basniev_elastic_regime_kinds_speed.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Причина → следствие → практика. Собрано кодом из утверждений узла.",
+   "alt": "Схема: причина → следствие → практика — Виды режима и медленное выравнивание давления",
+   "source": "по главе, стр. 474, 475",
+   "claim_ids": [
+    "basniev.elastic_regime_kinds_speed#c1",
+    "basniev.elastic_regime_kinds_speed#c2",
+    "basniev.elastic_regime_kinds_speed#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.basniev.elastic_reserve_def",
+   "step_id": "step.basniev.elastic_reserve_def",
+   "node_id": "basniev.elastic_reserve_def",
+   "file": "assets/basniev_elastic_reserve_def.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Смысл формулы и обозначения. Собрано кодом из утверждений узла.",
+   "alt": "Схема: смысл формулы и обозначения — Сколько жидкости даёт сжатие пласта",
+   "source": "по главе, стр. 475, 476",
+   "claim_ids": [
+    "basniev.elastic_reserve_def#c1",
+    "basniev.elastic_reserve_def#c2",
+    "basniev.elastic_reserve_def#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.basniev.elasticity_coefficient",
+   "step_id": "step.basniev.elasticity_coefficient",
+   "node_id": "basniev.elasticity_coefficient",
+   "file": "assets/basniev_elasticity_coefficient.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Смысл формулы и обозначения. Собрано кодом из утверждений узла.",
+   "alt": "Схема: смысл формулы и обозначения — Упругоёмкость β*: один коэффициент пласта",
+   "source": "по главе, стр. 476",
+   "claim_ids": [
+    "basniev.elasticity_coefficient#c1",
+    "basniev.elasticity_coefficient#c2",
+    "basniev.elasticity_coefficient#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.basniev.depletion_equation",
+   "step_id": "step.basniev.depletion_equation",
+   "node_id": "basniev.depletion_equation",
+   "file": "assets/basniev_depletion_equation.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Смысл формулы и обозначения. Собрано кодом из утверждений узла.",
+   "alt": "Схема: смысл формулы и обозначения — Баланс: отбор равен убыли запаса",
+   "source": "по главе, стр. 476, 477",
+   "claim_ids": [
+    "basniev.depletion_equation#c1",
+    "basniev.depletion_equation#c2",
+    "basniev.depletion_equation#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.basniev.elastic_significance",
+   "step_id": "step.basniev.elastic_significance",
+   "node_id": "basniev.elastic_significance",
+   "file": "assets/basniev_elastic_significance.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Причина → следствие → практика. Собрано кодом из утверждений узла.",
+   "alt": "Схема: причина → следствие → практика — Сколько нефти даёт упругий режим",
+   "source": "по главе, стр. 477, 478",
+   "claim_ids": [
+    "basniev.elastic_significance#c1",
+    "basniev.elastic_significance#c2",
+    "basniev.elastic_significance#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.basniev.model_state_equations",
+   "step_id": "step.basniev.model_state_equations",
+   "node_id": "basniev.model_state_equations",
+   "file": "assets/basniev_model_state_equations.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Смысл формулы и обозначения. Собрано кодом из утверждений узла.",
+   "alt": "Схема: смысл формулы и обозначения — Из чего собрана модель фильтрации",
+   "source": "по главе, стр. 478, 479",
+   "claim_ids": [
+    "basniev.model_state_equations#c1",
+    "basniev.model_state_equations#c2",
+    "basniev.model_state_equations#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.basniev.piezo_derivation",
+   "step_id": "step.basniev.piezo_derivation",
+   "node_id": "basniev.piezo_derivation",
+   "file": "assets/basniev_piezo_derivation.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Смысл формулы и обозначения. Собрано кодом из утверждений узла.",
+   "alt": "Схема: смысл формулы и обозначения — Как свести модель к одному уравнению",
+   "source": "по главе, стр. 479, 480",
+   "claim_ids": [
+    "basniev.piezo_derivation#c1",
+    "basniev.piezo_derivation#c2",
+    "basniev.piezo_derivation#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.basniev.piezo_equation",
+   "step_id": "step.basniev.piezo_equation",
+   "node_id": "basniev.piezo_equation",
+   "file": "assets/basniev_piezo_equation.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Смысл формулы и обозначения. Собрано кодом из утверждений узла.",
+   "alt": "Схема: смысл формулы и обозначения — Давление растекается как тепло",
+   "source": "по главе, стр. 480",
+   "claim_ids": [
+    "basniev.piezo_equation#c1",
+    "basniev.piezo_equation#c2",
+    "basniev.piezo_equation#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.basniev.piezo_coefficient",
+   "step_id": "step.basniev.piezo_coefficient",
+   "node_id": "basniev.piezo_coefficient",
+   "file": "assets/basniev_piezo_coefficient.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Смысл формулы и обозначения. Собрано кодом из утверждений узла.",
+   "alt": "Схема: смысл формулы и обозначения — Скорость выравнивания давления κ",
+   "source": "по главе, стр. 480, 481",
+   "claim_ids": [
+    "basniev.piezo_coefficient#c1",
+    "basniev.piezo_coefficient#c2",
+    "basniev.piezo_coefficient#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.basniev.gallery_pressure_setup",
+   "step_id": "step.basniev.gallery_pressure_setup",
+   "node_id": "basniev.gallery_pressure_setup",
+   "file": "assets/basniev_gallery_pressure_setup.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Смысл формулы и обозначения. Собрано кодом из утверждений узла.",
+   "alt": "Схема: смысл формулы и обозначения — Постановка задачи и замена переменной",
+   "source": "по главе, стр. 481, 482, 483",
+   "claim_ids": [
+    "basniev.gallery_pressure_setup#c1",
+    "basniev.gallery_pressure_setup#c2",
+    "basniev.gallery_pressure_setup#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.basniev.gallery_erf_solution",
+   "step_id": "step.basniev.gallery_erf_solution",
+   "node_id": "basniev.gallery_erf_solution",
+   "file": "assets/basniev_gallery_erf_solution.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Смысл формулы и обозначения. Собрано кодом из утверждений узла.",
+   "alt": "Схема: смысл формулы и обозначения — Профиль давления через erf",
+   "source": "по главе, стр. 483, 484",
+   "claim_ids": [
+    "basniev.gallery_erf_solution#c1",
+    "basniev.gallery_erf_solution#c2",
+    "basniev.gallery_erf_solution#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.basniev.gallery_rate",
+   "step_id": "step.basniev.gallery_rate",
+   "node_id": "basniev.gallery_rate",
+   "file": "assets/basniev_gallery_rate.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Смысл формулы и обозначения. Собрано кодом из утверждений узла.",
+   "alt": "Схема: смысл формулы и обозначения — Дебит падает как 1/√t",
+   "source": "по главе, стр. 484, 485",
+   "claim_ids": [
+    "basniev.gallery_rate#c1",
+    "basniev.gallery_rate#c2",
+    "basniev.gallery_rate#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.basniev.gallery_const_rate",
+   "step_id": "step.basniev.gallery_const_rate",
+   "node_id": "basniev.gallery_const_rate",
+   "file": "assets/basniev_gallery_const_rate.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Смысл формулы и обозначения. Собрано кодом из утверждений узла.",
+   "alt": "Схема: смысл формулы и обозначения — Постоянный дебит: уравнение для скорости",
+   "source": "по главе, стр. 485, 486",
+   "claim_ids": [
+    "basniev.gallery_const_rate#c1",
+    "basniev.gallery_const_rate#c2",
+    "basniev.gallery_const_rate#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.basniev.gallery_const_rate_pressure",
+   "step_id": "step.basniev.gallery_const_rate_pressure",
+   "node_id": "basniev.gallery_const_rate_pressure",
+   "file": "assets/basniev_gallery_const_rate_pressure.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Смысл формулы и обозначения. Собрано кодом из утверждений узла.",
+   "alt": "Схема: смысл формулы и обозначения — Давление на галерее и предел модели",
+   "source": "по главе, стр. 487, 488",
+   "claim_ids": [
+    "basniev.gallery_const_rate_pressure#c1",
+    "basniev.gallery_const_rate_pressure#c2",
+    "basniev.gallery_const_rate_pressure#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.basniev.radial_setup",
+   "step_id": "step.basniev.radial_setup",
+   "node_id": "basniev.radial_setup",
+   "file": "assets/basniev_radial_setup.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Смысл формулы и обозначения. Собрано кодом из утверждений узла.",
+   "alt": "Схема: смысл формулы и обозначения — Скважина как точечный сток",
+   "source": "по главе, стр. 488, 489",
+   "claim_ids": [
+    "basniev.radial_setup#c1",
+    "basniev.radial_setup#c2",
+    "basniev.radial_setup#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.basniev.radial_solution",
+   "step_id": "step.basniev.radial_solution",
+   "node_id": "basniev.radial_solution",
+   "file": "assets/basniev_radial_solution.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Смысл формулы и обозначения. Собрано кодом из утверждений узла.",
+   "alt": "Схема: смысл формулы и обозначения — Решение через показательную функцию",
+   "source": "по главе, стр. 489, 490",
+   "claim_ids": [
+    "basniev.radial_solution#c1",
+    "basniev.radial_solution#c2",
+    "basniev.radial_solution#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.basniev.main_formula",
+   "step_id": "step.basniev.main_formula",
+   "node_id": "basniev.main_formula",
+   "file": "assets/basniev_main_formula.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Смысл формулы и обозначения. Собрано кодом из утверждений узла.",
+   "alt": "Схема: смысл формулы и обозначения — Основная формула и её логарифмический вид",
+   "source": "по главе, стр. 491",
+   "claim_ids": [
+    "basniev.main_formula#c1",
+    "basniev.main_formula#c2",
+    "basniev.main_formula#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.basniev.radial_rate_fourier",
+   "step_id": "step.basniev.radial_rate_fourier",
+   "node_id": "basniev.radial_rate_fourier",
+   "file": "assets/basniev_radial_rate_fourier.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Смысл формулы и обозначения. Собрано кодом из утверждений узла.",
+   "alt": "Схема: смысл формулы и обозначения — Расход и безразмерное время Фурье",
+   "source": "по главе, стр. 492",
+   "claim_ids": [
+    "basniev.radial_rate_fourier#c1",
+    "basniev.radial_rate_fourier#c2",
+    "basniev.radial_rate_fourier#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.basniev.formula_accuracy",
+   "step_id": "step.basniev.formula_accuracy",
+   "node_id": "basniev.formula_accuracy",
+   "file": "assets/basniev_formula_accuracy.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Решение на данных: признаки → правило → вывод и где оно ломается. Собрано кодом из утверждений узла.",
+   "alt": "Схема: решение на данных: признаки → правило → вывод и где оно ломается — Когда бесконечный пласт — хорошее приближение",
+   "source": "по главе, стр. 492, 493",
+   "claim_ids": [
+    "basniev.formula_accuracy#c1",
+    "basniev.formula_accuracy#c2",
+    "basniev.formula_accuracy#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.basniev.piezometric_curves",
+   "step_id": "step.basniev.piezometric_curves",
+   "node_id": "basniev.piezometric_curves",
+   "file": "assets/basniev_piezometric_curves.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Причина → следствие → практика. Собрано кодом из утверждений узла.",
+   "alt": "Схема: причина → следствие → практика — Воронка депрессии у забоя",
+   "source": "по главе, стр. 493",
+   "claim_ids": [
+    "basniev.piezometric_curves#c1",
+    "basniev.piezometric_curves#c2",
+    "basniev.piezometric_curves#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.basniev.pssc_idea",
+   "step_id": "step.basniev.pssc_idea",
+   "node_id": "basniev.pssc_idea",
+   "file": "assets/basniev_pssc_idea.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Причина → следствие → практика. Собрано кодом из утверждений узла.",
+   "alt": "Схема: причина → следствие → практика — ПССС: возмущённая зона и две фазы",
+   "source": "по главе, стр. 494, 495",
+   "claim_ids": [
+    "basniev.pssc_idea#c1",
+    "basniev.pssc_idea#c2",
+    "basniev.pssc_idea#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.basniev.pssc_gallery_const_rate",
+   "step_id": "step.basniev.pssc_gallery_const_rate",
+   "node_id": "basniev.pssc_gallery_const_rate",
+   "file": "assets/basniev_pssc_gallery_const_rate.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Смысл формулы и обозначения. Собрано кодом из утверждений узла.",
+   "alt": "Схема: смысл формулы и обозначения — ПССС для галереи: граница √(2κt)",
+   "source": "по главе, стр. 495, 496",
+   "claim_ids": [
+    "basniev.pssc_gallery_const_rate#c1",
+    "basniev.pssc_gallery_const_rate#c2",
+    "basniev.pssc_gallery_const_rate#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.basniev.pssc_gallery_const_pressure",
+   "step_id": "step.basniev.pssc_gallery_const_pressure",
+   "node_id": "basniev.pssc_gallery_const_pressure",
+   "file": "assets/basniev_pssc_gallery_const_pressure.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Смысл формулы и обозначения. Собрано кодом из утверждений узла.",
+   "alt": "Схема: смысл формулы и обозначения — ПССС: галерея при заданной депрессии",
+   "source": "по главе, стр. 496, 497",
+   "claim_ids": [
+    "basniev.pssc_gallery_const_pressure#c1",
+    "basniev.pssc_gallery_const_pressure#c2",
+    "basniev.pssc_gallery_const_pressure#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.basniev.pssc_radial_const_rate",
+   "step_id": "step.basniev.pssc_radial_const_rate",
+   "node_id": "basniev.pssc_radial_const_rate",
+   "file": "assets/basniev_pssc_radial_const_rate.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Смысл формулы и обозначения. Собрано кодом из утверждений узла.",
+   "alt": "Схема: смысл формулы и обозначения — ПССС для скважины: радиус возмущения",
+   "source": "по главе, стр. 497, 498, 499",
+   "claim_ids": [
+    "basniev.pssc_radial_const_rate#c1",
+    "basniev.pssc_radial_const_rate#c2",
+    "basniev.pssc_radial_const_rate#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.basniev.pssc_radial_const_pressure_remarks",
+   "step_id": "step.basniev.pssc_radial_const_pressure_remarks",
+   "node_id": "basniev.pssc_radial_const_pressure_remarks",
+   "file": "assets/basniev_pssc_radial_const_pressure_remarks.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Решение на данных: признаки → правило → вывод и где оно ломается. Собрано кодом из утверждений узла.",
+   "alt": "Схема: решение на данных: признаки → правило → вывод и где оно ломается — Где ПССС точен, а где груб",
+   "source": "по главе, стр. 499, 500",
+   "claim_ids": [
+    "basniev.pssc_radial_const_pressure_remarks#c1",
+    "basniev.pssc_radial_const_pressure_remarks#c2",
+    "basniev.pssc_radial_const_pressure_remarks#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.basniev.pirverdyan_method",
+   "step_id": "step.basniev.pirverdyan_method",
+   "node_id": "basniev.pirverdyan_method",
+   "file": "assets/basniev_pirverdyan_method.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Причина → следствие → практика. Собрано кодом из утверждений узла.",
+   "alt": "Схема: причина → следствие → практика — Парабола давления вместо прямой",
+   "source": "по главе, стр. 500",
+   "claim_ids": [
+    "basniev.pirverdyan_method#c1",
+    "basniev.pirverdyan_method#c2",
+    "basniev.pirverdyan_method#c3"
+   ],
+   "prompt": null
+  }
+ ]
+}

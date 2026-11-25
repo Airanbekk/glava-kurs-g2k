@@ -1,0 +1,63 @@
+{
+  "_comment": "Реестр глав. Новая глава = одна запись: md, страницы PDF, префикс id, язык, домен. Код движка не меняется.",
+  "latyshova": {
+    "chapter": "latyshova_gl5_par17-20",
+    "md": "inputs/chapters/train_latyshova.md",
+    "pages": [[90, 108]],
+    "prefix": "latyshova",
+    "book": "Латышова М. Г. Практическое руководство по интерпретации диаграмм ГИС (1991), гл. V §17–20",
+    "language": "ru",
+    "domain": "geo",
+    "split": "train"
+  },
+  "basniev": {
+    "chapter": "basniev_gl23-24",
+    "md": "inputs/chapters/train_basniev.md",
+    "pages": [[474, 500]],
+    "prefix": "basniev",
+    "book": "Басниев и др. Нефтегазовая гидромеханика (2005), гл. XXIII и гл. XXIV §1",
+    "language": "ru",
+    "domain": "geo",
+    "split": "train"
+  },
+  "kuznetsov": {
+    "chapter": "kuznetsov_gl10",
+    "md": "inputs/chapters/train_kuznetsov.md",
+    "pages": [[200, 222]],
+    "prefix": "kuznetsov",
+    "book": "Кузнецов. Литология природных резервуаров нефти и газа (2012), гл. 10 §10.1–10.4",
+    "language": "ru",
+    "domain": "geo",
+    "split": "train"
+  },
+  "vendelshtein": {
+    "chapter": "vendelshtein_gl1",
+    "md": "inputs/chapters/ctrl_vendelshtein.md",
+    "pages": [[9, 14], [20, 30]],
+    "prefix": "vendelshtein",
+    "book": "Вендельштейн, Резванов. Геофизические методы определения параметров нефтегазовых коллекторов (1978), гл. I",
+    "language": "ru",
+    "domain": "geo",
+    "split": "control"
+  },
+  "barenblatt": {
+    "chapter": "barenblatt_par4",
+    "md": "inputs/chapters/ctrl_barenblatt.md",
+    "pages": [[38, 51]],
+    "prefix": "barenblatt",
+    "book": "Баренблатт, Ентов, Рыжик. Движение жидкостей и газов в природных пластах (1984), §4",
+    "language": "ru",
+    "domain": "geo",
+    "split": "control"
+  },
+  "baraboshkin": {
+    "chapter": "baraboshkin_par1-2",
+    "md": "inputs/chapters/ctrl_baraboshkin_b.md",
+    "pages": [[30, 44]],
+    "prefix": "baraboshkin",
+    "book": "Барабошкин. Практическая седиментология (терригенные коллектора) (2007), §1.2 «Дельты»",
+    "language": "ru",
+    "domain": "geo",
+    "split": "control"
+  }
+}

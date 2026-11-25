@@ -1,0 +1,437 @@
+{
+ "chapter": "kuznetsov_gl10",
+ "illustrations": [
+  {
+   "id": "ill.kuznetsov.reef_importance",
+   "step_id": "step.kuznetsov.reef_importance",
+   "node_id": "kuznetsov.reef_importance",
+   "file": "assets/kuznetsov_reef_importance.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Причина → следствие → практика. Собрано кодом из утверждений узла.",
+   "alt": "Схема: причина → следствие → практика — Почему рифы так важны нефтяникам",
+   "source": "по главе, стр. 200",
+   "claim_ids": [
+    "kuznetsov.reef_importance#c1",
+    "kuznetsov.reef_importance#c2",
+    "kuznetsov.reef_importance#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.kuznetsov.buildups_and_reef_types",
+   "step_id": "step.kuznetsov.buildups_and_reef_types",
+   "node_id": "kuznetsov.buildups_and_reef_types",
+   "file": "assets/kuznetsov_buildups_and_reef_types.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Причина → следствие → практика. Собрано кодом из утверждений узла.",
+   "alt": "Схема: причина → следствие → практика — Биостром, биогерм, риф: чем отличаются",
+   "source": "по главе, стр. 200, 201, 202",
+   "claim_ids": [
+    "kuznetsov.buildups_and_reef_types#c1",
+    "kuznetsov.buildups_and_reef_types#c2",
+    "kuznetsov.buildups_and_reef_types#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.kuznetsov.reef_rock_types",
+   "step_id": "step.kuznetsov.reef_rock_types",
+   "node_id": "kuznetsov.reef_rock_types",
+   "file": "assets/kuznetsov_reef_rock_types.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Причина → следствие → практика. Собрано кодом из утверждений узла.",
+   "alt": "Схема: причина → следствие → практика — Из каких пород сложен риф",
+   "source": "по главе, стр. 202, 203",
+   "claim_ids": [
+    "kuznetsov.reef_rock_types#c1",
+    "kuznetsov.reef_rock_types#c2",
+    "kuznetsov.reef_rock_types#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.kuznetsov.zonation_dome_reef",
+   "step_id": "step.kuznetsov.zonation_dome_reef",
+   "node_id": "kuznetsov.zonation_dome_reef",
+   "file": "assets/kuznetsov_zonation_dome_reef.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Причина → следствие → практика. Собрано кодом из утверждений узла.",
+   "alt": "Схема: причина → следствие → практика — Зоны одиночного куполовидного рифа",
+   "source": "по главе, стр. 203",
+   "claim_ids": [
+    "kuznetsov.zonation_dome_reef#c1",
+    "kuznetsov.zonation_dome_reef#c2",
+    "kuznetsov.zonation_dome_reef#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.kuznetsov.zonation_atoll_and_system",
+   "step_id": "step.kuznetsov.zonation_atoll_and_system",
+   "node_id": "kuznetsov.zonation_atoll_and_system",
+   "file": "assets/kuznetsov_zonation_atoll_and_system.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Причина → следствие → практика. Собрано кодом из утверждений узла.",
+   "alt": "Схема: причина → следствие → практика — Кольцо атолла и линейная система",
+   "source": "по главе, стр. 203, 204",
+   "claim_ids": [
+    "kuznetsov.zonation_atoll_and_system#c1",
+    "kuznetsov.zonation_atoll_and_system#c2",
+    "kuznetsov.zonation_atoll_and_system#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.kuznetsov.primary_porosity",
+   "step_id": "step.kuznetsov.primary_porosity",
+   "node_id": "kuznetsov.primary_porosity",
+   "file": "assets/kuznetsov_primary_porosity.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Причина → следствие → практика. Собрано кодом из утверждений узла.",
+   "alt": "Схема: причина → следствие → практика — Какие пустоты есть в рифе изначально",
+   "source": "по главе, стр. 204, 205",
+   "claim_ids": [
+    "kuznetsov.primary_porosity#c1",
+    "kuznetsov.primary_porosity#c2",
+    "kuznetsov.primary_porosity#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.kuznetsov.secondary_porosity_karst",
+   "step_id": "step.kuznetsov.secondary_porosity_karst",
+   "node_id": "kuznetsov.secondary_porosity_karst",
+   "file": "assets/kuznetsov_secondary_porosity_karst.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Причина → следствие → практика. Собрано кодом из утверждений узла.",
+   "alt": "Схема: причина → следствие → практика — Каверны и карст в рифе",
+   "source": "по главе, стр. 205",
+   "claim_ids": [
+    "kuznetsov.secondary_porosity_karst#c1",
+    "kuznetsov.secondary_porosity_karst#c2",
+    "kuznetsov.secondary_porosity_karst#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.kuznetsov.dome_core_best",
+   "step_id": "step.kuznetsov.dome_core_best",
+   "node_id": "kuznetsov.dome_core_best",
+   "file": "assets/kuznetsov_dome_core_best.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Причина → следствие → практика. Собрано кодом из утверждений узла.",
+   "alt": "Схема: причина → следствие → практика — Простой риф: лучшее в центре",
+   "source": "по главе, стр. 205, 207, 208",
+   "claim_ids": [
+    "kuznetsov.dome_core_best#c1",
+    "kuznetsov.dome_core_best#c2",
+    "kuznetsov.dome_core_best#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.kuznetsov.rainbow_a",
+   "step_id": "step.kuznetsov.rainbow_a",
+   "node_id": "kuznetsov.rainbow_a",
+   "file": "assets/kuznetsov_rainbow_a.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Причина → следствие → практика. Собрано кодом из утверждений узла.",
+   "alt": "Схема: причина → следствие → практика — Разбор рифа Рейнбоу А",
+   "source": "по главе, стр. 205, 206, 207",
+   "claim_ids": [
+    "kuznetsov.rainbow_a#c1",
+    "kuznetsov.rainbow_a#c2",
+    "kuznetsov.rainbow_a#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.kuznetsov.atoll_periphery_best",
+   "step_id": "step.kuznetsov.atoll_periphery_best",
+   "node_id": "kuznetsov.atoll_periphery_best",
+   "file": "assets/kuznetsov_atoll_periphery_best.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Причина → следствие → практика. Собрано кодом из утверждений узла.",
+   "alt": "Схема: причина → следствие → практика — В атолле лучший коллектор на краю",
+   "source": "по главе, стр. 207, 209, 210",
+   "claim_ids": [
+    "kuznetsov.atoll_periphery_best#c1",
+    "kuznetsov.atoll_periphery_best#c2",
+    "kuznetsov.atoll_periphery_best#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.kuznetsov.karachaganak_cases",
+   "step_id": "step.kuznetsov.karachaganak_cases",
+   "node_id": "kuznetsov.karachaganak_cases",
+   "file": "assets/kuznetsov_karachaganak_cases.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Последовательность событий во времени. Собрано кодом из утверждений узла.",
+   "alt": "Схема: последовательность событий во времени — Карачаганак: купол и атолл в одном рифе",
+   "source": "по главе, стр. 209",
+   "claim_ids": [
+    "kuznetsov.karachaganak_cases#c1",
+    "kuznetsov.karachaganak_cases#c2",
+    "kuznetsov.karachaganak_cases#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.kuznetsov.asym_system_collectors",
+   "step_id": "step.kuznetsov.asym_system_collectors",
+   "node_id": "kuznetsov.asym_system_collectors",
+   "file": "assets/kuznetsov_asym_system_collectors.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Последовательность событий во времени. Собрано кодом из утверждений узла.",
+   "alt": "Схема: последовательность событий во времени — Коллекторы линейной рифовой системы",
+   "source": "по главе, стр. 209, 211",
+   "claim_ids": [
+    "kuznetsov.asym_system_collectors#c1",
+    "kuznetsov.asym_system_collectors#c2",
+    "kuznetsov.asym_system_collectors#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.kuznetsov.massive_small_reefs",
+   "step_id": "step.kuznetsov.massive_small_reefs",
+   "node_id": "kuznetsov.massive_small_reefs",
+   "file": "assets/kuznetsov_massive_small_reefs.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Решение на данных: признаки → правило → вывод и где оно ломается. Собрано кодом из утверждений узла.",
+   "alt": "Схема: решение на данных: признаки → правило → вывод и где оно ломается — Когда риф можно считать однородным",
+   "source": "по главе, стр. 209, 212",
+   "claim_ids": [
+    "kuznetsov.massive_small_reefs#c1",
+    "kuznetsov.massive_small_reefs#c2",
+    "kuznetsov.massive_small_reefs#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.kuznetsov.layering_causes",
+   "step_id": "step.kuznetsov.layering_causes",
+   "node_id": "kuznetsov.layering_causes",
+   "file": "assets/kuznetsov_layering_causes.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Последовательность событий во времени. Собрано кодом из утверждений узла.",
+   "alt": "Схема: последовательность событий во времени — Почему большой риф слоист по вертикали",
+   "source": "по главе, стр. 209, 212, 214",
+   "claim_ids": [
+    "kuznetsov.layering_causes#c1",
+    "kuznetsov.layering_causes#c2",
+    "kuznetsov.layering_causes#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.kuznetsov.karachaganak_dense_packs",
+   "step_id": "step.kuznetsov.karachaganak_dense_packs",
+   "node_id": "kuznetsov.karachaganak_dense_packs",
+   "file": "assets/kuznetsov_karachaganak_dense_packs.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Решение на данных: признаки → правило → вывод и где оно ломается. Собрано кодом из утверждений узла.",
+   "alt": "Схема: решение на данных: признаки → правило → вывод и где оно ломается — Плотные пачки между коллекторами",
+   "source": "по главе, стр. 214",
+   "claim_ids": [
+    "kuznetsov.karachaganak_dense_packs#c1",
+    "kuznetsov.karachaganak_dense_packs#c2",
+    "kuznetsov.karachaganak_dense_packs#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.kuznetsov.fluid_flow_by_type",
+   "step_id": "step.kuznetsov.fluid_flow_by_type",
+   "node_id": "kuznetsov.fluid_flow_by_type",
+   "file": "assets/kuznetsov_fluid_flow_by_type.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Причина → следствие → практика. Собрано кодом из утверждений узла.",
+   "alt": "Схема: причина → следствие → практика — Как флюид движется в рифе",
+   "source": "по главе, стр. 214, 216",
+   "claim_ids": [
+    "kuznetsov.fluid_flow_by_type#c1",
+    "kuznetsov.fluid_flow_by_type#c2",
+    "kuznetsov.fluid_flow_by_type#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.kuznetsov.seals_and_regression",
+   "step_id": "step.kuznetsov.seals_and_regression",
+   "node_id": "kuznetsov.seals_and_regression",
+   "file": "assets/kuznetsov_seals_and_regression.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Последовательность событий во времени. Собрано кодом из утверждений узла.",
+   "alt": "Схема: последовательность событий во времени — Чем перекрывается риф и почему",
+   "source": "по главе, стр. 216",
+   "claim_ids": [
+    "kuznetsov.seals_and_regression#c1",
+    "kuznetsov.seals_and_regression#c2",
+    "kuznetsov.seals_and_regression#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.kuznetsov.trap_types_paleogeo",
+   "step_id": "step.kuznetsov.trap_types_paleogeo",
+   "node_id": "kuznetsov.trap_types_paleogeo",
+   "file": "assets/kuznetsov_trap_types_paleogeo.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Причина → следствие → практика. Собрано кодом из утверждений узла.",
+   "alt": "Схема: причина → следствие → практика — Ловушка из рельефа и экрана",
+   "source": "по главе, стр. 216, 217, 218",
+   "claim_ids": [
+    "kuznetsov.trap_types_paleogeo#c1",
+    "kuznetsov.trap_types_paleogeo#c2",
+    "kuznetsov.trap_types_paleogeo#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.kuznetsov.structural_overprint",
+   "step_id": "step.kuznetsov.structural_overprint",
+   "node_id": "kuznetsov.structural_overprint",
+   "file": "assets/kuznetsov_structural_overprint.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Последовательность событий во времени. Собрано кодом из утверждений узла.",
+   "alt": "Схема: последовательность событий во времени — Как тектоника меняет рифовую ловушку",
+   "source": "по главе, стр. 218, 219",
+   "claim_ids": [
+    "kuznetsov.structural_overprint#c1",
+    "kuznetsov.structural_overprint#c2",
+    "kuznetsov.structural_overprint#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.kuznetsov.deposit_types_height",
+   "step_id": "step.kuznetsov.deposit_types_height",
+   "node_id": "kuznetsov.deposit_types_height",
+   "file": "assets/kuznetsov_deposit_types_height.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Решение на данных: признаки → правило → вывод и где оно ломается. Собрано кодом из утверждений узла.",
+   "alt": "Схема: решение на данных: признаки → правило → вывод и где оно ломается — Какие бывают залежи и их высота",
+   "source": "по главе, стр. 219, 220",
+   "claim_ids": [
+    "kuznetsov.deposit_types_height#c1",
+    "kuznetsov.deposit_types_height#c2",
+    "kuznetsov.deposit_types_height#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.kuznetsov.explore_group1",
+   "step_id": "step.kuznetsov.explore_group1",
+   "node_id": "kuznetsov.explore_group1",
+   "file": "assets/kuznetsov_explore_group1.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Порядок действий по главе. Собрано кодом из утверждений узла.",
+   "alt": "Схема: порядок действий по главе — Разведка небольшого куполовидного рифа",
+   "source": "по главе, стр. 214, 215, 220",
+   "claim_ids": [
+    "kuznetsov.explore_group1#c1",
+    "kuznetsov.explore_group1#c2",
+    "kuznetsov.explore_group1#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.kuznetsov.explore_group2",
+   "step_id": "step.kuznetsov.explore_group2",
+   "node_id": "kuznetsov.explore_group2",
+   "file": "assets/kuznetsov_explore_group2.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Порядок действий по главе. Собрано кодом из утверждений узла.",
+   "alt": "Схема: порядок действий по главе — Разведка атолла: начинать с периферии",
+   "source": "по главе, стр. 220, 221",
+   "claim_ids": [
+    "kuznetsov.explore_group2#c1",
+    "kuznetsov.explore_group2#c2",
+    "kuznetsov.explore_group2#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.kuznetsov.explore_group3",
+   "step_id": "step.kuznetsov.explore_group3",
+   "node_id": "kuznetsov.explore_group3",
+   "file": "assets/kuznetsov_explore_group3.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Решение на данных: признаки → правило → вывод и где оно ломается. Собрано кодом из утверждений узла.",
+   "alt": "Схема: решение на данных: признаки → правило → вывод и где оно ломается — Разведка рифовой системы и тыловая зона",
+   "source": "по главе, стр. 221",
+   "claim_ids": [
+    "kuznetsov.explore_group3#c1",
+    "kuznetsov.explore_group3#c2",
+    "kuznetsov.explore_group3#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.kuznetsov.explore_grid_wells",
+   "step_id": "step.kuznetsov.explore_grid_wells",
+   "node_id": "kuznetsov.explore_grid_wells",
+   "file": "assets/kuznetsov_explore_grid_wells.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Порядок действий по главе. Собрано кодом из утверждений узла.",
+   "alt": "Схема: порядок действий по главе — Где ставить скважины на массивной залежи",
+   "source": "по главе, стр. 221, 222",
+   "claim_ids": [
+    "kuznetsov.explore_grid_wells#c1",
+    "kuznetsov.explore_grid_wells#c2",
+    "kuznetsov.explore_grid_wells#c3"
+   ],
+   "prompt": null
+  }
+ ]
+}

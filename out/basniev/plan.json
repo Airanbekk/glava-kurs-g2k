@@ -1,0 +1,1068 @@
+{
+ "nodes": [
+  {
+   "slug": "elastic_energy_source",
+   "title": "Упругий режим пласта и его характерные особенности",
+   "novice_title": "Откуда берётся упругая энергия пласта",
+   "units": [
+    "p474.01",
+    "p474.02",
+    "p474.03",
+    "p474.04",
+    "p474.05",
+    "p474.06"
+   ],
+   "difficulty": {
+    "primary": "М",
+    "secondary": null
+   },
+   "threshold": true,
+   "prerequisites": [],
+   "id": "basniev.elastic_energy_source"
+  },
+  {
+   "slug": "elastic_regime_kinds_speed",
+   "title": "Разновидности упругого режима, длительность процесса, история теории",
+   "novice_title": "Виды режима и медленное выравнивание давления",
+   "units": [
+    "p474.07",
+    "p475.03",
+    "p475.04",
+    "p475.05"
+   ],
+   "difficulty": {
+    "primary": "М",
+    "secondary": "Н"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "elastic_energy_source"
+   ],
+   "id": "basniev.elastic_regime_kinds_speed"
+  },
+  {
+   "slug": "elastic_reserve_def",
+   "title": "Подсчет упругого запаса жидкости в пласте",
+   "novice_title": "Сколько жидкости даёт сжатие пласта",
+   "units": [
+    "p475.06",
+    "p475.07",
+    "p475.08",
+    "p476.03",
+    "p476.04",
+    "p476.05",
+    "p476.06"
+   ],
+   "difficulty": {
+    "primary": "Ф",
+    "secondary": null
+   },
+   "threshold": true,
+   "prerequisites": [
+    "elastic_energy_source"
+   ],
+   "id": "basniev.elastic_reserve_def"
+  },
+  {
+   "slug": "elasticity_coefficient",
+   "title": "Коэффициент упругоемкости пласта β*",
+   "novice_title": "Упругоёмкость β*: один коэффициент пласта",
+   "units": [
+    "p476.07",
+    "p476.08",
+    "p476.09",
+    "p476.10",
+    "p476.11",
+    "p476.12",
+    "p476.13",
+    "p476.14",
+    "p476.15",
+    "p476.16",
+    "p476.17"
+   ],
+   "difficulty": {
+    "primary": "Ф",
+    "secondary": null
+   },
+   "threshold": true,
+   "prerequisites": [
+    "elastic_reserve_def"
+   ],
+   "id": "basniev.elasticity_coefficient"
+  },
+  {
+   "slug": "depletion_equation",
+   "title": "Уравнение истощения залежи при замкнуто-упругом режиме",
+   "novice_title": "Баланс: отбор равен убыли упругого запаса",
+   "units": [
+    "p476.18",
+    "p477.03",
+    "p477.04",
+    "p477.05",
+    "p477.06",
+    "p477.07",
+    "p477.08",
+    "p477.09",
+    "p477.10",
+    "p477.11",
+    "p477.12",
+    "p477.13",
+    "p477.14"
+   ],
+   "difficulty": {
+    "primary": "Ф",
+    "secondary": "Н"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "elasticity_coefficient"
+   ],
+   "id": "basniev.depletion_equation"
+  },
+  {
+   "slug": "elastic_significance",
+   "title": "Значение гидродинамики упругого режима для практики",
+   "novice_title": "Сколько нефти даёт упругий режим",
+   "units": [
+    "p477.15",
+    "p477.16",
+    "p478.03"
+   ],
+   "difficulty": {
+    "primary": "Н",
+    "secondary": null
+   },
+   "threshold": false,
+   "prerequisites": [
+    "elastic_regime_kinds_speed"
+   ],
+   "id": "basniev.elastic_significance"
+  },
+  {
+   "slug": "model_state_equations",
+   "title": "Математическая модель и уравнения состояния упругой среды",
+   "novice_title": "Из чего собрана модель фильтрации",
+   "units": [
+    "p478.04",
+    "p478.05",
+    "p478.06",
+    "p478.07",
+    "p478.08",
+    "p478.09",
+    "p478.10",
+    "p478.11",
+    "p478.12",
+    "p478.13",
+    "p478.14",
+    "p478.15",
+    "p478.16",
+    "p479.03"
+   ],
+   "difficulty": {
+    "primary": "Ф",
+    "secondary": "Н"
+   },
+   "threshold": true,
+   "prerequisites": [
+    "elasticity_coefficient"
+   ],
+   "id": "basniev.model_state_equations"
+  },
+  {
+   "slug": "piezo_derivation",
+   "title": "Вывод дифференциального уравнения фильтрации упругой жидкости",
+   "novice_title": "Как свести модель к одному уравнению",
+   "units": [
+    "p479.04",
+    "p479.05",
+    "p479.06",
+    "p479.07",
+    "p479.08",
+    "p479.09",
+    "p479.10",
+    "p479.11",
+    "p479.12",
+    "p479.13",
+    "p479.14",
+    "p479.15",
+    "p479.16",
+    "p479.17",
+    "p479.18",
+    "p479.19",
+    "p480.03",
+    "p480.04",
+    "p480.05",
+    "p480.06",
+    "p480.07",
+    "p480.08",
+    "p480.09",
+    "p480.10",
+    "p480.11",
+    "p480.12",
+    "p480.13",
+    "p480.14"
+   ],
+   "difficulty": {
+    "primary": "Ф",
+    "secondary": null
+   },
+   "threshold": false,
+   "prerequisites": [
+    "model_state_equations"
+   ],
+   "id": "basniev.piezo_derivation"
+  },
+  {
+   "slug": "piezo_equation",
+   "title": "Уравнение пьезопроводности",
+   "novice_title": "Давление растекается как тепло",
+   "units": [
+    "p480.15",
+    "p480.16",
+    "p480.17",
+    "p480.18",
+    "p480.19"
+   ],
+   "difficulty": {
+    "primary": "Ф",
+    "secondary": "М"
+   },
+   "threshold": true,
+   "prerequisites": [
+    "piezo_derivation"
+   ],
+   "id": "basniev.piezo_equation"
+  },
+  {
+   "slug": "piezo_coefficient",
+   "title": "Коэффициент пьезопроводности и условие применимости",
+   "novice_title": "Скорость выравнивания давления κ",
+   "units": [
+    "p480.20",
+    "p481.03",
+    "p481.04",
+    "p481.05",
+    "p481.06",
+    "p481.07"
+   ],
+   "difficulty": {
+    "primary": "Ф",
+    "secondary": "Н"
+   },
+   "threshold": true,
+   "prerequisites": [
+    "piezo_equation"
+   ],
+   "id": "basniev.piezo_coefficient"
+  },
+  {
+   "slug": "gallery_pressure_setup",
+   "title": "Приток к галерее при постоянном давлении: постановка и автомодельная переменная",
+   "novice_title": "Постановка задачи и замена переменной",
+   "units": [
+    "p481.08",
+    "p481.09",
+    "p481.10",
+    "p481.11",
+    "p481.12",
+    "p481.13",
+    "p482.03",
+    "p482.04",
+    "p482.05",
+    "p482.06",
+    "p482.07",
+    "p482.08",
+    "p482.09",
+    "p482.10",
+    "p482.11",
+    "p482.12",
+    "p482.13",
+    "p482.14",
+    "p482.15",
+    "p482.16",
+    "p482.17",
+    "p482.18",
+    "p482.19",
+    "p483.03",
+    "p483.04"
+   ],
+   "difficulty": {
+    "primary": "Ф",
+    "secondary": "Пр"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "piezo_coefficient"
+   ],
+   "id": "basniev.gallery_pressure_setup"
+  },
+  {
+   "slug": "gallery_erf_solution",
+   "title": "Решение для галереи через интеграл вероятности",
+   "novice_title": "Профиль давления через erf",
+   "units": [
+    "p483.05",
+    "p483.06",
+    "p483.07",
+    "p483.08",
+    "p483.09",
+    "p483.10",
+    "p483.11",
+    "p483.12",
+    "p483.13",
+    "p483.14",
+    "p483.15",
+    "p483.16",
+    "p483.17",
+    "p483.18",
+    "p483.19",
+    "p483.20",
+    "p484.03",
+    "p484.04",
+    "p484.05",
+    "p484.06",
+    "p484.07",
+    "p484.09",
+    "p484.10",
+    "p484.11",
+    "p484.12",
+    "p484.13",
+    "p484.15"
+   ],
+   "difficulty": {
+    "primary": "Ф",
+    "secondary": "Р"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "gallery_pressure_setup"
+   ],
+   "id": "basniev.gallery_erf_solution"
+  },
+  {
+   "slug": "gallery_rate",
+   "title": "Дебит и накопленная добыча галереи при p = const",
+   "novice_title": "Дебит падает как 1/√t",
+   "units": [
+    "p484.16",
+    "p484.17",
+    "p484.18",
+    "p484.19",
+    "p484.20",
+    "p484.21",
+    "p485.03",
+    "p485.04",
+    "p485.05",
+    "p485.06",
+    "p485.12"
+   ],
+   "difficulty": {
+    "primary": "Ф",
+    "secondary": "Н"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "gallery_erf_solution"
+   ],
+   "id": "basniev.gallery_rate"
+  },
+  {
+   "slug": "gallery_const_rate",
+   "title": "Приток к галерее при постоянном дебите: решение для скорости фильтрации",
+   "novice_title": "Постоянный дебит: уравнение для скорости",
+   "units": [
+    "p485.07",
+    "p485.08",
+    "p485.09",
+    "p485.10",
+    "p485.11",
+    "p486.03",
+    "p486.04",
+    "p486.05",
+    "p486.06",
+    "p486.07",
+    "p486.08",
+    "p486.09",
+    "p486.10",
+    "p486.11",
+    "p486.12",
+    "p486.13",
+    "p486.14",
+    "p486.15",
+    "p486.16",
+    "p486.17",
+    "p486.18",
+    "p486.19",
+    "p486.20",
+    "p486.21",
+    "p486.22",
+    "p486.23"
+   ],
+   "difficulty": {
+    "primary": "Ф",
+    "secondary": null
+   },
+   "threshold": false,
+   "prerequisites": [
+    "gallery_erf_solution"
+   ],
+   "id": "basniev.gallery_const_rate"
+  },
+  {
+   "slug": "gallery_const_rate_pressure",
+   "title": "Давление в потоке и закон изменения давления на галерее",
+   "novice_title": "Давление на галерее и предел модели",
+   "units": [
+    "p487.03",
+    "p487.04",
+    "p487.05",
+    "p487.06",
+    "p487.07",
+    "p487.08",
+    "p487.09",
+    "p487.10",
+    "p487.11",
+    "p487.12",
+    "p487.13",
+    "p488.03",
+    "p488.04",
+    "p488.05",
+    "p488.06",
+    "p488.07"
+   ],
+   "difficulty": {
+    "primary": "Ф",
+    "secondary": "Н"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "gallery_const_rate"
+   ],
+   "id": "basniev.gallery_const_rate_pressure"
+  },
+  {
+   "slug": "radial_setup",
+   "title": "Плоскорадиальный поток упругой жидкости: постановка и автомодельность",
+   "novice_title": "Скважина как точечный сток",
+   "units": [
+    "p488.08",
+    "p488.09",
+    "p488.10",
+    "p488.11",
+    "p488.12",
+    "p488.13",
+    "p488.14",
+    "p488.15",
+    "p488.16",
+    "p489.03",
+    "p489.04",
+    "p489.05",
+    "p489.06",
+    "p489.07",
+    "p489.08",
+    "p489.09",
+    "p489.10",
+    "p489.11",
+    "p489.12",
+    "p489.13",
+    "p489.14",
+    "p489.15"
+   ],
+   "difficulty": {
+    "primary": "Ф",
+    "secondary": "П"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "gallery_erf_solution"
+   ],
+   "id": "basniev.radial_setup"
+  },
+  {
+   "slug": "radial_solution",
+   "title": "Вывод давления в плоскорадиальном потоке",
+   "novice_title": "Решение через показательную функцию",
+   "units": [
+    "p489.16",
+    "p489.17",
+    "p489.18",
+    "p489.19",
+    "p490.03",
+    "p490.04",
+    "p490.05",
+    "p490.06",
+    "p490.07",
+    "p490.08",
+    "p490.09",
+    "p490.10",
+    "p490.11",
+    "p490.12",
+    "p490.13",
+    "p490.14",
+    "p490.15",
+    "p490.16",
+    "p490.17",
+    "p490.18",
+    "p490.19",
+    "p490.20",
+    "p490.21"
+   ],
+   "difficulty": {
+    "primary": "Ф",
+    "secondary": null
+   },
+   "threshold": false,
+   "prerequisites": [
+    "radial_setup"
+   ],
+   "id": "basniev.radial_solution"
+  },
+  {
+   "slug": "main_formula",
+   "title": "Основная формула теории упругого режима фильтрации",
+   "novice_title": "Основная формула и её логарифмический вид",
+   "units": [
+    "p491.03",
+    "p491.04",
+    "p491.05",
+    "p491.06",
+    "p491.07",
+    "p491.08",
+    "p491.09",
+    "p491.10",
+    "p491.11",
+    "p491.12",
+    "p491.13",
+    "p491.14",
+    "p491.15",
+    "p491.16",
+    "p491.17",
+    "p491.18",
+    "p491.19",
+    "p491.20",
+    "p491.22"
+   ],
+   "difficulty": {
+    "primary": "Ф",
+    "secondary": "И"
+   },
+   "threshold": true,
+   "prerequisites": [
+    "radial_solution"
+   ],
+   "id": "basniev.main_formula"
+  },
+  {
+   "slug": "radial_rate_fourier",
+   "title": "Расход, скорость фильтрации и параметры Фурье",
+   "novice_title": "Расход и безразмерное время Фурье",
+   "units": [
+    "p492.03",
+    "p492.04",
+    "p492.05",
+    "p492.06",
+    "p492.07",
+    "p492.08",
+    "p492.09"
+   ],
+   "difficulty": {
+    "primary": "Ф",
+    "secondary": null
+   },
+   "threshold": false,
+   "prerequisites": [
+    "main_formula"
+   ],
+   "id": "basniev.radial_rate_fourier"
+  },
+  {
+   "slug": "formula_accuracy",
+   "title": "Погрешность основной формулы для конечного радиуса скважины и конечного пласта",
+   "novice_title": "Когда бесконечный пласт — хорошее приближение",
+   "units": [
+    "p492.10",
+    "p492.11",
+    "p492.12",
+    "p492.13",
+    "p492.14",
+    "p492.15",
+    "p493.03",
+    "p493.04",
+    "p493.05",
+    "p493.06"
+   ],
+   "difficulty": {
+    "primary": "Н",
+    "secondary": "Ф"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "radial_rate_fourier"
+   ],
+   "id": "basniev.formula_accuracy"
+  },
+  {
+   "slug": "piezometric_curves",
+   "title": "Пьезометрические кривые вблизи скважины с постоянным дебитом",
+   "novice_title": "Воронка депрессии у забоя",
+   "units": [
+    "p493.07",
+    "p493.08",
+    "p493.09",
+    "p493.10"
+   ],
+   "difficulty": {
+    "primary": "М",
+    "secondary": "Р"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "main_formula"
+   ],
+   "id": "basniev.piezometric_curves"
+  },
+  {
+   "slug": "pssc_idea",
+   "title": "Метод последовательной смены стационарных состояний: идея",
+   "novice_title": "ПССС: возмущённая зона и две фазы",
+   "units": [
+    "p494.01",
+    "p494.02",
+    "p494.03",
+    "p494.04",
+    "p494.05",
+    "p494.06",
+    "p495.03",
+    "p495.04"
+   ],
+   "difficulty": {
+    "primary": "Ф",
+    "secondary": "М"
+   },
+   "threshold": true,
+   "prerequisites": [
+    "piezo_equation",
+    "depletion_equation"
+   ],
+   "id": "basniev.pssc_idea"
+  },
+  {
+   "slug": "pssc_gallery_const_rate",
+   "title": "ПССС: галерея при постоянном дебите",
+   "novice_title": "ПССС для галереи: граница √(2κt)",
+   "units": [
+    "p495.05",
+    "p495.06",
+    "p495.07",
+    "p495.08",
+    "p495.09",
+    "p495.10",
+    "p495.11",
+    "p495.12",
+    "p495.13",
+    "p495.14",
+    "p495.15",
+    "p495.16",
+    "p495.17",
+    "p495.18",
+    "p495.19",
+    "p495.20",
+    "p495.21",
+    "p495.23",
+    "p496.03",
+    "p496.04",
+    "p496.05",
+    "p496.06",
+    "p496.07",
+    "p496.08",
+    "p496.09",
+    "p496.10",
+    "p496.11",
+    "p496.12",
+    "p496.13",
+    "p496.14",
+    "p496.15",
+    "p496.16",
+    "p496.17",
+    "p496.18"
+   ],
+   "difficulty": {
+    "primary": "Ф",
+    "secondary": "Н"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "pssc_idea",
+    "gallery_const_rate_pressure"
+   ],
+   "id": "basniev.pssc_gallery_const_rate"
+  },
+  {
+   "slug": "pssc_gallery_const_pressure",
+   "title": "ПССС: галерея при постоянном забойном давлении",
+   "novice_title": "ПССС для галереи при заданной депрессии",
+   "units": [
+    "p496.19",
+    "p496.20",
+    "p496.21",
+    "p497.03",
+    "p497.04",
+    "p497.05",
+    "p497.06",
+    "p497.07",
+    "p497.08",
+    "p497.09",
+    "p497.10",
+    "p497.11",
+    "p497.12",
+    "p497.13",
+    "p497.14",
+    "p497.15",
+    "p497.16"
+   ],
+   "difficulty": {
+    "primary": "Ф",
+    "secondary": "Н"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "pssc_idea",
+    "gallery_rate"
+   ],
+   "id": "basniev.pssc_gallery_const_pressure"
+  },
+  {
+   "slug": "pssc_radial_const_rate",
+   "title": "ПССС: плоскорадиальный поток при постоянном дебите",
+   "novice_title": "ПССС для скважины: радиус возмущения",
+   "units": [
+    "p497.17",
+    "p497.18",
+    "p497.19",
+    "p498.03",
+    "p498.04",
+    "p498.06",
+    "p498.07",
+    "p498.08",
+    "p498.09",
+    "p498.10",
+    "p498.11",
+    "p498.12",
+    "p498.14",
+    "p498.15",
+    "p498.16",
+    "p498.17",
+    "p498.18",
+    "p498.19",
+    "p498.20",
+    "p498.21",
+    "p498.22",
+    "p498.23",
+    "p498.24",
+    "p498.25",
+    "p498.26",
+    "p498.27",
+    "p498.28",
+    "p499.03",
+    "p499.04",
+    "p499.05",
+    "p499.06",
+    "p499.07",
+    "p499.08"
+   ],
+   "difficulty": {
+    "primary": "Ф",
+    "secondary": "Н"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "pssc_idea",
+    "main_formula"
+   ],
+   "id": "basniev.pssc_radial_const_rate"
+  },
+  {
+   "slug": "pssc_radial_const_pressure_remarks",
+   "title": "ПССС: постоянное забойное давление и общие замечания о методе",
+   "novice_title": "Где ПССС точен, а где груб",
+   "units": [
+    "p499.09",
+    "p499.10",
+    "p499.11",
+    "p499.12",
+    "p499.14",
+    "p499.15",
+    "p499.16",
+    "p499.17",
+    "p499.19",
+    "p500.03",
+    "p500.04"
+   ],
+   "difficulty": {
+    "primary": "Н",
+    "secondary": "Ф"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "pssc_radial_const_rate"
+   ],
+   "id": "basniev.pssc_radial_const_pressure_remarks"
+  },
+  {
+   "slug": "pirverdyan_method",
+   "title": "Метод А.М.Пирвердяна",
+   "novice_title": "Парабола давления вместо прямой",
+   "units": [
+    "p500.05",
+    "p500.06",
+    "p500.07",
+    "p500.08",
+    "p500.09",
+    "p500.10"
+   ],
+   "difficulty": {
+    "primary": "Ф",
+    "secondary": null
+   },
+   "threshold": false,
+   "prerequisites": [
+    "pssc_idea"
+   ],
+   "id": "basniev.pirverdyan_method"
+  }
+ ],
+ "skipped": [
+  {
+   "unit_id": "p475.01",
+   "reason": "колонтитул"
+  },
+  {
+   "unit_id": "p475.02",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p476.01",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p476.02",
+   "reason": "колонтитул"
+  },
+  {
+   "unit_id": "p477.01",
+   "reason": "колонтитул"
+  },
+  {
+   "unit_id": "p477.02",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p478.01",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p478.02",
+   "reason": "колонтитул"
+  },
+  {
+   "unit_id": "p479.01",
+   "reason": "колонтитул"
+  },
+  {
+   "unit_id": "p479.02",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p480.01",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p480.02",
+   "reason": "колонтитул"
+  },
+  {
+   "unit_id": "p481.01",
+   "reason": "колонтитул"
+  },
+  {
+   "unit_id": "p481.02",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p482.01",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p482.02",
+   "reason": "колонтитул"
+  },
+  {
+   "unit_id": "p483.01",
+   "reason": "колонтитул"
+  },
+  {
+   "unit_id": "p483.02",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p484.01",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p484.02",
+   "reason": "колонтитул"
+  },
+  {
+   "unit_id": "p484.08",
+   "reason": "служебная метка разметки рисунка (не текст автора)"
+  },
+  {
+   "unit_id": "p484.14",
+   "reason": "служебная строка ключевых слов, добавленная к описанию рисунка"
+  },
+  {
+   "unit_id": "p485.01",
+   "reason": "колонтитул"
+  },
+  {
+   "unit_id": "p485.02",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p486.01",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p486.02",
+   "reason": "колонтитул"
+  },
+  {
+   "unit_id": "p487.01",
+   "reason": "колонтитул"
+  },
+  {
+   "unit_id": "p487.02",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p488.01",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p488.02",
+   "reason": "колонтитул"
+  },
+  {
+   "unit_id": "p489.01",
+   "reason": "колонтитул"
+  },
+  {
+   "unit_id": "p489.02",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p490.01",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p490.02",
+   "reason": "колонтитул"
+  },
+  {
+   "unit_id": "p491.01",
+   "reason": "колонтитул"
+  },
+  {
+   "unit_id": "p491.02",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p491.21",
+   "reason": "служебная строка ключевых слов и разделитель разметки рисунка"
+  },
+  {
+   "unit_id": "p492.01",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p492.02",
+   "reason": "колонтитул"
+  },
+  {
+   "unit_id": "p493.01",
+   "reason": "колонтитул"
+  },
+  {
+   "unit_id": "p493.02",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p495.01",
+   "reason": "колонтитул"
+  },
+  {
+   "unit_id": "p495.02",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p495.22",
+   "reason": "служебная строка ключевых слов и разделитель разметки рисунка"
+  },
+  {
+   "unit_id": "p496.01",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p496.02",
+   "reason": "колонтитул"
+  },
+  {
+   "unit_id": "p497.01",
+   "reason": "колонтитул"
+  },
+  {
+   "unit_id": "p497.02",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p498.01",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p498.02",
+   "reason": "колонтитул"
+  },
+  {
+   "unit_id": "p498.05",
+   "reason": "служебная метка разметки рисунка (не текст автора)"
+  },
+  {
+   "unit_id": "p498.13",
+   "reason": "служебная строка ключевых слов, добавленная к описанию рисунка"
+  },
+  {
+   "unit_id": "p499.01",
+   "reason": "колонтитул"
+  },
+  {
+   "unit_id": "p499.02",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p499.13",
+   "reason": "служебная метка разметки рисунка (не текст автора)"
+  },
+  {
+   "unit_id": "p499.18",
+   "reason": "служебная строка ключевых слов и разделитель разметки рисунка"
+  },
+  {
+   "unit_id": "p500.01",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p500.02",
+   "reason": "колонтитул"
+  }
+ ]
+}
