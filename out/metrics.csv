@@ -10,3 +10,6 @@ time,chapter,stage,nodes,llm_calls,llm_cached,tokens_in,tokens_out,usd,wall_seco
 2026-11-25T23:39,latyshova_gl5_par17-20,video,1,1,0,4077,4673,0.055,240,0,"claude-code: gen=claude-sonnet-5-5, review=claude-opus-5-5","{""seconds"": 71.6}"
 2026-11-25T23:42,kuznetsov_gl10,layer,24,25,0,290345,204875,2.629,513,0,"claude-code: gen=claude-sonnet-5-5, review=claude-opus-5-5","{""quotes"": {""exact"": 305, ""moved"": 0, ""repaired"": 2, ""dropped"": 0, ""number_flags"": 2}, ""coverage"": {""units"": 229, ""in_nodes"": 215, ""skipped_with_reason"": 13, ""unassigned"": 1}}"
 2026-11-25T23:43,kuznetsov_gl10,course,24,24,0,130467,18583,0.447,87,0,"claude-code: gen=claude-sonnet-5-5, review=claude-opus-5-5","{""tasks"": 48}"
+2026-11-25T23:58,latyshova_gl5_par17-20,layer,20,0,21,0,0,0.0,0,0,"claude-code: gen=claude-sonnet-5-5, review=claude-opus-5-5","{""quotes"": {""exact"": 389, ""moved"": 0, ""repaired"": 2, ""dropped"": 0, ""number_flags"": 17}, ""coverage"": {""units"": 272, ""in_nodes"": 271, ""skipped_with_reason"": 1, ""unassigned"": 0}}"
+2026-11-25T23:58,latyshova_gl5_par17-20,course,20,0,20,0,0,0.0,0,0,"claude-code: gen=claude-sonnet-5-5, review=claude-opus-5-5","{""tasks"": 40}"
+2026-11-25T23:58,ctrl_vendelshtein,review,0,0,59,0,0,0.0,0,0,"claude-code: gen=claude-sonnet-5-5, review=claude-opus-5-5","{""remarks"": 19}"
