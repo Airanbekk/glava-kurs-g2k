@@ -51,7 +51,7 @@ def _load_env():
 _load_env()
 BACKEND = os.environ.get("LLM_BACKEND") or ("api" if os.environ.get("ANTHROPIC_API_KEY") else "claude-code")
 _DEFAULT = {"api": ("claude-opus-5-5", "claude-opus-5-5"),
-            "claude-code": ("claude-sonnet-5-5", "claude-opus-5-5"),  # экономный режим по подписке
+            "claude-code": ("claude-sonnet-5-5", "claude-sonnet-5-5"),  # экономный режим по подписке; review на Opus: LLM_MODEL_REVIEW=claude-opus-5-5
             "openai": ("local-model", "local-model")}[BACKEND]
 MODELS = {"gen": os.environ.get("LLM_MODEL", _DEFAULT[0]),
           "review": os.environ.get("LLM_MODEL_REVIEW", os.environ.get("LLM_MODEL", _DEFAULT[1]))}

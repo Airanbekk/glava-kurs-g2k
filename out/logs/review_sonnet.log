@@ -1,0 +1,3 @@
+[модель] claude-code: gen=claude-sonnet-5-5, review=claude-sonnet-5-5; параллельных запросов: 3
+[проверка] замечаний: 16 → out\review\ctrl_sonnet.answer.json
+EXIT 0

@@ -10,7 +10,7 @@
 | Учебный слой | Claude Sonnet 5.5 | `claude-sonnet-5-5` | облако Anthropic (через Claude Code по подписке) | текст главы | `LLM_MODEL` / `LLM_BACKEND` в `.env` |
 | Задания курса | Claude Sonnet 5.5 | `claude-sonnet-5-5` | облако Anthropic | текст шага (из слоя) | `LLM_MODEL` |
 | Спецификация ролика | Claude Sonnet 5.5 | `claude-sonnet-5-5` | облако Anthropic | утверждения узла | `LLM_MODEL` |
-| Модуль проверки | Claude Opus 5.5 | `claude-opus-5-5` | облако Anthropic | пакет, страницы главы, кадры | `LLM_MODEL_REVIEW` |
+| Модуль проверки | Claude Sonnet 5.5 (Opus 5.5 — по желанию) | `claude-sonnet-5-5` | облако Anthropic | пакет, страницы главы, кадры | `LLM_MODEL_REVIEW` |
 | Озвучка | Microsoft Neural TTS (ru-RU-DmitryNeural, запасной ru-RU-SvetlanaNeural; kk-KZ доступны) | edge-tts 7.x | облако Microsoft | только текст сценария | `voice` в `g2k/video.py` |
 | Иллюстрации | — (генерации нет) | — | локально, код | ничего | — |
 
