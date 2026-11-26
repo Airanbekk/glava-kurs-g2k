@@ -80,6 +80,17 @@ def build(review_score: str = "95% ошибок по весу, 0 ложных т
 <li>Голос не говорит больше источника: каждая фраза ссылается на утверждение; всё, о чём говорит голос, видно в кадре</li>
 <li>Крючок → механизм → пауза на предсказание → ответ → вопрос на перенос; субтитры; −16 LUFS; 110–130 слов/мин; синхрон голос–кадр по построению</li>
 <li>Озвучка: Microsoft Neural, запасной офлайн-голос Windows — наружу только текст сценария</li></ul>"""))
+    vids = []
+    for key in ("slatt", "basarygin", "latyshova"):
+        mj = ROOT / "out" / key / "media.json"
+        if mj.exists():
+            for nid, m in json.loads(mj.read_text(encoding="utf-8")).items():
+                vids.append((f"../out/{key}/course/{m['src']}", f"../out/{key}/course/{m['vtt']}", m["title"]))
+    if vids:
+        S.append(("Ролики, собранные конвейером", "<div style='display:flex;gap:24px;flex-wrap:wrap;align-items:flex-start'>" + "".join(
+            f"<figure style='margin:0;flex:1 1 {'260px' if '9:16' in t else '520px'};max-width:{'300px' if '9:16' in t else '760px'}'>"
+            f"<video controls preload=metadata style='width:100%;border-radius:12px' src='{src}'><track kind=subtitles src='{vtt}' srclang=ru default></video>"
+            f"<figcaption class=muted>{html.escape(t)}</figcaption></figure>" for src, vtt, t in vids[:2]) + "</div>"))
     S.append(("Модуль проверки: находить ошибки, не трогая верное", f"""<p class=big>{html.escape(review_score)}</p>
 <ul><li><b>Барьер 1:</b> обвинение только с дословной цитатой главы, которая противоречит элементу; цитату проверяет код</li>
 <li><b>Барьер 2:</b> скептический второй рецензент пересматривает каждое замечание</li>
