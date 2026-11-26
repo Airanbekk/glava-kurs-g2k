@@ -1,4 +1,4 @@
-# Демо пересборки для защиты: меняем одно число в учебном слое и пересобираем курс одной командой.
+﻿# Демо пересборки для защиты: меняем одно число в учебном слое и пересобираем курс одной командой.
 # Запуск из папки g2k:   powershell -ExecutionPolicy Bypass -File demo\rebuild_demo.ps1
 # Вернуть как было:      powershell -ExecutionPolicy Bypass -File demo\rebuild_demo.ps1 -Undo
 param([switch]$Undo)
