@@ -15,3 +15,6 @@ inputs/chapters/*.md
 inputs/test/*.md
 !inputs/test/README.md
 inputs/pack/control/vendelshtein_gl1.md
+
+# материалы организаторов (текст главы и тестовый пакет) не публикуются
+inputs/test_review/

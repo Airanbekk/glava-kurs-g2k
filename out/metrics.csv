@@ -29,3 +29,5 @@ time,chapter,stage,nodes,llm_calls,llm_cached,tokens_in,tokens_out,usd,wall_seco
 2026-11-26T11:26,slatt_9-3_9-4,video,1,1,0,3065,5094,0.057,298,0,"claude-code: gen=claude-sonnet-5-5, review=claude-sonnet-5-5","{""seconds"": 74.4}"
 2026-11-26T11:32,slatt_9-3_9-4,video,1,1,0,3262,4492,0.051,301,0,"claude-code: gen=claude-sonnet-5-5, review=claude-sonnet-5-5","{""seconds"": 74.1}"
 2026-11-26T11:36,slatt_9-3_9-4,video,1,1,0,3522,4078,0.048,220,0,"claude-code: gen=claude-sonnet-5-5, review=claude-sonnet-5-5","{""seconds"": 66.6}"
+2026-11-26T12:49,ctrl_vendelshtein,review,0,62,0,1074318,133034,0.174,314,0,"claude-code: gen=claude-sonnet-5-5, review=claude-haiku-5-5","{""remarks"": 22}"
+2026-11-26T13:34,test_asquith,review,0,22,24,444862,18507,1.075,91,0,"claude-code: gen=claude-sonnet-5-5, review=claude-sonnet-5-5","{""remarks"": 19}"
