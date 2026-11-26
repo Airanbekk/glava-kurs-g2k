@@ -47,9 +47,13 @@ def build(review_score: str = "95% ошибок по весу, 0 ложных т
     test = [r for r in rows if r["split"] == "test"]
     tbl = table(train)
     S = []
-    S.append(("Глава → курс", f"""<p class=big>Конвейер, который сам превращает главу книги в проверенный курс для новичка</p>
-<p>Участник-одиночка · {len(rows)} главы собраны конвейером без ручных правок</p>
-<p class=muted>Победит не тот, у кого больше генеративного ИИ, а тот, чей конвейер стабильно даёт верный и полный материал на незнакомой главе и чья стоимость известна в цифрах.</p>"""))
+    S.append(("", f"""<div class=title>
+<div class=kicker>Хакатон «Глава → курс» · КБТУ · 26 ноября 2026</div>
+<div class=hero>Глава → курс</div>
+<div class=lead>Конвейер, который сам превращает главу книги по геологии в проверенный курс для новичка — с цитатами автора, заданиями и роликами</div>
+<div class=facts><span><b>{len(rows)}</b> {'главы собраны' if 2 <= len(rows) % 10 <= 4 and not 12 <= len(rows) % 100 <= 14 else 'глав собрано'} конвейером</span><span><b>{sum(r['claims'] for r in rows)}</b> утверждений с цитатой и страницей</span><span><b>0</b> неверных цитат</span></div>
+<div class=team><div><small>Команда</small><b>Solo</b></div><div><small>Участник</small><b>Zulkash Nurpeiis</b></div></div>
+</div>"""))
     S.append(("Ставка: точность встроена в код, а не в промпт", """<ul>
 <li><b>Модель пишет — код проверяет.</b> Каждое утверждение несёт дословную цитату и страницу; код сверяет её с главой по правилу жюри. Не прошло — утверждение не выходит.</li>
 <li><b>Покрытие считает код, а не модель.</b> Глава режется на единицы p095.03; каждая единица — в узле или с причиной.</li>
@@ -137,7 +141,7 @@ def build(review_score: str = "95% ошибок по весу, 0 ложных т
     S.append(("Демо", """<ol><li>Открываем курс главы — проходим шаг как новичок, кликаем «стр. N», решаем задание на телефоне</li>
 <li>Фрагмент ролика</li>
 <li>Пересборка: <code>demo\rebuild_demo.ps1</code> меняет 4→5 в «Цифрах и условиях» — одна команда — число на странице курса изменилось</li></ol><p class=big>Спасибо!</p>"""))
-    slides = "".join(f"<section class='slide{' hidden' if i else ''}'><h1>{html.escape(t)}</h1>{b}<div class=num>{i + 1}/{len(S)}</div></section>"
+    slides = "".join(f"<section class='slide{' hidden' if i else ''}'>{('<h1>' + html.escape(t) + '</h1>') if t else ''}{b}<div class=num>{i + 1}/{len(S)}</div></section>"
                      for i, (t, b) in enumerate(S))
     page = f"""<!doctype html><html lang=ru><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1">
 <title>Глава → курс — защита</title><style>
@@ -150,6 +154,13 @@ table{{border-collapse:collapse;width:100%;font-size:19px}}td,th{{border:1px sol
 .flow{{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:20px 0 30px}}.flow div{{background:var(--panel);border:2px solid var(--acc);border-radius:14px;padding:14px 18px;text-align:center}}
 .flow small{{color:var(--muted)}}.flow i{{font-style:normal;font-size:30px;color:var(--muted)}}
 .num{{position:absolute;right:4vw;bottom:3vh;color:var(--muted);font-size:16px}}
+.title{{display:flex;flex-direction:column;justify-content:center;min-height:80vh;gap:22px}}
+.kicker{{color:var(--muted);font-size:20px;letter-spacing:.04em;text-transform:uppercase}}
+.hero{{font-size:96px;font-weight:800;line-height:1;color:var(--acc)}}
+.lead{{font-size:30px;line-height:1.35;max-width:1000px}}
+.facts{{display:flex;gap:16px;flex-wrap:wrap}}.facts span{{background:var(--panel);border:1px solid #2c3640;border-radius:12px;padding:10px 16px;font-size:20px}}.facts b{{color:var(--acc);font-size:26px;margin-right:6px}}
+.team{{display:flex;gap:60px;margin-top:18px;border-top:2px solid #2c3640;padding-top:22px}}.team small{{display:block;color:var(--muted);font-size:16px;text-transform:uppercase;letter-spacing:.05em}}.team b{{font-size:34px}}
+@media print{{.title{{min-height:640px}}.hero{{font-size:84px}}}}
 @page{{size:1280px 720px;margin:0}}
 @media print{{body{{-webkit-print-color-adjust:exact;print-color-adjust:exact;font-size:20px}}.hidden{{display:block}}.slide{{height:720px;min-height:0;overflow:hidden;page-break-after:always;padding:40px 70px}}h1{{font-size:38px;margin-bottom:18px}}li{{margin:6px 0}}video{{max-height:430px;object-fit:contain}}}}
 </style></head><body>{slides}<script>
