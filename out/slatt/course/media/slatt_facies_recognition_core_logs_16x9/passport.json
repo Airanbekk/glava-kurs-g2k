@@ -1,0 +1,262 @@
+{
+ "video_id": "slatt_facies_recognition_core_logs_16x9",
+ "node_id": "slatt.facies_recognition_core_logs",
+ "node_card": {
+  "title": "Узнавание фаций дельты по керну и каротажу: огрубление вверх",
+  "novice_title": "Как узнать фации по керну и ГИС",
+  "difficulty": {
+   "primary": "Р",
+   "secondary": "И"
+  },
+  "essence": [
+   "Фации дельты узнают по разрезу, который огрубляется вверх, и по характерному набору текстур.",
+   "Те же признаки ищут в керне и на каротаже; от оси русла отклик утоняется и становится более мелкозернистым."
+  ]
+ },
+ "script": [
+  {
+   "t_start": 0.4,
+   "t_end": 6.0,
+   "text": "Скважина прошла сквозь дельту. Как по одной кривой понять, где был бар?",
+   "claim_id": null,
+   "is_analogy": false,
+   "on_screen": ""
+  },
+  {
+   "t_start": 7.2,
+   "t_end": 11.96,
+   "text": "Дельту узнают по зерну, которое огрубляется вверх, и по набору текстур.",
+   "claim_id": "slatt.facies_recognition_core_logs#c1",
+   "is_analogy": false,
+   "on_screen": "грубее вверх"
+  },
+  {
+   "t_start": 12.31,
+   "t_end": 18.43,
+   "text": "Перед нами обобщённый профиль устьевого бара, изменённый по Галлоуэю, тысяча девятьсот шестьдесят восьмой.",
+   "claim_id": "slatt.facies_recognition_core_logs#c6",
+   "is_analogy": false,
+   "on_screen": "профиль устьевого бара"
+  },
+  {
+   "t_start": 18.78,
+   "t_end": 22.79,
+   "text": "На гребне бара, по описанию, идёт плоская слоистость.",
+   "claim_id": "slatt.facies_recognition_core_logs#c7",
+   "is_analogy": false,
+   "on_screen": "гребень: плоская слоистость"
+  },
+  {
+   "t_start": 23.14,
+   "t_end": 29.07,
+   "text": "Прибор спускается от гребня бара к продельте. Как изменится кривая гамма-каротажа?",
+   "claim_id": null,
+   "is_analogy": false,
+   "on_screen": "Как думаете?"
+  },
+  {
+   "t_start": 31.57,
+   "t_end": 36.6,
+   "text": "В проксимальном устьевом баре, по описанию, косая и деформированная слоистость.",
+   "claim_id": "slatt.facies_recognition_core_logs#c7",
+   "is_analogy": false,
+   "on_screen": "косая слоистость"
+  },
+  {
+   "t_start": 36.95,
+   "t_end": 42.19,
+   "text": "Фронтальные веера, по описанию, содержат турбидиты и оползневые деформации.",
+   "claim_id": "slatt.facies_recognition_core_logs#c8",
+   "is_analogy": false,
+   "on_screen": "турбидиты, оползни"
+  },
+  {
+   "t_start": 42.54,
+   "t_end": 47.67,
+   "text": "Продельта, по описанию, это тёмная, почти бесструктурная базальная пачка.",
+   "claim_id": "slatt.facies_recognition_core_logs#c8",
+   "is_analogy": false,
+   "on_screen": "продельта: глина"
+  },
+  {
+   "t_start": 48.02,
+   "t_end": 52.61,
+   "text": "В недрах те же признаки ищут и по керну, и по каротажным кривым.",
+   "claim_id": "slatt.facies_recognition_core_logs#c2",
+   "is_analogy": false,
+   "on_screen": "кривая — не порода"
+  },
+  {
+   "t_start": 52.96,
+   "t_end": 57.64,
+   "text": "На каротаже отклик утоняется и мельчает по мере удаления от оси русла.",
+   "claim_id": "slatt.facies_recognition_core_logs#c3",
+   "is_analogy": false,
+   "on_screen": "от оси русла — мельче"
+  },
+  {
+   "t_start": 57.99,
+   "t_end": 64.78,
+   "text": "Две соседние скважины показывают разные профили. Как понять, что это один бар, а не два?",
+   "claim_id": null,
+   "is_analogy": false,
+   "on_screen": "Вопрос на перенос"
+  }
+ ],
+ "sources": [
+  {
+   "claim_id": "slatt.facies_recognition_core_logs#c1",
+   "page_or_dataset": "стр. 413",
+   "quote": "facies can be recognized in outcrop by facies relationships and by a distinctive coarsening-upward grain size with a characteristic assemblage of sedimentary structures"
+  },
+  {
+   "claim_id": "slatt.facies_recognition_core_logs#c6",
+   "page_or_dataset": "стр. 415",
+   "quote": "(C) Generalized vertical profile through a channel-mouth-bar sand body. Modified from Galloway (1968)."
+  },
+  {
+   "claim_id": "slatt.facies_recognition_core_logs#c7",
+   "page_or_dataset": "стр. 415",
+   "quote": "Subaqueous levee — ripple and climbing ripple laminations. 3. Bar crest — planar laminations. 4. Proximal mouth bar — trough/cross bedding and deformed bedding."
+  },
+  {
+   "claim_id": "slatt.facies_recognition_core_logs#c8",
+   "page_or_dataset": "стр. 415",
+   "quote": "Frontal splays — “turbidites,” slumps. 6. Prodelta — dark, nearly structureless basal interval."
+  },
+  {
+   "claim_id": "slatt.facies_recognition_core_logs#c2",
+   "page_or_dataset": "стр. 413",
+   "quote": "In the subsurface, these same features can be identified in cores and on well logs"
+  },
+  {
+   "claim_id": "slatt.facies_recognition_core_logs#c3",
+   "page_or_dataset": "стр. 413",
+   "quote": "including a lateral thinning and fining log response away from the channel axis"
+  }
+ ],
+ "scene_spec": "slatt_facies_recognition_core_logs_16x9/scene_spec.json",
+ "frames": [
+  {
+   "t": 0.4,
+   "class": "B",
+   "label": "симуляция"
+  },
+  {
+   "t": 7.2,
+   "class": "B",
+   "label": "симуляция"
+  },
+  {
+   "t": 12.31,
+   "class": "B",
+   "label": "симуляция"
+  },
+  {
+   "t": 18.78,
+   "class": "B",
+   "label": "симуляция"
+  },
+  {
+   "t": 23.14,
+   "class": "B",
+   "label": "симуляция"
+  },
+  {
+   "t": 31.57,
+   "class": "B",
+   "label": "симуляция"
+  },
+  {
+   "t": 36.95,
+   "class": "B",
+   "label": "симуляция"
+  },
+  {
+   "t": 42.54,
+   "class": "B",
+   "label": "симуляция"
+  },
+  {
+   "t": 48.02,
+   "class": "B",
+   "label": "симуляция"
+  },
+  {
+   "t": 52.96,
+   "class": "B",
+   "label": "симуляция"
+  },
+  {
+   "t": 57.99,
+   "class": "B",
+   "label": "симуляция"
+  }
+ ],
+ "exaggerations": [
+  "Мощности и значения кривой условные, схема без масштаба источника"
+ ],
+ "prediction_question": "Прибор спускается от гребня бара к продельте. Как изменится кривая гамма-каротажа?",
+ "transfer_question": "Две соседние скважины показывают разные профили. Как понять, что это один бар, а не два?",
+ "data_it_bridge": "В данных это ступенчатая кривая: гамма-излучение растёт вниз от песка к глине. Разрешение прибора сглаживает границы пластов. Для модели кривая — лишь косвенный отклик, а не порода. Нейросеть, обученная только на кривых, спутает бар с другой фацией, похожей по форме. Нужны метки по керну и сравнение соседних скважин.",
+ "physics_checklist": [
+  {
+   "item": "Порядок слоёв сохраняется во всех кадрах; молодые лежат на старых, если не показан надвиг или опрокидывание.",
+   "answer": "н/п"
+  },
+  {
+   "item": "Разлом смещает слои согласованно по обе стороны; смещение не исчезает и не меняет знак между кадрами.",
+   "answer": "н/п"
+  },
+  {
+   "item": "Несогласие показано как событие: размыв, перерыв, новое накопление.",
+   "answer": "н/п"
+  },
+  {
+   "item": "Нефть и газ находятся в порах породы, а не в полостях и озёрах.",
+   "answer": "да"
+  },
+  {
+   "item": "Газ над нефтью, нефть над водой; контакт горизонтален или оговорено иное.",
+   "answer": "да"
+  },
+  {
+   "item": "Флюид движется от высокого давления к низкому; ловушка имеет покрышку.",
+   "answer": "н/п"
+  },
+  {
+   "item": "Порядок операций и событий верный: причина раньше следствия.",
+   "answer": "н/п"
+  },
+  {
+   "item": "Соблюдается баланс (масса, объём).",
+   "answer": "н/п"
+  },
+  {
+   "item": "Разрез, план и поверхность показывают одно и то же состояние.",
+   "answer": "н/п"
+  },
+  {
+   "item": "Механизм прибора верный (ГК — собственное излучение, не «отражение»).",
+   "answer": "н/п"
+  },
+  {
+   "item": "Сигнал отделён от свойства: прибор измеряет отклик, свойство получают интерпретацией.",
+   "answer": "н/п"
+  },
+  {
+   "item": "Названы условия применимости правила (напр., знак ПС зависит от соотношения минерализаций).",
+   "answer": "н/п"
+  }
+ ],
+ "audio_check": {
+  "duration_s": 66.6,
+  "words": 123,
+  "wpm": 128,
+  "loudness_lufs": "-16.12",
+  "voice": "ru-RU-DmitryNeural",
+  "backup_voice": "Microsoft Irina Desktop (офлайн)",
+  "sync": "тайминг кадров задан длительностью озвучки каждой фразы; сдвиг 0 с по построению",
+  "outside": "во внешний сервис (Microsoft TTS) уходит только текст сценария; офлайн-голос — ничего"
+ }
+}

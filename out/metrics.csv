@@ -25,3 +25,7 @@ time,chapter,stage,nodes,llm_calls,llm_cached,tokens_in,tokens_out,usd,wall_seco
 2026-11-26T11:20,slatt_9-3_9-4,layer,14,15,0,155679,116284,1.474,314,0,"claude-code: gen=claude-sonnet-5-5, review=claude-sonnet-5-5","{""quotes"": {""exact"": 157, ""moved"": 0, ""repaired"": 3, ""dropped"": 0, ""number_flags"": 0}, ""coverage"": {""units"": 203, ""in_nodes"": 181, ""skipped_with_reason"": 22, ""unassigned"": 0}}"
 2026-11-26T11:20,basarygin_4-1-1_4-2-14,course,19,20,0,114161,16145,0.39,82,0,"claude-code: gen=claude-sonnet-5-5, review=claude-sonnet-5-5","{""tasks"": 38}"
 2026-11-26T11:21,slatt_9-3_9-4,course,14,14,0,69161,11462,0.253,60,0,"claude-code: gen=claude-sonnet-5-5, review=claude-sonnet-5-5","{""tasks"": 28}"
+2026-11-26T11:25,basarygin_4-1-1_4-2-14,video,1,1,0,3416,4636,0.053,280,0,"claude-code: gen=claude-sonnet-5-5, review=claude-sonnet-5-5","{""seconds"": 74.4}"
+2026-11-26T11:26,slatt_9-3_9-4,video,1,1,0,3065,5094,0.057,298,0,"claude-code: gen=claude-sonnet-5-5, review=claude-sonnet-5-5","{""seconds"": 74.4}"
+2026-11-26T11:32,slatt_9-3_9-4,video,1,1,0,3262,4492,0.051,301,0,"claude-code: gen=claude-sonnet-5-5, review=claude-sonnet-5-5","{""seconds"": 74.1}"
+2026-11-26T11:36,slatt_9-3_9-4,video,1,1,0,3522,4078,0.048,220,0,"claude-code: gen=claude-sonnet-5-5, review=claude-sonnet-5-5","{""seconds"": 66.6}"

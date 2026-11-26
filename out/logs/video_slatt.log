@@ -1,0 +1,13 @@
+[модель] claude-code: gen=claude-sonnet-5-5, review=claude-sonnet-5-5; параллельных запросов: 3
+[ролик] узел slatt.river_delta_facies_map, формат 16:9
+[ролик] C:\Users\Admin\Documents\glava-kurs\g2k\out\slatt\course\media\slatt_river_delta_facies_map_16x9\slatt_river_delta_facies_map_16x9.mp4 (74 с, 134 слов/мин, -16.16 LUFS)
+[курс] C:\Users\Admin\Documents\glava-kurs\g2k\out\slatt\course\index.html  (1.08 МБ)
+  layer.json: OK
+  coverage.json: OK
+  routing.json: OK
+  tasks.json: OK
+  illustrations.json: OK
+  узлов 14, утверждений 160, цитат не по правилу жюри: 0
+  заданий 28, типов 5; единиц главы 203, без узла и без причины: 0
+ИТОГ: OK
+EXIT 0

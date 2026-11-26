@@ -19,7 +19,8 @@ def _stats():
         tasks = json.loads((d / "tasks.json").read_text(encoding="utf-8"))["tasks"] if (d / "tasks.json").exists() else []
         claims = [c for n in layer["nodes"] for c in n["claims"]]
         rep = {k: sum(n.get("verification", {}).get(k, 0) for n in layer["nodes"]) for k in ("exact", "repaired", "dropped")}
-        rows.append({"key": d.name, "chapter": layer["chapter"], "nodes": len(layer["nodes"]), "claims": len(claims),
+        split = json.loads((ROOT / "chapters.json").read_text(encoding="utf-8")).get(d.name, {}).get("split", "")
+        rows.append({"split": split, "key": d.name, "chapter": layer["chapter"], "nodes": len(layer["nodes"]), "claims": len(claims),
                      "units": len(cov), "in_nodes": sum(1 for r in cov if r["node_ids"]),
                      "skipped": sum(1 for r in cov if not r["node_ids"]), "tasks": len(tasks),
                      "types": len({t["type"] for t in tasks}), **rep,
@@ -37,11 +38,14 @@ def build(review_score: str = "95% ошибок по весу, 0 ложных т
     rows, usage = _stats()
     tot_claims = sum(r["claims"] for r in rows)
     tot_dropped = sum(r["dropped"] for r in rows)
-    tbl = "".join(
-        f"<tr><td>{html.escape(r['chapter'])}</td><td>{r['nodes']}</td><td>{r['claims']}</td>"
-        f"<td>{r['in_nodes']}/{r['units']}</td><td>{r['tasks']} ({r['types']} типов)</td>"
-        f"<td>{usage.get(r['chapter'], {}).get('sec', 0) // 60} мин</td>"
-        f"<td>${usage.get(r['chapter'], {}).get('usd', 0):.1f}</td></tr>" for r in rows)
+    def table(rs):
+        return "<table><tr><th>Глава</th><th>Шагов</th><th>Утверждений</th><th>Единиц в узлах / всего</th><th>Заданий</th><th>Время</th></tr>" + "".join(
+            f"<tr><td>{html.escape(r['chapter'])}</td><td>{r['nodes']}</td><td>{r['claims']}</td>"
+            f"<td>{r['in_nodes']}/{r['units']}</td><td>{r['tasks']} ({r['types']} типов)</td>"
+            f"<td>{usage.get(r['chapter'], {}).get('sec', 0) // 60} мин</td></tr>" for r in rs) + "</table>"
+    train = [r for r in rows if r["split"] == "train"]
+    test = [r for r in rows if r["split"] == "test"]
+    tbl = table(train)
     S = []
     S.append(("Глава → курс", f"""<p class=big>Конвейер, который сам превращает главу книги в проверенный курс для новичка</p>
 <p>Участник-одиночка · {len(rows)} главы собраны конвейером без ручных правок</p>
@@ -55,9 +59,15 @@ def build(review_score: str = "95% ошибок по весу, 0 ложных т
 <ul><li>Одна команда на главу: <code>python run.py build latyshova</code></li>
 <li>Все файлы — в общих схемах организаторов: слой, покрытие, маршрутизация, задания, иллюстрации, паспорт ролика</li>
 <li>Модуль проверки и журнал правок — рядом с конвейером</li></ul>"""))
-    S.append(("Результаты на обучающих главах", f"""<table><tr><th>Глава</th><th>Шагов</th><th>Утверждений</th><th>Покрытие (единиц в узлах)</th><th>Заданий</th><th>Время</th><th>Стоимость*</th></tr>{tbl}</table>
+    S.append(("Тест: незнакомые главы, замороженный конвейер", f"""{table(test)}
+<p><b>Все 4 главы собраны к 11:21 — за 50 минут после выдачи.</b> Три на английском, курс по-русски, цитаты в оригинале. Ручных правок: 1 (2 мин, тип поля page_print). Доменный пакет «бурение» собран автоматически за 96 с.</p>
+<p>Ролики по темам организаторов: Slatt — «Как узнать дельту по керну» (16:9, огрубление вверх по ГК); Басарыгин — «Как приток виден на поверхности» (9:16).</p>"""))
+    S.append(("Обучение: три главы", f"""{tbl}
 <p><b>{tot_claims} утверждений — {tot_claims} цитат проходят проверку по правилу жюри</b> (отброшено при генерации: {tot_dropped}). Остальные единицы главы — служебные, с причиной.</p>
-<p class=muted>* эквивалент по ценам API; собрано по подписке. Метрики пишутся автоматически в out/metrics.csv.</p>"""))
+<p class=muted>Стоимость главы ≈ $4 по ценам API; метрики пишутся автоматически в out/metrics.csv.</p>"""))
+    S.append(("Честно: что дальше", """<ul><li><b>Шаблоны сцен.</b> Сейчас один шаблон ролика — «ствол, прибор, кривая из модели пласта». Для бурения нужен «ёмкость и устье», для дельты — «вид сверху и наступление на море». Движок рендера общий, это доменное расширение (отчёт: out/basarygin/template_coverage.md)</li>
+<li><b>16:9 короче цели:</b> 67 с вместо 1,5–3 мин — сценарий берёт только утверждения одного узла</li>
+<li><b>Рисунки книги</b> пока упоминаются («рис. N, стр. M»), а не перерисовываются кодом</li></ul>"""))
     S.append(("Курс, который новичок проходит сам", """<ul>
 <li>Один HTML-файл ~1,5 МБ: открывается без сервера и логина, телефон 390 px и десктоп, тёмная и светлая тема, формулы офлайн</li>
 <li>Страница шага: заголовок для новичка, суть в 2–3 фразах, «как это работает» со <b>«стр. N» у каждого абзаца</b> (клик — цитата автора), разборы примеров с числами автора, цифры и условия, формулы с расшифровкой, таблицы книги, частая ошибка, «что это значит для данных», ИТ-аналогия и <b>где она ломается</b></li>
@@ -87,8 +97,8 @@ def build(review_score: str = "95% ошибок по весу, 0 ложных т
 <li>Ответы модели кешируются: пересборка после правки факта — одна команда, бесплатно и детерминированно</li>
 <li>Метрики по главам и этапам: токены, деньги, время → стоимость узла и главы для масштабирования</li></ul>"""))
     S.append(("Демо", """<ol><li>Открываем курс главы — проходим шаг как новичок, кликаем «стр. N», решаем задание на телефоне</li>
-<li>Смотрим шортс 9:16</li><li>Правим факт в patches → <code>build --stage course</code> → изменение в курсе</li>
-<li>Запускаем модуль проверки на чужом пакете</li></ol><p class=big>Спасибо!</p>"""))
+<li>Фрагмент ролика</li>
+<li>Пересборка: <code>demo\rebuild_demo.ps1</code> меняет 4→5 в «Цифрах и условиях» — одна команда — число на странице курса изменилось</li></ol><p class=big>Спасибо!</p>"""))
     slides = "".join(f"<section class='slide{' hidden' if i else ''}'><h1>{html.escape(t)}</h1>{b}<div class=num>{i + 1}/{len(S)}</div></section>"
                      for i, (t, b) in enumerate(S))
     page = f"""<!doctype html><html lang=ru><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1">
