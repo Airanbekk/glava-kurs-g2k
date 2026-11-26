@@ -85,12 +85,14 @@ def build(review_score: str = "95% ошибок по весу, 0 ложных т
         mj = ROOT / "out" / key / "media.json"
         if mj.exists():
             for nid, m in json.loads(mj.read_text(encoding="utf-8")).items():
-                vids.append((f"../out/{key}/course/{m['src']}", f"../out/{key}/course/{m['vtt']}", m["title"]))
+                fr = sorted((ROOT / "out" / key / "course" / Path(m["src"]).parent / "frames").glob("*.png"))
+                poster = f"../out/{key}/course/{Path(m['src']).parent.as_posix()}/frames/{fr[len(fr) // 2].name}" if fr else ""
+                vids.append((f"../out/{key}/course/{m['src']}", f"../out/{key}/course/{m['vtt']}", m["title"], poster))
     if vids:
         S.append(("Ролики, собранные конвейером", "<div style='display:flex;gap:24px;flex-wrap:wrap;align-items:flex-start'>" + "".join(
             f"<figure style='margin:0;flex:1 1 {'260px' if '9:16' in t else '520px'};max-width:{'300px' if '9:16' in t else '760px'}'>"
-            f"<video controls preload=metadata style='width:100%;border-radius:12px' src='{src}'><track kind=subtitles src='{vtt}' srclang=ru default></video>"
-            f"<figcaption class=muted>{html.escape(t)}</figcaption></figure>" for src, vtt, t in vids[:2]) + "</div>"))
+            f"<video controls preload=metadata poster='{poster}' style='width:100%;border-radius:12px' src='{src}'><track kind=subtitles src='{vtt}' srclang=ru default></video>"
+            f"<figcaption class=muted>{html.escape(t)}</figcaption></figure>" for src, vtt, t, poster in vids[:2]) + "</div>"))
     S.append(("Модуль проверки: находить ошибки, не трогая верное", f"""<p class=big>{html.escape(review_score)}</p>
 <ul><li><b>Барьер 1:</b> обвинение только с дословной цитатой главы, которая противоречит элементу; цитату проверяет код</li>
 <li><b>Барьер 2:</b> скептический второй рецензент пересматривает каждое замечание</li>
@@ -123,7 +125,8 @@ table{{border-collapse:collapse;width:100%;font-size:19px}}td,th{{border:1px sol
 .flow{{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:20px 0 30px}}.flow div{{background:var(--panel);border:2px solid var(--acc);border-radius:14px;padding:14px 18px;text-align:center}}
 .flow small{{color:var(--muted)}}.flow i{{font-style:normal;font-size:30px;color:var(--muted)}}
 .num{{position:absolute;right:4vw;bottom:3vh;color:var(--muted);font-size:16px}}
-@media print{{.hidden{{display:block}}.slide{{page-break-after:always}}}}
+@page{{size:1280px 720px;margin:0}}
+@media print{{body{{-webkit-print-color-adjust:exact;print-color-adjust:exact;font-size:20px}}.hidden{{display:block}}.slide{{height:720px;min-height:0;overflow:hidden;page-break-after:always;padding:40px 70px}}h1{{font-size:38px;margin-bottom:18px}}li{{margin:6px 0}}video{{max-height:430px;object-fit:contain}}}}
 </style></head><body>{slides}<script>
 let i=0;const s=[...document.querySelectorAll('.slide')];
 function go(k){{i=Math.max(0,Math.min(s.length-1,k));s.forEach((x,j)=>x.classList.toggle('hidden',j!==i))}}
