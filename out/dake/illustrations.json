@@ -1,0 +1,221 @@
+{
+ "chapter": "dake_ch5_7-3",
+ "illustrations": [
+  {
+   "id": "ill.dake.radial_setup_mass_balance",
+   "step_id": "step.dake.radial_setup_mass_balance",
+   "node_id": "dake.radial_setup_mass_balance",
+   "file": "assets/dake_radial_setup_mass_balance.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Смысл формулы и обозначения. Собрано кодом из утверждений узла.",
+   "alt": "Схема: смысл формулы и обозначения — Радиальная модель и баланс массы",
+   "source": "по главе, стр. 75, 76",
+   "claim_ids": [
+    "dake.radial_setup_mass_balance#c1",
+    "dake.radial_setup_mass_balance#c2",
+    "dake.radial_setup_mass_balance#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.dake.compressibility_nonlinear_equation",
+   "step_id": "step.dake.compressibility_nonlinear_equation",
+   "node_id": "dake.compressibility_nonlinear_equation",
+   "file": "assets/dake_compressibility_nonlinear_equation.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Смысл формулы и обозначения. Собрано кодом из утверждений узла.",
+   "alt": "Схема: смысл формулы и обозначения — Почему уравнение притока нелинейно",
+   "source": "по главе, стр. 76",
+   "claim_ids": [
+    "dake.compressibility_nonlinear_equation#c1",
+    "dake.compressibility_nonlinear_equation#c2",
+    "dake.compressibility_nonlinear_equation#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.dake.transient_regime",
+   "step_id": "step.dake.transient_regime",
+   "node_id": "dake.transient_regime",
+   "file": "assets/dake_transient_regime.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Причина → следствие → практика. Собрано кодом из утверждений узла.",
+   "alt": "Схема: причина → следствие → практика — Переходный режим: пласт «бесконечен»",
+   "source": "по главе, стр. 76, 77",
+   "claim_ids": [
+    "dake.transient_regime#c1",
+    "dake.transient_regime#c2",
+    "dake.transient_regime#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.dake.semi_steady_state",
+   "step_id": "step.dake.semi_steady_state",
+   "node_id": "dake.semi_steady_state",
+   "file": "assets/dake_semi_steady_state.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Причина → следствие → практика. Собрано кодом из утверждений узла.",
+   "alt": "Схема: причина → следствие → практика — Режим после касания границы пласта",
+   "source": "по главе, стр. 77",
+   "claim_ids": [
+    "dake.semi_steady_state#c1",
+    "dake.semi_steady_state#c2",
+    "dake.semi_steady_state#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.dake.average_pressure_rate_weighting",
+   "step_id": "step.dake.average_pressure_rate_weighting",
+   "node_id": "dake.average_pressure_rate_weighting",
+   "file": "assets/dake_average_pressure_rate_weighting.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Порядок действий по главе. Собрано кодом из утверждений узла.",
+   "alt": "Схема: порядок действий по главе — Среднее давление пласта по дебитам",
+   "source": "по главе, стр. 77, 78",
+   "claim_ids": [
+    "dake.average_pressure_rate_weighting#c1",
+    "dake.average_pressure_rate_weighting#c2",
+    "dake.average_pressure_rate_weighting#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.dake.steady_state_and_reality",
+   "step_id": "step.dake.steady_state_and_reality",
+   "node_id": "dake.steady_state_and_reality",
+   "file": "assets/dake_steady_state_and_reality.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Причина → следствие → практика. Собрано кодом из утверждений узла.",
+   "alt": "Схема: причина → следствие → практика — Установившийся режим и реальность",
+   "source": "по главе, стр. 78",
+   "claim_ids": [
+    "dake.steady_state_and_reality#c1",
+    "dake.steady_state_and_reality#c2",
+    "dake.steady_state_and_reality#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.dake.linearization_diffusivity",
+   "step_id": "step.dake.linearization_diffusivity",
+   "node_id": "dake.linearization_diffusivity",
+   "file": "assets/dake_linearization_diffusivity.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Смысл формулы и обозначения. Собрано кодом из утверждений узла.",
+   "alt": "Схема: смысл формулы и обозначения — Как получить уравнение диффузии давления",
+   "source": "по главе, стр. 78, 79",
+   "claim_ids": [
+    "dake.linearization_diffusivity#c1",
+    "dake.linearization_diffusivity#c2",
+    "dake.linearization_diffusivity#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.dake.cp_condition_total_compressibility",
+   "step_id": "step.dake.cp_condition_total_compressibility",
+   "node_id": "dake.cp_condition_total_compressibility",
+   "file": "assets/dake_cp_condition_total_compressibility.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Решение на данных: признаки → правило → вывод и где оно ломается. Собрано кодом из утверждений узла.",
+   "alt": "Схема: решение на данных: признаки → правило → вывод и где оно ломается — Когда линеаризация применима",
+   "source": "по главе, стр. 79",
+   "claim_ids": [
+    "dake.cp_condition_total_compressibility#c1",
+    "dake.cp_condition_total_compressibility#c2",
+    "dake.cp_condition_total_compressibility#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.dake.constant_rate_periods_line_source",
+   "step_id": "step.dake.constant_rate_periods_line_source",
+   "node_id": "dake.constant_rate_periods_line_source",
+   "file": "assets/dake_constant_rate_periods_line_source.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Смысл формулы и обозначения. Собрано кодом из утверждений узла.",
+   "alt": "Схема: смысл формулы и обозначения — Линейный источник и граничные условия",
+   "source": "по главе, стр. 87",
+   "claim_ids": [
+    "dake.constant_rate_periods_line_source#c1",
+    "dake.constant_rate_periods_line_source#c2",
+    "dake.constant_rate_periods_line_source#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.dake.boltzmann_derivation",
+   "step_id": "step.dake.boltzmann_derivation",
+   "node_id": "dake.boltzmann_derivation",
+   "file": "assets/dake_boltzmann_derivation.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Смысл формулы и обозначения. Собрано кодом из утверждений узла.",
+   "alt": "Схема: смысл формулы и обозначения — Свёртка уравнения в одну переменную",
+   "source": "по главе, стр. 87, 88",
+   "claim_ids": [
+    "dake.boltzmann_derivation#c1",
+    "dake.boltzmann_derivation#c2",
+    "dake.boltzmann_derivation#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.dake.exponential_integral",
+   "step_id": "step.dake.exponential_integral",
+   "node_id": "dake.exponential_integral",
+   "file": "assets/dake_exponential_integral.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Смысл формулы и обозначения. Собрано кодом из утверждений узла.",
+   "alt": "Схема: смысл формулы и обозначения — Функция ei(x): форма и приближение",
+   "source": "по главе, стр. 88, 89",
+   "claim_ids": [
+    "dake.exponential_integral#c1",
+    "dake.exponential_integral#c2",
+    "dake.exponential_integral#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.dake.wellbore_log_approximation_pulse",
+   "step_id": "step.dake.wellbore_log_approximation_pulse",
+   "node_id": "dake.wellbore_log_approximation_pulse",
+   "file": "assets/dake_wellbore_log_approximation_pulse.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Смысл формулы и обозначения. Собрано кодом из утверждений узла.",
+   "alt": "Схема: смысл формулы и обозначения — Давление на забое и в соседней скважине",
+   "source": "по главе, стр. 89",
+   "claim_ids": [
+    "dake.wellbore_log_approximation_pulse#c1",
+    "dake.wellbore_log_approximation_pulse#c2",
+    "dake.wellbore_log_approximation_pulse#c3"
+   ],
+   "prompt": null
+  }
+ ]
+}

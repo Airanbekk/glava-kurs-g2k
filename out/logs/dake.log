@@ -1,0 +1,21 @@
+[модель] claude-code: gen=claude-sonnet-5-5, review=claude-sonnet-5-5; параллельных запросов: 3
+[слой] план узлов: dake (230 единиц)
+[слой] узлов: 12; генерирую узлы параллельно (3)
+[слой] ВНИМАНИЕ: 22 нарушений схемы: ["nodes/8/claims/0/page_print: '155' is not of type 'integer', 'null'", "nodes/8/claims/1/page_print: '155' is not of type 'integer', 'null'", "nodes/8/claims/2/page_print: '155' is not of type 'integer', 'null'", "nodes/8/claims/3/page_print: '155' is not of type 'integer', 'null'", "nodes/8/claims/4/page_print: '155' is not of type 'integer', 'null'"]
+[слой] цитаты: {'exact': 182, 'moved': 0, 'repaired': 0, 'dropped': 0, 'number_flags': 0}; покрытие: {'units': 230, 'in_nodes': 201, 'skipped_with_reason': 29, 'unassigned': 0}
+[задания] 24 заданий, типов 5: ['calc', 'gap', 'multiple', 'order', 'single']
+[курс] C:\Users\Admin\Documents\glava-kurs\g2k\out\dake\course\index.html  (1.03 МБ)
+  layer.json: 22 ошибок схемы
+     nodes/8/claims/0/page_print: '155' is not of type 'integer', 'null'
+     nodes/8/claims/1/page_print: '155' is not of type 'integer', 'null'
+     nodes/8/claims/2/page_print: '155' is not of type 'integer', 'null'
+     nodes/8/claims/3/page_print: '155' is not of type 'integer', 'null'
+     nodes/8/claims/4/page_print: '155' is not of type 'integer', 'null'
+  coverage.json: OK
+  routing.json: OK
+  tasks.json: OK
+  illustrations.json: OK
+  узлов 12, утверждений 182, цитат не по правилу жюри: 0
+  заданий 24, типов 5; единиц главы 230, без узла и без причины: 0
+ИТОГ: есть замечания
+EXIT 0

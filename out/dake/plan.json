@@ -1,0 +1,551 @@
+{
+ "nodes": [
+  {
+   "slug": "radial_setup_mass_balance",
+   "title": "Радиальная модель, допущения и баланс массы в элементе dr",
+   "novice_title": "Радиальная модель и баланс массы",
+   "units": [
+    "p075.05",
+    "p075.06",
+    "p075.07",
+    "p075.08",
+    "p075.09",
+    "p075.10",
+    "p075.11",
+    "p075.12",
+    "p075.13",
+    "p076.05",
+    "p076.06",
+    "p076.07",
+    "p076.08",
+    "p076.09",
+    "p076.10",
+    "p076.11",
+    "p076.12",
+    "p076.13",
+    "p076.14",
+    "p076.15",
+    "p076.16",
+    "p076.17"
+   ],
+   "difficulty": {
+    "primary": "Ф",
+    "secondary": "П"
+   },
+   "threshold": true,
+   "prerequisites": [],
+   "id": "dake.radial_setup_mass_balance"
+  },
+  {
+   "slug": "compressibility_nonlinear_equation",
+   "title": "Сжимаемость и базовое нелинейное уравнение (5.1)",
+   "novice_title": "Почему уравнение притока нелинейно",
+   "units": [
+    "p076.18",
+    "p076.19",
+    "p076.20",
+    "p076.21",
+    "p076.22",
+    "p076.23",
+    "p076.24",
+    "p076.25",
+    "p076.26",
+    "p076.27",
+    "p076.28"
+   ],
+   "difficulty": {
+    "primary": "Ф",
+    "secondary": null
+   },
+   "threshold": true,
+   "prerequisites": [
+    "radial_setup_mass_balance"
+   ],
+   "id": "dake.compressibility_nonlinear_equation"
+  },
+  {
+   "slug": "transient_regime",
+   "title": "Условия решения: постоянный дебит и переходный режим",
+   "novice_title": "Переходный режим: пласт «бесконечен»",
+   "units": [
+    "p076.29",
+    "p076.30",
+    "p077.05",
+    "p077.06",
+    "p077.07",
+    "p077.08",
+    "p077.09",
+    "p077.10"
+   ],
+   "difficulty": {
+    "primary": "М",
+    "secondary": "Ф"
+   },
+   "threshold": true,
+   "prerequisites": [
+    "compressibility_nonlinear_equation"
+   ],
+   "id": "dake.transient_regime"
+  },
+  {
+   "slug": "semi_steady_state",
+   "title": "Псевдоустановившийся режим (semi steady state)",
+   "novice_title": "Режим после касания границы пласта",
+   "units": [
+    "p077.11",
+    "p077.12",
+    "p077.13",
+    "p077.14",
+    "p077.15",
+    "p077.16",
+    "p077.17",
+    "p077.18",
+    "p077.19",
+    "p077.20",
+    "p077.21",
+    "p077.22"
+   ],
+   "difficulty": {
+    "primary": "М",
+    "secondary": "Ф"
+   },
+   "threshold": true,
+   "prerequisites": [
+    "transient_regime"
+   ],
+   "id": "dake.semi_steady_state"
+  },
+  {
+   "slug": "average_pressure_rate_weighting",
+   "title": "Независимое дренирование скважин и среднее пластовое давление",
+   "novice_title": "Среднее давление пласта по дебитам",
+   "units": [
+    "p077.23",
+    "p077.24",
+    "p077.25",
+    "p077.26",
+    "p077.27",
+    "p077.28",
+    "p077.29",
+    "p078.05",
+    "p078.06",
+    "p078.07",
+    "p078.08",
+    "p078.09"
+   ],
+   "difficulty": {
+    "primary": "Пр",
+    "secondary": "Н"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "semi_steady_state"
+   ],
+   "id": "dake.average_pressure_rate_weighting"
+  },
+  {
+   "slug": "steady_state_and_reality",
+   "title": "Установившийся режим и его приближённость в поле",
+   "novice_title": "Установившийся режим и реальность",
+   "units": [
+    "p078.10",
+    "p078.11",
+    "p078.12",
+    "p078.13",
+    "p078.14",
+    "p078.15",
+    "p078.16"
+   ],
+   "difficulty": {
+    "primary": "М",
+    "secondary": "Н"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "semi_steady_state"
+   ],
+   "id": "dake.steady_state_and_reality"
+  },
+  {
+   "slug": "linearization_diffusivity",
+   "title": "Линеаризация для жидкости и уравнение радиальной диффузии",
+   "novice_title": "Как получить уравнение диффузии давления",
+   "units": [
+    "p078.17",
+    "p078.18",
+    "p078.19",
+    "p078.20",
+    "p078.21",
+    "p078.22",
+    "p078.23",
+    "p079.05",
+    "p079.06",
+    "p079.07",
+    "p079.08",
+    "p079.09",
+    "p079.10",
+    "p079.11",
+    "p079.25",
+    "p079.26",
+    "p079.27"
+   ],
+   "difficulty": {
+    "primary": "Ф",
+    "secondary": "М"
+   },
+   "threshold": true,
+   "prerequisites": [
+    "compressibility_nonlinear_equation"
+   ],
+   "id": "dake.linearization_diffusivity"
+  },
+  {
+   "slug": "cp_condition_total_compressibility",
+   "title": "Условие cp ≪ 1, полная сжимаемость и произведение φc",
+   "novice_title": "Когда линеаризация применима",
+   "units": [
+    "p079.12",
+    "p079.13",
+    "p079.14",
+    "p079.15",
+    "p079.16",
+    "p079.17",
+    "p079.18",
+    "p079.19",
+    "p079.20",
+    "p079.21",
+    "p079.22",
+    "p079.23",
+    "p079.24"
+   ],
+   "difficulty": {
+    "primary": "Н",
+    "secondary": "Ф"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "linearization_diffusivity"
+   ],
+   "id": "dake.cp_condition_total_compressibility"
+  },
+  {
+   "slug": "constant_rate_periods_line_source",
+   "title": "Решение при постоянном дебите: три периода и линейный источник",
+   "novice_title": "Линейный источник и граничные условия",
+   "units": [
+    "p087.05",
+    "p087.06",
+    "p087.07",
+    "p087.08",
+    "p087.09",
+    "p087.10",
+    "p087.11",
+    "p087.12",
+    "p087.13",
+    "p087.14",
+    "p087.15",
+    "p087.16",
+    "p087.17",
+    "p087.18",
+    "p087.19"
+   ],
+   "difficulty": {
+    "primary": "Ф",
+    "secondary": "М"
+   },
+   "threshold": true,
+   "prerequisites": [
+    "transient_regime",
+    "semi_steady_state",
+    "linearization_diffusivity"
+   ],
+   "id": "dake.constant_rate_periods_line_source"
+  },
+  {
+   "slug": "boltzmann_derivation",
+   "title": "Преобразование Больцмана и решение линейного источника (7.6)",
+   "novice_title": "Свёртка уравнения в одну переменную",
+   "units": [
+    "p087.20",
+    "p087.21",
+    "p087.22",
+    "p087.23",
+    "p087.24",
+    "p087.25",
+    "p087.26",
+    "p087.27",
+    "p087.28",
+    "p088.01",
+    "p088.02",
+    "p088.03",
+    "p088.04",
+    "p088.05",
+    "p088.06",
+    "p088.07",
+    "p088.08",
+    "p088.09",
+    "p088.10",
+    "p088.11",
+    "p088.12",
+    "p088.13",
+    "p088.14",
+    "p088.15",
+    "p088.16",
+    "p088.17",
+    "p088.18",
+    "p088.19",
+    "p088.20",
+    "p088.21",
+    "p088.22",
+    "p088.23",
+    "p088.24",
+    "p088.25",
+    "p088.26",
+    "p088.27",
+    "p088.28",
+    "p088.29"
+   ],
+   "difficulty": {
+    "primary": "Ф",
+    "secondary": null
+   },
+   "threshold": false,
+   "prerequisites": [
+    "constant_rate_periods_line_source"
+   ],
+   "id": "dake.boltzmann_derivation"
+  },
+  {
+   "slug": "exponential_integral",
+   "title": "Экспоненциальная интегральная функция ei(x) и её приближение",
+   "novice_title": "Функция ei(x): форма и приближение",
+   "units": [
+    "p088.30",
+    "p088.31",
+    "p088.32",
+    "p088.33",
+    "p088.34",
+    "p088.35",
+    "p089.01",
+    "p089.02",
+    "p089.03",
+    "p089.04",
+    "p089.05",
+    "p089.06",
+    "p089.07",
+    "p089.08",
+    "p089.09",
+    "p089.10",
+    "p089.11",
+    "p089.12",
+    "p089.13",
+    "p089.14",
+    "p089.15",
+    "p089.16",
+    "p089.17",
+    "p089.18",
+    "p089.19",
+    "p089.20",
+    "p089.21",
+    "p089.22",
+    "p089.23",
+    "p089.24",
+    "p089.31",
+    "p089.32",
+    "p089.33",
+    "p089.34",
+    "p089.35",
+    "p089.36",
+    "p089.37",
+    "p089.38"
+   ],
+   "difficulty": {
+    "primary": "Ф",
+    "secondary": "Р"
+   },
+   "threshold": true,
+   "prerequisites": [
+    "boltzmann_derivation"
+   ],
+   "id": "dake.exponential_integral"
+  },
+  {
+   "slug": "wellbore_log_approximation_pulse",
+   "title": "Давление в стволе: логарифмическая форма, скин и импульсные тесты",
+   "novice_title": "Давление на забое и в соседней скважине",
+   "units": [
+    "p089.25",
+    "p089.26",
+    "p089.27",
+    "p089.28",
+    "p089.29",
+    "p089.39",
+    "p089.40",
+    "p089.41"
+   ],
+   "difficulty": {
+    "primary": "Ф",
+    "secondary": "Н"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "exponential_integral"
+   ],
+   "id": "dake.wellbore_log_approximation_pulse"
+  }
+ ],
+ "skipped": [
+  {
+   "unit_id": "p075.01",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p075.02",
+   "reason": "колонтитул"
+  },
+  {
+   "unit_id": "p075.03",
+   "reason": "библиография предыдущей главы"
+  },
+  {
+   "unit_id": "p075.04",
+   "reason": "библиография предыдущей главы"
+  },
+  {
+   "unit_id": "p076.01",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p076.02",
+   "reason": "колонтитул"
+  },
+  {
+   "unit_id": "p076.03",
+   "reason": "колонтитул (повтор)"
+  },
+  {
+   "unit_id": "p076.04",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p077.01",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p077.02",
+   "reason": "колонтитул"
+  },
+  {
+   "unit_id": "p077.03",
+   "reason": "колонтитул (повтор)"
+  },
+  {
+   "unit_id": "p077.04",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p078.01",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p078.02",
+   "reason": "колонтитул"
+  },
+  {
+   "unit_id": "p078.03",
+   "reason": "колонтитул (повтор)"
+  },
+  {
+   "unit_id": "p078.04",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p079.01",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p079.02",
+   "reason": "колонтитул"
+  },
+  {
+   "unit_id": "p079.03",
+   "reason": "колонтитул (повтор)"
+  },
+  {
+   "unit_id": "p079.04",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p079.28",
+   "reason": "заголовок списка литературы"
+  },
+  {
+   "unit_id": "p079.29",
+   "reason": "библиография"
+  },
+  {
+   "unit_id": "p079.30",
+   "reason": "библиография"
+  },
+  {
+   "unit_id": "p079.31",
+   "reason": "библиография"
+  },
+  {
+   "unit_id": "p087.01",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p087.02",
+   "reason": "колонтитул"
+  },
+  {
+   "unit_id": "p087.03",
+   "reason": "колонтитул (повтор)"
+  },
+  {
+   "unit_id": "p087.04",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p088.01",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p088.02",
+   "reason": "колонтитул"
+  },
+  {
+   "unit_id": "p088.03",
+   "reason": "колонтитул (повтор)"
+  },
+  {
+   "unit_id": "p088.04",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p089.01",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p089.02",
+   "reason": "колонтитул"
+  },
+  {
+   "unit_id": "p089.03",
+   "reason": "колонтитул (повтор)"
+  },
+  {
+   "unit_id": "p089.04",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p089.18",
+   "reason": "служебная строка ключевых слов к рисунку, не текст автора"
+  },
+  {
+   "unit_id": "p089.30",
+   "reason": "служебная метка разметки рисунка"
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+[модель] claude-code: gen=claude-sonnet-5-5, review=claude-sonnet-5-5; параллельных запросов: 3
+[слой] план узлов: asquith (415 единиц)
+[слой] узлов: 17; генерирую узлы параллельно (3)
+[слой] цитаты: {'exact': 354, 'moved': 0, 'repaired': 1, 'dropped': 0, 'number_flags': 2}; покрытие: {'units': 415, 'in_nodes': 381, 'skipped_with_reason': 34, 'unassigned': 0}
+[задания] 34 заданий, типов 5: ['calc', 'gap', 'multiple', 'order', 'single']
+[курс] C:\Users\Admin\Documents\glava-kurs\g2k\out\asquith\course\index.html  (1.26 МБ)
+  layer.json: OK
+  coverage.json: OK
+  routing.json: OK
+  tasks.json: OK
+  illustrations.json: OK
+  узлов 17, утверждений 355, цитат не по правилу жюри: 0
+  заданий 34, типов 5; единиц главы 415, без узла и без причины: 0
+ИТОГ: OK
+EXIT 0

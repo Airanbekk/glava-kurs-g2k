@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" font-family="Segoe UI, Arial, sans-serif">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8A96A3"/></marker></defs>
+<rect width="960" height="540" fill="#0F1419"/>
+<text x="32" y="46" fill="#ECEFF4" font-size="26" font-weight="700">Купарук: не один пласт, а шесть</text>
+<rect x="788" y="20" width="150" height="36" rx="18" fill="#8E44AD"/>
+<text x="863" y="44" fill="#fff" font-size="17" font-weight="700" text-anchor="middle">схема</text>
+<line x1="40" y1="470" x2="920" y2="470" stroke="#8A96A3" stroke-width="3" marker-end="url(#ah)"/>
+<text x="800" y="500" fill="#8A96A3" font-size="16">время →</text>
+<rect x="40.0" y="100" width="205.0" height="340" rx="14" fill="#1A2129" stroke="#F1C40F" stroke-width="3"/>
+<text x="56.0" y="130" fill="#F1C40F" font-size="18" font-weight="700">Этап 1</text>
+<text x="56.0" y="158" fill="#ECEFF4" font-size="17">Купарук — меловое</text>
+<text x="56.0" y="182" fill="#ECEFF4" font-size="17">месторождение на</text>
+<text x="56.0" y="206" fill="#ECEFF4" font-size="17">Северном склоне Аляски.</text>
+<text x="56.0" y="230" fill="#ECEFF4" font-size="17">Автор называет его</text>
+<text x="56.0" y="254" fill="#ECEFF4" font-size="17">примером, похожим на</text>
+<text x="56.0" y="278" fill="#ECEFF4" font-size="17">Прудо-Бей. Это второе</text>
+<rect x="265.0" y="100" width="205.0" height="340" rx="14" fill="#1A2129" stroke="#3498DB" stroke-width="3"/>
+<text x="281.0" y="130" fill="#3498DB" font-size="18" font-weight="700">Этап 2</text>
+<text x="281.0" y="158" fill="#ECEFF4" font-size="17">BBSTOOIP и BBO —</text>
+<text x="281.0" y="182" fill="#ECEFF4" font-size="17">единицы автора. Судя по</text>
+<text x="281.0" y="206" fill="#ECEFF4" font-size="17">записи, это миллиарды</text>
+<text x="281.0" y="230" fill="#ECEFF4" font-size="17">баррелей начальных</text>
+<text x="281.0" y="254" fill="#ECEFF4" font-size="17">запасов нефти в пласте</text>
+<text x="281.0" y="278" fill="#ECEFF4" font-size="17">и добытой нефти.</text>
+<rect x="490.0" y="100" width="205.0" height="340" rx="14" fill="#1A2129" stroke="#3498DB" stroke-width="3"/>
+<text x="506.0" y="130" fill="#3498DB" font-size="18" font-weight="700">Этап 3</text>
+<text x="506.0" y="158" fill="#ECEFF4" font-size="17">Нефть добывают из двух</text>
+<text x="506.0" y="182" fill="#ECEFF4" font-size="17">интервалов: юнитов A и</text>
+<text x="506.0" y="206" fill="#ECEFF4" font-size="17">C. Раньше каждый юнит</text>
+<text x="506.0" y="230" fill="#ECEFF4" font-size="17">считали одним песчаным</text>
+<text x="506.0" y="254" fill="#ECEFF4" font-size="17">телом, непрерывным по</text>
+<text x="506.0" y="278" fill="#ECEFF4" font-size="17">латерали, то есть по</text>
+<rect x="715.0" y="100" width="205.0" height="340" rx="14" fill="#1A2129" stroke="#3498DB" stroke-width="3"/>
+<text x="731.0" y="130" fill="#3498DB" font-size="18" font-weight="700">Этап 4</text>
+<text x="731.0" y="158" fill="#ECEFF4" font-size="17">Корреляция по секвенс-</text>
+<text x="731.0" y="182" fill="#ECEFF4" font-size="17">стратиграфии показала</text>
+<text x="731.0" y="206" fill="#ECEFF4" font-size="17">другое. Это метод,</text>
+<text x="731.0" y="230" fill="#ECEFF4" font-size="17">который связывает слои</text>
+<text x="731.0" y="254" fill="#ECEFF4" font-size="17">по возрасту и циклам</text>
+<text x="731.0" y="278" fill="#ECEFF4" font-size="17">наступления и</text>
+<text x="32" y="524" fill="#8A96A3" font-size="14">по главе, стр. 422, 423</text>
+</svg>

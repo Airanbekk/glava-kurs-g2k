@@ -1,0 +1,15 @@
+[модель] claude-code: gen=claude-sonnet-5-5, review=claude-sonnet-5-5; параллельных запросов: 3
+[слой] план узлов: basarygin (133 единиц)
+[слой] узлов: 19; генерирую узлы параллельно (3)
+[слой] цитаты: {'exact': 215, 'moved': 0, 'repaired': 0, 'dropped': 0, 'number_flags': 1}; покрытие: {'units': 133, 'in_nodes': 118, 'skipped_with_reason': 15, 'unassigned': 0}
+[задания] 38 заданий, типов 5: ['calc', 'gap', 'multiple', 'order', 'single']
+[курс] C:\Users\Admin\Documents\glava-kurs\g2k\out\basarygin\course\index.html  (1.25 МБ)
+  layer.json: OK
+  coverage.json: OK
+  routing.json: OK
+  tasks.json: OK
+  illustrations.json: OK
+  узлов 19, утверждений 215, цитат не по правилу жюри: 0
+  заданий 38, типов 5; единиц главы 133, без узла и без причины: 0
+ИТОГ: OK
+EXIT 0

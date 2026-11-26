@@ -1,0 +1,719 @@
+{
+ "chapter": "dake_ch5_7-3",
+ "tasks": [
+  {
+   "id": "dake.radial_setup_mass_balance.t1",
+   "type": "calc",
+   "kind": "data",
+   "prompt": "Тонкое кольцо пласта имеет радиус r = 10 м, толщину dr = 0,1 м. Толщина пласта h = 5 м, пористость φ = 0,2. Объём пор кольца равен 2πrhφ·dr. Найдите его в м³ (π ≈ 3,1416).",
+   "options": [],
+   "answer": 6.283,
+   "tolerance": 0.01,
+   "unit": "м³",
+   "explanation": "Множитель 2πrhφ·dr в балансе массы — это объём пор тонкого кольца: 2π·10·5·0,2·0,1 ≈ 6,283 м³.",
+   "claim_ids": [
+    "dake.radial_setup_mass_balance#c18",
+    "dake.radial_setup_mass_balance#c17"
+   ],
+   "step_id": "step.dake.radial_setup_mass_balance"
+  },
+  {
+   "id": "dake.radial_setup_mass_balance.t2",
+   "type": "order",
+   "kind": "recall",
+   "prompt": "Расставьте шаги вывода уравнения радиального течения в том порядке, в котором их выполняет автор.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Подставить закон Дарси вместо q и получить уравнение (5.3)",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Принять допущения: однородность, изотропия, полное вскрытие, один флюид",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Разложить разность потоков через производную по r и получить (5.2)",
+     "misconception": null
+    },
+    {
+     "id": "d",
+     "text": "Выделить кольцевой элемент dr на расстоянии r и записать баланс массы",
+     "misconception": null
+    }
+   ],
+   "answer": [
+    "b",
+    "d",
+    "c",
+    "a"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Сначала вводят допущения, затем записывают баланс массы в кольце dr, получают (5.2) через производную и подставляют закон Дарси, чтобы получить (5.3).",
+   "claim_ids": [
+    "dake.radial_setup_mass_balance#c12",
+    "dake.radial_setup_mass_balance#c16",
+    "dake.radial_setup_mass_balance#c20",
+    "dake.radial_setup_mass_balance#c23"
+   ],
+   "step_id": "step.dake.radial_setup_mass_balance"
+  },
+  {
+   "id": "dake.compressibility_nonlinear_equation.t1",
+   "type": "single",
+   "kind": "understanding",
+   "prompt": "Зачем в уравнении (5.3) производную плотности по времени выражают через производную давления по времени?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Потому что давление удобнее измерять и считать, а связь между ними даёт изотермическая сжимаемость",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Потому что плотность в пласте не меняется со временем, и её производная равна нулю",
+     "misconception": "misc.model_knows"
+    },
+    {
+     "id": "c",
+     "text": "Потому что давление в пласте расходится с постоянной скоростью, как звук, и это упрощает уравнение",
+     "misconception": "misc.pressure_sound_speed"
+    },
+    {
+     "id": "d",
+     "text": "Потому что сжимаемость и плотность — одно и то же, поэтому их можно заменять друг на друга",
+     "misconception": "misc.porosity_eq_perm"
+    }
+   ],
+   "answer": "a",
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Измерять и считать удобнее давление, а мостом между плотностью и давлением служит изотермическая сжимаемость (5.4, 5.5).",
+   "claim_ids": [
+    "dake.compressibility_nonlinear_equation#c1",
+    "dake.compressibility_nonlinear_equation#c2"
+   ],
+   "step_id": "step.dake.compressibility_nonlinear_equation"
+  },
+  {
+   "id": "dake.compressibility_nonlinear_equation.t2",
+   "type": "multiple",
+   "kind": "understanding",
+   "prompt": "Что верно про нелинейность уравнения (5.1) и его линеаризацию? Выберите верные утверждения.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Плотность, сжимаемость и вязкость зависят от давления, а оно само неизвестно, поэтому уравнение нелинейно",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Простая линеаризация применима к жидкости с малой и постоянной сжимаемостью, например недонасыщенной нефти",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Для реального газа достаточно той же простой линеаризации, что и для недонасыщенной нефти",
+     "misconception": "misc.model_knows"
+    },
+    {
+     "id": "d",
+     "text": "Нелинейность возникает из-за того, что уравнение записано в радиальных координатах",
+     "misconception": "misc.reservoir_void"
+    },
+    {
+     "id": "e",
+     "text": "Для реального газа применяют строгий метод Кирхгофа (глава 8)",
+     "misconception": null
+    }
+   ],
+   "answer": [
+    "a",
+    "b",
+    "e"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Коэффициенты kρ/μ и φcρ зависят от давления, поэтому нужна линеаризация: простая для малой постоянной сжимаемости, а для реального газа метод Кирхгофа.",
+   "claim_ids": [
+    "dake.compressibility_nonlinear_equation#c8",
+    "dake.compressibility_nonlinear_equation#c10",
+    "dake.compressibility_nonlinear_equation#c11"
+   ],
+   "step_id": "step.dake.compressibility_nonlinear_equation"
+  },
+  {
+   "id": "dake.transient_regime.t1",
+   "type": "multiple",
+   "kind": "understanding",
+   "prompt": "Какие утверждения о переходном режиме в радиальной модели пласта верны?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Отклик давления в этот период не зависит от внешней границы пласта.",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Давление после изменения дебита сразу выравнивается по всему пласту.",
+     "misconception": "misc.pressure_sound_speed"
+    },
+    {
+     "id": "c",
+     "text": "Главное применение режима — анализ гидродинамических исследований скважин.",
+     "misconception": null
+    },
+    {
+     "id": "d",
+     "text": "Переходный режим длится месяцами, пока пласт не заполнится нефтью.",
+     "misconception": "misc.oil_lake"
+    },
+    {
+     "id": "e",
+     "text": "Давление в переходном режиме зависит только от времени, но не от расстояния до скважины.",
+     "misconception": "misc.model_knows"
+    }
+   ],
+   "answer": [
+    "a",
+    "c"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "В переходный период отклик не зависит от внешней границы, а главное применение — анализ гидродинамических исследований.",
+   "claim_ids": [
+    "dake.transient_regime#c7",
+    "dake.transient_regime#c8"
+   ],
+   "step_id": "step.dake.transient_regime"
+  },
+  {
+   "id": "dake.transient_regime.t2",
+   "type": "gap",
+   "kind": "recall",
+   "prompt": "Если пласт не чрезвычайно {{1}}, за несколько {{2}} границы не ощущаются, и пласт математически {{3}}.",
+   "options": [],
+   "answer": [
+    "мал",
+    "часов",
+    "бесконечен"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Если пласт не чрезвычайно мал, за несколько часов теста границы не ощущаются и пласт математически бесконечен.",
+   "claim_ids": [
+    "dake.transient_regime#c9"
+   ],
+   "step_id": "step.dake.transient_regime"
+  },
+  {
+   "id": "dake.semi_steady_state.t1",
+   "type": "gap",
+   "kind": "recall",
+   "prompt": "После касания границы пласта внешняя граница работает как «кирпичная стена» и не пропускает флюид. По закону {{1}} поток пропорционален градиенту давления, поэтому на радиусе re градиент dp/dr равен {{2}}.",
+   "options": [],
+   "answer": [
+    "Дарси",
+    "нулю"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Нет потока через границу, значит по закону Дарси градиент давления на re равен нулю (условие 5.6).",
+   "claim_ids": [
+    "dake.semi_steady_state#c2",
+    "dake.semi_steady_state#c3",
+    "dake.semi_steady_state#c4"
+   ],
+   "step_id": "step.dake.semi_steady_state"
+  },
+  {
+   "id": "dake.semi_steady_state.t2",
+   "type": "calc",
+   "kind": "data",
+   "prompt": "Скважина в псевдоустановившемся режиме работает с постоянным дебитом q = 200 м³/сут. Объём радиальной ячейки V = πre²hφ = 40 000 м³, сжимаемость c = 0,0005 1/бар. Используя баланс масс cV·dp/dt = −q, найдите скорость изменения давления dp/dt (знак минус означает падение).",
+   "options": [],
+   "answer": -10,
+   "tolerance": 0.1,
+   "unit": "бар/сут",
+   "explanation": "Из баланса масс dp/dt = −q/(cV) = −200/(0,0005·40 000) = −10 бар/сут, давление падает.",
+   "claim_ids": [
+    "dake.semi_steady_state#c8",
+    "dake.semi_steady_state#c9"
+   ],
+   "step_id": "step.dake.semi_steady_state"
+  },
+  {
+   "id": "dake.average_pressure_rate_weighting.t1",
+   "type": "gap",
+   "kind": "recall",
+   "prompt": "В псевдоустановившемся режиме dp/dt примерно {{1}} по всему пласту, поэтому дебит скважины пропорционален {{2}} её области, и среднее давление можно взвешивать {{3}}.",
+   "options": [],
+   "answer": [
+    "постоянна",
+    "объёму",
+    "дебитами"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Из постоянства dp/dt следует пропорциональность дебита объёму области, поэтому объёмы в формуле заменяются дебитами.",
+   "claim_ids": [
+    "dake.average_pressure_rate_weighting#c3",
+    "dake.average_pressure_rate_weighting#c8",
+    "dake.average_pressure_rate_weighting#c9"
+   ],
+   "step_id": "step.dake.average_pressure_rate_weighting"
+  },
+  {
+   "id": "dake.average_pressure_rate_weighting.t2",
+   "type": "calc",
+   "kind": "data",
+   "prompt": "Две скважины в псевдоустановившемся режиме дренируют независимые области. Скважина 1: среднее давление области 300 бар, дебит 100 м³/сут. Скважина 2: среднее давление области 200 бар, дебит 300 м³/сут. Найдите среднее давление пласта, взвешивая давления дебитами.",
+   "options": [],
+   "answer": 225,
+   "tolerance": 0.5,
+   "unit": "бар",
+   "explanation": "Среднее по дебитам: (300·100 + 200·300)/(100+300) = 90000/400 = 225 бар, так как дебиты пропорциональны объёмам областей.",
+   "claim_ids": [
+    "dake.average_pressure_rate_weighting#c9",
+    "dake.average_pressure_rate_weighting#c8"
+   ],
+   "step_id": "step.dake.average_pressure_rate_weighting"
+  },
+  {
+   "id": "dake.steady_state_and_reality.t1",
+   "type": "single",
+   "kind": "understanding",
+   "prompt": "Скважина с постоянным дебитом стоит в центре круглой ячейки с полностью открытой внешней границей, переходный период закончился. Что утверждает автор о давлении на радиусе r_e?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Оно постоянно и равно p_e, потому что отбор скважины уравновешен притоком через границу",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Оно падает со временем с постоянной скоростью, как и у скважины",
+     "misconception": "misc.pressure_sound_speed"
+    },
+    {
+     "id": "c",
+     "text": "Оно равно нулю, так как за границей ячейки пласта нет",
+     "misconception": "misc.reservoir_void"
+    },
+    {
+     "id": "d",
+     "text": "Оно постоянно только пока скважина не остановлена, а баланс притока и отбора не требуется",
+     "misconception": "misc.model_knows"
+    }
+   ],
+   "answer": "a",
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Из точного баланса отбора и притока следует, что на r_e давление постоянно и равно p_e (условие 5.14).",
+   "claim_ids": [
+    "dake.steady_state_and_reality#c2",
+    "dake.steady_state_and_reality#c3"
+   ],
+   "step_id": "step.dake.steady_state_and_reality"
+  },
+  {
+   "id": "dake.steady_state_and_reality.t2",
+   "type": "multiple",
+   "kind": "transfer",
+   "prompt": "На промысле видят стабильное давление при постоянном дебите. Какие утверждения из шага верны для применения установившегося режима?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Режим применим после окончания переходного периода",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Давление в пласте при этом поддерживается естественным напором воды или закачкой",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Режим всегда реализуется в пласте полностью и точно",
+     "misconception": "misc.model_knows"
+    },
+    {
+     "id": "d",
+     "text": "Участок сразу после смены дебита тоже можно считать установившимся",
+     "misconception": null
+    },
+    {
+     "id": "e",
+     "text": "Давление в пласте не зависит от того, что происходит на границе ячейки",
+     "misconception": "misc.reservoir_void"
+    }
+   ],
+   "answer": [
+    "a",
+    "b"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Режим применим после переходного периода и при поддержке давления водой или закачкой; сразу после смены дебита давление нестационарно, а полностью режим может не реализоваться никогда.",
+   "claim_ids": [
+    "dake.steady_state_and_reality#c1",
+    "dake.steady_state_and_reality#c5",
+    "dake.steady_state_and_reality#c6",
+    "dake.steady_state_and_reality#c11"
+   ],
+   "step_id": "step.dake.steady_state_and_reality"
+  },
+  {
+   "id": "dake.linearization_diffusivity.t1",
+   "type": "order",
+   "kind": "understanding",
+   "prompt": "Расставьте шаги получения радиального уравнения диффузии из (5.1) в порядке, как их описывает автор.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Принять постоянную сжимаемость: коэффициент φμc/k становится константой, уравнение линейно",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Раскрыть левую часть (5.1) по правилу дифференцирования сложной функции и получить (5.16)",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Принять постоянную вязкость и малый градиент давления, отбросить первые два слагаемых, получить (5.19)",
+     "misconception": null
+    },
+    {
+     "id": "d",
+     "text": "Продифференцировать (5.4) по r и подставить (5.17) в (5.16), получить (5.18)",
+     "misconception": null
+    }
+   ],
+   "answer": [
+    "b",
+    "d",
+    "c",
+    "a"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Автор сначала раскрывает (5.1) до (5.16), затем подставляет (5.17) и получает (5.18), потом отбрасывает члены по двум допущениям и в конце принимает постоянную c.",
+   "claim_ids": [
+    "dake.linearization_diffusivity#c3",
+    "dake.linearization_diffusivity#c4",
+    "dake.linearization_diffusivity#c5",
+    "dake.linearization_diffusivity#c9",
+    "dake.linearization_diffusivity#c10"
+   ],
+   "step_id": "step.dake.linearization_diffusivity"
+  },
+  {
+   "id": "dake.linearization_diffusivity.t2",
+   "type": "single",
+   "kind": "data",
+   "prompt": "В данных по скважине (дебит, забойное давление) аналитик ищет отклик пласта на изменение режима. Какую модель распространения давления в слабосжимаемой жидкости с постоянной вязкостью следует предполагать согласно шагу?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Волну давления, бегущую с постоянной скоростью, как звук",
+     "misconception": "misc.pressure_sound_speed"
+    },
+    {
+     "id": "b",
+     "text": "Диффузионный отклик с константой k/(φμc)",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Мгновенное выравнивание давления во всём пласте, как в пустоте",
+     "misconception": "misc.reservoir_void"
+    },
+    {
+     "id": "d",
+     "text": "Течение по подземному озеру без сопротивления породы",
+     "misconception": "misc.oil_lake"
+    }
+   ],
+   "answer": "b",
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Давление в пласте подчиняется радиальному уравнению диффузии с константой диффузии k/(φμc), а не распространяется как звуковая волна.",
+   "claim_ids": [
+    "dake.linearization_diffusivity#c11"
+   ],
+   "step_id": "step.dake.linearization_diffusivity"
+  },
+  {
+   "id": "dake.cp_condition_total_compressibility.t1",
+   "type": "single",
+   "kind": "understanding",
+   "prompt": "Почему для реального газа простая линеаризация уравнения диффузии (удалением нелинейных членов) не подходит?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Сжимаемость газа примерно равна 1/p, поэтому произведение cp равно единице, а условие cp ≪ 1 нарушено",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Газ не заполняет поры пласта, а лежит в пустотах, поэтому уравнение к нему неприменимо",
+     "misconception": "misc.reservoir_void"
+    },
+    {
+     "id": "c",
+     "text": "Газ распространяет давление с постоянной скоростью, как звук, и диффузия его не описывает",
+     "misconception": "misc.pressure_sound_speed"
+    },
+    {
+     "id": "d",
+     "text": "У газа нет связанной воды, поэтому полную сжимаемость посчитать нельзя",
+     "misconception": null
+    }
+   ],
+   "answer": "a",
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Сжимаемость газа ≈ 1/p, поэтому cp ≈ 1, а линеаризация требует cp ≪ 1.",
+   "claim_ids": [
+    "dake.cp_condition_total_compressibility#c3",
+    "dake.cp_condition_total_compressibility#c10",
+    "dake.cp_condition_total_compressibility#c11"
+   ],
+   "step_id": "step.dake.cp_condition_total_compressibility"
+  },
+  {
+   "id": "dake.cp_condition_total_compressibility.t2",
+   "type": "multiple",
+   "kind": "understanding",
+   "prompt": "Что верно про запись произведения φc и полную сжимаемость в этом шаге? Выберите 2–3 утверждения.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Полная сжимаемость считается как c_o S_o + c_w S_wc + c_f, насыщенности берутся долями порового объёма",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Записи (5.23) и (5.24) дают одинаковое значение φc, но члены из разных записей смешивать нельзя",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "В (5.23) берётся абсолютная пористость, потому что (5.1) выводили для среды, полностью насыщенной одним флюидом",
+     "misconception": null
+    },
+    {
+     "id": "d",
+     "text": "Достаточно брать только сжимаемость нефти, ведь пласт — это только нефть в порах",
+     "misconception": "misc.oil_lake"
+    },
+    {
+     "id": "e",
+     "text": "Можно взять φ_abs(1−S_wc) и умножить на c_t без деления на (1−S_wc), значение останется тем же",
+     "misconception": "misc.porosity_eq_perm"
+    }
+   ],
+   "answer": [
+    "a",
+    "b",
+    "c"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Шаг даёт c_t как взвешенную сумму, а (5.23) и (5.24) равны по значению, но их члены смешивать нельзя.",
+   "claim_ids": [
+    "dake.cp_condition_total_compressibility#c6",
+    "dake.cp_condition_total_compressibility#c13",
+    "dake.cp_condition_total_compressibility#c14",
+    "dake.cp_condition_total_compressibility#c17"
+   ],
+   "step_id": "step.dake.cp_condition_total_compressibility"
+  },
+  {
+   "id": "dake.constant_rate_periods_line_source.t1",
+   "type": "calc",
+   "kind": "data",
+   "prompt": "Внутреннее граничное условие линейного источника: предел r·dp/dr при r→0 равен qμ/(2πkh). Найдите это значение (в Па) при q = 0,001 м³/с, μ = 0,002 Па·с, k = 1·10⁻¹³ м², h = 10 м. Число π примите равным 3,1416.",
+   "options": [],
+   "answer": 318310,
+   "tolerance": 1000,
+   "unit": "Па",
+   "explanation": "Условие (c) задаёт отбор на стволе-линии как r·dp/dr = qμ/(2πkh) при t>0, то есть 2·10⁻⁶ / (2π·10⁻¹²) ≈ 3,18·10⁵ Па.",
+   "claim_ids": [
+    "dake.constant_rate_periods_line_source#c18"
+   ],
+   "step_id": "step.dake.constant_rate_periods_line_source"
+  },
+  {
+   "id": "dake.constant_rate_periods_line_source.t2",
+   "type": "single",
+   "kind": "understanding",
+   "prompt": "Почему в переходном периоде говорят о «случае бесконечного пласта»?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Потому что пласт на самом деле не имеет границ и простирается бесконечно.",
+     "misconception": "misc.model_knows"
+    },
+    {
+     "id": "b",
+     "text": "Потому что возмущение от скважины ещё не дошло до границы дренирования, и давление на стволе от неё не зависит.",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Потому что давление от скважины расходится с постоянной скоростью и никогда не достигает границы.",
+     "misconception": "misc.pressure_sound_speed"
+    },
+    {
+     "id": "d",
+     "text": "Потому что граница сразу влияет на ствол, но этим влиянием можно пренебречь из-за большого радиуса ствола.",
+     "misconception": null
+    }
+   ],
+   "answer": "b",
+   "tolerance": null,
+   "unit": null,
+   "explanation": "В переходный период давление на стволе не зависит от границы дренирования, поэтому пласт кажется бесконечным по протяжённости.",
+   "claim_ids": [
+    "dake.constant_rate_periods_line_source#c3",
+    "dake.constant_rate_periods_line_source#c4"
+   ],
+   "step_id": "step.dake.constant_rate_periods_line_source"
+  },
+  {
+   "id": "dake.boltzmann_derivation.t1",
+   "type": "gap",
+   "kind": "recall",
+   "prompt": "Заполните пропуски. Замена Больцмана сводит уравнение диффузии к {{1}} дифференциальному уравнению, в котором давление зависит только от одной переменной {{2}}.",
+   "options": [],
+   "answer": [
+    "обыкновенное",
+    "s"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "После подстановки (7.2) и (7.3) r и t исчезают, и остаётся обыкновенное уравнение по s.",
+   "claim_ids": [
+    "dake.boltzmann_derivation#c7",
+    "dake.boltzmann_derivation#c9"
+   ],
+   "step_id": "step.dake.boltzmann_derivation"
+  },
+  {
+   "id": "dake.boltzmann_derivation.t2",
+   "type": "calc",
+   "kind": "data",
+   "prompt": "Вычислите переменную Больцмана s = φμc r²/(4kt) при φ = 0,2; μ = 2; c = 0,5; r = 10; k = 2; t = 5. Все величины даны в согласованных условных единицах, поэтому s получается безразмерной.",
+   "options": [],
+   "answer": 0.5,
+   "tolerance": 0.01,
+   "unit": "безразмерная",
+   "explanation": "Числитель 0,2·2·0,5·100 = 20, знаменатель 4·2·5 = 40, значит s = φμc r²/(4kt) = 0,5.",
+   "claim_ids": [
+    "dake.boltzmann_derivation#c2"
+   ],
+   "step_id": "step.dake.boltzmann_derivation"
+  },
+  {
+   "id": "dake.exponential_integral.t1",
+   "type": "multiple",
+   "kind": "understanding",
+   "prompt": "Что верно про функцию ei(x) согласно шагу?",
+   "options": [
+    {
+     "id": "a",
+     "text": "ei(x) — площадь под кривой e^(-s)/s правее точки x, поэтому при малых x она велика",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "При больших x значение ei(x) мало, потому что площадь правее большого x мала",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Приближение −ln(γx) годится для любых x, если построить график на log-log шкале",
+     "misconception": "misc.high_res_oil"
+    },
+    {
+     "id": "d",
+     "text": "ei(x) растёт с ростом x, так как правее x становится больше площади",
+     "misconception": "misc.pressure_sound_speed"
+    }
+   ],
+   "answer": [
+    "a",
+    "b"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "ei(x) — площадь правее x: велика при малых x и мала при больших.",
+   "claim_ids": [
+    "dake.exponential_integral#c5",
+    "dake.exponential_integral#c6"
+   ],
+   "step_id": "step.dake.exponential_integral"
+  },
+  {
+   "id": "dake.exponential_integral.t2",
+   "type": "gap",
+   "kind": "recall",
+   "prompt": "При x < 0,01 ei(x) ≈ −ln(γx), где γ = e^{{1}} = {{2}}. Число в показателе экспоненты — постоянная {{3}}.",
+   "options": [],
+   "answer": [
+    "0,5772",
+    "1,781",
+    "Эйлера"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Экспонента от постоянной Эйлера 0,5772 даёт γ = 1,781 для приближения при x < 0,01.",
+   "claim_ids": [
+    "dake.exponential_integral#c9",
+    "dake.exponential_integral#c10",
+    "dake.exponential_integral#c11"
+   ],
+   "step_id": "step.dake.exponential_integral"
+  },
+  {
+   "id": "dake.wellbore_log_approximation_pulse.t1",
+   "type": "gap",
+   "kind": "recall",
+   "prompt": "Заполните пропуски: на забое аргумент x ei-функции {{1}}, поэтому давление описывается простым {{2}} времени.",
+   "options": [],
+   "answer": [
+    "мал",
+    "логарифмом"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "На забое x обычно меньше 0,01, поэтому полное решение (7.6) заменяют логарифмическим приближением.",
+   "claim_ids": [
+    "dake.wellbore_log_approximation_pulse#c3",
+    "dake.wellbore_log_approximation_pulse#c4"
+   ],
+   "step_id": "step.dake.wellbore_log_approximation_pulse"
+  },
+  {
+   "id": "dake.wellbore_log_approximation_pulse.t2",
+   "type": "calc",
+   "kind": "data",
+   "prompt": "Аргумент ei-функции x = φμc·r²/(4kt). В согласованных единицах φμc·r² = 0,06, k = 3, t = 2. Чему равен x? (Для справки: логарифмическое приближение применимо при x < 0,01.)",
+   "options": [],
+   "answer": 0.0025,
+   "tolerance": 0.0001,
+   "unit": "безразмерная величина",
+   "explanation": "x = 0,06/(4·3·2) = 0,0025, это меньше 0,01, значит, логарифмическая форма применима.",
+   "claim_ids": [
+    "dake.wellbore_log_approximation_pulse#c13",
+    "dake.wellbore_log_approximation_pulse#c3"
+   ],
+   "step_id": "step.dake.wellbore_log_approximation_pulse"
+  }
+ ]
+}

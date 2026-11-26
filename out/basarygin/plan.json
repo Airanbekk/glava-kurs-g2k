@@ -1,0 +1,491 @@
+{
+ "nodes": [
+  {
+   "slug": "signs_overview",
+   "title": "Меры безопасности и признаки проявлений",
+   "novice_title": "Как приток флюида виден на поверхности",
+   "units": [
+    "p231.01",
+    "p231.02",
+    "p231.03",
+    "p231.04",
+    "p231.05",
+    "p231.06",
+    "p231.07",
+    "p231.08",
+    "p231.09",
+    "p231.10",
+    "p231.11",
+    "p231.12",
+    "p231.13",
+    "p231.14",
+    "p231.15",
+    "p231.16",
+    "p231.17",
+    "p231.18",
+    "p232.01"
+   ],
+   "difficulty": {
+    "primary": "И",
+    "secondary": null
+   },
+   "threshold": true,
+   "prerequisites": [],
+   "id": "basarygin.signs_overview"
+  },
+  {
+   "slug": "rop_jump",
+   "title": "Увеличение механической скорости бурения («скачок проходки»)",
+   "novice_title": "Скачок проходки как ранний сигнал",
+   "units": [
+    "p232.02",
+    "p232.03",
+    "p232.04",
+    "p232.05",
+    "p233.01"
+   ],
+   "difficulty": {
+    "primary": "Р",
+    "secondary": "Н"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "signs_overview"
+   ],
+   "id": "basarygin.rop_jump"
+  },
+  {
+   "slug": "level_resolution",
+   "title": "Уровень в приёмных ёмкостях и минимальный регистрируемый объём ΔVmin = εS",
+   "novice_title": "Чувствительность контроля уровня раствора",
+   "units": [
+    "p232.06",
+    "p232.07",
+    "p233.02",
+    "p233.03",
+    "p233.04",
+    "p233.05",
+    "p233.06",
+    "p233.07",
+    "p233.08",
+    "p234.01"
+   ],
+   "difficulty": {
+    "primary": "И",
+    "secondary": "Ф"
+   },
+   "threshold": true,
+   "prerequisites": [
+    "signs_overview"
+   ],
+   "id": "basarygin.level_resolution"
+  },
+  {
+   "slug": "level_practice",
+   "title": "Меры для своевременного обнаружения притока по уровню",
+   "novice_title": "Как не потерять приток в шуме ёмкостей",
+   "units": [
+    "p234.02",
+    "p234.03",
+    "p234.04",
+    "p234.05",
+    "p234.06",
+    "p234.07",
+    "p234.08"
+   ],
+   "difficulty": {
+    "primary": "Пр",
+    "secondary": "Н"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "level_resolution"
+   ],
+   "id": "basarygin.level_practice"
+  },
+  {
+   "slug": "flow_out",
+   "title": "Увеличение расхода на выходе и зависимость обнаружения от подачи насосов",
+   "novice_title": "Расход на выходе: порог и подача насоса",
+   "units": [
+    "p234.09",
+    "p234.10",
+    "p234.11",
+    "p234.12",
+    "p234.13",
+    "p234.14",
+    "p235.01",
+    "p235.02",
+    "p235.03",
+    "p235.04"
+   ],
+   "difficulty": {
+    "primary": "И",
+    "secondary": "Ф"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "signs_overview",
+    "level_resolution"
+   ],
+   "id": "basarygin.flow_out"
+  },
+  {
+   "slug": "gas_causes_signs",
+   "title": "Газирование бурового раствора: причины и признак проявления",
+   "novice_title": "Откуда газ в растворе: порода или приток",
+   "units": [
+    "p235.05",
+    "p235.06",
+    "p235.07",
+    "p235.08",
+    "p235.09",
+    "p236.03"
+   ],
+   "difficulty": {
+    "primary": "Р",
+    "secondary": "М"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "signs_overview",
+    "rop_jump"
+   ],
+   "id": "basarygin.gas_causes_signs"
+  },
+  {
+   "slug": "gas_actions",
+   "title": "Рост газосодержания, газирование после СПО и контроль газа",
+   "novice_title": "Что делать при росте газа в растворе",
+   "units": [
+    "p235.10",
+    "p236.01",
+    "p236.02",
+    "p236.03",
+    "p236.04",
+    "p236.05",
+    "p236.06"
+   ],
+   "difficulty": {
+    "primary": "Н",
+    "secondary": "Пр"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "gas_causes_signs"
+   ],
+   "id": "basarygin.gas_actions"
+  },
+  {
+   "slug": "gas_formulas",
+   "title": "Дебит газа по плотности раствора (4.1), газосодержание (4.2) и роль газирования",
+   "novice_title": "Расчёт газа и почему он не причина выброса",
+   "units": [
+    "p236.07",
+    "p236.08",
+    "p236.09",
+    "p237.01",
+    "p237.02",
+    "p237.03",
+    "p237.04"
+   ],
+   "difficulty": {
+    "primary": "Ф",
+    "secondary": "М"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "gas_causes_signs"
+   ],
+   "id": "basarygin.gas_formulas"
+  },
+  {
+   "slug": "pump_pressure",
+   "title": "Изменения давления на буровых насосах при проявлении",
+   "novice_title": "Давление на насосах: падает или растёт",
+   "units": [
+    "p237.05",
+    "p237.06",
+    "p237.07",
+    "p237.08",
+    "p237.09",
+    "p237.10",
+    "p238.01"
+   ],
+   "difficulty": {
+    "primary": "М",
+    "secondary": "Ф"
+   },
+   "threshold": true,
+   "prerequisites": [
+    "signs_overview"
+   ],
+   "id": "basarygin.pump_pressure"
+  },
+  {
+   "slug": "trips_volumes",
+   "title": "Объём доливаемого и вытесняемого раствора при спускоподъёмных операциях",
+   "novice_title": "Баланс долива и вытеснения при СПО",
+   "units": [
+    "p238.02",
+    "p238.03",
+    "p238.04",
+    "p238.05",
+    "p238.06",
+    "p238.07",
+    "p239.01"
+   ],
+   "difficulty": {
+    "primary": "Пр",
+    "secondary": "И"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "signs_overview",
+    "level_resolution"
+   ],
+   "id": "basarygin.trips_volumes"
+  },
+  {
+   "slug": "mud_properties",
+   "title": "Изменение показателей свойств бурового раствора",
+   "novice_title": "Свойства раствора как слабый сигнал",
+   "units": [
+    "p239.02",
+    "p239.03"
+   ],
+   "difficulty": {
+    "primary": "И",
+    "secondary": "Н"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "signs_overview"
+   ],
+   "id": "basarygin.mud_properties"
+  },
+  {
+   "slug": "causes_intro",
+   "title": "Причины поступления пластовых флюидов в скважину при бурении",
+   "novice_title": "Приток при pзаб выше pпл: почему не опасен",
+   "units": [
+    "p239.04",
+    "p239.05",
+    "p239.06"
+   ],
+   "difficulty": {
+    "primary": "М",
+    "secondary": null
+   },
+   "threshold": true,
+   "prerequisites": [
+    "signs_overview"
+   ],
+   "id": "basarygin.causes_intro"
+  },
+  {
+   "slug": "wellhead_strengthening",
+   "title": "Усиление устьевой части конструкции газовых скважин",
+   "novice_title": "Зачем усиливают устье газовой скважины",
+   "units": [
+    "p312.01",
+    "p312.02",
+    "p312.03"
+   ],
+   "difficulty": {
+    "primary": "М",
+    "secondary": null
+   },
+   "threshold": false,
+   "prerequisites": [],
+   "id": "basarygin.wellhead_strengthening"
+  },
+  {
+   "slug": "wellhead_layout",
+   "title": "Схема обвязки устьевого оборудования (рис. 4.16)",
+   "novice_title": "Устройство обвязки устья: позиции схемы",
+   "units": [
+    "p312.04",
+    "p312.05",
+    "p312.06",
+    "p312.07",
+    "p312.08",
+    "p313.01"
+   ],
+   "difficulty": {
+    "primary": "П",
+    "secondary": "Пр"
+   },
+   "threshold": true,
+   "prerequisites": [
+    "signs_overview"
+   ],
+   "id": "basarygin.wellhead_layout"
+  },
+  {
+   "slug": "closing_physics",
+   "title": "Что происходит после перекрытия скважины: давления в трубах и кольцевом пространстве",
+   "novice_title": "Закрытая скважина: приток затухает и давление растёт",
+   "units": [
+    "p314.01",
+    "p314.02"
+   ],
+   "difficulty": {
+    "primary": "М",
+    "secondary": "Ф"
+   },
+   "threshold": true,
+   "prerequisites": [
+    "wellhead_layout",
+    "pump_pressure"
+   ],
+   "id": "basarygin.closing_physics"
+  },
+  {
+   "slug": "closing_prep_hard",
+   "title": "Подготовка к перекрытию и «жёсткое» перекрытие скважины",
+   "novice_title": "Первые действия и быстрое закрытие",
+   "units": [
+    "p314.03",
+    "p314.04",
+    "p315.01",
+    "p315.02",
+    "p315.03"
+   ],
+   "difficulty": {
+    "primary": "Пр",
+    "secondary": "Н"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "closing_physics",
+    "wellhead_layout"
+   ],
+   "id": "basarygin.closing_prep_hard"
+  },
+  {
+   "slug": "closing_soft_choice",
+   "title": "«Мягкое» перекрытие, выбор способа и действия при проявлении во время СПО",
+   "novice_title": "Мягкое закрытие и выбор способа",
+   "units": [
+    "p315.04",
+    "p315.05",
+    "p315.06",
+    "p315.07",
+    "p316.01"
+   ],
+   "difficulty": {
+    "primary": "Н",
+    "secondary": "Пр"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "closing_prep_hard"
+   ],
+   "id": "basarygin.closing_soft_choice"
+  },
+  {
+   "slug": "killing_driller",
+   "title": "Глушение скважины: общая схема и «Метод бурильщика»",
+   "novice_title": "Метод бурильщика: два этапа глушения",
+   "units": [
+    "p316.02",
+    "p316.03",
+    "p316.04",
+    "p317.01"
+   ],
+   "difficulty": {
+    "primary": "Пр",
+    "secondary": "Ф"
+   },
+   "threshold": true,
+   "prerequisites": [
+    "closing_soft_choice",
+    "closing_physics"
+   ],
+   "id": "basarygin.killing_driller"
+  },
+  {
+   "slug": "killing_wait_weight",
+   "title": "«Метод ожидания и веса», случай после испытания пласта и сопутствующий метод",
+   "novice_title": "Метод ожидания и веса и его отличия",
+   "units": [
+    "p317.02",
+    "p318.01",
+    "p318.02",
+    "p318.03"
+   ],
+   "difficulty": {
+    "primary": "Пр",
+    "secondary": "Н"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "killing_driller"
+   ],
+   "id": "basarygin.killing_wait_weight"
+  }
+ ],
+ "skipped": [
+  {
+   "unit_id": "p231.19",
+   "reason": "номер страницы (229)"
+  },
+  {
+   "unit_id": "p232.08",
+   "reason": "номер страницы (230)"
+  },
+  {
+   "unit_id": "p233.09",
+   "reason": "номер страницы (231)"
+  },
+  {
+   "unit_id": "p234.15",
+   "reason": "номер страницы (232)"
+  },
+  {
+   "unit_id": "p235.11",
+   "reason": "номер страницы (233)"
+  },
+  {
+   "unit_id": "p236.10",
+   "reason": "номер страницы (234)"
+  },
+  {
+   "unit_id": "p237.11",
+   "reason": "номер страницы (235)"
+  },
+  {
+   "unit_id": "p238.08",
+   "reason": "номер страницы (236)"
+  },
+  {
+   "unit_id": "p239.07",
+   "reason": "номер страницы (237)"
+  },
+  {
+   "unit_id": "p312.09",
+   "reason": "номер страницы (312)"
+  },
+  {
+   "unit_id": "p314.05",
+   "reason": "номер страницы (314)"
+  },
+  {
+   "unit_id": "p315.08",
+   "reason": "номер страницы (315)"
+  },
+  {
+   "unit_id": "p316.05",
+   "reason": "номер страницы (316)"
+  },
+  {
+   "unit_id": "p317.03",
+   "reason": "номер страницы (317)"
+  },
+  {
+   "unit_id": "p318.04",
+   "reason": "номер страницы (318)"
+  }
+ ]
+}

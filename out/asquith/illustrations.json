@@ -1,0 +1,311 @@
+{
+ "chapter": "asquith_ch7",
+ "illustrations": [
+  {
+   "id": "ill.asquith.chapter_overview",
+   "step_id": "step.asquith.chapter_overview",
+   "node_id": "asquith.chapter_overview",
+   "file": "assets/asquith_chapter_overview.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Порядок действий по главе. Собрано кодом из утверждений узла.",
+   "alt": "Схема: порядок действий по главе — Зачем каротаж и откуда ответы",
+   "source": "по главе, стр. 126, 140",
+   "claim_ids": [
+    "asquith.chapter_overview#c1",
+    "asquith.chapter_overview#c2",
+    "asquith.chapter_overview#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.asquith.scan_reconnaissance",
+   "step_id": "step.asquith.scan_reconnaissance",
+   "node_id": "asquith.scan_reconnaissance",
+   "file": "assets/asquith_scan_reconnaissance.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Порядок действий по главе. Собрано кодом из утверждений узла.",
+   "alt": "Схема: порядок действий по главе — Как быстро отсортировать коллектор",
+   "source": "по главе, стр. 126, 140",
+   "claim_ids": [
+    "asquith.scan_reconnaissance#c1",
+    "asquith.scan_reconnaissance#c2",
+    "asquith.scan_reconnaissance#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.asquith.archie_sw_sxo",
+   "step_id": "step.asquith.archie_sw_sxo",
+   "node_id": "asquith.archie_sw_sxo",
+   "file": "assets/asquith_archie_sw_sxo.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Смысл формулы и обозначения. Собрано кодом из утверждений узла.",
+   "alt": "Схема: смысл формулы и обозначения — Формула Арчи для чистого пласта",
+   "source": "по главе, стр. 126, 127",
+   "claim_ids": [
+    "asquith.archie_sw_sxo#c1",
+    "asquith.archie_sw_sxo#c2",
+    "asquith.archie_sw_sxo#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.asquith.ratio_method_index",
+   "step_id": "step.asquith.ratio_method_index",
+   "node_id": "asquith.ratio_method_index",
+   "file": "assets/asquith_ratio_method_index.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Смысл формулы и обозначения. Собрано кодом из утверждений узла.",
+   "alt": "Схема: смысл формулы и обозначения — Подвижность нефти без пористости",
+   "source": "по главе, стр. 127",
+   "claim_ids": [
+    "asquith.ratio_method_index#c1",
+    "asquith.ratio_method_index#c2",
+    "asquith.ratio_method_index#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.asquith.ratio_swr_compare",
+   "step_id": "step.asquith.ratio_swr_compare",
+   "node_id": "asquith.ratio_swr_compare",
+   "file": "assets/asquith_ratio_swr_compare.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Решение на данных: признаки → правило → вывод и где оно ломается. Собрано кодом из утверждений узла.",
+   "alt": "Схема: решение на данных: признаки → правило → вывод и где оно ломается — Две оценки Sw и их расхождение",
+   "source": "по главе, стр. 128",
+   "claim_ids": [
+    "asquith.ratio_swr_compare#c1",
+    "asquith.ratio_swr_compare#c2",
+    "asquith.ratio_swr_compare#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.asquith.quicklook_rxo_rt",
+   "step_id": "step.asquith.quicklook_rxo_rt",
+   "node_id": "asquith.quicklook_rxo_rt",
+   "file": "assets/asquith_quicklook_rxo_rt.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Причина → следствие → практика. Собрано кодом из утверждений узла.",
+   "alt": "Схема: причина → следствие → практика — Кривая отношения против ПС",
+   "source": "по главе, стр. 128, 129",
+   "claim_ids": [
+    "asquith.quicklook_rxo_rt#c1",
+    "asquith.quicklook_rxo_rt#c2",
+    "asquith.quicklook_rxo_rt#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.asquith.quicklook_rwa",
+   "step_id": "step.asquith.quicklook_rwa",
+   "node_id": "asquith.quicklook_rwa",
+   "file": "assets/asquith_quicklook_rwa.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Цепочка косвенного измерения: сигнал → вывод → условия. Собрано кодом из утверждений узла.",
+   "alt": "Схема: цепочка косвенного измерения: сигнал → вывод → условия — Поиск воды по минимуму Rwa",
+   "source": "по главе, стр. 129, 130",
+   "claim_ids": [
+    "asquith.quicklook_rwa#c1",
+    "asquith.quicklook_rwa#c2",
+    "asquith.quicklook_rwa#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.asquith.quicklook_cond_ro",
+   "step_id": "step.asquith.quicklook_cond_ro",
+   "node_id": "asquith.quicklook_cond_ro",
+   "file": "assets/asquith_quicklook_cond_ro.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Цепочка косвенного измерения: сигнал → вывод → условия. Собрано кодом из утверждений узла.",
+   "alt": "Схема: цепочка косвенного измерения: сигнал → вывод → условия — Пористость и Ro из сопротивления",
+   "source": "по главе, стр. 130, 131",
+   "claim_ids": [
+    "asquith.quicklook_cond_ro#c1",
+    "asquith.quicklook_cond_ro#c2",
+    "asquith.quicklook_cond_ro#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.asquith.bvw_irreducible",
+   "step_id": "step.asquith.bvw_irreducible",
+   "node_id": "asquith.bvw_irreducible",
+   "file": "assets/asquith_bvw_irreducible.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Причина → следствие → практика. Собрано кодом из утверждений узла.",
+   "alt": "Схема: причина → следствие → практика — Постоянный BVW: пласт на связанной воде",
+   "source": "по главе, стр. 131, 141",
+   "claim_ids": [
+    "asquith.bvw_irreducible#c1",
+    "asquith.bvw_irreducible#c2",
+    "asquith.bvw_irreducible#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.asquith.pickett_basics",
+   "step_id": "step.asquith.pickett_basics",
+   "node_id": "asquith.pickett_basics",
+   "file": "assets/asquith_pickett_basics.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Смысл формулы и обозначения. Собрано кодом из утверждений узла.",
+   "alt": "Схема: смысл формулы и обозначения — График Пикетта: линия воды и Rw",
+   "source": "по главе, стр. 132",
+   "claim_ids": [
+    "asquith.pickett_basics#c1",
+    "asquith.pickett_basics#c2",
+    "asquith.pickett_basics#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.asquith.pickett_lines_matrix",
+   "step_id": "step.asquith.pickett_lines_matrix",
+   "node_id": "asquith.pickett_lines_matrix",
+   "file": "assets/asquith_pickett_lines_matrix.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Порядок действий по главе. Собрано кодом из утверждений узла.",
+   "alt": "Схема: порядок действий по главе — Пикетт: подбор матрицы и линии Sw",
+   "source": "по главе, стр. 132, 133",
+   "claim_ids": [
+    "asquith.pickett_lines_matrix#c1",
+    "asquith.pickett_lines_matrix#c2",
+    "asquith.pickett_lines_matrix#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.asquith.hingle_theory_grids",
+   "step_id": "step.asquith.hingle_theory_grids",
+   "node_id": "asquith.hingle_theory_grids",
+   "file": "assets/asquith_hingle_theory_grids.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Смысл формулы и обозначения. Собрано кодом из утверждений узла.",
+   "alt": "Схема: смысл формулы и обозначения — График Хингла: прямые вместо кривых",
+   "source": "по главе, стр. 133, 134, 143, 144",
+   "claim_ids": [
+    "asquith.hingle_theory_grids#c1",
+    "asquith.hingle_theory_grids#c2",
+    "asquith.hingle_theory_grids#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.asquith.hingle_use_compare",
+   "step_id": "step.asquith.hingle_use_compare",
+   "node_id": "asquith.hingle_use_compare",
+   "file": "assets/asquith_hingle_use_compare.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Порядок действий по главе. Собрано кодом из утверждений узла.",
+   "alt": "Схема: порядок действий по главе — Хингл на практике и сравнение с Пикеттом",
+   "source": "по главе, стр. 134, 135",
+   "claim_ids": [
+    "asquith.hingle_use_compare#c1",
+    "asquith.hingle_use_compare#c2",
+    "asquith.hingle_use_compare#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.asquith.morrow_example",
+   "step_id": "step.asquith.morrow_example",
+   "node_id": "asquith.morrow_example",
+   "file": "assets/asquith_morrow_example.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Порядок действий по главе. Собрано кодом из утверждений узла.",
+   "alt": "Схема: порядок действий по главе — Разбор примера на реальных данных",
+   "source": "по главе, стр. 135, 142, 145",
+   "claim_ids": [
+    "asquith.morrow_example#c1",
+    "asquith.morrow_example#c2",
+    "asquith.morrow_example#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.asquith.perm_empirical",
+   "step_id": "step.asquith.perm_empirical",
+   "node_id": "asquith.perm_empirical",
+   "file": "assets/asquith_perm_empirical.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Смысл формулы и обозначения. Собрано кодом из утверждений узла.",
+   "alt": "Схема: смысл формулы и обозначения — Проницаемость из пористости и Swirr",
+   "source": "по главе, стр. 134, 135, 146",
+   "claim_ids": [
+    "asquith.perm_empirical#c1",
+    "asquith.perm_empirical#c2",
+    "asquith.perm_empirical#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.asquith.perm_coates",
+   "step_id": "step.asquith.perm_coates",
+   "node_id": "asquith.perm_coates",
+   "file": "assets/asquith_perm_coates.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Смысл формулы и обозначения. Собрано кодом из утверждений узла.",
+   "alt": "Схема: смысл формулы и обозначения — Формула Коутса с плотностью углеводородов",
+   "source": "по главе, стр. 135, 136",
+   "claim_ids": [
+    "asquith.perm_coates#c1",
+    "asquith.perm_coates#c2",
+    "asquith.perm_coates#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.asquith.shaly_sand",
+   "step_id": "step.asquith.shaly_sand",
+   "node_id": "asquith.shaly_sand",
+   "file": "assets/asquith_shaly_sand.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Решение на данных: признаки → правило → вывод и где оно ломается. Собрано кодом из утверждений узла.",
+   "alt": "Схема: решение на данных: признаки → правило → вывод и где оно ломается — Глина искажает формулу Арчи",
+   "source": "по главе, стр. 136",
+   "claim_ids": [
+    "asquith.shaly_sand#c1",
+    "asquith.shaly_sand#c2",
+    "asquith.shaly_sand#c3"
+   ],
+   "prompt": null
+  }
+ ]
+}

@@ -1,0 +1,257 @@
+{
+ "chapter": "slatt_9-3_9-4",
+ "illustrations": [
+  {
+   "id": "ill.slatt.time_lines_vs_facies",
+   "step_id": "step.slatt.time_lines_vs_facies",
+   "node_id": "slatt.time_lines_vs_facies",
+   "file": "assets/slatt_time_lines_vs_facies.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Последовательность событий во времени. Собрано кодом из утверждений узла.",
+   "alt": "Схема: последовательность событий во времени — Линии времени против границ пород",
+   "source": "по главе, стр. 410",
+   "claim_ids": [
+    "slatt.time_lines_vs_facies#c1",
+    "slatt.time_lines_vs_facies#c2",
+    "slatt.time_lines_vs_facies#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.slatt.mekong_progradation",
+   "step_id": "step.slatt.mekong_progradation",
+   "node_id": "slatt.mekong_progradation",
+   "file": "assets/slatt_mekong_progradation.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Причина → следствие → практика. Собрано кодом из утверждений узла.",
+   "alt": "Схема: причина → следствие → практика — Меконг: время режет фации",
+   "source": "по главе, стр. 410, 411, 412",
+   "claim_ids": [
+    "slatt.mekong_progradation#c1",
+    "slatt.mekong_progradation#c2",
+    "slatt.mekong_progradation#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.slatt.channel_switching_lowstand",
+   "step_id": "step.slatt.channel_switching_lowstand",
+   "node_id": "slatt.channel_switching_lowstand",
+   "file": "assets/slatt_channel_switching_lowstand.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Причина → следствие → практика. Собрано кодом из утверждений узла.",
+   "alt": "Схема: причина → следствие → практика — Что перестраивает дельту",
+   "source": "по главе, стр. 410, 413",
+   "claim_ids": [
+    "slatt.channel_switching_lowstand#c1",
+    "slatt.channel_switching_lowstand#c2",
+    "slatt.channel_switching_lowstand#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.slatt.mississippi_river_dominated",
+   "step_id": "step.slatt.mississippi_river_dominated",
+   "node_id": "slatt.mississippi_river_dominated",
+   "file": "assets/slatt_mississippi_river_dominated.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Причина → следствие → практика. Собрано кодом из утверждений узла.",
+   "alt": "Схема: причина → следствие → практика — Дельта Миссисипи: рост и смена лопастей",
+   "source": "по главе, стр. 411, 413",
+   "claim_ids": [
+    "slatt.mississippi_river_dominated#c1",
+    "slatt.mississippi_river_dominated#c2",
+    "slatt.mississippi_river_dominated#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.slatt.river_delta_facies_map",
+   "step_id": "step.slatt.river_delta_facies_map",
+   "node_id": "slatt.river_delta_facies_map",
+   "file": "assets/slatt_river_delta_facies_map.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Причина → следствие → практика. Собрано кодом из утверждений узла.",
+   "alt": "Схема: причина → следствие → практика — Где в дельте песок, а где глина",
+   "source": "по главе, стр. 411, 414",
+   "claim_ids": [
+    "slatt.river_delta_facies_map#c1",
+    "slatt.river_delta_facies_map#c2",
+    "slatt.river_delta_facies_map#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.slatt.facies_recognition_core_logs",
+   "step_id": "step.slatt.facies_recognition_core_logs",
+   "node_id": "slatt.facies_recognition_core_logs",
+   "file": "assets/slatt_facies_recognition_core_logs.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Причина → следствие → практика. Собрано кодом из утверждений узла.",
+   "alt": "Схема: причина → следствие → практика — Как узнать фации по керну и ГИС",
+   "source": "по главе, стр. 413, 415",
+   "claim_ids": [
+    "slatt.facies_recognition_core_logs#c1",
+    "slatt.facies_recognition_core_logs#c2",
+    "slatt.facies_recognition_core_logs#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.slatt.mouth_bar_heterogeneity",
+   "step_id": "step.slatt.mouth_bar_heterogeneity",
+   "node_id": "slatt.mouth_bar_heterogeneity",
+   "file": "assets/slatt_mouth_bar_heterogeneity.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Причина → следствие → практика. Собрано кодом из утверждений узла.",
+   "alt": "Схема: причина → следствие → практика — Устьевой бар: где лучший песок",
+   "source": "по главе, стр. 415, 416, 417",
+   "claim_ids": [
+    "slatt.mouth_bar_heterogeneity#c1",
+    "slatt.mouth_bar_heterogeneity#c2",
+    "slatt.mouth_bar_heterogeneity#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.slatt.prudhoe_correlation",
+   "step_id": "step.slatt.prudhoe_correlation",
+   "node_id": "slatt.prudhoe_correlation",
+   "file": "assets/slatt_prudhoe_correlation.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Решение на данных: признаки → правило → вывод и где оно ломается. Собрано кодом из утверждений узла.",
+   "alt": "Схема: решение на данных: признаки → правило → вывод и где оно ломается — Прудо-Бей: корреляция по времени",
+   "source": "по главе, стр. 416, 417, 418",
+   "claim_ids": [
+    "slatt.prudhoe_correlation#c1",
+    "slatt.prudhoe_correlation#c2",
+    "slatt.prudhoe_correlation#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.slatt.romeo_gr_stacking",
+   "step_id": "step.slatt.romeo_gr_stacking",
+   "node_id": "slatt.romeo_gr_stacking",
+   "file": "assets/slatt_romeo_gr_stacking.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Причина → следствие → практика. Собрано кодом из утверждений узла.",
+   "alt": "Схема: причина → следствие → практика — Разрез Ромео по керну и ГК",
+   "source": "по главе, стр. 419",
+   "claim_ids": [
+    "slatt.romeo_gr_stacking#c1",
+    "slatt.romeo_gr_stacking#c2",
+    "slatt.romeo_gr_stacking#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.slatt.shale_continuity",
+   "step_id": "step.slatt.shale_continuity",
+   "node_id": "slatt.shale_continuity",
+   "file": "assets/slatt_shale_continuity.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Причина → следствие → практика. Собрано кодом из утверждений узла.",
+   "alt": "Схема: причина → следствие → практика — Глины как барьеры потока",
+   "source": "по главе, стр. 420",
+   "claim_ids": [
+    "slatt.shale_continuity#c1",
+    "slatt.shale_continuity#c2",
+    "slatt.shale_continuity#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.slatt.well_09_35_sidetrack",
+   "step_id": "step.slatt.well_09_35_sidetrack",
+   "node_id": "slatt.well_09_35_sidetrack",
+   "file": "assets/slatt_well_09_35_sidetrack.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Решение на данных: признаки → правило → вывод и где оно ломается. Собрано кодом из утверждений узла.",
+   "alt": "Схема: решение на данных: признаки → правило → вывод и где оно ломается — Сайдтрек 09-35 против воды",
+   "source": "по главе, стр. 417, 418, 419, 421",
+   "claim_ids": [
+    "slatt.well_09_35_sidetrack#c1",
+    "slatt.well_09_35_sidetrack#c2",
+    "slatt.well_09_35_sidetrack#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.slatt.well_11_30_horizontal",
+   "step_id": "step.slatt.well_11_30_horizontal",
+   "node_id": "slatt.well_11_30_horizontal",
+   "file": "assets/slatt_well_11_30_horizontal.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Решение на данных: признаки → правило → вывод и где оно ломается. Собрано кодом из утверждений узла.",
+   "alt": "Схема: решение на данных: признаки → правило → вывод и где оно ломается — Скважина 11-30 под газовой шапкой",
+   "source": "по главе, стр. 419, 421, 422",
+   "claim_ids": [
+    "slatt.well_11_30_horizontal#c1",
+    "slatt.well_11_30_horizontal#c2",
+    "slatt.well_11_30_horizontal#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.slatt.kuparuk_river_field",
+   "step_id": "step.slatt.kuparuk_river_field",
+   "node_id": "slatt.kuparuk_river_field",
+   "file": "assets/slatt_kuparuk_river_field.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Последовательность событий во времени. Собрано кодом из утверждений узла.",
+   "alt": "Схема: последовательность событий во времени — Купарук: не один пласт, а шесть",
+   "source": "по главе, стр. 422, 423",
+   "claim_ids": [
+    "slatt.kuparuk_river_field#c1",
+    "slatt.kuparuk_river_field#c2",
+    "slatt.kuparuk_river_field#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.slatt.wave_dominated_deltas",
+   "step_id": "step.slatt.wave_dominated_deltas",
+   "node_id": "slatt.wave_dominated_deltas",
+   "file": "assets/slatt_wave_dominated_deltas.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Причина → следствие → практика. Собрано кодом из утверждений узла.",
+   "alt": "Схема: причина → следствие → практика — Дельты, перемешанные волнами",
+   "source": "по главе, стр. 423",
+   "claim_ids": [
+    "slatt.wave_dominated_deltas#c1",
+    "slatt.wave_dominated_deltas#c2",
+    "slatt.wave_dominated_deltas#c3"
+   ],
+   "prompt": null
+  }
+ ]
+}

@@ -1,1 +1,2 @@
 time,chapter,file,what_changed,person_minutes,people,run_no,reason
+2026-11-26T11:12,dake_ch5_7-3,out/dake/layer.raw.json,page_print: строка → число в 22 утверждениях (тип поля по схеме),2,1,1,"модель записала номер печатной страницы строкой ""155""; смысл не менялся"

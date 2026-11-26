@@ -1,0 +1,501 @@
+{
+ "nodes": [
+  {
+   "slug": "time_lines_vs_facies",
+   "title": "Клиноформы как линии времени пересекают литостратиграфические границы",
+   "novice_title": "Линии времени против границ пород",
+   "units": [
+    "p410.03",
+    "p410.07",
+    "p410.08",
+    "p410.09",
+    "p410.10",
+    "p410.11",
+    "p410.12",
+    "p410.13",
+    "p410.14",
+    "p410.15",
+    "p410.16",
+    "p410.17"
+   ],
+   "difficulty": {
+    "primary": "В",
+    "secondary": "П"
+   },
+   "threshold": true,
+   "prerequisites": [],
+   "id": "slatt.time_lines_vs_facies"
+  },
+  {
+   "slug": "mekong_progradation",
+   "title": "Дельта Меконга: датированная проградация и корреляция по времени",
+   "novice_title": "Меконг: время режет фации",
+   "units": [
+    "p410.04",
+    "p411.07",
+    "p411.08",
+    "p411.09",
+    "p411.10",
+    "p412.03",
+    "p412.04",
+    "p412.05",
+    "p412.06",
+    "p412.07",
+    "p412.08",
+    "p412.09",
+    "p412.10",
+    "p412.11",
+    "p412.12",
+    "p412.13",
+    "p412.14",
+    "p412.15",
+    "p412.16",
+    "p412.17",
+    "p412.18",
+    "p412.19",
+    "p412.20",
+    "p412.21"
+   ],
+   "difficulty": {
+    "primary": "Р",
+    "secondary": "В"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "time_lines_vs_facies"
+   ],
+   "id": "slatt.mekong_progradation"
+  },
+  {
+   "slug": "channel_switching_lowstand",
+   "title": "Переключение распределительных русел и дельты низкого стояния моря",
+   "novice_title": "Что перестраивает дельту",
+   "units": [
+    "p410.05",
+    "p410.06",
+    "p413.03",
+    "p413.04",
+    "p413.05",
+    "p413.06",
+    "p413.07"
+   ],
+   "difficulty": {
+    "primary": "М",
+    "secondary": "В"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "time_lines_vs_facies"
+   ],
+   "id": "slatt.channel_switching_lowstand"
+  },
+  {
+   "slug": "mississippi_river_dominated",
+   "title": "Дельта Миссисипи как тип дельты с преобладанием реки",
+   "novice_title": "Дельта Миссисипи: рост и смена лопастей",
+   "units": [
+    "p411.03",
+    "p411.04",
+    "p411.05",
+    "p413.08",
+    "p413.09",
+    "p413.10",
+    "p413.11",
+    "p413.12",
+    "p413.13",
+    "p413.14"
+   ],
+   "difficulty": {
+    "primary": "М",
+    "secondary": "В"
+   },
+   "threshold": true,
+   "prerequisites": [
+    "channel_switching_lowstand"
+   ],
+   "id": "slatt.mississippi_river_dominated"
+  },
+  {
+   "slug": "river_delta_facies_map",
+   "title": "Главные фации речной дельты и их распределение в пространстве",
+   "novice_title": "Где в дельте песок, а где глина",
+   "units": [
+    "p411.06",
+    "p414.01",
+    "p414.02",
+    "p414.03",
+    "p414.04",
+    "p414.05",
+    "p414.06"
+   ],
+   "difficulty": {
+    "primary": "П",
+    "secondary": "М"
+   },
+   "threshold": true,
+   "prerequisites": [
+    "mississippi_river_dominated"
+   ],
+   "id": "slatt.river_delta_facies_map"
+  },
+  {
+   "slug": "facies_recognition_core_logs",
+   "title": "Узнавание фаций дельты по керну и каротажу: огрубление вверх",
+   "novice_title": "Как узнать фации по керну и ГИС",
+   "units": [
+    "p413.15",
+    "p415.03",
+    "p415.04",
+    "p415.05",
+    "p415.06",
+    "p415.07",
+    "p415.08",
+    "p415.09",
+    "p415.10",
+    "p415.11"
+   ],
+   "difficulty": {
+    "primary": "Р",
+    "secondary": "И"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "river_delta_facies_map"
+   ],
+   "id": "slatt.facies_recognition_core_logs"
+  },
+  {
+   "slug": "mouth_bar_heterogeneity",
+   "title": "Устьевые бары Прудо-Бей: процессы, сортировка и проницаемость",
+   "novice_title": "Устьевой бар: где лучший песок",
+   "units": [
+    "p415.12",
+    "p416.03",
+    "p416.04",
+    "p416.05",
+    "p416.06",
+    "p416.07",
+    "p416.08",
+    "p416.09",
+    "p416.10",
+    "p417.03",
+    "p417.04",
+    "p417.05",
+    "p417.06",
+    "p417.07",
+    "p417.10"
+   ],
+   "difficulty": {
+    "primary": "М",
+    "secondary": "П"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "river_delta_facies_map",
+    "facies_recognition_core_logs"
+   ],
+   "id": "slatt.mouth_bar_heterogeneity"
+  },
+  {
+   "slug": "prudhoe_correlation",
+   "title": "Месторождение Прудо-Бей: зона Ромео и смена схемы корреляции",
+   "novice_title": "Прудо-Бей: корреляция по времени",
+   "units": [
+    "p416.11",
+    "p416.12",
+    "p417.08",
+    "p417.09",
+    "p418.03",
+    "p418.04",
+    "p418.05",
+    "p418.06",
+    "p418.07",
+    "p418.08",
+    "p418.09",
+    "p418.10",
+    "p418.11",
+    "p418.12"
+   ],
+   "difficulty": {
+    "primary": "Н",
+    "secondary": "П"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "time_lines_vs_facies",
+    "mouth_bar_heterogeneity"
+   ],
+   "id": "slatt.prudhoe_correlation"
+  },
+  {
+   "slug": "romeo_gr_stacking",
+   "title": "Типовая последовательность литофаций Ромео и отклик ГК",
+   "novice_title": "Разрез Ромео по керну и ГК",
+   "units": [
+    "p419.03",
+    "p419.04",
+    "p419.05",
+    "p419.06",
+    "p419.07",
+    "p419.08",
+    "p419.09",
+    "p419.10"
+   ],
+   "difficulty": {
+    "primary": "Р",
+    "secondary": "И"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "facies_recognition_core_logs",
+    "prudhoe_correlation"
+   ],
+   "id": "slatt.romeo_gr_stacking"
+  },
+  {
+   "slug": "shale_continuity",
+   "title": "Непрерывность глинистых прослоев как барьеров потока",
+   "novice_title": "Глины как барьеры потока",
+   "units": [
+    "p420.01",
+    "p420.02",
+    "p420.03",
+    "p420.04",
+    "p420.05",
+    "p420.06",
+    "p420.07",
+    "p420.08",
+    "p420.09",
+    "p420.10",
+    "p420.11",
+    "p420.12",
+    "p420.13",
+    "p420.14",
+    "p420.15",
+    "p420.16",
+    "p420.17"
+   ],
+   "difficulty": {
+    "primary": "П",
+    "secondary": "Н"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "prudhoe_correlation"
+   ],
+   "id": "slatt.shale_continuity"
+  },
+  {
+   "slug": "well_09_35_sidetrack",
+   "title": "Скважина 09-35: боковой горизонтальный ствол под непрерывной глиной",
+   "novice_title": "Сайдтрек 09-35 против воды",
+   "units": [
+    "p417.11",
+    "p418.13",
+    "p419.11",
+    "p421.14",
+    "p421.15",
+    "p421.16",
+    "p421.17",
+    "p421.18",
+    "p421.19",
+    "p421.20",
+    "p421.21",
+    "p421.22",
+    "p421.23"
+   ],
+   "difficulty": {
+    "primary": "Н",
+    "secondary": "Пр"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "shale_continuity",
+    "romeo_gr_stacking"
+   ],
+   "id": "slatt.well_09_35_sidetrack"
+  },
+  {
+   "slug": "well_11_30_horizontal",
+   "title": "Горизонтальная скважина 11-30 под глиной залива и газовой шапкой",
+   "novice_title": "Скважина 11-30 под газовой шапкой",
+   "units": [
+    "p419.12",
+    "p421.01",
+    "p421.02",
+    "p421.03",
+    "p421.04",
+    "p421.05",
+    "p421.06",
+    "p421.07",
+    "p421.08",
+    "p421.09",
+    "p421.10",
+    "p421.11",
+    "p421.12",
+    "p421.13",
+    "p422.03",
+    "p422.04",
+    "p422.05",
+    "p422.06",
+    "p422.07",
+    "p422.08",
+    "p422.09",
+    "p422.10",
+    "p422.11",
+    "p422.12",
+    "p422.13",
+    "p422.14"
+   ],
+   "difficulty": {
+    "primary": "Н",
+    "secondary": "П"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "well_09_35_sidetrack"
+   ],
+   "id": "slatt.well_11_30_horizontal"
+  },
+  {
+   "slug": "kuparuk_river_field",
+   "title": "Месторождение Купарук: шесть проградирующих песчаных тел юнита A",
+   "novice_title": "Купарук: не один пласт, а шесть",
+   "units": [
+    "p422.15",
+    "p422.16",
+    "p423.03",
+    "p423.04",
+    "p423.05",
+    "p423.06",
+    "p423.07",
+    "p423.08",
+    "p423.09",
+    "p423.10",
+    "p423.11",
+    "p423.12",
+    "p423.13"
+   ],
+   "difficulty": {
+    "primary": "В",
+    "secondary": "П"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "prudhoe_correlation"
+   ],
+   "id": "slatt.kuparuk_river_field"
+  },
+  {
+   "slug": "wave_dominated_deltas",
+   "title": "Дельты с преобладанием волн: процессы и отложения",
+   "novice_title": "Дельты, перемешанные волнами",
+   "units": [
+    "p423.14",
+    "p423.15",
+    "p423.16",
+    "p423.17",
+    "p423.18"
+   ],
+   "difficulty": {
+    "primary": "М",
+    "secondary": "Р"
+   },
+   "threshold": false,
+   "prerequisites": [
+    "river_delta_facies_map"
+   ],
+   "id": "slatt.wave_dominated_deltas"
+  }
+ ],
+ "skipped": [
+  {
+   "unit_id": "p410.01",
+   "reason": "колонтитул"
+  },
+  {
+   "unit_id": "p410.02",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p411.01",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p411.02",
+   "reason": "колонтитул"
+  },
+  {
+   "unit_id": "p412.01",
+   "reason": "колонтитул"
+  },
+  {
+   "unit_id": "p412.02",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p413.01",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p413.02",
+   "reason": "колонтитул"
+  },
+  {
+   "unit_id": "p415.01",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p415.02",
+   "reason": "колонтитул"
+  },
+  {
+   "unit_id": "p416.01",
+   "reason": "колонтитул"
+  },
+  {
+   "unit_id": "p416.02",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p417.01",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p417.02",
+   "reason": "колонтитул"
+  },
+  {
+   "unit_id": "p418.01",
+   "reason": "колонтитул"
+  },
+  {
+   "unit_id": "p418.02",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p419.01",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p419.02",
+   "reason": "колонтитул"
+  },
+  {
+   "unit_id": "p422.01",
+   "reason": "колонтитул"
+  },
+  {
+   "unit_id": "p422.02",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p423.01",
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p423.02",
+   "reason": "колонтитул"
+  }
+ ]
+}

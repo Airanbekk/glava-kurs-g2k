@@ -1,0 +1,4 @@
+[модель] claude-code: gen=claude-sonnet-5-5, review=claude-sonnet-5-5; параллельных запросов: -
+[домен] domain/drilling собран за 96 с
+глава basarygin теперь собирается с доменом drilling
+EXIT 0

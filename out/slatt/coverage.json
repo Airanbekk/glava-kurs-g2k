@@ -1,0 +1,1997 @@
+{
+ "chapter": "slatt_9-3_9-4",
+ "rows": [
+  {
+   "unit_id": "p410.01",
+   "kind": "paragraph",
+   "page_pdf": 410,
+   "excerpt": "Chapter 9 Deltaic Deposits and Reservoirs",
+   "node_ids": [],
+   "reason": "колонтитул"
+  },
+  {
+   "unit_id": "p410.02",
+   "kind": "paragraph",
+   "page_pdf": 410,
+   "excerpt": "409",
+   "node_ids": [],
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p410.03",
+   "kind": "paragraph",
+   "page_pdf": 410,
+   "excerpt": "It is important for proper subsurface correlations to understand that clinoforms, which",
+   "node_ids": [
+    "slatt.time_lines_vs_facies"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p410.04",
+   "kind": "paragraph",
+   "page_pdf": 410,
+   "excerpt": "A similar example is presented for the modern Mekong River Delta in",
+   "node_ids": [
+    "slatt.mekong_progradation"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p410.05",
+   "kind": "paragraph",
+   "page_pdf": 410,
+   "excerpt": "In addition to sea-level fluctuations, deltas are subject to “delta distributary switching",
+   "node_ids": [
+    "slatt.channel_switching_lowstand"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p410.06",
+   "kind": "paragraph",
+   "page_pdf": 410,
+   "excerpt": "Deltas can also form during a relative fall in sea level; these",
+   "node_ids": [
+    "slatt.channel_switching_lowstand"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p410.07",
+   "kind": "paragraph",
+   "page_pdf": 410,
+   "excerpt": "---- ━━━ FORMAT 4: CROSS-SECTION / РАЗРЕЗ ━━━ Lithostratigraphic Correlation",
+   "node_ids": [
+    "slatt.time_lines_vs_facies"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p410.08",
+   "kind": "paragraph",
+   "page_pdf": 410,
+   "excerpt": "Orientation: Landward (left) → Basinward (right). Horizontal distance between Well 1 and",
+   "node_ids": [
+    "slatt.time_lines_vs_facies"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p410.09",
+   "kind": "paragraph",
+   "page_pdf": 410,
+   "excerpt": "Wells along section, left to right: 1. Well 1 2. Well 2",
+   "node_ids": [
+    "slatt.time_lines_vs_facies"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p410.10",
+   "kind": "paragraph",
+   "page_pdf": 410,
+   "excerpt": "Lithostratigraphic units and correlation: - Brown-grey continuous layer at the top: Flooding",
+   "node_ids": [
+    "slatt.time_lines_vs_facies"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p410.11",
+   "kind": "paragraph",
+   "page_pdf": 410,
+   "excerpt": "Legend: - Yellow fill — Mouth-bar Sandstone. - Pale orange fill —",
+   "node_ids": [
+    "slatt.time_lines_vs_facies"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p410.12",
+   "kind": "paragraph",
+   "page_pdf": 410,
+   "excerpt": "━━━ FORMAT 4: CROSS-SECTION / РАЗРЕЗ ━━━ Chronostratigraphic Correlation",
+   "node_ids": [
+    "slatt.time_lines_vs_facies"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p410.13",
+   "kind": "paragraph",
+   "page_pdf": 410,
+   "excerpt": "Orientation: Landward (left) → Basinward (right). Vertical direction is downward; no numeric",
+   "node_ids": [
+    "slatt.time_lines_vs_facies"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p410.14",
+   "kind": "paragraph",
+   "page_pdf": 410,
+   "excerpt": "Wells along section, left to right: 1. Well 1 2. Well 2",
+   "node_ids": [
+    "slatt.time_lines_vs_facies"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p410.15",
+   "kind": "paragraph",
+   "page_pdf": 410,
+   "excerpt": "Chronostratigraphic correlation: - The same succession is correlated using inclined chronostratigraphic pattern",
+   "node_ids": [
+    "slatt.time_lines_vs_facies"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p410.16",
+   "kind": "paragraph",
+   "page_pdf": 410,
+   "excerpt": "KEYWORDS: lithostratigraphic correlation, chronostratigraphic correlation, mouth-bar sandstone, heterolithics, shale, flooding shale, well",
+   "node_ids": [
+    "slatt.time_lines_vs_facies"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p410.17",
+   "kind": "paragraph",
+   "page_pdf": 410,
+   "excerpt": "FIGURE 9.10 Lithostratigraphic (upper) and chronostratigraphic (lower) correlation across two wells in",
+   "node_ids": [
+    "slatt.time_lines_vs_facies"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p411.01",
+   "kind": "paragraph",
+   "page_pdf": 411,
+   "excerpt": "410",
+   "node_ids": [],
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p411.02",
+   "kind": "paragraph",
+   "page_pdf": 411,
+   "excerpt": "Stratigraphic Reservoir Characterization for Petroleum Geologists",
+   "node_ids": [],
+   "reason": "колонтитул"
+  },
+  {
+   "unit_id": "p411.03",
+   "kind": "heading",
+   "page_pdf": 411,
+   "excerpt": "9.4 RIVER-DOMINATED DELTA DEPOSITS AND RESERVOIRS",
+   "node_ids": [
+    "slatt.mississippi_river_dominated"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p411.04",
+   "kind": "heading",
+   "page_pdf": 411,
+   "excerpt": "9.4.1 Processes and Deposits",
+   "node_ids": [
+    "slatt.mississippi_river_dominated"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p411.05",
+   "kind": "paragraph",
+   "page_pdf": 411,
+   "excerpt": "The Mississippi River Delta (Fig. 9.13) has long been considered the “type”",
+   "node_ids": [
+    "slatt.mississippi_river_dominated"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p411.06",
+   "kind": "paragraph",
+   "page_pdf": 411,
+   "excerpt": "The main facies of a river-dominated delta, and their distribution in space,",
+   "node_ids": [
+    "slatt.river_delta_facies_map"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p411.07",
+   "kind": "paragraph",
+   "page_pdf": 411,
+   "excerpt": "---- ━━━ FORMAT 3: MAP / КАРТА ━━━ Geological/structural map of an",
+   "node_ids": [
+    "slatt.mekong_progradation"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p411.08",
+   "kind": "paragraph",
+   "page_pdf": 411,
+   "excerpt": "- Geographic coordinates shown: 106°E (top); 10°N (left). - Water bodies and",
+   "node_ids": [
+    "slatt.mekong_progradation"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p411.09",
+   "kind": "paragraph",
+   "page_pdf": 411,
+   "excerpt": "KEYWORDS: geological map, structural lineaments, faults, Mekong River, Bassac River, South China",
+   "node_ids": [
+    "slatt.mekong_progradation"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p411.10",
+   "kind": "figure",
+   "page_pdf": 411,
+   "excerpt": "FIGURE 9.11 (a) Map view of Mekong River Delta. Upper delta plain",
+   "node_ids": [
+    "slatt.mekong_progradation"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p412.01",
+   "kind": "paragraph",
+   "page_pdf": 412,
+   "excerpt": "Chapter 9 Deltaic Deposits and Reservoirs",
+   "node_ids": [],
+   "reason": "колонтитул"
+  },
+  {
+   "unit_id": "p412.02",
+   "kind": "paragraph",
+   "page_pdf": 412,
+   "excerpt": "411",
+   "node_ids": [],
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p412.03",
+   "kind": "paragraph",
+   "page_pdf": 412,
+   "excerpt": "---- ━━━ FORMAT 4: CROSS-SECTION / РАЗРЕЗ ━━━ (b)",
+   "node_ids": [
+    "slatt.mekong_progradation"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p412.04",
+   "kind": "paragraph",
+   "page_pdf": 412,
+   "excerpt": "Orientation: Inland delta plain (left) → South China Sea (right). Depositional-environment transect:",
+   "node_ids": [
+    "slatt.mekong_progradation"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p412.05",
+   "kind": "paragraph",
+   "page_pdf": 412,
+   "excerpt": "Horizontal scale: 0–20 km (scale bar). Vertical axis: elevation/depth, m; values increase",
+   "node_ids": [
+    "slatt.mekong_progradation"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p412.06",
+   "kind": "paragraph",
+   "page_pdf": 412,
+   "excerpt": "Surface/environment labels, left to right: - Flood plain/Marsh - Beach ridge, Marsh/Foreshore",
+   "node_ids": [
+    "slatt.mekong_progradation"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p412.07",
+   "kind": "paragraph",
+   "page_pdf": 412,
+   "excerpt": "Marked sections/locations: - VL1 - TC1 - TV1",
+   "node_ids": [
+    "slatt.mekong_progradation"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p412.08",
+   "kind": "paragraph",
+   "page_pdf": 412,
+   "excerpt": "Depositional/facies labels: - Sub- to intertidal flat - Delta front - Prodelta",
+   "node_ids": [
+    "slatt.mekong_progradation"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p412.09",
+   "kind": "paragraph",
+   "page_pdf": 412,
+   "excerpt": "The section contains several coloured and patterned stratigraphic bodies bounded by irregular,",
+   "node_ids": [
+    "slatt.mekong_progradation"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p412.10",
+   "kind": "paragraph",
+   "page_pdf": 412,
+   "excerpt": "Printed numerical annotations within units: - −1325 - −2876 - −1336 -",
+   "node_ids": [
+    "slatt.mekong_progradation"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p412.11",
+   "kind": "paragraph",
+   "page_pdf": 412,
+   "excerpt": "Black vertical irregular traces occur beneath VL1, TC1, and TV1; their specific",
+   "node_ids": [
+    "slatt.mekong_progradation"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p412.12",
+   "kind": "paragraph",
+   "page_pdf": 412,
+   "excerpt": "KEYWORDS: delta plain, beach ridge, marsh, foreshore, delta front, prodelta, bay, Pleistocene,",
+   "node_ids": [
+    "slatt.mekong_progradation"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p412.13",
+   "kind": "paragraph",
+   "page_pdf": 412,
+   "excerpt": "---- ━━━ FORMAT 4: CROSS-SECTION / РАЗРЕЗ ━━━ Panel (c). Depositional cross-section",
+   "node_ids": [
+    "slatt.mekong_progradation"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p412.14",
+   "kind": "paragraph",
+   "page_pdf": 412,
+   "excerpt": "Orientation: left to right, “Inland alluvial plain” → “Beach ridge delta plain”",
+   "node_ids": [
+    "slatt.mekong_progradation"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p412.15",
+   "kind": "paragraph",
+   "page_pdf": 412,
+   "excerpt": "Vertical axis: elevation/depth, m; labelled from +5 m at the top to",
+   "node_ids": [
+    "slatt.mekong_progradation"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p412.16",
+   "kind": "table",
+   "page_pdf": 412,
+   "excerpt": "Position / environment Labelled depositional elements Vertical interval, m (approximate from axis)",
+   "node_ids": [
+    "slatt.mekong_progradation"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p412.17",
+   "kind": "paragraph",
+   "page_pdf": 412,
+   "excerpt": "Stratigraphic/depositional labels, top to bottom where present: - Flood plain/Marsh. - Bay.",
+   "node_ids": [
+    "slatt.mekong_progradation"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p412.18",
+   "kind": "paragraph",
+   "page_pdf": 412,
+   "excerpt": "A black dashed, basinward-dipping line occurs beneath the left and central deltaic",
+   "node_ids": [
+    "slatt.mekong_progradation"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p412.19",
+   "kind": "paragraph",
+   "page_pdf": 412,
+   "excerpt": "Legend: - orange stippled pattern — Delta plain. - green pattern —",
+   "node_ids": [
+    "slatt.mekong_progradation"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p412.20",
+   "kind": "paragraph",
+   "page_pdf": 412,
+   "excerpt": "KEYWORDS: delta plain, beach ridge, sub-to-intertidal, delta front, prodelta, alluvial plain, South",
+   "node_ids": [
+    "slatt.mekong_progradation"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p412.21",
+   "kind": "figure",
+   "page_pdf": 412,
+   "excerpt": "FIGURE 9.11—cont'd (b) Lithostratigraphic correlation of wells based upon paleoenvironmental interpretation. Numbered",
+   "node_ids": [
+    "slatt.mekong_progradation"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p413.01",
+   "kind": "paragraph",
+   "page_pdf": 413,
+   "excerpt": "412",
+   "node_ids": [],
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p413.02",
+   "kind": "paragraph",
+   "page_pdf": 413,
+   "excerpt": "Stratigraphic Reservoir Characterization for Petroleum Geologists",
+   "node_ids": [],
+   "reason": "колонтитул"
+  },
+  {
+   "unit_id": "p413.03",
+   "kind": "paragraph",
+   "page_pdf": 413,
+   "excerpt": "---- ━━━ FORMAT 12: CONCEPTUAL DIAGRAM ━━━ Plan-view schematic showing migration of",
+   "node_ids": [
+    "slatt.channel_switching_lowstand"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p413.04",
+   "kind": "paragraph",
+   "page_pdf": 413,
+   "excerpt": "Left side: “Present river mouth” and “New river mouth” are connected by",
+   "node_ids": [
+    "slatt.channel_switching_lowstand"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p413.05",
+   "kind": "paragraph",
+   "page_pdf": 413,
+   "excerpt": "Right side: “New river mouth” and “Present river mouth” are shown at",
+   "node_ids": [
+    "slatt.channel_switching_lowstand"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p413.06",
+   "kind": "paragraph",
+   "page_pdf": 413,
+   "excerpt": "The diagram communicates that river-mouth relocation produces an angular change \\Delta\\theta at",
+   "node_ids": [
+    "slatt.channel_switching_lowstand"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p413.07",
+   "kind": "figure",
+   "page_pdf": 413,
+   "excerpt": "FIGURE 9.12 Model of delta distributary channel switching from a common apex",
+   "node_ids": [
+    "slatt.channel_switching_lowstand"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p413.08",
+   "kind": "paragraph",
+   "page_pdf": 413,
+   "excerpt": "---- ━━━ FORMAT 3: MAP / КАРТА ━━━ Map showing the distribution",
+   "node_ids": [
+    "slatt.mississippi_river_dominated"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p413.09",
+   "kind": "paragraph",
+   "page_pdf": 413,
+   "excerpt": "Scale bar: 0–30 MILES.",
+   "node_ids": [
+    "slatt.mississippi_river_dominated"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p413.10",
+   "kind": "paragraph",
+   "page_pdf": 413,
+   "excerpt": "Labelled locations: - ■ BATON ROUGE - ■ NEW ORLEANS",
+   "node_ids": [
+    "slatt.mississippi_river_dominated"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p413.11",
+   "kind": "paragraph",
+   "page_pdf": 413,
+   "excerpt": "Legend: - pale pink — SALE CYPREMORT — 4600 yrs B.P. -",
+   "node_ids": [
+    "slatt.mississippi_river_dominated"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p413.12",
+   "kind": "paragraph",
+   "page_pdf": 413,
+   "excerpt": "No contour lines, contour interval, north arrow, or section line are shown.",
+   "node_ids": [
+    "slatt.mississippi_river_dominated"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p413.13",
+   "kind": "paragraph",
+   "page_pdf": 413,
+   "excerpt": "KEYWORDS: delta lobes, coastal deposits, Holocene, years B.P., Atchafalaya, Mississippi delta, Baton",
+   "node_ids": [
+    "slatt.mississippi_river_dominated"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p413.14",
+   "kind": "figure",
+   "page_pdf": 413,
+   "excerpt": "FIGURE 9.13 Growth patterns of the Mississippi River Delta's lobes during the",
+   "node_ids": [
+    "slatt.mississippi_river_dominated"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p413.15",
+   "kind": "paragraph",
+   "page_pdf": 413,
+   "excerpt": "facies can be recognized in outcrop by facies relationships and by a",
+   "node_ids": [
+    "slatt.facies_recognition_core_logs"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p414.01",
+   "kind": "paragraph",
+   "page_pdf": 414,
+   "excerpt": "---- ━━━ FORMAT 12: CONCEPTUAL DIAGRAM ━━━ Three-dimensional conceptual block diagram of",
+   "node_ids": [
+    "slatt.river_delta_facies_map"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p414.02",
+   "kind": "paragraph",
+   "page_pdf": 414,
+   "excerpt": "Subaerial delta plain: Mississippi River , Grand Pass , Southwest Pass ,",
+   "node_ids": [
+    "slatt.river_delta_facies_map"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p414.03",
+   "kind": "paragraph",
+   "page_pdf": 414,
+   "excerpt": "Depositional elements shown in yellow: channel-associated elongate bodies, a Bar finger at",
+   "node_ids": [
+    "slatt.river_delta_facies_map"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p414.04",
+   "kind": "paragraph",
+   "page_pdf": 414,
+   "excerpt": "Stratigraphic/depositional units on the block sides, from upper to lower levels: Unconsolidated",
+   "node_ids": [
+    "slatt.river_delta_facies_map"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p414.05",
+   "kind": "paragraph",
+   "page_pdf": 414,
+   "excerpt": "The diagram demonstrates seaward progradation of distributary-mouth and bar-finger sediment bodies over",
+   "node_ids": [
+    "slatt.river_delta_facies_map"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p414.06",
+   "kind": "figure",
+   "page_pdf": 414,
+   "excerpt": "FIGURE 9.14 Schematic illustration of the distribution of facies and environments in",
+   "node_ids": [
+    "slatt.river_delta_facies_map"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p415.01",
+   "kind": "paragraph",
+   "page_pdf": 415,
+   "excerpt": "414",
+   "node_ids": [],
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p415.02",
+   "kind": "paragraph",
+   "page_pdf": 415,
+   "excerpt": "Stratigraphic Reservoir Characterization for Petroleum Geologists",
+   "node_ids": [],
+   "reason": "колонтитул"
+  },
+  {
+   "unit_id": "p415.03",
+   "kind": "paragraph",
+   "page_pdf": 415,
+   "excerpt": "---- ━━━ FORMAT 15: PHOTOGRAPH ━━━ (a) Subject class: landscape photograph.",
+   "node_ids": [
+    "slatt.facies_recognition_core_logs"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p415.04",
+   "kind": "paragraph",
+   "page_pdf": 415,
+   "excerpt": "View across a water body toward a vegetated shoreline with buildings. A",
+   "node_ids": [
+    "slatt.facies_recognition_core_logs"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p415.05",
+   "kind": "paragraph",
+   "page_pdf": 415,
+   "excerpt": "━━━ FORMAT 12: CONCEPTUAL DIAGRAM ━━━ (b) Plan-view and cross-sectional schematic of",
+   "node_ids": [
+    "slatt.facies_recognition_core_logs"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p415.06",
+   "kind": "paragraph",
+   "page_pdf": 415,
+   "excerpt": "- Upper part: map-like plan view showing multiple yellow, branching distributary channels",
+   "node_ids": [
+    "slatt.facies_recognition_core_logs"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p415.07",
+   "kind": "paragraph",
+   "page_pdf": 415,
+   "excerpt": "━━━ FORMAT 12: CONCEPTUAL DIAGRAM ━━━ (c) Vertical schematic of preserved sedimentary",
+   "node_ids": [
+    "slatt.facies_recognition_core_logs"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p415.08",
+   "kind": "paragraph",
+   "page_pdf": 415,
+   "excerpt": "Vertical succession, from top to bottom: 1. Deep plain — dark, nearly",
+   "node_ids": [
+    "slatt.facies_recognition_core_logs"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p415.09",
+   "kind": "paragraph",
+   "page_pdf": 415,
+   "excerpt": "A vertical arrow labelled PRESERVED indicates the preserved succession upward.",
+   "node_ids": [
+    "slatt.facies_recognition_core_logs"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p415.10",
+   "kind": "paragraph",
+   "page_pdf": 415,
+   "excerpt": "KEYWORDS: depositional system, distributary channels, mouth bar, subaqueous levee, prodelta, turbidites, ripple",
+   "node_ids": [
+    "slatt.facies_recognition_core_logs"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p415.11",
+   "kind": "figure",
+   "page_pdf": 415,
+   "excerpt": "FIGURE 9.15 (a) Pennsylvanian-age distributary-channel sandstone. (b) Schematic facies cross-sections of a",
+   "node_ids": [
+    "slatt.facies_recognition_core_logs"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p415.12",
+   "kind": "paragraph",
+   "page_pdf": 415,
+   "excerpt": "In Prudhoe Bay field, formative processes of distributary mouth bars were evaluated",
+   "node_ids": [
+    "slatt.mouth_bar_heterogeneity"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p416.01",
+   "kind": "paragraph",
+   "page_pdf": 416,
+   "excerpt": "Chapter 9 Deltaic Deposits and Reservoirs",
+   "node_ids": [],
+   "reason": "колонтитул"
+  },
+  {
+   "unit_id": "p416.02",
+   "kind": "paragraph",
+   "page_pdf": 416,
+   "excerpt": "415",
+   "node_ids": [],
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p416.03",
+   "kind": "paragraph",
+   "page_pdf": 416,
+   "excerpt": "---- ━━━ FORMAT 12: CONCEPTUAL DIAGRAM ━━━ Plan-view conceptual diagram of a",
+   "node_ids": [
+    "slatt.mouth_bar_heterogeneity"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p416.04",
+   "kind": "paragraph",
+   "page_pdf": 416,
+   "excerpt": "The distributary-channel network branches toward the basin; labelled bays and lakes occur",
+   "node_ids": [
+    "slatt.mouth_bar_heterogeneity"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p416.05",
+   "kind": "paragraph",
+   "page_pdf": 416,
+   "excerpt": "Labels: “Coarse Alluvial”; “Fluvial Channels”; “Lake”; “Floodplain”; “Dist. Channels”; “Bay”; “Delta Mouth",
+   "node_ids": [
+    "slatt.mouth_bar_heterogeneity"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p416.06",
+   "kind": "paragraph",
+   "page_pdf": 416,
+   "excerpt": "Two inset maps show alternative plan-view distributions of channel, lake/bay, delta-mouth-bar, delta-front,",
+   "node_ids": [
+    "slatt.mouth_bar_heterogeneity"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p416.07",
+   "kind": "paragraph",
+   "page_pdf": 416,
+   "excerpt": "Scale bar: “2 miles”.",
+   "node_ids": [
+    "slatt.mouth_bar_heterogeneity"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p416.08",
+   "kind": "paragraph",
+   "page_pdf": 416,
+   "excerpt": "KEYWORDS: delta, distributary channels, delta-mouth bars, delta front, prodelta, floodplain, alluvial, bay",
+   "node_ids": [
+    "slatt.mouth_bar_heterogeneity"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p416.09",
+   "kind": "paragraph",
+   "page_pdf": 416,
+   "excerpt": "FIGURE 9.16 Schematic paleogeographic reconstruction of Romeo facies associations, as they existed",
+   "node_ids": [
+    "slatt.mouth_bar_heterogeneity"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p416.10",
+   "kind": "paragraph",
+   "page_pdf": 416,
+   "excerpt": "Over a long period of time, repeated bifurcation of distributary mouth channels",
+   "node_ids": [
+    "slatt.mouth_bar_heterogeneity"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p416.11",
+   "kind": "heading",
+   "page_pdf": 416,
+   "excerpt": "9.4.2 Reservoir Example: Prudhoe Bay Field",
+   "node_ids": [
+    "slatt.prudhoe_correlation"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p416.12",
+   "kind": "paragraph",
+   "page_pdf": 416,
+   "excerpt": "General geology of Prudhoe Bay field, Alaska, in the river-dominated deltaic deposits",
+   "node_ids": [
+    "slatt.prudhoe_correlation"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p417.01",
+   "kind": "paragraph",
+   "page_pdf": 417,
+   "excerpt": "416",
+   "node_ids": [],
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p417.02",
+   "kind": "paragraph",
+   "page_pdf": 417,
+   "excerpt": "Stratigraphic Reservoir Characterization for Petroleum Geologists",
+   "node_ids": [],
+   "reason": "колонтитул"
+  },
+  {
+   "unit_id": "p417.03",
+   "kind": "paragraph",
+   "page_pdf": 417,
+   "excerpt": "---- ━━━ FORMAT 12: CONCEPTUAL DIAGRAM ━━━ Plan-view and cross-sectional conceptual diagram",
+   "node_ids": [
+    "slatt.mouth_bar_heterogeneity"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p417.04",
+   "kind": "paragraph",
+   "page_pdf": 417,
+   "excerpt": "Plan view: - A central Distributary Channel branches toward a lobate Distributary",
+   "node_ids": [
+    "slatt.mouth_bar_heterogeneity"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p417.05",
+   "kind": "paragraph",
+   "page_pdf": 417,
+   "excerpt": "Cross section: - Horizontal reference at the top: Sea Level . -",
+   "node_ids": [
+    "slatt.mouth_bar_heterogeneity"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p417.06",
+   "kind": "paragraph",
+   "page_pdf": 417,
+   "excerpt": "KEYWORDS: distributary mouth bar, distributary channel, subaerial levee, subaqueous levee, well-sorted sand,",
+   "node_ids": [
+    "slatt.mouth_bar_heterogeneity"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p417.07",
+   "kind": "figure",
+   "page_pdf": 417,
+   "excerpt": "FIGURE 9.17 Typical sediment distribution pattern and distributary-mouth-bar cross-section. Distributary-mouth channels typically",
+   "node_ids": [
+    "slatt.mouth_bar_heterogeneity"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p417.08",
+   "kind": "paragraph",
+   "page_pdf": 417,
+   "excerpt": "fluvial channels were separated laterally by muddy floodplains. In the down-current direction,",
+   "node_ids": [
+    "slatt.prudhoe_correlation"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p417.09",
+   "kind": "paragraph",
+   "page_pdf": 417,
+   "excerpt": "River-dominated deposition resulted in significant lateral and vertical facies changes, which caused",
+   "node_ids": [
+    "slatt.prudhoe_correlation"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p417.10",
+   "kind": "paragraph",
+   "page_pdf": 417,
+   "excerpt": "Insights gained into the formation of distributary mouth bars have led to",
+   "node_ids": [
+    "slatt.mouth_bar_heterogeneity"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p417.11",
+   "kind": "paragraph",
+   "page_pdf": 417,
+   "excerpt": "Shales also were found to be particularly important to production and fluid",
+   "node_ids": [
+    "slatt.well_09_35_sidetrack"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p418.01",
+   "kind": "paragraph",
+   "page_pdf": 418,
+   "excerpt": "Chapter 9 Deltaic Deposits and Reservoirs",
+   "node_ids": [],
+   "reason": "колонтитул"
+  },
+  {
+   "unit_id": "p418.02",
+   "kind": "paragraph",
+   "page_pdf": 418,
+   "excerpt": "417",
+   "node_ids": [],
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p418.03",
+   "kind": "paragraph",
+   "page_pdf": 418,
+   "excerpt": "---- ━━━ FORMAT 4: CROSS-SECTION / РАЗРЕЗ ━━━ Верхний корреляционный разрез: North–South.",
+   "node_ids": [
+    "slatt.prudhoe_correlation"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p418.04",
+   "kind": "paragraph",
+   "page_pdf": 418,
+   "excerpt": "Скважины слева направо: South Bay St 1; 04-10; 09-05; 03-27; 03-06; 17-01;",
+   "node_ids": [
+    "slatt.prudhoe_correlation"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p418.05",
+   "kind": "paragraph",
+   "page_pdf": 418,
+   "excerpt": "Подписанные стратиграфические интервалы слева: Ranga; Romeo 2A; Kavi. Граница/уровень Romeo 2A прослеживается",
+   "node_ids": [
+    "slatt.prudhoe_correlation"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p418.06",
+   "kind": "paragraph",
+   "page_pdf": 418,
+   "excerpt": "Литологические/фациальные обозначения по легенде: - жёлтый — 2A; - оранжевый — 1B;",
+   "node_ids": [
+    "slatt.prudhoe_correlation"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p418.07",
+   "kind": "paragraph",
+   "page_pdf": 418,
+   "excerpt": "━━━ FORMAT 4: CROSS-SECTION / РАЗРЕЗ ━━━ Нижний корреляционный разрез: North–South. Горизонтальный",
+   "node_ids": [
+    "slatt.prudhoe_correlation"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p418.08",
+   "kind": "paragraph",
+   "page_pdf": 418,
+   "excerpt": "Скважины слева направо: South Bay St 1; 04-10; 09-05; 03-27; 03-06; 17-01;",
+   "node_ids": [
+    "slatt.prudhoe_correlation"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p418.09",
+   "kind": "paragraph",
+   "page_pdf": 418,
+   "excerpt": "Подписанные стратиграфические интервалы слева: Ranga; Romeo 2A; Kavi. Корреляция выполнена по уровню",
+   "node_ids": [
+    "slatt.prudhoe_correlation"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p418.10",
+   "kind": "paragraph",
+   "page_pdf": 418,
+   "excerpt": "Фациальная легенда: - жёлтый — Fluvial; - оранжевый — Deltaic; - светло-бежевый",
+   "node_ids": [
+    "slatt.prudhoe_correlation"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p418.11",
+   "kind": "paragraph",
+   "page_pdf": 418,
+   "excerpt": "KEYWORDS: корреляционный разрез, фации, Fluvial, Deltaic, Floodplain, Bay/Prodelta/Shelf, Datum, вертикальное преувеличение ----",
+   "node_ids": [
+    "slatt.prudhoe_correlation"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p418.12",
+   "kind": "paragraph",
+   "page_pdf": 418,
+   "excerpt": "FIGURE 9.18 Comparison of prestudy lithostratigraphic correlations (upper cross-section) and poststudy sequence",
+   "node_ids": [
+    "slatt.prudhoe_correlation"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p418.13",
+   "kind": "paragraph",
+   "page_pdf": 418,
+   "excerpt": "areas larger than that of the well spacing, but other shales are",
+   "node_ids": [
+    "slatt.well_09_35_sidetrack"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p419.01",
+   "kind": "paragraph",
+   "page_pdf": 419,
+   "excerpt": "418",
+   "node_ids": [],
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p419.02",
+   "kind": "paragraph",
+   "page_pdf": 419,
+   "excerpt": "Stratigraphic Reservoir Characterization for Petroleum Geologists",
+   "node_ids": [],
+   "reason": "колонтитул"
+  },
+  {
+   "unit_id": "p419.03",
+   "kind": "paragraph",
+   "page_pdf": 419,
+   "excerpt": "---- ━━━ FORMAT 2: WELL LOG / КАРОТАЖНАЯ ДИАГРАММА ━━━",
+   "node_ids": [
+    "slatt.romeo_gr_stacking"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p419.04",
+   "kind": "paragraph",
+   "page_pdf": 419,
+   "excerpt": "Глубина: ft; глубина увеличивается вниз. Подписанные отметки глубины: 9450, 9500, 9550, 9600",
+   "node_ids": [
+    "slatt.romeo_gr_stacking"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p419.05",
+   "kind": "paragraph",
+   "page_pdf": 419,
+   "excerpt": "Дорожки слева направо: 1. Zone : зоны 2B, 2A, 1B, 1A. 2.",
+   "node_ids": [
+    "slatt.romeo_gr_stacking"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p419.06",
+   "kind": "table",
+   "page_pdf": 419,
+   "excerpt": "Интервал, ft Литология (по колонке) Кривые: поведение GR Интерпретация (если подписана) ---",
+   "node_ids": [
+    "slatt.romeo_gr_stacking"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p419.07",
+   "kind": "paragraph",
+   "page_pdf": 419,
+   "excerpt": "Подписанные зональные границы: - ZONE 2A - ZONE 1",
+   "node_ids": [
+    "slatt.romeo_gr_stacking"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p419.08",
+   "kind": "paragraph",
+   "page_pdf": 419,
+   "excerpt": "Легенда профиля керна: - голубой — Shale - светло-бежевый — Silty Shale",
+   "node_ids": [
+    "slatt.romeo_gr_stacking"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p419.09",
+   "kind": "paragraph",
+   "page_pdf": 419,
+   "excerpt": "KEYWORDS: GR, каротаж, керн, фациальные ассоциации, песчаник, сланец, дельтовый фронт, русловые отложения",
+   "node_ids": [
+    "slatt.romeo_gr_stacking"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p419.10",
+   "kind": "figure",
+   "page_pdf": 419,
+   "excerpt": "FIGURE 9.19 Typical stacking pattern and gamma-ray response of Romeo lithofacies and",
+   "node_ids": [
+    "slatt.romeo_gr_stacking"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p419.11",
+   "kind": "paragraph",
+   "page_pdf": 419,
+   "excerpt": "well was drilled as an unconventional completion into the sandstone, and it",
+   "node_ids": [
+    "slatt.well_09_35_sidetrack"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p419.12",
+   "kind": "paragraph",
+   "page_pdf": 419,
+   "excerpt": "A second example of the value of understanding shale continuity is presented",
+   "node_ids": [
+    "slatt.well_11_30_horizontal"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p420.01",
+   "kind": "paragraph",
+   "page_pdf": 420,
+   "excerpt": "---- ━━━ FORMAT 2: WELL LOG / КАРОТАЖНАЯ ДИАГРАММА ━━━",
+   "node_ids": [
+    "slatt.shale_continuity"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p420.02",
+   "kind": "paragraph",
+   "page_pdf": 420,
+   "excerpt": "Depth reference: vertical bar labelled 0 at top and 100 ft below;",
+   "node_ids": [
+    "slatt.shale_continuity"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p420.03",
+   "kind": "paragraph",
+   "page_pdf": 420,
+   "excerpt": "Tracks, left to right: multiple narrow log tracks with unlabelled black and",
+   "node_ids": [
+    "slatt.shale_continuity"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p420.04",
+   "kind": "paragraph",
+   "page_pdf": 420,
+   "excerpt": "Lithology/interval panel: horizontal beds shown with yellow fill, pale pink fill, white",
+   "node_ids": [
+    "slatt.shale_continuity"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p420.05",
+   "kind": "paragraph",
+   "page_pdf": 420,
+   "excerpt": "Labelled intervals, top to bottom: - (e): upper yellow-dominated interval; thin pale-pink",
+   "node_ids": [
+    "slatt.shale_continuity"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p420.06",
+   "kind": "table",
+   "page_pdf": 420,
+   "excerpt": "Interval Lithology (by column) Curves: behaviour Interpretation --- --- --- --- (e)",
+   "node_ids": [
+    "slatt.shale_continuity"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p420.07",
+   "kind": "paragraph",
+   "page_pdf": 420,
+   "excerpt": "KEYWORDS: well log, depth, ft, correlation panel, bed boundaries, lithology pattern, laminated",
+   "node_ids": [
+    "slatt.shale_continuity"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p420.08",
+   "kind": "figure",
+   "page_pdf": 420,
+   "excerpt": "FIGURE 9.20 Part of a north–south wire line log correlation across the",
+   "node_ids": [
+    "slatt.shale_continuity"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p420.09",
+   "kind": "paragraph",
+   "page_pdf": 420,
+   "excerpt": "---- ━━━ FORMAT 3: MAP / КАРТА ━━━ Map showing the distribution",
+   "node_ids": [
+    "slatt.shale_continuity"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p420.10",
+   "kind": "paragraph",
+   "page_pdf": 420,
+   "excerpt": "Legend: - horizontal-line shading — upper ( 3) - dark grey fill",
+   "node_ids": [
+    "slatt.shale_continuity"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p420.11",
+   "kind": "paragraph",
+   "page_pdf": 420,
+   "excerpt": "Inset panels at upper left: - 3 — small distribution map; horizontal-line",
+   "node_ids": [
+    "slatt.shale_continuity"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p420.12",
+   "kind": "paragraph",
+   "page_pdf": 420,
+   "excerpt": "Inset location map at lower left: - Prudhoe Bay Field — labelled",
+   "node_ids": [
+    "slatt.shale_continuity"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p420.13",
+   "kind": "paragraph",
+   "page_pdf": 420,
+   "excerpt": "North arrow: N; north is upward.",
+   "node_ids": [
+    "slatt.shale_continuity"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p420.14",
+   "kind": "paragraph",
+   "page_pdf": 420,
+   "excerpt": "Scale bar: - 2 miles - 3.2 km",
+   "node_ids": [
+    "slatt.shale_continuity"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p420.15",
+   "kind": "paragraph",
+   "page_pdf": 420,
+   "excerpt": "Lithology is not determined without a legend; the fills represent stratigraphic units",
+   "node_ids": [
+    "slatt.shale_continuity"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p420.16",
+   "kind": "paragraph",
+   "page_pdf": 420,
+   "excerpt": "KEYWORDS: map, Prudhoe Bay Field, upper unit, middle unit, lower unit, stratigraphic",
+   "node_ids": [
+    "slatt.shale_continuity"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p420.17",
+   "kind": "figure",
+   "page_pdf": 420,
+   "excerpt": "FIGURE 9.21 Generalized distribution of three stratigraphically distinct shales in the eastern",
+   "node_ids": [
+    "slatt.shale_continuity"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p421.01",
+   "kind": "paragraph",
+   "page_pdf": 421,
+   "excerpt": "---- ━━━ FORMAT 2: WELL LOG / КАРОТАЖНАЯ ДИАГРАММА ━━━",
+   "node_ids": [
+    "slatt.well_11_30_horizontal"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p421.02",
+   "kind": "paragraph",
+   "page_pdf": 421,
+   "excerpt": "Схема ствола скважины и интервалов коллекторов. Вертикальная шкала: ft, значения 8600, 8620,",
+   "node_ids": [
+    "slatt.well_11_30_horizontal"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p421.03",
+   "kind": "paragraph",
+   "page_pdf": 421,
+   "excerpt": "Слева показана траектория скважины: от приблизительно 9500 ft по measured depth в",
+   "node_ids": [
+    "slatt.well_11_30_horizontal"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p421.04",
+   "kind": "paragraph",
+   "page_pdf": 421,
+   "excerpt": "Справа — каротажный трек: - CH OGR MWD S 0; - единицы:",
+   "node_ids": [
+    "slatt.well_11_30_horizontal"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p421.05",
+   "kind": "table",
+   "page_pdf": 421,
+   "excerpt": "Интервал, ft Литология (по колонке) Кривые: поведение Интерпретация --- --- --- ---",
+   "node_ids": [
+    "slatt.well_11_30_horizontal"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p421.06",
+   "kind": "paragraph",
+   "page_pdf": 421,
+   "excerpt": "Условные обозначения: - жёлтая заливка — OIL SAND; - серая диагональная штриховка",
+   "node_ids": [
+    "slatt.well_11_30_horizontal"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p421.07",
+   "kind": "paragraph",
+   "page_pdf": 421,
+   "excerpt": "KEYWORDS: measured depth, ft, GAPI, oil sand, shale, perforated interval, distributary channel,",
+   "node_ids": [
+    "slatt.well_11_30_horizontal"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p421.08",
+   "kind": "paragraph",
+   "page_pdf": 421,
+   "excerpt": "Структурная карта: BASE SADEROCHIT STRUCTURE MAP 15–45 .",
+   "node_ids": [
+    "slatt.well_11_30_horizontal"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p421.09",
+   "kind": "paragraph",
+   "page_pdf": 421,
+   "excerpt": "Подписанные элементы: - GOC; - Final 18–20-ft. well 15–45 PBI; - Proposed",
+   "node_ids": [
+    "slatt.well_11_30_horizontal"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p421.10",
+   "kind": "paragraph",
+   "page_pdf": 421,
+   "excerpt": "На карте показаны замкнутые и незамкнутые структурные контуры; численные значения контуров неразборчивы.",
+   "node_ids": [
+    "slatt.well_11_30_horizontal"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p421.11",
+   "kind": "paragraph",
+   "page_pdf": 421,
+   "excerpt": "Масштабная линейка: 2000 ft.",
+   "node_ids": [
+    "slatt.well_11_30_horizontal"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p421.12",
+   "kind": "paragraph",
+   "page_pdf": 421,
+   "excerpt": "KEYWORDS: structure map, GOC, proposed well, well 15–45 PBI, Saderochit, structural contours,",
+   "node_ids": [
+    "slatt.well_11_30_horizontal"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p421.13",
+   "kind": "figure",
+   "page_pdf": 421,
+   "excerpt": "FIGURE 9.22 Horizontal well drilled within distributary-channel and mouth-bar facies separated by",
+   "node_ids": [
+    "slatt.well_11_30_horizontal"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p421.14",
+   "kind": "paragraph",
+   "page_pdf": 421,
+   "excerpt": "---- ━━━ FORMAT 6: XY PLOT / CHART WITH DATA ━━━ (a)",
+   "node_ids": [
+    "slatt.well_09_35_sidetrack"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p421.15",
+   "kind": "paragraph",
+   "page_pdf": 421,
+   "excerpt": "- Ось Y: B/D, линейная шкала, 0–2000. - Ось X: даты; подписи",
+   "node_ids": [
+    "slatt.well_09_35_sidetrack"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p421.16",
+   "kind": "paragraph",
+   "page_pdf": 421,
+   "excerpt": "Тренд: после перехода от добычи 09-35 к добыче 09-35A дебит воды существенно",
+   "node_ids": [
+    "slatt.well_09_35_sidetrack"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p421.17",
+   "kind": "paragraph",
+   "page_pdf": 421,
+   "excerpt": "━━━ FORMAT 2: WELL LOG / КАРОТАЖНАЯ ДИАГРАММА ━━━ (b) 09-35A HORIZONTAL",
+   "node_ids": [
+    "slatt.well_09_35_sidetrack"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p421.18",
+   "kind": "paragraph",
+   "page_pdf": 421,
+   "excerpt": "Глубина: 8800–9000; единицы глубины на изображении не указаны. Глубина увеличивается вниз.",
+   "node_ids": [
+    "slatt.well_09_35_sidetrack"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p421.19",
+   "kind": "paragraph",
+   "page_pdf": 421,
+   "excerpt": "Каротажные дорожки слева направо: 1. GR , шкала 0–150. 2. SONIC ,",
+   "node_ids": [
+    "slatt.well_09_35_sidetrack"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p421.20",
+   "kind": "paragraph",
+   "page_pdf": 421,
+   "excerpt": "Подписанные элементы: - “09-35A HORIZONTAL SIDETRACK”. - “09-35 ORIGINAL”. - “09-35A 100%",
+   "node_ids": [
+    "slatt.well_09_35_sidetrack"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p421.21",
+   "kind": "table",
+   "page_pdf": 421,
+   "excerpt": "Интервал, м Литология (по колонке) Кривые: поведение Интерпретация (если подписана) --- ---",
+   "node_ids": [
+    "slatt.well_09_35_sidetrack"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p421.22",
+   "kind": "paragraph",
+   "page_pdf": 421,
+   "excerpt": "KEYWORDS: добыча нефти, добыча воды, B/D, горизонтальный сайдтрек, GR, SONIC, RILD, каротаж",
+   "node_ids": [
+    "slatt.well_09_35_sidetrack"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p421.23",
+   "kind": "figure",
+   "page_pdf": 421,
+   "excerpt": "FIGURE 9.23 Wire line logs for the original well 09-35, and a",
+   "node_ids": [
+    "slatt.well_09_35_sidetrack"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p422.01",
+   "kind": "paragraph",
+   "page_pdf": 422,
+   "excerpt": "Chapter 9 Deltaic Deposits and Reservoirs",
+   "node_ids": [],
+   "reason": "колонтитул"
+  },
+  {
+   "unit_id": "p422.02",
+   "kind": "paragraph",
+   "page_pdf": 422,
+   "excerpt": "421",
+   "node_ids": [],
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p422.03",
+   "kind": "paragraph",
+   "page_pdf": 422,
+   "excerpt": "---- ━━━ FORMAT 4: CROSS-SECTION / РАЗРЕЗ ━━━ (a) Southwest–Northeast correlation section.",
+   "node_ids": [
+    "slatt.well_11_30_horizontal"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p422.04",
+   "kind": "paragraph",
+   "page_pdf": 422,
+   "excerpt": "Vertical scale: depth; numerical labels 8500, 8600, 8700 at left and 8400,",
+   "node_ids": [
+    "slatt.well_11_30_horizontal"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p422.05",
+   "kind": "paragraph",
+   "page_pdf": 422,
+   "excerpt": "Wells, from southwest to northeast: 1. 11-28 2. 11-30 3. 11-23",
+   "node_ids": [
+    "slatt.well_11_30_horizontal"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p422.06",
+   "kind": "paragraph",
+   "page_pdf": 422,
+   "excerpt": "Lithologic/depositional units shown by colour: - yellow-orange — Fluvial/Crevasse Splay; - bright",
+   "node_ids": [
+    "slatt.well_11_30_horizontal"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p422.07",
+   "kind": "paragraph",
+   "page_pdf": 422,
+   "excerpt": "Fluid legend: - black — Gas; - white — Oil.",
+   "node_ids": [
+    "slatt.well_11_30_horizontal"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p422.08",
+   "kind": "paragraph",
+   "page_pdf": 422,
+   "excerpt": "The section contains several laterally continuous black gas intervals, with white oil",
+   "node_ids": [
+    "slatt.well_11_30_horizontal"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p422.09",
+   "kind": "paragraph",
+   "page_pdf": 422,
+   "excerpt": "━━━ FORMAT 12: CONCEPTUAL DIAGRAM / КОНЦЕПТУАЛЬНАЯ СХЕМА ━━━ (b) Diagram of",
+   "node_ids": [
+    "slatt.well_11_30_horizontal"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p422.10",
+   "kind": "paragraph",
+   "page_pdf": 422,
+   "excerpt": "A liner labelled 894' of slotted liner extends from left to right.",
+   "node_ids": [
+    "slatt.well_11_30_horizontal"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p422.11",
+   "kind": "paragraph",
+   "page_pdf": 422,
+   "excerpt": "Key idea: the diagram shows the geometry of a 894-foot slotted liner",
+   "node_ids": [
+    "slatt.well_11_30_horizontal"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p422.12",
+   "kind": "paragraph",
+   "page_pdf": 422,
+   "excerpt": "KEYWORDS: correlation section, wells, gas, oil, slotted liner, distributary channel, fluvial crevasse",
+   "node_ids": [
+    "slatt.well_11_30_horizontal"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p422.13",
+   "kind": "paragraph",
+   "page_pdf": 422,
+   "excerpt": "FIGURE 9.24 Schematic cross-section illustrating facies association interpretations between wells 11-28 and",
+   "node_ids": [
+    "slatt.well_11_30_horizontal"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p422.14",
+   "kind": "paragraph",
+   "page_pdf": 422,
+   "excerpt": "stabilized at 1600 BOPD, with a low gas/oil ratio (Tye et al.,",
+   "node_ids": [
+    "slatt.well_11_30_horizontal"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p422.15",
+   "kind": "heading",
+   "page_pdf": 422,
+   "excerpt": "9.4.3 Kuparuk River Field, Alaska USA",
+   "node_ids": [
+    "slatt.kuparuk_river_field"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p422.16",
+   "kind": "paragraph",
+   "page_pdf": 422,
+   "excerpt": "A similar example is provided by the Cretaceous Kuparuk River field on",
+   "node_ids": [
+    "slatt.kuparuk_river_field"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p423.01",
+   "kind": "paragraph",
+   "page_pdf": 423,
+   "excerpt": "422",
+   "node_ids": [],
+   "reason": "номер страницы"
+  },
+  {
+   "unit_id": "p423.02",
+   "kind": "paragraph",
+   "page_pdf": 423,
+   "excerpt": "Stratigraphic Reservoir Characterization for Petroleum Geologists",
+   "node_ids": [],
+   "reason": "колонтитул"
+  },
+  {
+   "unit_id": "p423.03",
+   "kind": "paragraph",
+   "page_pdf": 423,
+   "excerpt": "---- ━━━ FORMAT 2: WELL LOG / КАРОТАЖНАЯ ДИАГРАММА ━━━ Vertical multi-track",
+   "node_ids": [
+    "slatt.kuparuk_river_field"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p423.04",
+   "kind": "paragraph",
+   "page_pdf": 423,
+   "excerpt": "- Depth axis is vertical; numerical depth labels are [illegible]. Depth increases",
+   "node_ids": [
+    "slatt.kuparuk_river_field"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p423.05",
+   "kind": "table",
+   "page_pdf": 423,
+   "excerpt": "Interval, m Lithology (by column) Curves: behaviour Interpretation (if labelled) --- ---",
+   "node_ids": [
+    "slatt.kuparuk_river_field"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p423.06",
+   "kind": "paragraph",
+   "page_pdf": 423,
+   "excerpt": "━━━ FORMAT 3: MAP / КАРТА ━━━ Five small maps, arranged left",
+   "node_ids": [
+    "slatt.kuparuk_river_field"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p423.07",
+   "kind": "paragraph",
+   "page_pdf": 423,
+   "excerpt": "- Map/property type: [illegible]. - Each map has an irregular stepped outline",
+   "node_ids": [
+    "slatt.kuparuk_river_field"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p423.08",
+   "kind": "paragraph",
+   "page_pdf": 423,
+   "excerpt": "━━━ FORMAT 4: CROSS-SECTION / РАЗРЕЗ ━━━ Coloured correlation/geological section below the",
+   "node_ids": [
+    "slatt.kuparuk_river_field"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p423.09",
+   "kind": "paragraph",
+   "page_pdf": 423,
+   "excerpt": "- Orientation: left endpoint labelled A; right endpoint label is [illegible]. -",
+   "node_ids": [
+    "slatt.kuparuk_river_field"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p423.10",
+   "kind": "paragraph",
+   "page_pdf": 423,
+   "excerpt": "━━━ FORMAT 4: CROSS-SECTION / РАЗРЕЗ ━━━ Regional coloured section, from NW",
+   "node_ids": [
+    "slatt.kuparuk_river_field"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p423.11",
+   "kind": "paragraph",
+   "page_pdf": 423,
+   "excerpt": "- Orientation: NW at the left, SE at the right. - Profile",
+   "node_ids": [
+    "slatt.kuparuk_river_field"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p423.12",
+   "kind": "paragraph",
+   "page_pdf": 423,
+   "excerpt": "KEYWORDS: well log, coloured interval column, anomaly maps, correlation section, NW–SE profile,",
+   "node_ids": [
+    "slatt.kuparuk_river_field"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p423.13",
+   "kind": "figure",
+   "page_pdf": 423,
+   "excerpt": "FIGURE 9.25 Kuparuk River unit A showing a typical gamma-ray log with",
+   "node_ids": [
+    "slatt.kuparuk_river_field"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p423.14",
+   "kind": "heading",
+   "page_pdf": 423,
+   "excerpt": "9.5 WAVE-DOMINATED DELTAS",
+   "node_ids": [
+    "slatt.wave_dominated_deltas"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p423.15",
+   "kind": "heading",
+   "page_pdf": 423,
+   "excerpt": "9.5.1 Processes and Deposits",
+   "node_ids": [
+    "slatt.wave_dominated_deltas"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p423.16",
+   "kind": "paragraph",
+   "page_pdf": 423,
+   "excerpt": "Along a coast that is unprotected from waves and ocean currents, sediment",
+   "node_ids": [
+    "slatt.wave_dominated_deltas"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p423.17",
+   "kind": "paragraph",
+   "page_pdf": 423,
+   "excerpt": "The end result is a fan-shaped or arcuate body of sand, such",
+   "node_ids": [
+    "slatt.wave_dominated_deltas"
+   ],
+   "reason": null
+  },
+  {
+   "unit_id": "p423.18",
+   "kind": "paragraph",
+   "page_pdf": 423,
+   "excerpt": "In addition to becoming coarser-grained and sandier from base to top, the",
+   "node_ids": [
+    "slatt.wave_dominated_deltas"
+   ],
+   "reason": null
+  }
+ ],
+ "summary": {
+  "units": 203,
+  "in_nodes": 181,
+  "skipped_with_reason": 22,
+  "unassigned": 0
+ }
+}

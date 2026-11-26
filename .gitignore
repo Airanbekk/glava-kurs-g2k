@@ -9,3 +9,9 @@ out/**/frames/
 *.mp3
 out/**/b[0-9][0-9].wav
 out/**/voice.wav
+
+# полные тексты книг организаторов не публикуются — положите их в inputs/chapters и inputs/test
+inputs/chapters/*.md
+inputs/test/*.md
+!inputs/test/README.md
+inputs/pack/control/vendelshtein_gl1.md

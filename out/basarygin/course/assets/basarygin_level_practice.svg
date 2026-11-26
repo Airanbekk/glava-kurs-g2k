@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" font-family="Segoe UI, Arial, sans-serif">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8A96A3"/></marker></defs>
+<rect width="960" height="540" fill="#0F1419"/>
+<text x="32" y="46" fill="#ECEFF4" font-size="26" font-weight="700">Как не потерять приток в шуме ёмкостей</text>
+<rect x="788" y="20" width="150" height="36" rx="18" fill="#8E44AD"/>
+<text x="863" y="44" fill="#fff" font-size="17" font-weight="700" text-anchor="middle">схема</text>
+<rect x="32.0" y="110" width="160.0" height="330" rx="14" fill="#1A2129" stroke="#F1C40F" stroke-width="3"/>
+<text x="48.0" y="140" fill="#F1C40F" font-size="18" font-weight="700">Шаг 1</text>
+<text x="48.0" y="168" fill="#ECEFF4" font-size="17">Изолировать</text>
+<text x="48.0" y="192" fill="#ECEFF4" font-size="17">приёмную ёмкость,</text>
+<text x="48.0" y="216" fill="#ECEFF4" font-size="17">через которую идёт</text>
+<text x="48.0" y="240" fill="#ECEFF4" font-size="17">циркуляция, от</text>
+<text x="48.0" y="264" fill="#ECEFF4" font-size="17">других.</text>
+<line x1="194.0" y1="275" x2="214.0" y2="275" stroke="#8A96A3" stroke-width="4" marker-end="url(#ah)"/>
+<rect x="216.0" y="110" width="160.0" height="330" rx="14" fill="#1A2129" stroke="#3498DB" stroke-width="3"/>
+<text x="232.0" y="140" fill="#3498DB" font-size="18" font-weight="700">Шаг 2</text>
+<text x="232.0" y="168" fill="#ECEFF4" font-size="17">При необходимости</text>
+<text x="232.0" y="192" fill="#ECEFF4" font-size="17">уменьшить</text>
+<text x="232.0" y="216" fill="#ECEFF4" font-size="17">поверхность</text>
+<text x="232.0" y="240" fill="#ECEFF4" font-size="17">ёмкости</text>
+<text x="232.0" y="264" fill="#ECEFF4" font-size="17">перегородкой.</text>
+<line x1="378.0" y1="275" x2="398.0" y2="275" stroke="#8A96A3" stroke-width="4" marker-end="url(#ah)"/>
+<rect x="400.0" y="110" width="160.0" height="330" rx="14" fill="#1A2129" stroke="#3498DB" stroke-width="3"/>
+<text x="416.0" y="140" fill="#3498DB" font-size="18" font-weight="700">Шаг 3</text>
+<text x="416.0" y="168" fill="#ECEFF4" font-size="17">После</text>
+<text x="416.0" y="192" fill="#ECEFF4" font-size="17">возобновления</text>
+<text x="416.0" y="216" fill="#ECEFF4" font-size="17">круговой</text>
+<text x="416.0" y="240" fill="#ECEFF4" font-size="17">циркуляции</text>
+<text x="416.0" y="264" fill="#ECEFF4" font-size="17">установить</text>
+<text x="416.0" y="288" fill="#ECEFF4" font-size="17">исходный уровень.</text>
+<line x1="562.0" y1="275" x2="582.0" y2="275" stroke="#8A96A3" stroke-width="4" marker-end="url(#ah)"/>
+<rect x="584.0" y="110" width="160.0" height="330" rx="14" fill="#1A2129" stroke="#3498DB" stroke-width="3"/>
+<text x="600.0" y="140" fill="#3498DB" font-size="18" font-weight="700">Шаг 4</text>
+<text x="600.0" y="168" fill="#ECEFF4" font-size="17">Корректировать</text>
+<text x="600.0" y="192" fill="#ECEFF4" font-size="17">исходный уровень</text>
+<text x="600.0" y="216" fill="#ECEFF4" font-size="17">на добавки,</text>
+<text x="600.0" y="240" fill="#ECEFF4" font-size="17">осадки, потери при</text>
+<text x="600.0" y="264" fill="#ECEFF4" font-size="17">очистке и</text>
+<text x="600.0" y="288" fill="#ECEFF4" font-size="17">испарение.</text>
+<line x1="746.0" y1="275" x2="766.0" y2="275" stroke="#8A96A3" stroke-width="4" marker-end="url(#ah)"/>
+<rect x="768.0" y="110" width="160.0" height="330" rx="14" fill="#1A2129" stroke="#3498DB" stroke-width="3"/>
+<text x="784.0" y="140" fill="#3498DB" font-size="18" font-weight="700">Шаг 5</text>
+<text x="784.0" y="168" fill="#ECEFF4" font-size="17">Переключать насосы</text>
+<text x="784.0" y="192" fill="#ECEFF4" font-size="17">и ёмкости и</text>
+<text x="784.0" y="216" fill="#ECEFF4" font-size="17">перераспределять</text>
+<text x="784.0" y="240" fill="#ECEFF4" font-size="17">объёмы только с</text>
+<text x="784.0" y="264" fill="#ECEFF4" font-size="17">ведома бурильщика.</text>
+<text x="32" y="524" fill="#8A96A3" font-size="14">по главе, стр. 234</text>
+</svg>

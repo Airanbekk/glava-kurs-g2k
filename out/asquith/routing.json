@@ -1,0 +1,260 @@
+{
+ "chapter": "asquith_ch7",
+ "routes": [
+  {
+   "node_id": "asquith.chapter_overview",
+   "format": "практикум на данных",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 1,
+    "scale": 0,
+    "counterintuitive": 1,
+    "cause_effect": 1
+   },
+   "hook_short": false,
+   "template": "tpl_procedure_flow",
+   "why": "Тип трудности Пр/Н; видеоёмкость 3/10 (время 0, невидимое 1, масштаб 0, контринтуитивность 1, причина→следствие 1); есть решение на данных → практикум на данных."
+  },
+  {
+   "node_id": "asquith.scan_reconnaissance",
+   "format": "практикум на данных",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 1,
+    "scale": 1,
+    "counterintuitive": 1,
+    "cause_effect": 1
+   },
+   "hook_short": false,
+   "template": "tpl_procedure_flow",
+   "why": "Тип трудности Пр/Н; видеоёмкость 4/10 (время 0, невидимое 1, масштаб 1, контринтуитивность 1, причина→следствие 1); есть решение на данных → практикум на данных."
+  },
+  {
+   "node_id": "asquith.archie_sw_sxo",
+   "format": "практикум на данных",
+   "secondary_format": "шортс",
+   "video_scores": {
+    "time": 1,
+    "invisible": 2,
+    "scale": 1,
+    "counterintuitive": 1,
+    "cause_effect": 2
+   },
+   "hook_short": false,
+   "template": "tpl_formula_sliders",
+   "why": "Тип трудности Ф/И; видеоёмкость 7/10 (время 1, невидимое 2, масштаб 1, контринтуитивность 1, причина→следствие 2); есть решение на данных → практикум на данных."
+  },
+  {
+   "node_id": "asquith.ratio_method_index",
+   "format": "практикум на данных",
+   "secondary_format": "шортс",
+   "video_scores": {
+    "time": 0,
+    "invisible": 2,
+    "scale": 1,
+    "counterintuitive": 1,
+    "cause_effect": 2
+   },
+   "hook_short": false,
+   "template": "tpl_formula_sliders",
+   "why": "Тип трудности Ф/И; видеоёмкость 6/10 (время 0, невидимое 2, масштаб 1, контринтуитивность 1, причина→следствие 2); есть решение на данных → практикум на данных."
+  },
+  {
+   "node_id": "asquith.ratio_swr_compare",
+   "format": "практикум на данных",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 1,
+    "scale": 0,
+    "counterintuitive": 1,
+    "cause_effect": 2
+   },
+   "hook_short": false,
+   "template": "tpl_decision_range",
+   "why": "Тип трудности Н/Ф; видеоёмкость 4/10 (время 0, невидимое 1, масштаб 0, контринтуитивность 1, причина→следствие 2); есть решение на данных → практикум на данных."
+  },
+  {
+   "node_id": "asquith.quicklook_rxo_rt",
+   "format": "практикум на данных",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 1,
+    "scale": 1,
+    "counterintuitive": 1,
+    "cause_effect": 2
+   },
+   "hook_short": false,
+   "template": "tpl_feature_cards",
+   "why": "Тип трудности Р/И; видеоёмкость 5/10 (время 0, невидимое 1, масштаб 1, контринтуитивность 1, причина→следствие 2); есть решение на данных → практикум на данных."
+  },
+  {
+   "node_id": "asquith.quicklook_rwa",
+   "format": "практикум на данных",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 1,
+    "scale": 0,
+    "counterintuitive": 1,
+    "cause_effect": 2
+   },
+   "hook_short": false,
+   "template": "tpl_signal_response_property",
+   "why": "Тип трудности И/Н; видеоёмкость 4/10 (время 0, невидимое 1, масштаб 0, контринтуитивность 1, причина→следствие 2); есть решение на данных → практикум на данных."
+  },
+  {
+   "node_id": "asquith.quicklook_cond_ro",
+   "format": "практикум на данных",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 1,
+    "scale": 0,
+    "counterintuitive": 1,
+    "cause_effect": 2
+   },
+   "hook_short": false,
+   "template": "tpl_signal_response_property",
+   "why": "Тип трудности И/Р; видеоёмкость 4/10 (время 0, невидимое 1, масштаб 0, контринтуитивность 1, причина→следствие 2); есть решение на данных → практикум на данных."
+  },
+  {
+   "node_id": "asquith.bvw_irreducible",
+   "format": "практикум на данных",
+   "secondary_format": "шортс",
+   "video_scores": {
+    "time": 1,
+    "invisible": 2,
+    "scale": 1,
+    "counterintuitive": 1,
+    "cause_effect": 2
+   },
+   "hook_short": false,
+   "template": "tpl_mechanism_chain",
+   "why": "Тип трудности М/Р; видеоёмкость 7/10 (время 1, невидимое 2, масштаб 1, контринтуитивность 1, причина→следствие 2); есть решение на данных → практикум на данных."
+  },
+  {
+   "node_id": "asquith.pickett_basics",
+   "format": "практикум на данных",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 1,
+    "scale": 1,
+    "counterintuitive": 1,
+    "cause_effect": 2
+   },
+   "hook_short": false,
+   "template": "tpl_formula_sliders",
+   "why": "Тип трудности Ф/Пр; видеоёмкость 5/10 (время 0, невидимое 1, масштаб 1, контринтуитивность 1, причина→следствие 2); есть решение на данных → практикум на данных."
+  },
+  {
+   "node_id": "asquith.pickett_lines_matrix",
+   "format": "практикум на данных",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 1,
+    "scale": 0,
+    "counterintuitive": 1,
+    "cause_effect": 2
+   },
+   "hook_short": false,
+   "template": "tpl_procedure_flow",
+   "why": "Тип трудности Пр/Н; видеоёмкость 4/10 (время 0, невидимое 1, масштаб 0, контринтуитивность 1, причина→следствие 2); есть решение на данных → практикум на данных."
+  },
+  {
+   "node_id": "asquith.hingle_theory_grids",
+   "format": "практикум на данных",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 1,
+    "scale": 0,
+    "counterintuitive": 1,
+    "cause_effect": 1
+   },
+   "hook_short": false,
+   "template": "tpl_formula_sliders",
+   "why": "Тип трудности Ф/Пр; видеоёмкость 3/10 (время 0, невидимое 1, масштаб 0, контринтуитивность 1, причина→следствие 1); есть решение на данных → практикум на данных."
+  },
+  {
+   "node_id": "asquith.hingle_use_compare",
+   "format": "практикум на данных",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 1,
+    "scale": 0,
+    "counterintuitive": 1,
+    "cause_effect": 2
+   },
+   "hook_short": false,
+   "template": "tpl_procedure_flow",
+   "why": "Тип трудности Пр/Н; видеоёмкость 4/10 (время 0, невидимое 1, масштаб 0, контринтуитивность 1, причина→следствие 2); есть решение на данных → практикум на данных."
+  },
+  {
+   "node_id": "asquith.morrow_example",
+   "format": "практикум на данных",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 1,
+    "scale": 1,
+    "counterintuitive": 1,
+    "cause_effect": 2
+   },
+   "hook_short": false,
+   "template": "tpl_procedure_flow",
+   "why": "Тип трудности Пр/Н; видеоёмкость 5/10 (время 0, невидимое 1, масштаб 1, контринтуитивность 1, причина→следствие 2); есть решение на данных → практикум на данных."
+  },
+  {
+   "node_id": "asquith.perm_empirical",
+   "format": "практикум на данных",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 1,
+    "scale": 1,
+    "counterintuitive": 1,
+    "cause_effect": 1
+   },
+   "hook_short": false,
+   "template": "tpl_formula_sliders",
+   "why": "Тип трудности Ф/Н; видеоёмкость 4/10 (время 0, невидимое 1, масштаб 1, контринтуитивность 1, причина→следствие 1); есть решение на данных → практикум на данных."
+  },
+  {
+   "node_id": "asquith.perm_coates",
+   "format": "интерактив",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 1,
+    "scale": 0,
+    "counterintuitive": 1,
+    "cause_effect": 1
+   },
+   "hook_short": false,
+   "template": "tpl_formula_sliders",
+   "why": "Тип трудности Ф; видеоёмкость 3/10 (время 0, невидимое 1, масштаб 0, контринтуитивность 1, причина→следствие 1) → интерактив."
+  },
+  {
+   "node_id": "asquith.shaly_sand",
+   "format": "практикум на данных",
+   "secondary_format": null,
+   "video_scores": {
+    "time": 0,
+    "invisible": 2,
+    "scale": 1,
+    "counterintuitive": 1,
+    "cause_effect": 1
+   },
+   "hook_short": false,
+   "template": "tpl_decision_range",
+   "why": "Тип трудности Н/М; видеоёмкость 5/10 (время 0, невидимое 2, масштаб 1, контринтуитивность 1, причина→следствие 1); есть решение на данных → практикум на данных."
+  }
+ ]
+}

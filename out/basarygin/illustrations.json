@@ -1,0 +1,347 @@
+{
+ "chapter": "basarygin_4-1-1_4-2-14",
+ "illustrations": [
+  {
+   "id": "ill.basarygin.signs_overview",
+   "step_id": "step.basarygin.signs_overview",
+   "node_id": "basarygin.signs_overview",
+   "file": "assets/basarygin_signs_overview.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Цепочка косвенного измерения: сигнал → вывод → условия. Собрано кодом из утверждений узла.",
+   "alt": "Схема: цепочка косвенного измерения: сигнал → вывод → условия — Как приток виден на поверхности",
+   "source": "по главе, стр. 231, 232",
+   "claim_ids": [
+    "basarygin.signs_overview#c1",
+    "basarygin.signs_overview#c2",
+    "basarygin.signs_overview#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.basarygin.rop_jump",
+   "step_id": "step.basarygin.rop_jump",
+   "node_id": "basarygin.rop_jump",
+   "file": "assets/basarygin_rop_jump.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Причина → следствие → практика. Собрано кодом из утверждений узла.",
+   "alt": "Схема: причина → следствие → практика — Скачок проходки как ранний сигнал",
+   "source": "по главе, стр. 232, 233",
+   "claim_ids": [
+    "basarygin.rop_jump#c1",
+    "basarygin.rop_jump#c2",
+    "basarygin.rop_jump#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.basarygin.level_resolution",
+   "step_id": "step.basarygin.level_resolution",
+   "node_id": "basarygin.level_resolution",
+   "file": "assets/basarygin_level_resolution.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Цепочка косвенного измерения: сигнал → вывод → условия. Собрано кодом из утверждений узла.",
+   "alt": "Схема: цепочка косвенного измерения: сигнал → вывод → условия — Чувствительность контроля уровня раствора",
+   "source": "по главе, стр. 232, 233, 234",
+   "claim_ids": [
+    "basarygin.level_resolution#c1",
+    "basarygin.level_resolution#c2",
+    "basarygin.level_resolution#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.basarygin.level_practice",
+   "step_id": "step.basarygin.level_practice",
+   "node_id": "basarygin.level_practice",
+   "file": "assets/basarygin_level_practice.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Порядок действий по главе. Собрано кодом из утверждений узла.",
+   "alt": "Схема: порядок действий по главе — Как не потерять приток в шуме ёмкостей",
+   "source": "по главе, стр. 234",
+   "claim_ids": [
+    "basarygin.level_practice#c1",
+    "basarygin.level_practice#c2",
+    "basarygin.level_practice#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.basarygin.flow_out",
+   "step_id": "step.basarygin.flow_out",
+   "node_id": "basarygin.flow_out",
+   "file": "assets/basarygin_flow_out.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Цепочка косвенного измерения: сигнал → вывод → условия. Собрано кодом из утверждений узла.",
+   "alt": "Схема: цепочка косвенного измерения: сигнал → вывод → условия — Расход на выходе: порог и подача насоса",
+   "source": "по главе, стр. 234, 235",
+   "claim_ids": [
+    "basarygin.flow_out#c1",
+    "basarygin.flow_out#c2",
+    "basarygin.flow_out#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.basarygin.gas_causes_signs",
+   "step_id": "step.basarygin.gas_causes_signs",
+   "node_id": "basarygin.gas_causes_signs",
+   "file": "assets/basarygin_gas_causes_signs.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Причина → следствие → практика. Собрано кодом из утверждений узла.",
+   "alt": "Схема: причина → следствие → практика — Откуда газ в растворе",
+   "source": "по главе, стр. 235, 236",
+   "claim_ids": [
+    "basarygin.gas_causes_signs#c1",
+    "basarygin.gas_causes_signs#c2",
+    "basarygin.gas_causes_signs#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.basarygin.gas_actions",
+   "step_id": "step.basarygin.gas_actions",
+   "node_id": "basarygin.gas_actions",
+   "file": "assets/basarygin_gas_actions.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Решение на данных: признаки → правило → вывод и где оно ломается. Собрано кодом из утверждений узла.",
+   "alt": "Схема: решение на данных: признаки → правило → вывод и где оно ломается — Что делать при росте газа",
+   "source": "по главе, стр. 235, 236",
+   "claim_ids": [
+    "basarygin.gas_actions#c1",
+    "basarygin.gas_actions#c2",
+    "basarygin.gas_actions#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.basarygin.gas_formulas",
+   "step_id": "step.basarygin.gas_formulas",
+   "node_id": "basarygin.gas_formulas",
+   "file": "assets/basarygin_gas_formulas.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Смысл формулы и обозначения. Собрано кодом из утверждений узла.",
+   "alt": "Схема: смысл формулы и обозначения — Расчёт газа и почему он не причина выброса",
+   "source": "по главе, стр. 236, 237",
+   "claim_ids": [
+    "basarygin.gas_formulas#c1",
+    "basarygin.gas_formulas#c2",
+    "basarygin.gas_formulas#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.basarygin.pump_pressure",
+   "step_id": "step.basarygin.pump_pressure",
+   "node_id": "basarygin.pump_pressure",
+   "file": "assets/basarygin_pump_pressure.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Причина → следствие → практика. Собрано кодом из утверждений узла.",
+   "alt": "Схема: причина → следствие → практика — Давление на насосах: падает или растёт",
+   "source": "по главе, стр. 237, 238",
+   "claim_ids": [
+    "basarygin.pump_pressure#c1",
+    "basarygin.pump_pressure#c2",
+    "basarygin.pump_pressure#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.basarygin.trips_volumes",
+   "step_id": "step.basarygin.trips_volumes",
+   "node_id": "basarygin.trips_volumes",
+   "file": "assets/basarygin_trips_volumes.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Порядок действий по главе. Собрано кодом из утверждений узла.",
+   "alt": "Схема: порядок действий по главе — Баланс долива и вытеснения при СПО",
+   "source": "по главе, стр. 238, 239",
+   "claim_ids": [
+    "basarygin.trips_volumes#c1",
+    "basarygin.trips_volumes#c2",
+    "basarygin.trips_volumes#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.basarygin.mud_properties",
+   "step_id": "step.basarygin.mud_properties",
+   "node_id": "basarygin.mud_properties",
+   "file": "assets/basarygin_mud_properties.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Цепочка косвенного измерения: сигнал → вывод → условия. Собрано кодом из утверждений узла.",
+   "alt": "Схема: цепочка косвенного измерения: сигнал → вывод → условия — Свойства раствора как слабый сигнал",
+   "source": "по главе, стр. 239",
+   "claim_ids": [
+    "basarygin.mud_properties#c1",
+    "basarygin.mud_properties#c2",
+    "basarygin.mud_properties#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.basarygin.causes_intro",
+   "step_id": "step.basarygin.causes_intro",
+   "node_id": "basarygin.causes_intro",
+   "file": "assets/basarygin_causes_intro.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Причина → следствие → практика. Собрано кодом из утверждений узла.",
+   "alt": "Схема: причина → следствие → практика — Приток при избыточном давлении: не опасен",
+   "source": "по главе, стр. 239",
+   "claim_ids": [
+    "basarygin.causes_intro#c1",
+    "basarygin.causes_intro#c2",
+    "basarygin.causes_intro#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.basarygin.wellhead_strengthening",
+   "step_id": "step.basarygin.wellhead_strengthening",
+   "node_id": "basarygin.wellhead_strengthening",
+   "file": "assets/basarygin_wellhead_strengthening.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Причина → следствие → практика. Собрано кодом из утверждений узла.",
+   "alt": "Схема: причина → следствие → практика — Зачем усиливают устье газовой скважины",
+   "source": "по главе, стр. 312",
+   "claim_ids": [
+    "basarygin.wellhead_strengthening#c1",
+    "basarygin.wellhead_strengthening#c2",
+    "basarygin.wellhead_strengthening#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.basarygin.wellhead_layout",
+   "step_id": "step.basarygin.wellhead_layout",
+   "node_id": "basarygin.wellhead_layout",
+   "file": "assets/basarygin_wellhead_layout.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Причина → следствие → практика. Собрано кодом из утверждений узла.",
+   "alt": "Схема: причина → следствие → практика — Устройство обвязки устья: позиции схемы",
+   "source": "по главе, стр. 312, 313",
+   "claim_ids": [
+    "basarygin.wellhead_layout#c1",
+    "basarygin.wellhead_layout#c2",
+    "basarygin.wellhead_layout#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.basarygin.closing_physics",
+   "step_id": "step.basarygin.closing_physics",
+   "node_id": "basarygin.closing_physics",
+   "file": "assets/basarygin_closing_physics.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Причина → следствие → практика. Собрано кодом из утверждений узла.",
+   "alt": "Схема: причина → следствие → практика — Закрытая скважина: приток затухает",
+   "source": "по главе, стр. 314",
+   "claim_ids": [
+    "basarygin.closing_physics#c1",
+    "basarygin.closing_physics#c2",
+    "basarygin.closing_physics#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.basarygin.closing_prep_hard",
+   "step_id": "step.basarygin.closing_prep_hard",
+   "node_id": "basarygin.closing_prep_hard",
+   "file": "assets/basarygin_closing_prep_hard.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Порядок действий по главе. Собрано кодом из утверждений узла.",
+   "alt": "Схема: порядок действий по главе — Первые действия и быстрое закрытие",
+   "source": "по главе, стр. 314, 315",
+   "claim_ids": [
+    "basarygin.closing_prep_hard#c1",
+    "basarygin.closing_prep_hard#c2",
+    "basarygin.closing_prep_hard#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.basarygin.closing_soft_choice",
+   "step_id": "step.basarygin.closing_soft_choice",
+   "node_id": "basarygin.closing_soft_choice",
+   "file": "assets/basarygin_closing_soft_choice.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Решение на данных: признаки → правило → вывод и где оно ломается. Собрано кодом из утверждений узла.",
+   "alt": "Схема: решение на данных: признаки → правило → вывод и где оно ломается — Мягкое закрытие и выбор способа",
+   "source": "по главе, стр. 315, 316",
+   "claim_ids": [
+    "basarygin.closing_soft_choice#c1",
+    "basarygin.closing_soft_choice#c2",
+    "basarygin.closing_soft_choice#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.basarygin.killing_driller",
+   "step_id": "step.basarygin.killing_driller",
+   "node_id": "basarygin.killing_driller",
+   "file": "assets/basarygin_killing_driller.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Порядок действий по главе. Собрано кодом из утверждений узла.",
+   "alt": "Схема: порядок действий по главе — Метод бурильщика: два этапа глушения",
+   "source": "по главе, стр. 316, 317",
+   "claim_ids": [
+    "basarygin.killing_driller#c1",
+    "basarygin.killing_driller#c2",
+    "basarygin.killing_driller#c3"
+   ],
+   "prompt": null
+  },
+  {
+   "id": "ill.basarygin.killing_wait_weight",
+   "step_id": "step.basarygin.killing_wait_weight",
+   "node_id": "basarygin.killing_wait_weight",
+   "file": "assets/basarygin_killing_wait_weight.svg",
+   "frame_class": "B",
+   "origin": "code_from_model",
+   "label": "схема",
+   "caption": "Порядок действий по главе. Собрано кодом из утверждений узла.",
+   "alt": "Схема: порядок действий по главе — Глушение за один цикл",
+   "source": "по главе, стр. 317, 318",
+   "claim_ids": [
+    "basarygin.killing_wait_weight#c1",
+    "basarygin.killing_wait_weight#c2",
+    "basarygin.killing_wait_weight#c3"
+   ],
+   "prompt": null
+  }
+ ]
+}

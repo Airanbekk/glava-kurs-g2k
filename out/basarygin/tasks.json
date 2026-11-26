@@ -1,0 +1,1300 @@
+{
+ "chapter": "basarygin_4-1-1_4-2-14",
+ "tasks": [
+  {
+   "id": "basarygin.signs_overview.t1",
+   "type": "single",
+   "kind": "understanding",
+   "prompt": "Оператор видит, что давление на насосах изменилось, а механическая скорость выросла. Уровень в ёмкостях и расход на выходе не менялись. Как правильно истолковать ситуацию по тексту шага?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Это ещё не доказывает приток: изменение давления на насосах и рост механической скорости бывают и по другим косвенным причинам.",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Это однозначно проявление, потому что рост механической скорости всегда означает приток.",
+     "misconception": "misc.rop_up_always_kick"
+    },
+    {
+     "id": "c",
+     "text": "Приток слабый, потому что давление на насосах изменилось незначительно.",
+     "misconception": "misc.pump_pressure_drop_light"
+    },
+    {
+     "id": "d",
+     "text": "Приток исключён, потому что уровнемер в ёмкостях ничего не показал.",
+     "misconception": "misc.level_sensor_enough"
+    }
+   ],
+   "answer": "a",
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Автор оговаривает, что последние три признака (свойства раствора, давление на насосах и механическая скорость в общем перечне) бывают и по другим причинам, поэтому один такой признак приток не доказывает.",
+   "claim_ids": [
+    "basarygin.signs_overview#c13",
+    "basarygin.signs_overview#c8"
+   ],
+   "step_id": "step.basarygin.signs_overview"
+  },
+  {
+   "id": "basarygin.signs_overview.t2",
+   "type": "single",
+   "kind": "transfer",
+   "prompt": "Расход раствора на выходе из скважины вырос. При каком условии это можно считать признаком притока?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Если подача буровых насосов при этом не менялась.",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Если расход вырос после увеличения подачи насосов.",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Если одновременно упало давление на насосах, то есть приток слабый.",
+     "misconception": "misc.pump_pressure_drop_light"
+    },
+    {
+     "id": "d",
+     "text": "Если индикатор потока показал рост, он точно и сразу фиксирует приток.",
+     "misconception": "misc.flow_indicator_precise"
+    }
+   ],
+   "answer": "a",
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Рост расхода на выходе считается признаком притока только при неизменной подаче буровых насосов, это условие обязательно.",
+   "claim_ids": [
+    "basarygin.signs_overview#c10"
+   ],
+   "step_id": "step.basarygin.signs_overview"
+  },
+  {
+   "id": "basarygin.rop_jump.t1",
+   "type": "single",
+   "kind": "understanding",
+   "prompt": "Механическая скорость бурения резко выросла на глубине забоя. Бурят известняки. Какой вывод самый обоснованный?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Это однозначно проявление: пласт высокого давления вскрыт, нужно готовиться к закрытию скважины.",
+     "misconception": "misc.rop_up_always_kick"
+    },
+    {
+     "id": "b",
+     "text": "Возможно проявление, но в известняках скачок чаще означает провал в трещину или каверну и поглощение, поэтому нужен контекст разреза.",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Это однозначно поглощение: в известняках скачок проходки никогда не связан с проявлением.",
+     "misconception": null
+    },
+    {
+     "id": "d",
+     "text": "Скачок ничего не значит: скорость зависит только от долота и нагрузки.",
+     "misconception": null
+    }
+   ],
+   "answer": "b",
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Скачок проходки считают признаком возможного проявления, но в известняках провал в каверну или трещину чаще ведёт к поглощению.",
+   "claim_ids": [
+    "basarygin.rop_jump#c6",
+    "basarygin.rop_jump#c7",
+    "basarygin.rop_jump#c11"
+   ],
+   "step_id": "step.basarygin.rop_jump"
+  },
+  {
+   "id": "basarygin.rop_jump.t2",
+   "type": "order",
+   "kind": "understanding",
+   "prompt": "Расставьте по порядку цепочку событий, описанную на примере скважины на Кубани (Юбилейная площадь).",
+   "options": [
+    {
+     "id": "a",
+     "text": "Строят график механического каротажа и фиксируют рост скорости на глубине 4274 м",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Происходит сильный выброс",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Борьба с проявлением осложняет состояние скважины",
+     "misconception": null
+    },
+    {
+     "id": "d",
+     "text": "Дальнейшее углубление скважины становится невозможным",
+     "misconception": null
+    }
+   ],
+   "answer": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "После роста скорости на 4274 м произошёл сильный выброс, борьба с проявлением ухудшила скважину, и углублять её стало невозможно.",
+   "claim_ids": [
+    "basarygin.rop_jump#c9",
+    "basarygin.rop_jump#c10",
+    "basarygin.rop_jump#c13"
+   ],
+   "step_id": "step.basarygin.rop_jump"
+  },
+  {
+   "id": "basarygin.level_resolution.t1",
+   "type": "multiple",
+   "kind": "understanding",
+   "prompt": "Какие утверждения о минимальном регистрируемом объёме притока ΔVmin = εS верны?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Чем больше площадь зеркала раствора S в циркулирующих ёмкостях, тем более крупный приток нужен, чтобы уровнемер его заметил.",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Если отключить из циркуляции часть ёмкостей, чувствительность контроля уровня повышается.",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Одного уровнемера достаточно: он покажет любой приток, независимо от площади ёмкостей.",
+     "misconception": "misc.level_sensor_enough"
+    },
+    {
+     "id": "d",
+     "text": "Площадь зеркала на ΔVmin не влияет, важна только погрешность датчика ε.",
+     "misconception": "misc.level_sensor_enough"
+    }
+   ],
+   "answer": [
+    "a",
+    "b"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "ΔVmin = εS растёт с площадью, поэтому уменьшение S отключением ёмкостей повышает чувствительность.",
+   "claim_ids": [
+    "basarygin.level_resolution#c6",
+    "basarygin.level_resolution#c8",
+    "basarygin.level_resolution#c12"
+   ],
+   "step_id": "step.basarygin.level_resolution"
+  },
+  {
+   "id": "basarygin.level_resolution.t2",
+   "type": "gap",
+   "kind": "recall",
+   "prompt": "Минимальный объём флюида, который фиксирует уровнемер, равен ΔVmin = ε·{{1}}, где ε — абсолютная {{2}} датчика, а S — площадь зеркала. Если из трёх ёмкостей отключить одну, чувствительность системы вырастет в {{3}} раза.",
+   "options": [],
+   "answer": [
+    "S",
+    "погрешность",
+    "1,5"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "В формуле ΔVmin = εS ε — абсолютная погрешность датчика, S — площадь; отключение одной ёмкости из трёх даёт рост чувствительности в 1,5 раза.",
+   "claim_ids": [
+    "basarygin.level_resolution#c6",
+    "basarygin.level_resolution#c7",
+    "basarygin.level_resolution#c13"
+   ],
+   "step_id": "step.basarygin.level_resolution"
+  },
+  {
+   "id": "basarygin.level_practice.t1",
+   "type": "multiple",
+   "kind": "understanding",
+   "prompt": "Какие меры помогают заметить малый приток по уровню в приёмной ёмкости? Выберите все верные.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Изолировать рабочую ёмкость, через которую идёт циркуляция, от остальных",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Установить в ёмкости перегородку, чтобы уменьшить площадь зеркала",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Поставить уровнемер и больше ничего не делать: приток и так будет виден",
+     "misconception": "misc.level_sensor_enough"
+    },
+    {
+     "id": "d",
+     "text": "Увеличить площадь зеркала, чтобы уровень менялся плавнее",
+     "misconception": "misc.level_sensor_enough"
+    },
+    {
+     "id": "e",
+     "text": "Не пересчитывать исходный уровень после возобновления циркуляции",
+     "misconception": "misc.level_sensor_enough"
+    }
+   ],
+   "answer": [
+    "a",
+    "b"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Изоляция рабочей ёмкости убирает перетоки, а перегородка уменьшает площадь зеркала и повышает чувствительность уровня.",
+   "claim_ids": [
+    "basarygin.level_practice#c1",
+    "basarygin.level_practice#c2"
+   ],
+   "step_id": "step.basarygin.level_practice"
+  },
+  {
+   "id": "basarygin.level_practice.t2",
+   "type": "gap",
+   "kind": "recall",
+   "prompt": "После возобновления круговой циркуляции нужно заново установить {{1}} уровень. Его корректируют на добавки, осадки, потери при очистке и {{2}}. Переключать насосы и ёмкости можно только с ведома {{3}}.",
+   "options": [],
+   "answer": [
+    "исходный",
+    "испарение",
+    "бурильщика"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Исходный уровень — точка отсчёта, его пересчитывают после возобновления циркуляции и сдвигают на добавки, осадки, потери и испарение, а переключения согласуют с бурильщиком.",
+   "claim_ids": [
+    "basarygin.level_practice#c3",
+    "basarygin.level_practice#c4",
+    "basarygin.level_practice#c5"
+   ],
+   "step_id": "step.basarygin.level_practice"
+  },
+  {
+   "id": "basarygin.flow_out.t1",
+   "type": "calc",
+   "kind": "data",
+   "prompt": "Расходомер имеет приведённую погрешность δ = 2 % и верх шкалы Qmax = 50 л/с. Чему равен порог чувствительности ΔQmin, то есть наименьший прирост расхода, который прибор отличит от погрешности?",
+   "options": [],
+   "answer": 1,
+   "tolerance": 0.01,
+   "unit": "л/с",
+   "explanation": "По формуле шага ΔQmin = δ·Qmax/100 = 2·50/100 = 1 л/с.",
+   "claim_ids": [
+    "basarygin.flow_out#c5"
+   ],
+   "step_id": "step.basarygin.flow_out"
+  },
+  {
+   "id": "basarygin.flow_out.t2",
+   "type": "single",
+   "kind": "understanding",
+   "prompt": "При притоке газа подачу насосов увеличили в 3 раза, приток газа остался прежним. Как изменится приращение расхода на выходе?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Не изменится, ведь приток газа тот же",
+     "misconception": "misc.flow_indicator_precise"
+    },
+    {
+     "id": "b",
+     "text": "Вырастет в 3 раза, обнаружение станет быстрее",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Уменьшится в 3 раза, так как раствор разбавляет газ",
+     "misconception": null
+    },
+    {
+     "id": "d",
+     "text": "Вырастет, но только после остановки насосов",
+     "misconception": "misc.stop_pumps_no_effect"
+    }
+   ],
+   "answer": "b",
+   "tolerance": null,
+   "unit": null,
+   "explanation": "По шагу ΔQ2 = n·ΔQ1: при подаче выше в n раз приращение расхода выше в n раз, и обнаружение быстрее.",
+   "claim_ids": [
+    "basarygin.flow_out#c6",
+    "basarygin.flow_out#c7"
+   ],
+   "step_id": "step.basarygin.flow_out"
+  },
+  {
+   "id": "basarygin.gas_causes_signs.t1",
+   "type": "single",
+   "kind": "understanding",
+   "prompt": "В буровом растворе вырос газ. Бурение остановили, раствор только промывают, и газ перестал поступать. Что это означает?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Газ шёл вместе с выбуренной породой при запасе противодавления, это не приток",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Это настоящее проявление, пласт недоуравновешен, нужно сразу утяжелять раствор",
+     "misconception": "misc.gas_cut_always_kick"
+    },
+    {
+     "id": "c",
+     "text": "Флюид поступает только при забойном давлении ниже пластового, значит, это приток",
+     "misconception": "misc.influx_only_underbalance"
+    },
+    {
+     "id": "d",
+     "text": "Газ прекратился потому, что остановка насосов не меняет забойное давление",
+     "misconception": "misc.stop_pumps_no_effect"
+    }
+   ],
+   "answer": "a",
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Если после остановки бурения поступление газа прекращается, он шёл из выбуренной породы при запасе противодавления, а приток продолжался бы при промывке.",
+   "claim_ids": [
+    "basarygin.gas_causes_signs#c11",
+    "basarygin.gas_causes_signs#c12",
+    "basarygin.gas_causes_signs#c5"
+   ],
+   "step_id": "step.basarygin.gas_causes_signs"
+  },
+  {
+   "id": "basarygin.gas_causes_signs.t2",
+   "type": "multiple",
+   "kind": "understanding",
+   "prompt": "Какие наблюдения вместе указывают на настоящее проявление из-за нехватки противодавления? Выберите 2 верных.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Газирование продолжается при промывке после остановки бурения",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Газосодержание в забойной пачке растёт при остановке циркуляции",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Газ появляется только пока идёт разбуривание породы",
+     "misconception": "misc.gas_cut_always_kick"
+    },
+    {
+     "id": "d",
+     "text": "Газ превысил фоновое значение, этого достаточно для вывода о проявлении",
+     "misconception": "misc.gas_cut_always_kick"
+    },
+    {
+     "id": "e",
+     "text": "Газ идёт из загазованных глин переходной зоны",
+     "misconception": "misc.influx_only_underbalance"
+    }
+   ],
+   "answer": [
+    "a",
+    "b"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Признаки проявления: газ не исчезает при промывке без бурения и растёт в забойной пачке при остановке циркуляции, а одного уровня газа для вывода мало.",
+   "claim_ids": [
+    "basarygin.gas_causes_signs#c5",
+    "basarygin.gas_causes_signs#c6",
+    "basarygin.gas_causes_signs#c7"
+   ],
+   "step_id": "step.basarygin.gas_causes_signs"
+  },
+  {
+   "id": "basarygin.gas_actions.t1",
+   "type": "order",
+   "kind": "understanding",
+   "prompt": "Расставьте по порядку цепочку: почему в переходной зоне раствор утяжеляют ступенчато.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Раствор утяжеляют небольшими шагами",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Растут пористость и давление в газосодержащих породах",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Газосодержание раствора устойчиво растёт",
+     "misconception": null
+    },
+    {
+     "id": "d",
+     "text": "Возможна встреча с богатым локальным скоплением газа, способным дать выброс",
+     "misconception": null
+    }
+   ],
+   "answer": [
+    "b",
+    "c",
+    "d",
+    "a"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "По мере углубления в переходную зону растут пористость и давление, газ прибавляется, а риск локального скопления требует ступенчатого утяжеления.",
+   "claim_ids": [
+    "basarygin.gas_actions#c1",
+    "basarygin.gas_actions#c2"
+   ],
+   "step_id": "step.basarygin.gas_actions"
+  },
+  {
+   "id": "basarygin.gas_actions.t2",
+   "type": "single",
+   "kind": "transfer",
+   "prompt": "В шаге сказано, что газа до 70 % считается безопасным. Как правильно понимать это утверждение при планировании бурения с постоянным газированием на новой площади?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Это измеренный порог, и при газе до 70 % можно бурить где угодно",
+     "misconception": "misc.continuous_gas_ok"
+    },
+    {
+     "id": "b",
+     "text": "Это принятое мнение, применимое при хорошо изученных условиях и перестройке технологии по принципам «сбалансированного» бурения",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Это правило относится только к газу после СПО, а при бурении неприменимо",
+     "misconception": "misc.gas_cut_always_kick"
+    },
+    {
+     "id": "d",
+     "text": "Это означает, что при таком газе контроль станцией не нужен",
+     "misconception": "misc.level_sensor_enough"
+    }
+   ],
+   "answer": "b",
+   "tolerance": null,
+   "unit": null,
+   "explanation": "70 % — принятое мнение, а не измеренный порог, и опыт нельзя переносить без изученных условий и «сбалансированного» бурения.",
+   "claim_ids": [
+    "basarygin.gas_actions#c5",
+    "basarygin.gas_actions#c7"
+   ],
+   "step_id": "step.basarygin.gas_actions"
+  },
+  {
+   "id": "basarygin.gas_formulas.t1",
+   "type": "gap",
+   "kind": "recall",
+   "prompt": "Дебит газа в атмосферных условиях по плотности раствора: Q({{1}}/ρгр − 1), где Q — подача насосов, а ρгр — плотность газированного раствора. Содержание газа a0 равно дебиту газа, делённому на {{2}}.",
+   "options": [],
+   "answer": [
+    "ρ0",
+    "подачу насосов"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Дебит равен Q(ρ0/ρгр − 1), а содержание газа — это дебит, делённый на подачу насосов.",
+   "claim_ids": [
+    "basarygin.gas_formulas#c2",
+    "basarygin.gas_formulas#c3"
+   ],
+   "step_id": "step.basarygin.gas_formulas"
+  },
+  {
+   "id": "basarygin.gas_formulas.t2",
+   "type": "calc",
+   "kind": "data",
+   "prompt": "Подача насосов Q = 30 л/с, плотность негазированного раствора ρ0 = 1200 кг/м³, плотность газированного раствора на выходе ρгр = 1000 кг/м³. Найдите дебит газа g по формуле (4.1) в л/с.",
+   "options": [],
+   "answer": 6,
+   "tolerance": 0.1,
+   "unit": "л/с",
+   "explanation": "По формуле (4.1) g = Q(ρ0/ρгр − 1) = 30·(1200/1000 − 1) = 6 л/с.",
+   "claim_ids": [
+    "basarygin.gas_formulas#c1",
+    "basarygin.gas_formulas#c2"
+   ],
+   "step_id": "step.basarygin.gas_formulas"
+  },
+  {
+   "id": "basarygin.pump_pressure.t1",
+   "type": "single",
+   "kind": "understanding",
+   "prompt": "Оператор видит, что давление на стояке буровых насосов упало. Какой вывод о проявлении корректен по тексту шага?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Проявление слабое, ведь давление в нагнетательной линии снизилось.",
+     "misconception": "misc.pump_pressure_drop_light"
+    },
+    {
+     "id": "b",
+     "text": "Одно падение давления не доказывает, что проявление слабое: его может вызывать, например, газовая пачка, вошедшая при подъёме колонны из-за свабирования.",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Если давление упало, проявления нет, а если выросло, оно точно есть.",
+     "misconception": "misc.pump_pressure_drop_light"
+    },
+    {
+     "id": "d",
+     "text": "Давление на стояке всегда только падает при любом проявлении, поэтому рост давления исключает приток.",
+     "misconception": "misc.pump_pressure_drop_light"
+    }
+   ],
+   "answer": "b",
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Одно лишь снижение давления на насосах не доказывает слабость проявления: его может вызвать газовая пачка после свабирования, а при мощном притоке давление в начале может вырасти.",
+   "claim_ids": [
+    "basarygin.pump_pressure#c11",
+    "basarygin.pump_pressure#c12",
+    "basarygin.pump_pressure#c8"
+   ],
+   "step_id": "step.basarygin.pump_pressure"
+  },
+  {
+   "id": "basarygin.pump_pressure.t2",
+   "type": "calc",
+   "kind": "data",
+   "prompt": "В кольцевое пространство вошёл столб газированного флюида высотой lф = 500 м. Плотность бурового раствора ρ = 1200 кг/м³, плотность флюида ρф = 200 кг/м³, g = 9,81 м/с². Используя формулу Δp = g·lф·(ρ − ρф), найдите снижение давления в нагнетательной линии. Ответ дайте в МПа.",
+   "options": [],
+   "answer": 4.905,
+   "tolerance": 0.05,
+   "unit": "МПа",
+   "explanation": "Δp = 9,81·500·(1200 − 200) = 4 905 000 Па ≈ 4,9 МПа: чем больше столб флюида и разность плотностей, тем сильнее падение давления.",
+   "claim_ids": [
+    "basarygin.pump_pressure#c4",
+    "basarygin.pump_pressure#c5"
+   ],
+   "step_id": "step.basarygin.pump_pressure"
+  },
+  {
+   "id": "basarygin.trips_volumes.t1",
+   "type": "gap",
+   "kind": "recall",
+   "prompt": "При подъёме труб контрольный объём долива — это объём {{1}} труб плюс {{2}} раствора на стенках. Недолив против контрольного не должен быть больше {{3}} м³.",
+   "options": [],
+   "answer": [
+    "металла",
+    "плёнка",
+    "1"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Контрольный объём — металл труб плюс плёнка раствора, а недолив более 1 м³ недопустим (нормативный порог).",
+   "claim_ids": [
+    "basarygin.trips_volumes#c4",
+    "basarygin.trips_volumes#c5",
+    "basarygin.trips_volumes#c7"
+   ],
+   "step_id": "step.basarygin.trips_volumes"
+  },
+  {
+   "id": "basarygin.trips_volumes.t2",
+   "type": "single",
+   "kind": "understanding",
+   "prompt": "Буровик при подъёме доливает ровно объём металла поднятых труб и считает, что этого достаточно. Почему расчёт неполный?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Нужно ещё учесть плёнку раствора на стенках труб, а при отсутствии обтираторов — и на наружной поверхности.",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Долив всегда должен быть вдвое больше объёма металла, чтобы компенсировать свабирование.",
+     "misconception": "misc.trip_fill_exact"
+    },
+    {
+     "id": "c",
+     "text": "Если бурение шло спокойно, при СПО долив вообще не нужно сверять.",
+     "misconception": "misc.tripping_safe"
+    },
+    {
+     "id": "d",
+     "text": "Достаточно одного уровнемера в приёмной ёмкости, объёмы сверять не надо.",
+     "misconception": "misc.level_sensor_enough"
+    }
+   ],
+   "answer": "a",
+   "tolerance": null,
+   "unit": null,
+   "explanation": "В контрольный объём входит плёнка на внутренних стенках, а без обтираторов и на наружной поверхности труб.",
+   "claim_ids": [
+    "basarygin.trips_volumes#c5",
+    "basarygin.trips_volumes#c6"
+   ],
+   "step_id": "step.basarygin.trips_volumes"
+  },
+  {
+   "id": "basarygin.mud_properties.t1",
+   "type": "multiple",
+   "kind": "understanding",
+   "prompt": "Почему при слабом притоке флюида нельзя опираться на изменение одного показателя свойств раствора? Выберите верные причины.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Отклонение свойств от заданных может быть вызвано и другими причинами, не только притоком",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Показатели несут разное количество информации о проявлении, поэтому их лучше анализировать совместно",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Одного датчика уровня или расхода всегда достаточно, а свойства раствора лишь дублируют его",
+     "misconception": "misc.level_sensor_enough"
+    },
+    {
+     "id": "d",
+     "text": "Любое отклонение свойств раствора однозначно означает проявление, поэтому важно подтвердить его вторым показателем",
+     "misconception": "misc.gas_cut_always_kick"
+    }
+   ],
+   "answer": [
+    "a",
+    "b"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Признак неспецифичен и показатели различаются по информативности, поэтому о проявлении достовернее судить по нескольким показателям сразу.",
+   "claim_ids": [
+    "basarygin.mud_properties#c5",
+    "basarygin.mud_properties#c6",
+    "basarygin.mud_properties#c7"
+   ],
+   "step_id": "step.basarygin.mud_properties"
+  },
+  {
+   "id": "basarygin.mud_properties.t2",
+   "type": "gap",
+   "kind": "recall",
+   "prompt": "Данные об изменении свойств раствора приходят на поверхность с {{1}}. Оно равно времени подъёма {{2}} к устью.",
+   "options": [],
+   "answer": [
+    "запаздыванием",
+    "забойных пачек"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Замер на устье показывает изменение только после подъёма забойных пачек, поэтому событие на забое видно позже.",
+   "claim_ids": [
+    "basarygin.mud_properties#c8"
+   ],
+   "step_id": "step.basarygin.mud_properties"
+  },
+  {
+   "id": "basarygin.causes_intro.t1",
+   "type": "single",
+   "kind": "understanding",
+   "prompt": "Автор пишет, что пластовые флюиды поступают в скважину постоянно. Как относиться к притоку флюида, когда забойное давление выше пластового (pзаб > pпл)?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Практически не создаёт предвыбросовой ситуации: наличие флюида само по себе не тревога, важно соотношение давлений",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Это невозможно: флюид поступает только при pзаб ниже pпл",
+     "misconception": "misc.influx_only_underbalance"
+    },
+    {
+     "id": "c",
+     "text": "Любой такой приток сразу означает проявление и требует закрытия скважины",
+     "misconception": "misc.gas_cut_always_kick"
+    },
+    {
+     "id": "d",
+     "text": "Такой приток равен выбросу, потому что флюид уже попал в ствол",
+     "misconception": "misc.kick_equals_blowout"
+    }
+   ],
+   "answer": "a",
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Автор отмечает, что флюид поступает постоянно, в том числе при pзаб > pпл, и это практически не создаёт предвыбросовой ситуации.",
+   "claim_ids": [
+    "basarygin.causes_intro#c1",
+    "basarygin.causes_intro#c3"
+   ],
+   "step_id": "step.basarygin.causes_intro"
+  },
+  {
+   "id": "basarygin.causes_intro.t2",
+   "type": "gap",
+   "kind": "recall",
+   "prompt": "При проводке скважины пластовые {{1}} поступают в неё постоянно, в том числе когда забойное давление {{2}} пластового. Такое поступление практически не может создать {{3}} ситуацию.",
+   "options": [],
+   "answer": [
+    "флюиды",
+    "выше",
+    "предвыбросовую"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Флюиды поступают постоянно и при забойном давлении выше пластового, но предвыбросовую ситуацию это практически не создаёт.",
+   "claim_ids": [
+    "basarygin.causes_intro#c1",
+    "basarygin.causes_intro#c3"
+   ],
+   "step_id": "step.basarygin.causes_intro"
+  },
+  {
+   "id": "basarygin.wellhead_strengthening.t1",
+   "type": "single",
+   "kind": "understanding",
+   "prompt": "Почему в ряде районов при проектировании газовых скважин стремятся усилить устьевую часть дополнительной колонной?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Потому что резьбовые соединения стандартных обсадных труб недостаточно герметичны, и это приводит к межколонным проявлениям.",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Потому что газирование раствора снижает давление на забое и вызывает выброс, а дополнительная колонна это предотвращает.",
+     "misconception": "misc.gas_cut_causes_blowout"
+    },
+    {
+     "id": "c",
+     "text": "Потому что проявление и выброс — одно и то же, и колонна должна останавливать любой приток.",
+     "misconception": "misc.kick_equals_blowout"
+    },
+    {
+     "id": "d",
+     "text": "Потому что при остановке насосов забойное давление не меняется, и устье нужно защитить от этого.",
+     "misconception": "misc.stop_pumps_no_effect"
+    }
+   ],
+   "answer": "a",
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Причина усиления по шагу — недостаточная герметичность резьб стандартных обсадных труб, из-за чего возникают межколонные проявления.",
+   "claim_ids": [
+    "basarygin.wellhead_strengthening#c1",
+    "basarygin.wellhead_strengthening#c2"
+   ],
+   "step_id": "step.basarygin.wellhead_strengthening"
+  },
+  {
+   "id": "basarygin.wellhead_strengthening.t2",
+   "type": "multiple",
+   "kind": "recall",
+   "prompt": "Какие утверждения об усилении устья газовых скважин соответствуют тексту шага?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Дополнительную обсадную колонну спускают перед спуском эксплуатационной.",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "При эксплуатации газовых скважин межколонные проявления возникают часто.",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Грифонообразование — самый частый и лёгкий вид проявлений.",
+     "misconception": "misc.kick_equals_blowout"
+    },
+    {
+     "id": "d",
+     "text": "Дополнительную колонну спускают после эксплуатационной, когда появились проявления.",
+     "misconception": null
+    },
+    {
+     "id": "e",
+     "text": "Любой выход газа из скважины — это проявление из ствола при бурении, межколонные газопроявления сюда не относятся.",
+     "misconception": "misc.gas_cut_always_kick"
+    }
+   ],
+   "answer": [
+    "a",
+    "b"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Шаг говорит, что межколонные проявления часты при эксплуатации, а дополнительную колонну спускают перед эксплуатационной; грифоны — лишь наиболее тяжёлые случаи.",
+   "claim_ids": [
+    "basarygin.wellhead_strengthening#c3",
+    "basarygin.wellhead_strengthening#c4",
+    "basarygin.wellhead_strengthening#c5"
+   ],
+   "step_id": "step.basarygin.wellhead_strengthening"
+  },
+  {
+   "id": "basarygin.wellhead_layout.t1",
+   "type": "single",
+   "kind": "recall",
+   "prompt": "Какие позиции схемы обвязки устья (рис. 4.16) обозначают трубные превенторы?",
+   "options": [
+    {
+     "id": "a",
+     "text": "3 и 8",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "6 и 14",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "9 и 15",
+     "misconception": null
+    },
+    {
+     "id": "d",
+     "text": "11 и 13",
+     "misconception": null
+    }
+   ],
+   "answer": "b",
+   "tolerance": null,
+   "unit": null,
+   "explanation": "В тексте шага трубные превенторы названы позициями 6 и 14, а 3 — кольцевой превентор, 8 — глухие плашки, 9 и 15 — штуцерные линии, 11 и 13 — линии глушения.",
+   "claim_ids": [
+    "basarygin.wellhead_layout#c4",
+    "basarygin.wellhead_layout#c5"
+   ],
+   "step_id": "step.basarygin.wellhead_layout"
+  },
+  {
+   "id": "basarygin.wellhead_layout.t2",
+   "type": "multiple",
+   "kind": "understanding",
+   "prompt": "Что сказано в шаге о назначении и применении компоновки на рис. 4.16? Выберите верные утверждения.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Она держит бурящуюся скважину под контролем при высоких пластовых давлениях.",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Её применяют только на суше, на море она не годится.",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Она позволяет ликвидировать осложнения и при вскрытии, и при испытании пластов.",
+     "misconception": null
+    },
+    {
+     "id": "d",
+     "text": "Благодаря сложной компоновке скважину можно перекрывать не сразу, а после выяснения причин проявления.",
+     "misconception": null
+    },
+    {
+     "id": "e",
+     "text": "Она подходит для суши и для моря со стационарных или полупогружных платформ.",
+     "misconception": null
+    }
+   ],
+   "answer": [
+    "a",
+    "c",
+    "e"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Шаг говорит, что схема держит скважину под контролем при высоких давлениях, помогает при вскрытии и испытании и годится для суши и моря, а скважину при проявлении всё равно нужно перекрывать как можно раньше.",
+   "claim_ids": [
+    "basarygin.wellhead_layout#c2",
+    "basarygin.wellhead_layout#c3",
+    "basarygin.wellhead_layout#c6",
+    "basarygin.wellhead_layout#c7"
+   ],
+   "step_id": "step.basarygin.wellhead_layout"
+  },
+  {
+   "id": "basarygin.closing_physics.t1",
+   "type": "gap",
+   "kind": "recall",
+   "prompt": "Приток полностью прекращается, когда давление на устье плюс {{1}} давление в скважине равно {{2}} давлению. Затухает приток постепенно, потому что жидкость в скважине {{3}}.",
+   "options": [],
+   "answer": [
+    "гидростатическое",
+    "пластовому",
+    "сжимаема"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Приток останавливается при равновесии: давление на устье плюс гидростатическое равно пластовому, а затухание вызвано сжимаемостью жидкости.",
+   "claim_ids": [
+    "basarygin.closing_physics#c2",
+    "basarygin.closing_physics#c4"
+   ],
+   "step_id": "step.basarygin.closing_physics"
+  },
+  {
+   "id": "basarygin.closing_physics.t2",
+   "type": "single",
+   "kind": "understanding",
+   "prompt": "Скважину закрыли превентором, и манометр на устье показывает растущее давление. Что происходит со скважиной и как правильно трактовать показание?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Приток прекратился мгновенно, поэтому текущее показание уже равно итоговому и даёт пластовое давление.",
+     "misconception": "misc.shut_in_stops_flow_instantly"
+    },
+    {
+     "id": "b",
+     "text": "Приток затухает постепенно: сжимаемая жидкость принимает ещё немного флюида, давление растёт до равновесия, и пока оно не стабилизировалось, показание не итоговое.",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Давление растёт, потому что в скважину продолжает свободно поступать новая жидкость, как до закрытия.",
+     "misconception": null
+    },
+    {
+     "id": "d",
+     "text": "Давление в трубах и в кольцевом пространстве всегда одинаково, поэтому достаточно одного показания в любой момент.",
+     "misconception": "misc.casing_pressure_equals_pipe"
+    }
+   ],
+   "answer": "b",
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Приток затухает постепенно из-за сжимаемости жидкости, поэтому до стабилизации давление на манометре ещё не итоговое.",
+   "claim_ids": [
+    "basarygin.closing_physics#c1",
+    "basarygin.closing_physics#c2",
+    "basarygin.closing_physics#c3"
+   ],
+   "step_id": "step.basarygin.closing_physics"
+  },
+  {
+   "id": "basarygin.closing_prep_hard.t1",
+   "type": "single",
+   "kind": "understanding",
+   "prompt": "Почему при «жёстком» закрытии скважины арматурой можно ошибиться в определении давления нагнетания на устье?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Быстрое закрытие даёт значительные колебания давления в скважине, и по ним можно неверно оценить параметры контроля",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "После закрытия превентора приток прекращается мгновенно, и манометры сразу показывают завышенные значения",
+     "misconception": "misc.shut_in_stops_flow_instantly"
+    },
+    {
+     "id": "c",
+     "text": "При быстром закрытии давление нагнетания на устье всегда становится максимальным",
+     "misconception": null
+    },
+    {
+     "id": "d",
+     "text": "Ошибка возникает потому, что задвижку 10 открывают до закрытия превентора",
+     "misconception": null
+    }
+   ],
+   "answer": "a",
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Автор указывает, что быстрое закрытие вызывает колебания давления, из-за которых можно неверно определить основные параметры контроля, в том числе давление нагнетания на устье.",
+   "claim_ids": [
+    "basarygin.closing_prep_hard#c12",
+    "basarygin.closing_prep_hard#c13"
+   ],
+   "step_id": "step.basarygin.closing_prep_hard"
+  },
+  {
+   "id": "basarygin.closing_prep_hard.t2",
+   "type": "order",
+   "kind": "recall",
+   "prompt": "Расставьте действия при «жёстком» закрытии скважины по порядку.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Закрыть превентор 6 с трубными плашками",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Отключить насосы и проверить скважину на самоприток",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Открыть задвижку 10 (штуцерная линия остаётся закрытой)",
+     "misconception": null
+    },
+    {
+     "id": "d",
+     "text": "Прекратить бурение и поднять рабочую трубу над столом ротора",
+     "misconception": null
+    },
+    {
+     "id": "e",
+     "text": "Закрыть задвижку 10 штуцерной линии 9",
+     "misconception": null
+    }
+   ],
+   "answer": [
+    "d",
+    "b",
+    "e",
+    "a",
+    "c"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "По шагу: сначала прекращают бурение и поднимают трубу, затем отключают насосы и проверяют самоприток, закрывают задвижку 10, затем превентор 6, после этого задвижку 10 открывают.",
+   "claim_ids": [
+    "basarygin.closing_prep_hard#c3",
+    "basarygin.closing_prep_hard#c6",
+    "basarygin.closing_prep_hard#c8",
+    "basarygin.closing_prep_hard#c9"
+   ],
+   "step_id": "step.basarygin.closing_prep_hard"
+  },
+  {
+   "id": "basarygin.closing_soft_choice.t1",
+   "type": "order",
+   "kind": "recall",
+   "prompt": "Расставьте действия при мягком перекрытии скважины в правильном порядке (после обнаружения проявления; обвязка уже подготовлена).",
+   "options": [
+    {
+     "id": "a",
+     "text": "Медленно прикрыть скважину клапаном штуцера 5",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Открыть задвижку 10, направив поток через штуцер 5 и манифольд 2",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Окончательно закрыть клапан 4",
+     "misconception": null
+    },
+    {
+     "id": "d",
+     "text": "Закрыть плашки трубного превентора 6",
+     "misconception": null
+    }
+   ],
+   "answer": [
+    "b",
+    "d",
+    "a",
+    "c"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Сначала контролируемый сброс через штуцер, затем плашки превентора 6, медленное прикрытие штуцера 5 и в конце клапан 4, после которого скважина закрыта окончательно.",
+   "claim_ids": [
+    "basarygin.closing_soft_choice#c3",
+    "basarygin.closing_soft_choice#c4",
+    "basarygin.closing_soft_choice#c5"
+   ],
+   "step_id": "step.basarygin.closing_soft_choice"
+  },
+  {
+   "id": "basarygin.closing_soft_choice.t2",
+   "type": "single",
+   "kind": "understanding",
+   "prompt": "Какова цена мягкого способа закрытия скважины по сравнению с жёстким?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Процесс долгий, и в скважину поступает больше пластового флюида, что затрудняет контроль",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Приток прекращается мгновенно, но удары давления сильнее",
+     "misconception": "misc.shut_in_stops_flow_instantly"
+    },
+    {
+     "id": "c",
+     "text": "Приток меньше, но нужно утяжелять раствор до любой плотности",
+     "misconception": "misc.heavier_mud_always_fix"
+    },
+    {
+     "id": "d",
+     "text": "Способ годится везде, поэтому критерии выбора не нужны",
+     "misconception": null
+    }
+   ],
+   "answer": "a",
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Медленное закрытие через штуцер даёт больший приток пластового флюида, и это затрудняет контроль скважины.",
+   "claim_ids": [
+    "basarygin.closing_soft_choice#c6",
+    "basarygin.closing_soft_choice#c7"
+   ],
+   "step_id": "step.basarygin.closing_soft_choice"
+  },
+  {
+   "id": "basarygin.killing_driller.t1",
+   "type": "single",
+   "kind": "understanding",
+   "prompt": "Что делают на втором этапе метода бурильщика, пока тяжёлый раствор движется по трубам к долоту?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Штуцером постепенно снижают давление в трубах",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Держат давление в трубах строго постоянным с самого начала",
+     "misconception": "misc.manual_choke_trivial"
+    },
+    {
+     "id": "c",
+     "text": "Закрывают штуцер и скважину и ждут стабилизации давления",
+     "misconception": "misc.shut_in_stops_flow_instantly"
+    },
+    {
+     "id": "d",
+     "text": "Держат постоянное давление в кольцевом пространстве до конца циркуляции",
+     "misconception": "misc.manual_choke_trivial"
+    }
+   ],
+   "answer": "a",
+   "tolerance": null,
+   "unit": null,
+   "explanation": "По ходу нагнетания утяжелённого раствора давление в трубах штуцером снижают, пока раствор не дойдёт до промывочных отверстий долота, и только потом держат постоянным.",
+   "claim_ids": [
+    "basarygin.killing_driller#c14",
+    "basarygin.killing_driller#c15",
+    "basarygin.killing_driller#c16"
+   ],
+   "step_id": "step.basarygin.killing_driller"
+  },
+  {
+   "id": "basarygin.killing_driller.t2",
+   "type": "multiple",
+   "kind": "recall",
+   "prompt": "Какие признаки из текста говорят, что проявление ликвидировано и скважина под контролем?",
+   "options": [
+    {
+     "id": "a",
+     "text": "При закрытой скважине давления в трубах и в кольцевом пространстве равны после первого этапа",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Давление в кольцевом пространстве всегда заметно больше давления в трубах",
+     "misconception": "misc.casing_pressure_equals_pipe"
+    },
+    {
+     "id": "c",
+     "text": "После выхода утяжелённого раствора и закрытия скважины нет избыточного давления ни в трубах, ни в кольцевом пространстве",
+     "misconception": null
+    },
+    {
+     "id": "d",
+     "text": "Давление на насосах упало, значит приток слабый и всё закончено",
+     "misconception": "misc.pump_pressure_drop_light"
+    }
+   ],
+   "answer": [
+    "a",
+    "c"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Равенство давлений после первого этапа и отсутствие избыточного давления после второго означают, что скважина под контролем.",
+   "claim_ids": [
+    "basarygin.killing_driller#c9",
+    "basarygin.killing_driller#c18"
+   ],
+   "step_id": "step.basarygin.killing_driller"
+  },
+  {
+   "id": "basarygin.killing_wait_weight.t1",
+   "type": "multiple",
+   "kind": "understanding",
+   "prompt": "Какие утверждения о методе ожидания и веса верны согласно шагу?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Глушение проводят в один этап, сразу утяжелённым раствором.",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Сначала отдельным циклом вымывают флюид исходным раствором, затем закачивают утяжелённый.",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Приготовление раствора нужной плотности начинают сразу после перекрытия скважины.",
+     "misconception": null
+    },
+    {
+     "id": "d",
+     "text": "Штуцер достаточно один раз открыть до нужного давления, дальше регулировать не нужно.",
+     "misconception": "misc.manual_choke_trivial"
+    },
+    {
+     "id": "e",
+     "text": "Если после остановки насоса в трубах осталось давление, скважина заглушена.",
+     "misconception": "misc.casing_pressure_equals_pipe"
+    }
+   ],
+   "answer": [
+    "a",
+    "c"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Метод проводят в один этап с сразу утяжелённым раствором, а его приготовление начинают сразу после перекрытия скважины.",
+   "claim_ids": [
+    "basarygin.killing_wait_weight#c1",
+    "basarygin.killing_wait_weight#c2"
+   ],
+   "step_id": "step.basarygin.killing_wait_weight"
+  },
+  {
+   "id": "basarygin.killing_wait_weight.t2",
+   "type": "gap",
+   "kind": "recall",
+   "prompt": "Когда утяжелённый раствор дошёл до промывочных отверстий долота, циркуляцию останавливают и штуцер закрывают. Избыточное давление в трубах должно быть {{1}}. Коэффициент безопасности принимают равным {{2}} МПа.",
+   "options": [],
+   "answer": [
+    "нулевым",
+    "1"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "При остановке у долота избыточное давление в трубах должно быть нулевым, а коэффициент безопасности принимают равным 1 МПа.",
+   "claim_ids": [
+    "basarygin.killing_wait_weight#c7",
+    "basarygin.killing_wait_weight#c5"
+   ],
+   "step_id": "step.basarygin.killing_wait_weight"
+  }
+ ]
+}

@@ -1,0 +1,1039 @@
+{
+ "chapter": "slatt_9-3_9-4",
+ "tasks": [
+  {
+   "id": "slatt.time_lines_vs_facies.t1",
+   "type": "calc",
+   "kind": "data",
+   "prompt": "На разрезе скважины 1 и 2 стоят в 500 м друг от друга. Третья скважина стоит на той же линии, ещё в 500 м за скважиной 2. Чему равно расстояние от скважины 1 до скважины 3 (в метрах)?",
+   "options": [],
+   "answer": 1000,
+   "tolerance": 0,
+   "unit": "м",
+   "explanation": "Шаг скважин в примере равен 500 м, поэтому два таких промежутка дают 1000 м, а масштаб проблемы корреляции растёт вместе с расстоянием.",
+   "claim_ids": [
+    "slatt.time_lines_vs_facies#c7"
+   ],
+   "step_id": "step.slatt.time_lines_vs_facies"
+  },
+  {
+   "id": "slatt.time_lines_vs_facies.t2",
+   "type": "order",
+   "kind": "understanding",
+   "prompt": "Расставьте по порядку цепочку причин: от свойства клиноформ до последствия для разработки.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Пески не сообщаются между скважинами 1 и 2",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Заводнение и приток к одной скважине ухудшаются",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Клиноформы как линии времени пересекают границы пород",
+     "misconception": null
+    },
+    {
+     "id": "d",
+     "text": "Пески, похожие по каротажу, оказываются разного возраста и разделены гетеролитами и глинами",
+     "misconception": null
+    }
+   ],
+   "answer": [
+    "c",
+    "d",
+    "a",
+    "b"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Клиноформы пересекают границы пород, поэтому похожие по каротажу пески разделены глиной, не сообщаются и ухудшают заводнение.",
+   "claim_ids": [
+    "slatt.time_lines_vs_facies#c1",
+    "slatt.time_lines_vs_facies#c3",
+    "slatt.time_lines_vs_facies#c4"
+   ],
+   "step_id": "step.slatt.time_lines_vs_facies"
+  },
+  {
+   "id": "slatt.mekong_progradation.t1",
+   "type": "order",
+   "kind": "understanding",
+   "prompt": "Расставьте шаги работы с дельтой Меконга в том порядке, в котором их описывает шаг курса.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Сравнить две схемы и заметить различие в корреляции осадочных единиц",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Скоррелировать скважины по палеообстановкам (рис. 9.11b)",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Скоррелировать скважины по линиям времени (рис. 9.11c)",
+     "misconception": null
+    },
+    {
+     "id": "d",
+     "text": "Нанести измеренные линии времени в тысячах лет",
+     "misconception": null
+    }
+   ],
+   "answer": [
+    "b",
+    "d",
+    "c",
+    "a"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Сначала строится литостратиграфическая корреляция, затем наносятся линии времени, по ним строится хроностратиграфическая схема, и только потом схемы сравниваются.",
+   "claim_ids": [
+    "slatt.mekong_progradation#c6",
+    "slatt.mekong_progradation#c7",
+    "slatt.mekong_progradation#c8",
+    "slatt.mekong_progradation#c9"
+   ],
+   "step_id": "step.slatt.mekong_progradation"
+  },
+  {
+   "id": "slatt.mekong_progradation.t2",
+   "type": "single",
+   "kind": "transfer",
+   "prompt": "Две скважины на одном профиле показывают похожие кривые в одном интервале. Алгоритм автоматической сшивки по сходству (DTW, кластеры) объединяет их в один непрерывный пласт. Что следует из примера дельты Меконга?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Пласт точно непрерывен, потому что фация и отклик одинаковы",
+     "misconception": "misc.log_is_rock"
+    },
+    {
+     "id": "b",
+     "text": "Сходство кривых не гарантирует одновременность: тела могут быть разновозрастными и разобщёнными, поэтому нужна проверка по линиям времени",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Боковые разрывы обязательно есть в каждой паре скважин",
+     "misconception": "misc.model_knows"
+    },
+    {
+     "id": "d",
+     "text": "Линии времени совпадают с границами фаций, поэтому корреляция по сходству всегда верна",
+     "misconception": "misc.reserves_exact"
+    }
+   ],
+   "answer": "b",
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Фация сдвигается во времени из-за проградации, поэтому похожие тела могут быть разновозрастными и несообщающимися, а разрывы — это потенциал, а не обязательность.",
+   "claim_ids": [
+    "slatt.mekong_progradation#c3",
+    "slatt.mekong_progradation#c4"
+   ],
+   "step_id": "step.slatt.mekong_progradation"
+  },
+  {
+   "id": "slatt.channel_switching_lowstand.t1",
+   "type": "multiple",
+   "kind": "understanding",
+   "prompt": "Какие утверждения о дельтах низкого стояния верны согласно тексту шага?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Они образуются при относительном падении уровня моря.",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Они в целом меньше и встречаются реже дельт высокого стояния.",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Они строятся на фоне врезания долин и отступления береговой линии в сторону моря.",
+     "misconception": null
+    },
+    {
+     "id": "d",
+     "text": "Они крупнее и чаще встречаются, чем дельты высокого стояния.",
+     "misconception": "misc.model_knows"
+    },
+    {
+     "id": "e",
+     "text": "Они образуются на месте подземных пустот, заполненных осадком.",
+     "misconception": "misc.reservoir_void"
+    }
+   ],
+   "answer": [
+    "a",
+    "b",
+    "c"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Дельты низкого стояния формируются при падении уровня моря после врезания долин, но они меньше и реже дельт высокого стояния.",
+   "claim_ids": [
+    "slatt.channel_switching_lowstand#c3",
+    "slatt.channel_switching_lowstand#c4",
+    "slatt.channel_switching_lowstand#c5"
+   ],
+   "step_id": "step.slatt.channel_switching_lowstand"
+  },
+  {
+   "id": "slatt.channel_switching_lowstand.t2",
+   "type": "gap",
+   "kind": "recall",
+   "prompt": "Русла дельты расходятся от общей точки — {{1}}. По Overeem и др. (2005), переключение русел {{2}} влиять на развитие дельты даже сильнее, чем изменение уровня моря.",
+   "options": [],
+   "answer": [
+    "апекса",
+    "может"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Русла расходятся от апекса, а влияние переключения сильнее уровня моря — осторожная оценка («может»), не закон.",
+   "claim_ids": [
+    "slatt.channel_switching_lowstand#c2",
+    "slatt.channel_switching_lowstand#c6"
+   ],
+   "step_id": "step.slatt.channel_switching_lowstand"
+  },
+  {
+   "id": "slatt.mississippi_river_dominated.t1",
+   "type": "multiple",
+   "kind": "understanding",
+   "prompt": "Какие утверждения о дельте Миссисипи как дельте с преобладанием реки верны согласно тексту шага?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Берег защищён от сильных волн и течений, поэтому осадок у берега не перерабатывается и не растаскивается вбок.",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Когда вода становится слишком мелкой, главная река уходит к более глубоким низким точкам дна, и растёт новая лопасть.",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Линии времени (клиноформы) идут строго по границам фаций, поэтому одна линия времени проходит через одну породу.",
+     "misconception": "misc.log_is_rock"
+    },
+    {
+     "id": "d",
+     "text": "Главный источник энергии в такой дельте — волны, а река лишь подаёт осадок.",
+     "misconception": "misc.model_knows"
+    },
+    {
+     "id": "e",
+     "text": "За 4600 лет произошла только одна смена русла, после чего лопасть росла непрерывно.",
+     "misconception": "misc.reserves_exact"
+    }
+   ],
+   "answer": [
+    "a",
+    "b"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Защищённый от волн берег сохраняет осадок на месте, а мелеющая вода заставляет реку уйти в глубокое место и построить новую лопасть.",
+   "claim_ids": [
+    "slatt.mississippi_river_dominated#c2",
+    "slatt.mississippi_river_dominated#c6"
+   ],
+   "step_id": "step.slatt.mississippi_river_dominated"
+  },
+  {
+   "id": "slatt.mississippi_river_dominated.t2",
+   "type": "gap",
+   "kind": "recall",
+   "prompt": "Рост дельты в сторону моря при наличии места для осадка называется {{1}}. Когда осадок растёт вверх по вертикали, это {{2}}. За 4600 лет на Миссисипи было не менее {{3}} периодов переключения русел и лопастей.",
+   "options": [],
+   "answer": [
+    "проградация",
+    "аггradация",
+    "восьми"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Проградация — рост дельты к морю, аггradация — рост вверх, а за 4600 лет смен было не менее восьми.",
+   "claim_ids": [
+    "slatt.mississippi_river_dominated#c3",
+    "slatt.mississippi_river_dominated#c5",
+    "slatt.mississippi_river_dominated#c7"
+   ],
+   "step_id": "step.slatt.mississippi_river_dominated"
+  },
+  {
+   "id": "slatt.river_delta_facies_map.t1",
+   "type": "single",
+   "kind": "understanding",
+   "prompt": "Геолог разбирает схему речной дельты. Какие фации в ней в первую очередь работают как песчаные коллекторы?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Отложения распределительных русел и устьевых баров",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Отложения межрусловых заливов, болот и лагун",
+     "misconception": "misc.reservoir_void"
+    },
+    {
+     "id": "c",
+     "text": "Глинистый клин под фронтом дельты",
+     "misconception": "misc.porosity_eq_perm"
+    },
+    {
+     "id": "d",
+     "text": "Любые фации, потому что нефть лежит подземным озером",
+     "misconception": "misc.oil_lake"
+    }
+   ],
+   "answer": "a",
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Песчаные коллекторы дельты — это отложения распределительных русел и устьевых баров.",
+   "claim_ids": [
+    "slatt.river_delta_facies_map#c2"
+   ],
+   "step_id": "step.slatt.river_delta_facies_map"
+  },
+  {
+   "id": "slatt.river_delta_facies_map.t2",
+   "type": "single",
+   "kind": "transfer",
+   "prompt": "Скважина в дельтовых отложениях вскрыла между двумя чистыми песчаными интервалами толстую пачку глины. Как это объясняется по схеме дельты?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Пачка глины — это межрусловой залив, болото или лагуна, которая в недрах образует барьер для потока",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Пачка глины — это второй коллектор, так как глина пропускает нефть лучше песка",
+     "misconception": "misc.porosity_eq_perm"
+    },
+    {
+     "id": "c",
+     "text": "Глина показывает, что скважина прошла мимо дельты, и положение скважины относительно русла известно точно",
+     "misconception": "misc.model_knows"
+    },
+    {
+     "id": "d",
+     "text": "Глина — это пустота, оставшаяся после выноса песка",
+     "misconception": "misc.reservoir_void"
+    }
+   ],
+   "answer": "a",
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Между песчаными телами лежат заливы, болота и лагуны, дающие глинистые барьеры для потока.",
+   "claim_ids": [
+    "slatt.river_delta_facies_map#c3"
+   ],
+   "step_id": "step.slatt.river_delta_facies_map"
+  },
+  {
+   "id": "slatt.facies_recognition_core_logs.t1",
+   "type": "single",
+   "kind": "understanding",
+   "prompt": "Вы получили данные только по скважинам, без обнажения. Как, согласно шагу, искать признаки фаций дельты в недрах?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Искать те же признаки в керне и по каротажным кривым",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Считать каротажную кривую самой породой и по ней одной определять фацию",
+     "misconception": "misc.log_is_rock"
+    },
+    {
+     "id": "c",
+     "text": "Использовать только шлам, потому что он даёт ту же информацию, что и керн",
+     "misconception": "misc.core_eq_cuttings"
+    },
+    {
+     "id": "d",
+     "text": "Ждать, пока порода выйдет на поверхность в обнажении",
+     "misconception": null
+    }
+   ],
+   "answer": "a",
+   "tolerance": null,
+   "unit": null,
+   "explanation": "В недрах обнажения нет, поэтому те же признаки (огрубление вверх, набор текстур) ищут в керне и по каротажу.",
+   "claim_ids": [
+    "slatt.facies_recognition_core_logs#c2"
+   ],
+   "step_id": "step.slatt.facies_recognition_core_logs"
+  },
+  {
+   "id": "slatt.facies_recognition_core_logs.t2",
+   "type": "multiple",
+   "kind": "understanding",
+   "prompt": "Какие утверждения о распознавании фаций речной дельты верны по тексту шага?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Один из главных признаков — огрубление зерна вверх по разрезу",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Фацию определяют ещё и по характерному набору осадочных текстур",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "На каротаже отклик по мере удаления от оси русла утоняется и измельчается",
+     "misconception": null
+    },
+    {
+     "id": "d",
+     "text": "Каротажная кривая однозначно заменяет керн, так как она и есть порода",
+     "misconception": "misc.log_is_rock"
+    },
+    {
+     "id": "e",
+     "text": "Зерно в дельтовом разрезе укрупняется сверху вниз",
+     "misconception": null
+    }
+   ],
+   "answer": [
+    "a",
+    "b",
+    "c"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Шаг называет огрубление вверх и набор текстур главными признаками, а от оси русла отклик утоняется.",
+   "claim_ids": [
+    "slatt.facies_recognition_core_logs#c1",
+    "slatt.facies_recognition_core_logs#c3"
+   ],
+   "step_id": "step.slatt.facies_recognition_core_logs"
+  },
+  {
+   "id": "slatt.mouth_bar_heterogeneity.t1",
+   "type": "order",
+   "kind": "understanding",
+   "prompt": "Расставьте цепочку от причины к следствию: как знание о строении устьевого бара привело к новому способу бурения.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Синусоидальный ствол пересекает больше высокопроницаемого песка, добыча растёт",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Горизонтальный керн показывает боковую изменчивость проницаемости внутри бара",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Паводковые плюмы из русла откладывают лучший песок у вершины и проксимального края бара",
+     "misconception": null
+    },
+    {
+     "id": "d",
+     "text": "Геологи решают бурить ствол по синусоидальной траектории",
+     "misconception": null
+    }
+   ],
+   "answer": [
+    "c",
+    "b",
+    "d",
+    "a"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Плюмы отложили лучший песок в определённых местах бара, керн горизонтальной скважины это показал, и поэтому выбрали синусоидальный ствол, пересекающий больше такого песка.",
+   "claim_ids": [
+    "slatt.mouth_bar_heterogeneity#c6",
+    "slatt.mouth_bar_heterogeneity#c7",
+    "slatt.mouth_bar_heterogeneity#c15",
+    "slatt.mouth_bar_heterogeneity#c16"
+   ],
+   "step_id": "step.slatt.mouth_bar_heterogeneity"
+  },
+  {
+   "id": "slatt.mouth_bar_heterogeneity.t2",
+   "type": "single",
+   "kind": "understanding",
+   "prompt": "Почему данные горизонтального керна оказались ценнее обычных вертикальных кернов для оценки устьевого бара?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Он показал боковые изменения свойств бара, включая проницаемость",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Он напрямую показал, что нефть лежит подземным озером в баре",
+     "misconception": "misc.oil_lake"
+    },
+    {
+     "id": "c",
+     "text": "Он доказал, что пористость и проницаемость одно и то же, поэтому достаточно одной величины",
+     "misconception": "misc.porosity_eq_perm"
+    },
+    {
+     "id": "d",
+     "text": "Он дал точную модель, которая полностью определяет всё, что есть под землёй",
+     "misconception": "misc.model_knows"
+    }
+   ],
+   "answer": "a",
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Горизонтальная скважина с керном дала подробные данные о боковых свойствах баров, которых не видно в вертикальных кернах.",
+   "claim_ids": [
+    "slatt.mouth_bar_heterogeneity#c15",
+    "slatt.mouth_bar_heterogeneity#c16"
+   ],
+   "step_id": "step.slatt.mouth_bar_heterogeneity"
+  },
+  {
+   "id": "slatt.prudhoe_correlation.t1",
+   "type": "single",
+   "kind": "understanding",
+   "prompt": "Почему при корреляции по литологии пласты в зоне Ромео ошибочно выглядели плоскими непрерывными слоями?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Потому что разные по возрасту песчаники выглядят одинаково, и при пологом наклоне клиньев их объединяли в один слой",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Потому что песчаники зоны Ромео на самом деле лежат плоскими слоями, а ошибку внесла добыча",
+     "misconception": "misc.model_knows"
+    },
+    {
+     "id": "c",
+     "text": "Потому что каротажная кривая прямо показывает возраст породы, и его просто не учли",
+     "misconception": "misc.log_is_rock"
+    },
+    {
+     "id": "d",
+     "text": "Потому что вертикальное преувеличение 74x сделало наклонные слои плоскими",
+     "misconception": null
+    }
+   ],
+   "answer": "a",
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Сопоставление по сходству литологии ломается на полого наклонённых клиньях, где разновозрастные песчаники похожи и ошибочно объединяются в один слой.",
+   "claim_ids": [
+    "slatt.prudhoe_correlation#c12",
+    "slatt.prudhoe_correlation#c15"
+   ],
+   "step_id": "step.slatt.prudhoe_correlation"
+  },
+  {
+   "id": "slatt.prudhoe_correlation.t2",
+   "type": "multiple",
+   "kind": "recall",
+   "prompt": "Какие утверждения о зоне Ромео и её изучении верны согласно тексту шага?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Зона Ромео сложена в основном отложениями фронта дельты и продельты",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Корреляция по времени лучше совпала с историей добычи, чем корреляция по литологии",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Песчаные пласты зоны Ромео — плоские слои, непрерывные между скважинами",
+     "misconception": "misc.model_knows"
+    },
+    {
+     "id": "d",
+     "text": "Коллектор зоны Ромео однороден, потому что речные системы протянулись на 60 миль",
+     "misconception": "misc.reservoir_void"
+    },
+    {
+     "id": "e",
+     "text": "Продуктивны песчаники распределительных русел и устьевых баров",
+     "misconception": null
+    }
+   ],
+   "answer": [
+    "a",
+    "b",
+    "e"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Шаг говорит о фронте дельты и продельте, о лучшем совпадении схемы по времени с добычей и о продуктивных песчаниках русел и устьевых баров.",
+   "claim_ids": [
+    "slatt.prudhoe_correlation#c3",
+    "slatt.prudhoe_correlation#c5",
+    "slatt.prudhoe_correlation#c11"
+   ],
+   "step_id": "step.slatt.prudhoe_correlation"
+  },
+  {
+   "id": "slatt.romeo_gr_stacking.t1",
+   "type": "multiple",
+   "kind": "understanding",
+   "prompt": "Какие утверждения о кривой ГК на рисунке скважины 07-06 верны?",
+   "options": [
+    {
+     "id": "a",
+     "text": "ГК относительно высокий в продельте, где много сланцев и алевритистых сланцев",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Кривая ГК — это и есть порода, поэтому по ней сразу видна фация",
+     "misconception": "misc.log_is_rock"
+    },
+    {
+     "id": "c",
+     "text": "В распределительных руслах (песчаник) ГК низкий или изменчивый",
+     "misconception": null
+    },
+    {
+     "id": "d",
+     "text": "ГК измеряет глинистость напрямую, поэтому по нему одному можно определить фацию",
+     "misconception": "misc.gr_measures_clay"
+    },
+    {
+     "id": "e",
+     "text": "ГК «отражается» от породы, поэтому в песчанике значения всегда одинаковые",
+     "misconception": "misc.gr_reflects"
+    }
+   ],
+   "answer": [
+    "a",
+    "c"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "ГК — косвенный отклик на состав: выше в глинистых интервалах (продельта) и ниже в песчаниках (русла), а фация подписана по керну и ассоциациям.",
+   "claim_ids": [
+    "slatt.romeo_gr_stacking#c13",
+    "slatt.romeo_gr_stacking#c9",
+    "slatt.romeo_gr_stacking#c3"
+   ],
+   "step_id": "step.slatt.romeo_gr_stacking"
+  },
+  {
+   "id": "slatt.romeo_gr_stacking.t2",
+   "type": "gap",
+   "kind": "recall",
+   "prompt": "В скважине 07-06 снизу вверх фации идут так: шельф, {{1}}, дельтовый фронт, залив и устьевой бар, распределительные русла, речные отложения и {{2}}. Глубина на рисунке растёт {{3}}.",
+   "options": [],
+   "answer": [
+    "продельта",
+    "пойма",
+    "вниз"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "В тексте шага последовательность: шельф и продельта внизу, затем дельтовый фронт, залив и бар, русла, а на самом верху пойма; глубина растёт вниз.",
+   "claim_ids": [
+    "slatt.romeo_gr_stacking#c1",
+    "slatt.romeo_gr_stacking#c2",
+    "slatt.romeo_gr_stacking#c4",
+    "slatt.romeo_gr_stacking#c13"
+   ],
+   "step_id": "step.slatt.romeo_gr_stacking"
+  },
+  {
+   "id": "slatt.shale_continuity.t1",
+   "type": "single",
+   "kind": "understanding",
+   "prompt": "Почему на Прудо-Бей три глины картируют отдельно, а не усредняют?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Потому что глины есть не везде, и от этого зависит, сообщаются ли слои коллектора",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Потому что модель пласта и так точно знает, где глина непрерывна, и её нужно лишь нарисовать",
+     "misconception": "misc.model_knows"
+    },
+    {
+     "id": "c",
+     "text": "Потому что глины везде одинаково непрерывны, и усреднение просто лишнее",
+     "misconception": null
+    },
+    {
+     "id": "d",
+     "text": "Потому что гамма-каротаж напрямую измеряет глинистость, и карта строится по нему",
+     "misconception": "misc.gr_measures_clay"
+    }
+   ],
+   "answer": "a",
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Глины то есть, то нет, и это определяет сообщаемость слоёв, поэтому их картируют отдельно.",
+   "claim_ids": [
+    "slatt.shale_continuity#c4",
+    "slatt.shale_continuity#c5",
+    "slatt.shale_continuity#c6"
+   ],
+   "step_id": "step.slatt.shale_continuity"
+  },
+  {
+   "id": "slatt.shale_continuity.t2",
+   "type": "multiple",
+   "kind": "understanding",
+   "prompt": "Что верно для карты трёх глин (рис. 9.21) и корреляции (рис. 9.20)?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Есть места, где все три глины отсутствуют: не отложились или были размыты",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Есть места, где все три глины разделяют соседние слои коллектора",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "По диаграмме каротажа можно определить литологию, шкалы там указаны",
+     "misconception": "misc.log_is_rock"
+    },
+    {
+     "id": "d",
+     "text": "Глины на карте везде непрерывны, пропусков барьера нет",
+     "misconception": "misc.model_knows"
+    }
+   ],
+   "answer": [
+    "a",
+    "b"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Глины в одних местах отсутствуют из-за неотложения или размыва, а в других разделяют слои коллектора.",
+   "claim_ids": [
+    "slatt.shale_continuity#c5",
+    "slatt.shale_continuity#c6",
+    "slatt.shale_continuity#c10"
+   ],
+   "step_id": "step.slatt.shale_continuity"
+  },
+  {
+   "id": "slatt.well_09_35_sidetrack.t1",
+   "type": "calc",
+   "kind": "data",
+   "prompt": "Вертикальная скважина 09-35 с мая 1992 по январь 1993 держала свыше 300 BOPD. Боковой ствол 09-35A дал около 400 BOPD новой добычи. На сколько BOPD новая добыча бокового ствола больше нижней границы дебита вертикальной скважины (300 BOPD)?",
+   "options": [],
+   "answer": 100,
+   "tolerance": 0,
+   "unit": "BOPD",
+   "explanation": "Боковой ствол дал около 400 BOPD, вертикальная скважина держала свыше 300 BOPD, разница с этой границей равна 100 BOPD.",
+   "claim_ids": [
+    "slatt.well_09_35_sidetrack#c5",
+    "slatt.well_09_35_sidetrack#c8"
+   ],
+   "step_id": "step.slatt.well_09_35_sidetrack"
+  },
+  {
+   "id": "slatt.well_09_35_sidetrack.t2",
+   "type": "order",
+   "kind": "understanding",
+   "prompt": "Расставьте шаги решения по скважине 09-35 в порядке, в котором они следовали друг из друга.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Пробурили горизонтальный боковой ствол в нижний песчаник с нестандартным заканчиванием",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Заметили рост воды при стабильном дебите нефти более 300 BOPD",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Закартировали глину на 8950 ft как запечатывающую",
+     "misconception": null
+    },
+    {
+     "id": "d",
+     "text": "Предположили, что под глиной в дельтовом песчанике заперта нефть",
+     "misconception": null
+    },
+    {
+     "id": "e",
+     "text": "Получили новую добычу около 400 BOPD",
+     "misconception": null
+    }
+   ],
+   "answer": [
+    "b",
+    "c",
+    "d",
+    "a",
+    "e"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Рост воды предвещал спад нефти, карта показала запечатывающую глину, из неё вывели гипотезу о запертой нефти, под неё пробурили ствол и получили около 400 BOPD.",
+   "claim_ids": [
+    "slatt.well_09_35_sidetrack#c6",
+    "slatt.well_09_35_sidetrack#c7",
+    "slatt.well_09_35_sidetrack#c8"
+   ],
+   "step_id": "step.slatt.well_09_35_sidetrack"
+  },
+  {
+   "id": "slatt.well_11_30_horizontal.t1",
+   "type": "order",
+   "kind": "understanding",
+   "prompt": "Расставьте этапы работы над скважиной 11-30 в порядке, описанном в шаге.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Добыча стабилизировалась на 1600 BOPD при низком газовом факторе",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Построить разрез между скважинами 11-28 и 11-23 и интерпретировать ассоциации фаций",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Пробурить 894 ft горизонтального ствола целиком в целевом песчанике",
+     "misconception": null
+    },
+    {
+     "id": "d",
+     "text": "Спланировать траекторию 11-30 под непрерывной глиной залива, перпендикулярно разрезу",
+     "misconception": null
+    }
+   ],
+   "answer": [
+    "b",
+    "d",
+    "c",
+    "a"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Сначала по разрезу выбирают, где вести ствол, затем бурят, и только после этого видна стабилизация добычи.",
+   "claim_ids": [
+    "slatt.well_11_30_horizontal#c7",
+    "slatt.well_11_30_horizontal#c8",
+    "slatt.well_11_30_horizontal#c3",
+    "slatt.well_11_30_horizontal#c5"
+   ],
+   "step_id": "step.slatt.well_11_30_horizontal"
+  },
+  {
+   "id": "slatt.well_11_30_horizontal.t2",
+   "type": "single",
+   "kind": "understanding",
+   "prompt": "Почему ствол скважины 11-30 вели под непрерывной глиной залива, а не выше неё?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Глина залива работает как щит, который закрывает ствол от газовой шапки, и газ не прорывается в ствол",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Под глиной находится подземное озеро нефти, в которое удобно попасть стволом",
+     "misconception": "misc.oil_lake"
+    },
+    {
+     "id": "c",
+     "text": "Глина залива сама содержит нефть и даёт основной приток в скважину",
+     "misconception": "misc.reservoir_void"
+    },
+    {
+     "id": "d",
+     "text": "Сквозь глину газ проходит свободно, поэтому важна только длина ствола",
+     "misconception": "misc.model_knows"
+    }
+   ],
+   "answer": "a",
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Газовая шапка поднимается выше нефти и может прорваться в ствол, а глина залива служит щитом, поэтому газовый фактор остался низким.",
+   "claim_ids": [
+    "slatt.well_11_30_horizontal#c2",
+    "slatt.well_11_30_horizontal#c11"
+   ],
+   "step_id": "step.slatt.well_11_30_horizontal"
+  },
+  {
+   "id": "slatt.kuparuk_river_field.t1",
+   "type": "single",
+   "kind": "understanding",
+   "prompt": "Что показала корреляция по секвенс-стратиграфии для юнита A месторождения Купарук?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Юнит A — один непрерывный песчаный пласт, как считали раньше",
+     "misconception": "misc.log_is_rock"
+    },
+    {
+     "id": "b",
+     "text": "Юнит A состоит из шести отдельных песчаных тел, разделённых тонкими морскими глинами",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Юнит A — одно тело, разбитое разломами на шесть блоков",
+     "misconception": "misc.model_knows"
+    },
+    {
+     "id": "d",
+     "text": "Юнит A — шесть пластов одного возраста, похожих по песчанику",
+     "misconception": "misc.core_eq_cuttings"
+    }
+   ],
+   "answer": "b",
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Корреляция по возрасту и циклам моря выявила в юните A шесть разновозрастных тел, разделённых высокочастотными трансгрессивными глинами.",
+   "claim_ids": [
+    "slatt.kuparuk_river_field#c5",
+    "slatt.kuparuk_river_field#c6"
+   ],
+   "step_id": "step.slatt.kuparuk_river_field"
+  },
+  {
+   "id": "slatt.kuparuk_river_field.t2",
+   "type": "multiple",
+   "kind": "data",
+   "prompt": "Вы работаете с данными по скважинам Купарука, где есть метка «юнит A». Какие выводы из шага верны?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Одна метка «юнит A» может скрывать шесть тел разного возраста",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Если коррелировать по сходству песчаника, можно склеить разновозрастные пески",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Направление проградации одинаково названо в тексте и подписи рисунка, проверять не нужно",
+     "misconception": "misc.model_knows"
+    },
+    {
+     "id": "d",
+     "text": "Привязка к телу не зависит от выбранной схемы корреляции",
+     "misconception": "misc.log_is_rock"
+    },
+    {
+     "id": "e",
+     "text": "Текст («северо-восток») и подпись рисунка (с северо-запада на юго-восток) расходятся, направление надо проверить по карте",
+     "misconception": null
+    }
+   ],
+   "answer": [
+    "a",
+    "b",
+    "e"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Шаг говорит, что метка скрывает шесть тел, литологическая корреляция склеивает пески, а расхождение направлений нужно проверять по карте.",
+   "claim_ids": [
+    "slatt.kuparuk_river_field#c5",
+    "slatt.kuparuk_river_field#c8"
+   ],
+   "step_id": "step.slatt.kuparuk_river_field"
+  },
+  {
+   "id": "slatt.wave_dominated_deltas.t1",
+   "type": "multiple",
+   "kind": "understanding",
+   "prompt": "Какие признаки в разрезе характерны для дельты с преобладанием волн, по описанию шага?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Разрез становится песчанистее и крупнозернистее снизу вверх",
+     "misconception": null
+    },
+    {
+     "id": "b",
+     "text": "Пористость и проницаемость растут вверх из-за размера зерна",
+     "misconception": null
+    },
+    {
+     "id": "c",
+     "text": "Волновая и токовая косая слоистость, обломки раковин",
+     "misconception": null
+    },
+    {
+     "id": "d",
+     "text": "Пористость и проницаемость — одно и то же, поэтому растут одинаково по любой причине",
+     "misconception": "misc.porosity_eq_perm"
+    },
+    {
+     "id": "e",
+     "text": "Эти признаки одинаково надёжно читаются по одной каротажной кривой, которая и есть сама порода",
+     "misconception": "misc.log_is_rock"
+    }
+   ],
+   "answer": [
+    "a",
+    "b",
+    "c"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Автор называет огрубление вверх, рост пористости и проницаемости из-за размера зерна и признаки высокой энергии: косую слоистость и обломки раковин.",
+   "claim_ids": [
+    "slatt.wave_dominated_deltas#c6",
+    "slatt.wave_dominated_deltas#c7",
+    "slatt.wave_dominated_deltas#c8"
+   ],
+   "step_id": "step.slatt.wave_dominated_deltas"
+  },
+  {
+   "id": "slatt.wave_dominated_deltas.t2",
+   "type": "gap",
+   "kind": "recall",
+   "prompt": "На берегу, открытом волнам, осадок рассеивается вдоль берега. Если песка достаточно, береговая зона растёт в сторону бассейна — это называется {{1}}. Берег питается {{2}} сносом, а устье реки отклоняется по его направлению. Пример такой дельты — дельта {{3}}.",
+   "options": [],
+   "answer": [
+    "проградацией",
+    "вдольбереговым",
+    "Нила"
+   ],
+   "tolerance": null,
+   "unit": null,
+   "explanation": "Рост берега в сторону бассейна — проградация; линейный берег питается вдольбереговым сносом, пример — дельта Нила.",
+   "claim_ids": [
+    "slatt.wave_dominated_deltas#c2",
+    "slatt.wave_dominated_deltas#c4",
+    "slatt.wave_dominated_deltas#c5"
+   ],
+   "step_id": "step.slatt.wave_dominated_deltas"
+  }
+ ]
+}
