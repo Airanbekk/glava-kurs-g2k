@@ -1,2 +1,4 @@
 time,chapter,file,what_changed,person_minutes,people,run_no,reason
 2026-11-26T11:12,dake_ch5_7-3,out/dake/layer.raw.json,page_print: строка → число в 22 утверждениях (тип поля по схеме),2,1,1,"модель записала номер печатной страницы строкой ""155""; смысл не менялся"
+2026-11-26T11:33,slatt_9-3_9-4,out/slatt/media.json,"выбор узла для ролика по теме организаторов: собраны 3 варианта (--node), оставлен slatt.facies_recognition_core_logs",10,1,1,"в двух вариантах голос описывал рисунок книги, которого нет в кадре"
+2026-11-26T11:22,basarygin_4-1-1_4-2-14,out/basarygin/media.json,выбор узла для ролика по теме организаторов (--node basarygin.signs_overview),2,1,1,тема ролика задана организаторами
